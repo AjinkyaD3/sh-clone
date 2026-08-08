@@ -1,0 +1,816 @@
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span><span class="awb-menu__open-nav-submenu-hover"></span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="https://secure-house.co.uk/author/secure-house/" rel="author">Edmundas</a>
+<a href="https://www.myminifactory.com/users/jackptojiillcasino">https://www.myminifactory.com/users/jackptojiillcasino</a>
+<a href="https://totalfratmove.com/articles/rainbet-casino_575.html">https://totalfratmove.com/articles/rainbet-casino_575.html</a>
+<a href="https://www.bradburydentalsurgery.com.au/post/reversing-early-gum-disease-professional-care-home-habits">https://www.bradburydentalsurgery.com.au/post/reversing-early-gum-disease-professional-care-home-habits</a>
+<a href="https://nycfirewire.net/pag/analysis-of-kingbet9.html">https://nycfirewire.net/pag/analysis-of-kingbet9.html</a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-8 fusion-button-span-no fusion-button-default-type fusion-has-button-gradient" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_border_width-top:1px;--button_border_width-right:1px;--button_border_width-bottom:1px;--button_border_width-left:1px;--button_gradient_top_color:rgba(255,255,255,0.01);--button_gradient_bottom_color:rgba(255,255,255,0);--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:30px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Design styles</span></a>
+<a class="fusion-button button-flat button-xlarge button-default fusion-button-default button-10 fusion-button-span-no fusion-button-default-type" style="--button_margin-top:30px;" target="_self" href="https://secure-house.co.uk/security-levels/"><span class="fusion-button-text awb-button__text awb-button__text--default">Protection levels</span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/inspiration/high-tech-protection-with-traditional-design/"><span class="fusion-column-inner-bg-image"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/inspiration/entire-home-protection/"><span class="fusion-column-inner-bg-image"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/inspiration/industrial-steel-doors-with-glass/"><span class="fusion-column-inner-bg-image"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/inspiration/yvon-house-security-communal-door/"><span class="fusion-column-inner-bg-image"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/inspiration/test/"><span class="fusion-column-inner-bg-image"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/inspiration/new-build-in-bedfordshire/"><span class="fusion-column-inner-bg-image"></span></a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-11 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:var(--awb-color6);--button_border_color:var(--awb-color6);--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_border_width-top:1px;--button_border_width-right:1px;--button_border_width-bottom:1px;--button_border_width-left:1px;--button_gradient_top_color:var(--awb-color1);--button_gradient_bottom_color:var(--awb-color1);--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:50px;" target="_self" href="https://secure-house.co.uk/projects/"><span class="fusion-button-text awb-button__text awb-button__text--default">All projects</span></a>
+<a href="https://www.youtube.com/watch?v=zJt8yzR2aoY">https://www.youtube.com/watch?v=zJt8yzR2aoY</a>
+<a href="https://analyticalsciencejournals.onlinelibrary.wiley.com/journal/19427615">https://analyticalsciencejournals.onlinelibrary.wiley.com/journal/19427615</a>
+<a href="https://www.barbellmedicine.com/blog/fatigue-management/">https://www.barbellmedicine.com/blog/fatigue-management/</a>
+<a href="https://farmaciadeportivaes.com/">comprar anabolizantes</a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" aria-label="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/securehouseuk"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" aria-label="instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/securehouseuk/"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" aria-label="youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@securehouse8711/videos"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" aria-label="pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/securehouseltd/"></a>
+<a href="/cdn-cgi/l/email-protection#6a03040c052a190f091f180f4702051f190f440905441f01" rel="nofollow"><span class="__cf_email__" data-cfemail="e1888f878ea1928482949384cc898e949284cf828ecf948a">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a href="https://www.thelotusroots.co.uk/" target="_blank">Lotus Root</a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">STAINLESS STEEL</span></a>
+<a class="fusion-button button-flat button-large button-custom fusion-button-default button-13 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:#847b73;--button_border_color:#847b73;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_gradient_top_color:#dcd7ca;--button_gradient_bottom_color:#dcd7ca;--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:20px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sliding garage doors</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="01686f676e417264627473642c696e7472642f626e2f746a">[email&#160;protected]</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="/cdn-cgi/l/email-protection#ec85828a83ac9f898f999e89c18483999f89c28f83c29987" rel="nofollow"><span class="__cf_email__" data-cfemail="d9b0b7bfb699aabcbaacabbcf4b1b6acaabcf7bab6f7acb2">[email&#160;protected]</span></a>
+<a href="https://betway-canada.net/betting/live-betting/">https://betway-canada.net/betting/live-betting/</a>
+<a href="https://spinbets.co.nz/bonuses/">Spinbet bonus</a>
+<a href="https://spinbet-nz.co.nz/vip/">Spinbet vip</a>
+<a href="https://unibet-casino.dk/bonus/gratis-spins/">Unibet free spins</a>
+<a href="https://rizkcasinopl.net/">Rizk</a>
+<a href="https://nvcasinopl.com/bonus/kod-promocyjny/">NV Casino kod promocyjny</a>
+<a href="https://icekasyno-pl.com/">Ice Casino</a>
+<a href="https://energycasino.info.pl/">Kod promocyjny energy casino</a>
+<a href="https://betclic.biz.pl/">Betclic</a>
+<a href="https://betclic-pl.org/">https://betclic-pl.org/</a>
+<a href="https://nvcasinoonline.pl/">Nvcasino</a>
+<a href="https://crazy-time.pl/statystyki/">Crazy Time tracker</a>
+<a href="https://888starzpl.com.pl/kasyno/">888Starz login</a>
+<a href="https://pistolo.eu.com/pl/">Pistolo</a>
+<a href="https://spinbetterpl.org/bukmacher/">Spinbetter bukmacher opinie</a>
+<a href="https://ampmcasino-pl.com/">Ampm Casino bonus code</a>
+<a href="https://kasynazminimalnymdepozytem.com.pl/">Kasyno z najmniejszym depozytem</a>
+<a href="https://betfans.com.pl/zaklady/esport/">Betfan esport</a>
+<a href="https://roobet-pl.eu.com/">Roobet</a>
+<a href="https://roobetpl.eu.com/">Roobet casino</a>
+<a href="https://snatch-casino-pl.pl/">Snatch Casino</a>
+<a href="https://rizkcasino.net.pl/">Rizk bonus</a>
+<a href="https://betfanpl.com.pl/zaklady/esport/">Betfan esport</a>
+<a href="https://betfanpl.org/zaklady/">Betfan wybory</a>
+<a href="https://betfurypl.com/bonus/">Betfury bonus</a>
+<a href="https://kasynoonlinenaprawdziwepieniadze.com.pl/">https://kasynoonlinenaprawdziwepieniadze.com.pl/</a>
+<a href="https://betfan-pl.org/zaklady/esport/">Betfan esport</a>
+<a href="https://betfanpl.net/zaklady/">Betfan typy</a>
+<a href="https://rizkcasino.com.pl/">Rizk casino</a>
+<a href="https://kasynoonlineblikpl.pl/wyplacalne/">Najlepsze kasyno online Blik</a>
+<a href="https://betfans.eu.com/zaklady/">Betfan wybory</a>
+<a href="https://kasynazminimalnymdepozytem.eu.com/">Casino</a>
+<a href="https://totalkasynopl.com/joker/">Total joker</a>
+<a href="https://amunra-it.net/">Amunra</a>
+<a href="https://novibet.co.it/">Novibet casino</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a href="https://secure-house.co.uk/author/on11/" rel="author">oN11</a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-4 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color6);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color1);--button_gradient_bottom_color_hover:var(--awb-color1);--button_margin-top:30px;" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/wgMrqKugFF8byBr56"><span class="fusion-button-text awb-button__text awb-button__text--default">Get directions</span></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" aria-label="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/securehouseuk"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" aria-label="instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/securehouseuk/"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" aria-label="youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@securehouse8711/videos"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" aria-label="pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/securehouseltd/"></a>
+<a href="/cdn-cgi/l/email-protection#771e191118370412140205125a1f1802041259141859021c" rel="nofollow"><span class="__cf_email__" data-cfemail="f891969e97b88b9d9b8d8a9dd590978d8b9dd69b97d68d93">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a href="https://www.thelotusroots.co.uk/" target="_blank">Lotus Root</a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">STAINLESS STEEL</span></a>
+<a class="fusion-button button-flat button-large button-custom fusion-button-default button-5 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:#847b73;--button_border_color:#847b73;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_gradient_top_color:#dcd7ca;--button_gradient_bottom_color:#dcd7ca;--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:20px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sliding garage doors</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b7ded9d1d8f7c4d2d4c2c5d29adfd8c2c4d299d4d899c2dc">[email&#160;protected]</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="/cdn-cgi/l/email-protection#2a43444c456a594f495f584f0742455f594f044945045f41" rel="nofollow"><span class="__cf_email__" data-cfemail="bcd5d2dad3fccfd9dfc9ced991d4d3c9cfd992dfd392c9d7">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span><span class="awb-menu__open-nav-submenu-hover"></span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="https://secure-house.co.uk/author/on11/" rel="author">oN11</a>
+<a href="/cdn-cgi/l/email-protection#30595e565f704355534542551d585f4543551e535f1e455b"><span class="__cf_email__" data-cfemail="066f686069467563657374632b6e6973756328656928736d">[email&#160;protected]</span></a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-4 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color6);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color1);--button_gradient_bottom_color_hover:var(--awb-color1);--button_margin-top:30px;" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/wgMrqKugFF8byBr56"><span class="fusion-button-text awb-button__text awb-button__text--default">Get directions</span></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" aria-label="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/securehouseuk"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" aria-label="instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/securehouseuk/"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" aria-label="youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@securehouse8711/videos"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" aria-label="pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/securehouseltd/"></a>
+<a href="/cdn-cgi/l/email-protection#a7cec9c1c8e7d4c2c4d2d5c28acfc8d2d4c289c4c889d2cc" rel="nofollow"><span class="__cf_email__" data-cfemail="0b62656d644b786e687e796e2663647e786e256864257e60">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a href="https://www.thelotusroots.co.uk/" target="_blank">Lotus Root</a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">STAINLESS STEEL</span></a>
+<a class="fusion-button button-flat button-large button-custom fusion-button-default button-5 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:#847b73;--button_border_color:#847b73;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_gradient_top_color:#dcd7ca;--button_gradient_bottom_color:#dcd7ca;--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:20px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sliding garage doors</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="31585f575e714254524443541c595e4442541f525e1f445a">[email&#160;protected]</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="/cdn-cgi/l/email-protection#dfb6b1b9b09facbabcaaadbaf2b7b0aaacbaf1bcb0f1aab4" rel="nofollow"><span class="__cf_email__" data-cfemail="b1d8dfd7def1c2d4d2c4c3d49cd9dec4c2d49fd2de9fc4da">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span><span class="awb-menu__open-nav-submenu-hover"></span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="https://secure-house.co.uk/author/on11/" rel="author">oN11</a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/fire-resistant-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-1-227x300.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/panic-room-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-4-227x300.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/industrial-style-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-10-227x300.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/communal-entrance-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-11-227x300.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/profile-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-14-227x300.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-3 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color6);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color1);--button_gradient_bottom_color_hover:var(--awb-color1);--button_margin-top:30px;" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/wgMrqKugFF8byBr56"><span class="fusion-button-text awb-button__text awb-button__text--default">Get directions</span></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" aria-label="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/securehouseuk"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" aria-label="instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/securehouseuk/"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" aria-label="youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@securehouse8711/videos"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" aria-label="pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/securehouseltd/"></a>
+<a href="/cdn-cgi/l/email-protection#7a13141c153a091f190f081f5712150f091f541915540f11" rel="nofollow"><span class="__cf_email__" data-cfemail="2d44434b426d5e484e585f48004542585e48034e42035846">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a href="https://www.thelotusroots.co.uk/" target="_blank">Lotus Root</a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">STAINLESS STEEL</span></a>
+<a class="fusion-button button-flat button-large button-custom fusion-button-default button-4 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:#847b73;--button_border_color:#847b73;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_gradient_top_color:#dcd7ca;--button_gradient_bottom_color:#dcd7ca;--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:20px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sliding garage doors</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="aac3c4ccc5ead9cfc9dfd8cf87c2c5dfd9cf84c9c584dfc1">[email&#160;protected]</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="/cdn-cgi/l/email-protection#ee87808881ae9d8b8d9b9c8bc386819b9d8bc08d81c09b85" rel="nofollow"><span class="__cf_email__" data-cfemail="c1a8afa7ae81b2a4a2b4b3a4eca9aeb4b2a4efa2aeefb4aa">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span><span class="awb-menu__open-nav-submenu-hover"></span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="https://secure-house.co.uk/author/on11/" rel="author">oN11</a>
+<a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-2 fusion-button-default-span fusion-button-default-type" style="--button_accent_color:#1c1e36;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:var(--awb-color1);--button_gradient_top_color:#f5efe9;--button_gradient_bottom_color:#f5efe9;--button_gradient_top_color_hover:var(--awb-color5);--button_gradient_bottom_color_hover:var(--awb-color5);width:calc(100%);" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-3 fusion-button-default-span fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color5);--button_gradient_bottom_color_hover:var(--awb-color5);width:calc(100%);" target="_self" href="https://secure-house.co.uk/security-levels/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore protection levels</span></a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-6 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color6);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color1);--button_gradient_bottom_color_hover:var(--awb-color1);--button_margin-top:30px;" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/wgMrqKugFF8byBr56"><span class="fusion-button-text awb-button__text awb-button__text--default">Get directions</span></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" aria-label="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/securehouseuk"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" aria-label="instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/securehouseuk/"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" aria-label="youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@securehouse8711/videos"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" aria-label="pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/securehouseltd/"></a>
+<a href="/cdn-cgi/l/email-protection#c4adaaa2ab84b7a1a7b1b6a1e9acabb1b7a1eaa7abeab1af" rel="nofollow"><span class="__cf_email__" data-cfemail="87eee9e1e8c7f4e2e4f2f5e2aaefe8f2f4e2a9e4e8a9f2ec">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a href="https://www.thelotusroots.co.uk/" target="_blank">Lotus Root</a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">STAINLESS STEEL</span></a>
+<a class="fusion-button button-flat button-large button-custom fusion-button-default button-7 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:#847b73;--button_border_color:#847b73;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_gradient_top_color:#dcd7ca;--button_gradient_bottom_color:#dcd7ca;--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:20px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sliding garage doors</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5c35323a331c2f393f292e39713433292f39723f33722937">[email&#160;protected]</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="/cdn-cgi/l/email-protection#10797e767f506375736562753d787f6563753e737f3e657b" rel="nofollow"><span class="__cf_email__" data-cfemail="7b12151d143b081e180e091e5613140e081e551814550e10">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span><span class="awb-menu__open-nav-submenu-hover"></span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="https://secure-house.co.uk/author/on11/" rel="author">oN11</a>
+<a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-2 fusion-button-default-span fusion-button-default-type" style="--button_accent_color:#1c1e36;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:var(--awb-color1);--button_gradient_top_color:#f5efe9;--button_gradient_bottom_color:#f5efe9;--button_gradient_top_color_hover:var(--awb-color5);--button_gradient_bottom_color_hover:var(--awb-color5);width:calc(100%);" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a class="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-3 fusion-button-default-span fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color5);--button_gradient_bottom_color_hover:var(--awb-color5);width:calc(100%);" target="_self" href="https://secure-house.co.uk/security-levels/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore protection levels</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d0b9beb6bf90a3b5b3a5a2b5fdb8bfa5a3b5feb3bffea5bb">[email&#160;protected]</a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-6 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color6);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color1);--button_gradient_bottom_color_hover:var(--awb-color1);--button_margin-top:30px;" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/wgMrqKugFF8byBr56"><span class="fusion-button-text awb-button__text awb-button__text--default">Get directions</span></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" aria-label="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/securehouseuk"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" aria-label="instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/securehouseuk/"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" aria-label="youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@securehouse8711/videos"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" aria-label="pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/securehouseltd/"></a>
+<a href="/cdn-cgi/l/email-protection#6c05020a032c1f090f191e09410403191f09420f03421907" rel="nofollow"><span class="__cf_email__" data-cfemail="274e494148675442445255420a4f4852544209444809524c">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a href="https://www.thelotusroots.co.uk/" target="_blank">Lotus Root</a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">STAINLESS STEEL</span></a>
+<a class="fusion-button button-flat button-large button-custom fusion-button-default button-7 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:#847b73;--button_border_color:#847b73;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_gradient_top_color:#dcd7ca;--button_gradient_bottom_color:#dcd7ca;--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:20px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sliding garage doors</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="85ecebe3eac5f6e0e6f0f7e0a8edeaf0f6e0abe6eaabf0ee">[email&#160;protected]</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="/cdn-cgi/l/email-protection#167f787079566573756364733b7e7963657338757938637d" rel="nofollow"><span class="__cf_email__" data-cfemail="a3cacdc5cce3d0c6c0d6d1c68ecbccd6d0c68dc0cc8dd6c8">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span><span class="awb-menu__open-nav-submenu-hover"></span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="https://secure-house.co.uk/author/on11/" rel="author">oN11</a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/windows/high-security-steel-windows/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-20.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/windows/security-aluminium-windows/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-21.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-3 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color6);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color1);--button_gradient_bottom_color_hover:var(--awb-color1);--button_margin-top:30px;" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/wgMrqKugFF8byBr56"><span class="fusion-button-text awb-button__text awb-button__text--default">Get directions</span></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" aria-label="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/securehouseuk"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" aria-label="instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/securehouseuk/"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" aria-label="youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@securehouse8711/videos"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" aria-label="pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/securehouseltd/"></a>
+<a href="/cdn-cgi/l/email-protection#f990979f96b98a9c9a8c8b9cd491968c8a9cd79a96d78c92" rel="nofollow"><span class="__cf_email__" data-cfemail="dfb6b1b9b09facbabcaaadbaf2b7b0aaacbaf1bcb0f1aab4">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a href="https://www.thelotusroots.co.uk/" target="_blank">Lotus Root</a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">STAINLESS STEEL</span></a>
+<a class="fusion-button button-flat button-large button-custom fusion-button-default button-4 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:#847b73;--button_border_color:#847b73;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_gradient_top_color:#dcd7ca;--button_gradient_bottom_color:#dcd7ca;--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:20px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sliding garage doors</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f891969e97b88b9d9b8d8a9dd590978d8b9dd69b97d68d93">[email&#160;protected]</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="/cdn-cgi/l/email-protection#bfd6d1d9d0ffccdadccacdda92d7d0caccda91dcd091cad4" rel="nofollow"><span class="__cf_email__" data-cfemail="afc6c1c9c0efdccaccdaddca82c7c0dadcca81ccc081dac4">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span><span class="awb-menu__open-nav-submenu-hover"></span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="https://secure-house.co.uk/author/on11/" rel="author">oN11</a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-9.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-25.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-27.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-26.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-3 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color6);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color1);--button_gradient_bottom_color_hover:var(--awb-color1);--button_margin-top:30px;" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/wgMrqKugFF8byBr56"><span class="fusion-button-text awb-button__text awb-button__text--default">Get directions</span></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" aria-label="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/securehouseuk"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" aria-label="instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/securehouseuk/"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" aria-label="youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@securehouse8711/videos"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" aria-label="pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/securehouseltd/"></a>
+<a href="/cdn-cgi/l/email-protection#b6dfd8d0d9f6c5d3d5c3c4d39bded9c3c5d398d5d998c3dd" rel="nofollow"><span class="__cf_email__" data-cfemail="d0b9beb6bf90a3b5b3a5a2b5fdb8bfa5a3b5feb3bffea5bb">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a href="https://www.thelotusroots.co.uk/" target="_blank">Lotus Root</a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">STAINLESS STEEL</span></a>
+<a class="fusion-button button-flat button-large button-custom fusion-button-default button-4 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:#847b73;--button_border_color:#847b73;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_gradient_top_color:#dcd7ca;--button_gradient_bottom_color:#dcd7ca;--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:20px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sliding garage doors</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="acc5c2cac3ecdfc9cfd9dec981c4c3d9dfc982cfc382d9c7">[email&#160;protected]</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="/cdn-cgi/l/email-protection#b8d1d6ded7f8cbdddbcdcadd95d0d7cdcbdd96dbd796cdd3" rel="nofollow"><span class="__cf_email__" data-cfemail="c2abaca4ad82b1a7a1b7b0a7efaaadb7b1a7eca1adecb7a9">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span><span class="awb-menu__open-nav-submenu-hover"></span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="https://secure-house.co.uk/author/on11/" rel="author">oN11</a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/grilles-shutters/security-shutters/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-22.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-23.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-24.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-3 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color6);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color1);--button_gradient_bottom_color_hover:var(--awb-color1);--button_margin-top:30px;" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/wgMrqKugFF8byBr56"><span class="fusion-button-text awb-button__text awb-button__text--default">Get directions</span></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" aria-label="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/securehouseuk"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" aria-label="instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/securehouseuk/"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" aria-label="youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@securehouse8711/videos"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" aria-label="pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/securehouseltd/"></a>
+<a href="/cdn-cgi/l/email-protection#fc95929a93bc8f999f898e99d19493898f99d29f93d28997" rel="nofollow"><span class="__cf_email__" data-cfemail="88e1e6eee7c8fbedebfdfaeda5e0e7fdfbeda6ebe7a6fde3">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a href="https://www.thelotusroots.co.uk/" target="_blank">Lotus Root</a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">STAINLESS STEEL</span></a>
+<a class="fusion-button button-flat button-large button-custom fusion-button-default button-4 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:#847b73;--button_border_color:#847b73;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_gradient_top_color:#dcd7ca;--button_gradient_bottom_color:#dcd7ca;--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:20px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sliding garage doors</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="375e595158774452544245521a5f5842445219545819425c">[email&#160;protected]</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="/cdn-cgi/l/email-protection#254c4b434a65564046505740084d4a5056400b464a0b504e" rel="nofollow"><span class="__cf_email__" data-cfemail="9bf2f5fdf4dbe8fef8eee9feb6f3f4eee8feb5f8f4b5eef0">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span><span class="awb-menu__open-nav-submenu-hover"></span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="https://secure-house.co.uk/author/on11/" rel="author">oN11</a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/premium-high-security-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-227x300.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/panic-room-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-4-227x300.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/industrial-style-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-10-227x300.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/communal-entrance-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-11-227x300.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/fire-resistant-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-1.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/doors/profile-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-14-227x300.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/windows/high-security-steel-windows/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-20.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/windows/security-aluminium-windows/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-21.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/grilles-shutters/security-shutters/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-22.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-23.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-24.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-9.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-25.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-27.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-column-anchor" href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/"><span class="fusion-column-inner-bg-image lazyload" data-bg="https://secure-house.co.uk/wp-content/uploads/2025/03/Mask-group-26.png" data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"></span></a>
+<a class="fusion-button button-flat button-xlarge button-custom fusion-button-default button-7 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:var(--awb-color1);--button_border_color:var(--awb-color1);--button_accent_hover_color:var(--awb-color6);--button_border_hover_color:var(--awb-color6);--button_gradient_top_color:var(--awb-color6);--button_gradient_bottom_color:var(--awb-color6);--button_gradient_top_color_hover:var(--awb-color1);--button_gradient_bottom_color_hover:var(--awb-color1);--button_margin-top:30px;" target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/wgMrqKugFF8byBr56"><span class="fusion-button-text awb-button__text awb-button__text--default">Get directions</span></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-facebook awb-icon-facebook" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook" aria-label="facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/securehouseuk"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-instagram awb-icon-instagram" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Instagram" data-toggle="tooltip" title="Instagram" aria-label="instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/securehouseuk/"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-youtube awb-icon-youtube" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="YouTube" data-toggle="tooltip" title="YouTube" aria-label="youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@securehouse8711/videos"></a>
+<a class="fusion-social-network-icon fusion-tooltip fusion-pinterest awb-icon-pinterest" style="color:var(--awb-color1);font-size:19px;width:19px;background-color:var(--awb-color5);border-color:var(--awb-color5);border-radius:4px;" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest" aria-label="pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/securehouseltd/"></a>
+<a href="/cdn-cgi/l/email-protection#9af3f4fcf5dae9fff9efe8ffb7f2f5efe9ffb4f9f5b4eff1" rel="nofollow"><span class="__cf_email__" data-cfemail="741d1a121b34071117010611591c1b0107115a171b5a011f">[email&#160;protected]</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a href="https://www.thelotusroots.co.uk/" target="_blank">Lotus Root</a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">STAINLESS STEEL</span></a>
+<a class="fusion-button button-flat button-large button-custom fusion-button-default button-8 fusion-button-span-no fusion-button-default-type" style="--button_accent_color:#847b73;--button_border_color:#847b73;--button_accent_hover_color:var(--awb-color1);--button_border_hover_color:hsla(var(--awb-color4-h),var(--awb-color4-s),calc( var(--awb-color4-l) - 4% ),var(--awb-color4-a));--button_gradient_top_color:#dcd7ca;--button_gradient_bottom_color:#dcd7ca;--button_gradient_top_color_hover:var(--awb-color6);--button_gradient_bottom_color_hover:var(--awb-color6);--button_margin-top:20px;" target="_self" href="https://secure-house.co.uk/door-styles/"><span class="fusion-button-text awb-button__text awb-button__text--default">Explore door styles</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Sliding garage doors</span></a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2841464e47685b4d4b5d5a4d0540475d5b4d064b47065d43">[email&#160;protected]</a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Projects</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Trade</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">Blog</span></a>
+<a  href="https://secure-house.co.uk/doors/panic-room-doors/" class="awb-menu__sub-a"><span>Panic room doors</span></a>
+<a  href="https://secure-house.co.uk/doors/fire-resistant-doors/" class="awb-menu__sub-a"><span>Fire resistant doors</span></a>
+<a  href="https://secure-house.co.uk/doors/communal-entrance-doors/" class="awb-menu__sub-a"><span>Communal entrance doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/" class="awb-menu__sub-a"><span>Profile doors</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/unico-slim-line/" class="awb-menu__sub-a"><span>UNICO SLIM LINE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/fuego-fire/" class="awb-menu__sub-a"><span>FUEGO FIRE</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof/" class="awb-menu__sub-a"><span>PRESTO BULLET PROOF</span></a>
+<a  href="https://secure-house.co.uk/doors/profile-doors/stainless-steel/" class="awb-menu__sub-a"><span>STAINLESS STEEL</span></a>
+<a  href="https://secure-house.co.uk/windows/high-security-steel-windows/" class="awb-menu__sub-a"><span>High security steel windows</span></a>
+<a  href="https://secure-house.co.uk/windows/security-aluminium-windows/" class="awb-menu__sub-a"><span>Security aluminium windows</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/security-shutters/" class="awb-menu__sub-a"><span>Security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/high-security-shutters/" class="awb-menu__sub-a"><span>High security shutters</span></a>
+<a  href="https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/" class="awb-menu__sub-a"><span>Collabsible grilles</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sectional-garage-doors/" class="awb-menu__sub-a"><span>Sectional garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/tracless-garage-doors/" class="awb-menu__sub-a"><span>Tracless garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/side-hinged-garage-doors/" class="awb-menu__sub-a"><span>Side hinged garage doors</span></a>
+<a  href="https://secure-house.co.uk/garage-doors/sliding-garage-doors/" class="awb-menu__sub-a"><span>Sliding garage doors</span></a>
+<a  href="https://secure-house.co.uk/projects/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">OUR PROJECTS</span></a>
+<a  href="https://secure-house.co.uk/blog/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">BLOG</span></a>
+<a  href="https://secure-house.co.uk/trade/" class="awb-menu__main-a awb-menu__main-a_regular"><span class="menu-text">TRADE</span></a>
+<a href="/cdn-cgi/l/email-protection#452c2b232a05362026303720682d2a3036206b262a6b302e" rel="nofollow"><span class="__cf_email__" data-cfemail="80e9eee6efc0f3e5e3f5f2e5ade8eff5f3e5aee3efaef5eb">[email&#160;protected]</span></a>
