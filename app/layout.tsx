@@ -17,11 +17,11 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-        <style dangerouslySetInnerHTML={{ __html: `
+        <style dangerouslySetInnerHTML={{
+          __html: `
           body { font-family: 'Montserrat', sans-serif !important; }
           
-          /* Hide broken hero slider containers (Reverted for review) */
-          /* .fusion-slider-container, .fusion-slider-wrapper, #sliders-container { display: none !important; } */
+         
           
           /* Force Swiper projects to display as static grid */
           .swiper-wrapper, .fusion-carousel-wrapper .fusion-carousel-inner {
