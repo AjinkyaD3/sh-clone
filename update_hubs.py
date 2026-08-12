@@ -42,10 +42,11 @@ for hub in hubs:
     with open(content_file, "r", encoding="utf-8") as f:
         html = f.read()
         
-    # Check if we already injected it
-    if "hub-additional-links" in html:
-        print(f"{hub} already updated.")
-        continue
+    # Check if we already injected it and remove it so we can refresh
+    if '<div class="hub-additional-links"' in html:
+        import re
+        html = re.sub(r'<div class="hub-additional-links".*?</div>\s*</div>\s*</div>', '', html, flags=re.DOTALL)
+
         
     # Inject before footer or at end of main content
     # Look for <main id="main"> or <div id="main"> or fusion-footer
