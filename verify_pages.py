@@ -11,33 +11,13 @@ for _ in range(30):
     except:
         time.sleep(1)
 
-routes = [
-    "/",
-    "/about-us",
-    "/contact-us",
-    "/projects",
-    "/trade",
-    "/products",
-    "/security-levels",
-    "/doors",
-    "/doors/bullet-proof-doors",
-    "/doors/communal-entrance-doors",
-    "/doors/fire-resistant-doors",
-    "/doors/high-security-doors",
-    "/doors/industrial-style-doors",
-    "/doors/panic-room-doors",
-    "/door-styles",
-    "/door-styles/french-doors",
-    "/door-styles/georgian-doors",
-    "/door-styles/victorian-doors",
-    "/arched-doors",
-    "/garage-doors",
-    "/garage-doors/sectional-garage-doors",
-    "/garage-doors/sliding-garage-doors",
-    "/grilles-shutters",
-    "/grilles-shutters/high-security-shutters",
-    "/windows"
-]
+import os
+routes = ["/"]
+for root, dirs, files in os.walk(r"c:\Users\AJINKYA\OneDrive\Desktop\SH NEXT JS\secure-house-nextjs\app"):
+    if "page.tsx" in files:
+        rel = os.path.relpath(root, r"c:\Users\AJINKYA\OneDrive\Desktop\SH NEXT JS\secure-house-nextjs\app")
+        if rel != ".":
+            routes.append("/" + rel.replace('\\', '/'))
 
 base_url = "http://localhost:3000"
 

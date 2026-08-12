@@ -1,18 +1,8 @@
 import os
 import re
 
-routes = [
-    "doors/panic-room-doors",
-    "doors/fire-resistant-doors",
-    "doors/industrial-style-doors",
-    "doors/communal-entrance-doors",
-    "door-styles/french-doors",
-    "door-styles/victorian-doors",
-    "door-styles/georgian-doors",
-    "garage-doors/sectional-garage-doors",
-    "garage-doors/sliding-garage-doors",
-    "grilles-shutters/high-security-shutters"
-]
+with open("new_routes.txt", "r", encoding="utf-8") as f:
+    routes = [line.strip() for line in f if line.strip()]
 
 backup_root = r"c:\Users\AJINKYA\OneDrive\Desktop\SH NEXT JS\securehouse-backup main backup\secure-house.co.uk"
 app_root = r"c:\Users\AJINKYA\OneDrive\Desktop\SH NEXT JS\secure-house-nextjs\app"
