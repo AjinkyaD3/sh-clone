@@ -1,6 +1,6 @@
 # Full Site URL Map
 
-Total Pages: 169
+Total Pages: 168
 
 Below is the complete list of all currently active routes in the application:
 
@@ -23,8 +23,6 @@ Below is the complete list of all currently active routes in the application:
 - https://secure-house-next-js.vercel.app/bespoke-garage-doors-add-value-to-your-home
 
 - https://secure-house-next-js.vercel.app/bespoke-internal-doors-custom-style-security
-
-- https://secure-house-next-js.vercel.app/blog
 
 - https://secure-house-next-js.vercel.app/bullet-proof-door-solutions-safe-room-panic-doors
 
@@ -341,3 +339,4 @@ Below is the complete list of all currently active routes in the application:
 - https://secure-house-next-js.vercel.app/windows/high-security-steel-windows
 
 - https://secure-house-next-js.vercel.app/windows/security-aluminium-windows
+
