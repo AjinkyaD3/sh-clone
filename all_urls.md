@@ -1,6 +1,6 @@
 # Full Site URL Map
 
-Total Pages: 165
+Total Pages: 169
 
 Below is the complete list of all currently active routes in the application:
 
@@ -103,9 +103,11 @@ Below is the complete list of all currently active routes in the application:
 - https://secure-house-next-js.vercel.app/enhancing-sports-centre-security-with-built-in-shutters
 
 - https://secure-house-next-js.vercel.app/exploring-feng-shuis-influence-on-contemporary-interior-design-a-focus-on-doors
+
 - https://secure-house-next-js.vercel.app/fire-door-certification-explained-for-uk-property-owners
 
 - https://secure-house-next-js.vercel.app/fire-door-seals-and-their-compliance-with-uk-safety-standards
+
 - https://secure-house-next-js.vercel.app/fire-door-signage-requirements-under-uk-legislation
 
 - https://secure-house-next-js.vercel.app/fire-doors-and-locks-and-handles-a-complete-safety-guide
@@ -210,6 +212,8 @@ Below is the complete list of all currently active routes in the application:
 
 - https://secure-house-next-js.vercel.app/inspiration/sports-pavilion-secured-with-high-performance-shutters
 
+- https://secure-house-next-js.vercel.app/inspiration/test
+
 - https://secure-house-next-js.vercel.app/inspiration/whole-house-security-shutter-project
 
 - https://secure-house-next-js.vercel.app/inspiration/your-number-one-choice-for-area-conservation-doors
@@ -244,6 +248,8 @@ Below is the complete list of all currently active routes in the application:
 
 - https://secure-house-next-js.vercel.app/secure-house-international
 
+- https://secure-house-next-js.vercel.app/security-garage-doors-for-maximum-home-protection
+
 - https://secure-house-next-js.vercel.app/security-levels
 
 - https://secure-house-next-js.vercel.app/security-specialist-vault-doors-panic-room
@@ -252,9 +258,13 @@ Below is the complete list of all currently active routes in the application:
 
 - https://secure-house-next-js.vercel.app/side-hinged-garage-doors-types-maintainace-advantages
 
+- https://secure-house-next-js.vercel.app/simply-stunning-and-totally-secure-inside-and-out
+
 - https://secure-house-next-js.vercel.app/stable-doors-the-complete-guide-for-uk-homeowners
 
 - https://secure-house-next-js.vercel.app/steel-door-the-ultimate-guide-to-stylish-secure-fire-safety
+
+- https://secure-house-next-js.vercel.app/strategies-for-effective-fire-door-management-in-uk-schools
 
 - https://secure-house-next-js.vercel.app/synthesis-of-classic-and-modern-style-in-home-interior
 
@@ -331,15 +341,3 @@ Below is the complete list of all currently active routes in the application:
 - https://secure-house-next-js.vercel.app/windows/high-security-steel-windows
 
 - https://secure-house-next-js.vercel.app/windows/security-aluminium-windows
-
-- https://secure-house-next-js.vercel.app/how-to-choose-fire-doors-for-high-risk-areas
-
-- https://secure-house-next-js.vercel.app/inspiration/test
-
-- https://secure-house-next-js.vercel.app/security-garage-doors-for-maximum-home-protection
-
-- https://secure-house-next-js.vercel.app/side-hinged-garage-doors-types-maintainace-advantages
-
-- https://secure-house-next-js.vercel.app/simply-stunning-and-totally-secure-inside-and-out
-
-- https://secure-house-next-js.vercel.app/strategies-for-effective-fire-door-management-in-uk-schools
