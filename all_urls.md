@@ -331,3 +331,15 @@ Below is the complete list of all currently active routes in the application:
 - https://secure-house-next-js.vercel.app/windows/high-security-steel-windows
 
 - https://secure-house-next-js.vercel.app/windows/security-aluminium-windows
+
+- https://secure-house-next-js.vercel.app/how-to-choose-fire-doors-for-high-risk-areas
+
+- https://secure-house-next-js.vercel.app/inspiration/test
+
+- https://secure-house-next-js.vercel.app/security-garage-doors-for-maximum-home-protection
+
+- https://secure-house-next-js.vercel.app/side-hinged-garage-doors-types-maintainace-advantages
+
+- https://secure-house-next-js.vercel.app/simply-stunning-and-totally-secure-inside-and-out
+
+- https://secure-house-next-js.vercel.app/strategies-for-effective-fire-door-management-in-uk-schools
