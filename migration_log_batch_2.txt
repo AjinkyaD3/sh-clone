@@ -1,0 +1,33 @@
+--- MIGRATION BATCH 2 LOG ---
+
+SUMMARY:
+Total Inspiration pages analyzed: 22 (All already built in previous batch, 0 new)
+Total Posts analyzed from 312-URL sitemap: 312
+
+RESULTS:
+Genuine Pages Built (5 total):
+- /fire-door-training-requirements-for-uk-construction-teams
+- /legal-responsibilities-for-maintaining-fire-doors-in-uk-buildings
+- /side-hinged-garage-doors-installing-maintaining
+- /what-is-the-difference-between-fire-doors-and-regular-doors
+- /why-maintaining-the-integrity-of-fire-doors-is-crucial
+
+Pages Rejected as Spam (200+ total, sample list below):
+- /a-experiencia-vibrante-e-unica-de-jogar-no-casino-en-ligne-mrpacho (Reason: Contains spam keyword "casino")
+- /aktualnye-strategii-vyigrysha-v-onlajn-kaz (Reason: Non-English/No relevant security/door keywords)
+- /alfcasino-bonus-osvetljuje-poti-do-nepozabnih-dozivetij (Reason: Contains spam keyword "casino")
+- /alternativas-seguras-con-1xslots-apk-para-tu-dispositivo-movil (Reason: Contains spam keyword "slot")
+- /analisis-exhaustivo-sobre-1xslots-argentina-y-sus-opciones-de (Reason: Contains spam keyword "slot")
+- /aposte-na-magia-do-bet-original-casino-portugal-e-transforme-sua-sorte (Reason: Contains spam keyword "bet/casino")
+- /atenie-pas-cu-pas-spre-victorii-multiple-chicken (Reason: Contains spam keyword "chicken")
+- /audace-tentativo-con-chicken-road-attraverso-il (Reason: Contains spam keyword "chicken")
+- /avantgardni-kasino-revoluce-pro-neomezenou-zabavu-a-vyhry (Reason: Kasino spam)
+- /aventura-y-suerte-desatadas-en-betsio-casino-espana (Reason: Contains spam keyword "casino")
+- [190+ more similar foreign-language casino, gambling, and pharma URLs rejected]
+
+Errors Encountered:
+- None.
+
+Build Status:
+- npm run build succeeded.
+- scripts/verify_pages.py checks passed.
