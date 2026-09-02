@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Secure House",
   description: "Bespoke Security Doors",
+  verification: {
+    google: 'edxXEeyWtd6YDmc7jkuwID3cQnresUn5GIcq6hDwr_8',
+  },
 };
 
 export default function RootLayout({
@@ -17,6 +20,15 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PC354BRBBF"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-PC354BRBBF');
+          `
+        }} />
         <style dangerouslySetInnerHTML={{
           __html: `
           body { font-family: 'Montserrat', sans-serif !important; }
