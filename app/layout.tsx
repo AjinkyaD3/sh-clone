@@ -34,9 +34,12 @@ export default function RootLayout({
           __html: `
           body { font-family: 'Montserrat', sans-serif !important; }
           
-          /* Fix for Issue #2: Invisible text on white background for project cards */
+          /* Fix for Issue #2: Project card layout */
+          .post-card-item {
+              background-color: #333333 !important; /* Keep the grey background for the whole card */
+          }
           .post-card-item .fusion-column-wrapper {
-              background-color: #1a1a1a !important;
+              background-color: transparent !important; /* Remove the solid black bars */
               padding: 20px !important;
           }
           
