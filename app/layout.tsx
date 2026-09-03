@@ -34,7 +34,31 @@ export default function RootLayout({
           __html: `
           body { font-family: 'Montserrat', sans-serif !important; }
           
-         
+          /* Fix for Issue #2: Invisible text on white background for project cards */
+          .post-card-item .fusion-column-wrapper {
+              background-color: #1a1a1a !important;
+              padding: 20px !important;
+          }
+          
+          /* Fix for Issue #5: Navbar flexbox layout (Desktop) */
+          .fusion-tb-header .fusion-builder-row-1 .fusion-builder-row-inner {
+              display: flex !important;
+              justify-content: space-between !important;
+              align-items: center !important;
+              flex-wrap: nowrap !important;
+              width: 100% !important;
+          }
+          .fusion-tb-header .fusion-builder-row-1 .fusion-builder-row-inner > .fusion-layout-column {
+              flex: 1 1 33.33% !important;
+          }
+          
+          /* Fix for Issue #5: Navbar flexbox layout (Mobile) */
+          .fusion-tb-header .fusion-builder-row-2 > .fusion-builder-row {
+              display: flex !important;
+              justify-content: space-between !important;
+              align-items: center !important;
+              flex-wrap: nowrap !important;
+          }
           
           /* Force Swiper projects to display as static grid */
           .swiper-wrapper, .fusion-carousel-wrapper .fusion-carousel-inner {
@@ -61,6 +85,7 @@ export default function RootLayout({
           .awb-icon-youtube:before, .fusion-icon-youtube:before { content: "\\f167" !important; font-family: "Font Awesome 6 Brands" !important; }
           .awb-icon-twitter:before, .fusion-icon-twitter:before { content: "\\f099" !important; font-family: "Font Awesome 6 Brands" !important; }
           .awb-icon-linkedin:before, .fusion-icon-linkedin:before { content: "\\f08c" !important; font-family: "Font Awesome 6 Brands" !important; }
+          .awb-icon-pinterest:before, .fusion-icon-pinterest:before { content: "\\f0d2" !important; font-family: "Font Awesome 6 Brands" !important; }
         ` }} />
       </head>
       <body suppressHydrationWarning>
