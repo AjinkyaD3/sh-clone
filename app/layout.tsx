@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Secure House",
@@ -116,7 +118,9 @@ export default function RootLayout({
           }}
         />
         {/* TODO: replace GTM-XXXXXXX above with real GTM container ID from Priyanka */}
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
