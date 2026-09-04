@@ -1,8 +1,126 @@
-import React from 'react';
+"use client";
+import React, { useState, useEffect, useRef } from 'react';
 
 export default function Header() {
-  return (
-    <div dangerouslySetInnerHTML={{ __html: `<div class="fusion-tb-header">
+	const [menuOpen, setMenuOpen] = useState(false);
+	const headerRef = useRef<HTMLDivElement>(null);
+
+	useEffect(() => {
+		// The "PRODUCTS" button trigger
+		const triggerBtn = document.querySelector('a[href="#awb-oc__1349"]');
+
+		const handleTriggerClick = (e: Event) => {
+			e.preventDefault();
+			setMenuOpen(prev => !prev);
+		};
+
+		if (triggerBtn) {
+			triggerBtn.addEventListener('click', handleTriggerClick);
+		}
+
+		// Handle clicks inside and outside the menu
+		const handleGlobalClick = (e: MouseEvent) => {
+			const target = e.target as HTMLElement;
+
+			// If clicking the trigger button itself, let the trigger handler deal with it
+			if (triggerBtn && triggerBtn.contains(target)) return;
+
+			const mobileNav = document.querySelector('nav.awb-menu_mobile-toggle');
+			if (menuOpen && mobileNav) {
+				// Close if clicking outside
+				if (!mobileNav.contains(target)) {
+					setMenuOpen(false);
+				}
+				// Close if clicking a link inside the menu
+				else if (target.tagName.toLowerCase() === 'a' || target.closest('a')) {
+					setMenuOpen(false);
+				}
+			}
+		};
+
+		document.addEventListener('mousedown', handleGlobalClick);
+
+		return () => {
+			if (triggerBtn) triggerBtn.removeEventListener('click', handleTriggerClick);
+			document.removeEventListener('mousedown', handleGlobalClick);
+		};
+	}, [menuOpen]);
+
+	return (
+		<>
+			<style dangerouslySetInnerHTML={{
+				__html: `
+        /* When menuOpen is true, force the mobile menu and its parents to be visible */
+        .mobile-menu-active .fusion-no-medium-visibility,
+        .mobile-menu-active .fusion-no-large-visibility {
+          display: block !important;
+        }
+        
+        /* The off-canvas panel overlay effect */
+        .mobile-menu-active nav.awb-menu_mobile-toggle {
+          display: block !important;
+          position: fixed !important;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          width: 350px;
+          max-width: 100vw;
+          z-index: 999999 !important;
+          background-color: #1a1a1a;
+          overflow-y: auto;
+          box-shadow: -5px 0 25px rgba(0,0,0,0.5);
+          padding: 20px;
+          animation: slideIn 0.3s ease-out forwards;
+        }
+        
+        @keyframes slideIn {
+          from { transform: translateX(100%); }
+          to { transform: translateX(0); }
+        }
+        
+        /* Make links visible in the dark panel */
+        .mobile-menu-active nav.awb-menu_mobile-toggle a {
+          color: #fff !important;
+          padding: 15px 0;
+          display: block;
+          border-bottom: 1px solid #333;
+          text-decoration: none;
+        }
+        
+        .mobile-menu-active nav.awb-menu_mobile-toggle a:hover {
+          color: #f7931e !important;
+        }
+        
+        /* Hide the regular toggle button since we use the Products button */
+        .mobile-menu-active .awb-menu__toggle-button {
+          display: none !important;
+        }
+      ` }} />
+
+			{/* Background overlay when menu is open */}
+			{menuOpen && (
+				<div
+					style={{
+						position: 'fixed',
+						top: 0, left: 0, right: 0, bottom: 0,
+						backgroundColor: 'rgba(0,0,0,0.6)',
+						zIndex: 999998,
+						cursor: 'pointer'
+					}}
+					onClick={() => setMenuOpen(false)}
+				>
+					{/* Visual Close Button on the overlay next to the panel */}
+					<div style={{ position: 'absolute', top: '20px', right: '370px', color: '#fff', fontSize: '30px', fontWeight: 'bold' }}>
+						<i className="fa-solid fa-xmark"></i>
+					</div>
+				</div>
+			)}
+
+			<div
+				ref={headerRef}
+				className={menuOpen ? "mobile-menu-active" : ""}
+				dangerouslySetInnerHTML={{
+					__html: `<div class="fusion-tb-header">
 				<div class="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-small-visibility fusion-sticky-container fusion-absolute-container fusion-absolute-position-small fusion-absolute-position-medium fusion-absolute-position-large" data-scroll-offset="250" data-sticky-large-visibility="1" data-sticky-medium-visibility="1" data-sticky-small-visibility="1" data-transition-offset="0" style="--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:10px;--awb-padding-right:40px;--awb-padding-bottom:10px;--awb-padding-left:40px;--awb-padding-top-small:10px;--awb-padding-right-small:15px;--awb-padding-bottom-small:10px;--awb-padding-left-small:15px;--awb-min-height:100px;--awb-sticky-background-color:rgba(132,123,115,0.7) !important;--awb-flex-wrap:wrap;">
 					<div class="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-content-wrap" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
 						<div class="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_1 1_1 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:0px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;">
@@ -122,6 +240,8 @@ export default function Header() {
 						</div>
 					</div>
 				</div>
-			</div>` }} />
-  );
+			</div>` }}
+			/>
+		</>
+	);
 }
