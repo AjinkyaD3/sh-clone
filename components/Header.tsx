@@ -25,7 +25,7 @@ export default function Header() {
 			// If clicking the trigger button itself, let the trigger handler deal with it
 			if (triggerBtn && triggerBtn.contains(target)) return;
 
-			const mobileNav = document.querySelector('nav.awb-menu_mobile-toggle');
+			const mobileNav = document.querySelector('nav[aria-label="Mobile menu"]');
 			if (menuOpen && mobileNav) {
 				// Close if clicking outside
 				if (!mobileNav.contains(target)) {
@@ -50,14 +50,10 @@ export default function Header() {
 		<>
 			<style dangerouslySetInnerHTML={{
 				__html: `
-        /* When menuOpen is true, force the mobile menu and its parents to be visible */
-        .mobile-menu-active .fusion-no-medium-visibility,
-        .mobile-menu-active .fusion-no-large-visibility {
-          display: block !important;
-        }
+
         
-        /* The off-canvas panel overlay effect */
-        .mobile-menu-active nav.awb-menu_mobile-toggle {
+        /* The off-canvas panel overlay effect - targets only the Mobile menu nav */
+        .mobile-menu-active nav[aria-label="Mobile menu"] {
           display: block !important;
           position: fixed !important;
           top: 0;
@@ -79,7 +75,7 @@ export default function Header() {
         }
         
         /* Make links visible in the dark panel */
-        .mobile-menu-active nav.awb-menu_mobile-toggle a {
+        .mobile-menu-active nav[aria-label="Mobile menu"] a {
           color: #fff !important;
           padding: 15px 0;
           display: block;
@@ -87,7 +83,7 @@ export default function Header() {
           text-decoration: none;
         }
         
-        .mobile-menu-active nav.awb-menu_mobile-toggle a:hover {
+        .mobile-menu-active nav[aria-label="Mobile menu"] a:hover {
           color: #f7931e !important;
         }
         
