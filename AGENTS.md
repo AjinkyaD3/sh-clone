@@ -1,9 +1,8 @@
-<!-- BEGIN:nextjs-agent-rules -->
+# Secure House Migration Rules
 
-# This is NOT the Next.js you know
+Before starting any task or making any architectural decisions on this project, you MUST use the `view_file` tool to read the following files in the `/migration-log/` folder:
+1. `PLAN.md` (to know the current phase and order of operations)
+2. `DECISIONS.md` (to ensure you follow the exact styling and component strategies)
+3. `MISTAKES-AND-PATCHES.md` (to avoid repeating known technical gotchas)
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
-
-This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
-
-<!-- END:nextjs-agent-rules -->
+Never start a large batch conversion without piloting on 3-5 pages first and visually verifying the output.
