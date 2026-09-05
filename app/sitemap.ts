@@ -19,7 +19,7 @@ function getPages(dir: string, basePath: string = ''): string[] {
     if (entry.isDirectory()) {
       // Recurse into subdirectories
       urls.push(...getPages(fullPath, `${basePath}/${entry.name}`));
-    } else if (entry.name === 'page.tsx' || entry.name === 'page.ts' || entry.name === 'page.jsx' || entry.name === 'page.js') {
+    } else if (entry.name === 'page.tsx' || entry.name === 'page.ts' || entry.name === 'page.jsx' || entry.name === 'page.js' || entry.name === 'content.html') {
       // Found a page — add the route
       urls.push(basePath || '/');
     }
