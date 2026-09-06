@@ -1,0 +1,99 @@
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 140px 90px;
+}
+
+.dateAuthor {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1c1e36;
+  margin: 0 0 10px;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #1c1e36;
+  margin: 0 0 30px;
+}
+
+.featuredImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 40px;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #635548;
+  max-width: 800px;
+}
+
+.body h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.3;
+  color: #1c1e36;
+  margin: 40px 0 20px;
+}
+
+.body h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #1c1e36;
+  margin: 32px 0 16px;
+}
+
+.body p {
+  margin: 0 0 20px;
+}
+
+.body ul,
+.body ol {
+  margin: 0 0 20px;
+  padding-left: 24px;
+}
+
+.body li {
+  margin: 0 0 8px;
+}
+
+.body blockquote {
+  margin: 24px 0;
+  padding: 16px 24px;
+  border-left: 3px solid #847b73;
+  background: #f5efe9;
+  color: #1c1e36;
+}
+
+.body blockquote p {
+  margin: 0;
+}
+
+.body a {
+  color: #847b73;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    padding: 30px 40px 60px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+}
