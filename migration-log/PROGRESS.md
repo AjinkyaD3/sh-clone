@@ -28,6 +28,11 @@ Update this file after every session — this is the single source of truth for 
 ## Phase 4: Product Sub-Pages
 - [ ] Not started
 
+## Found During Audit — Not Yet Fixed
+- [ ] `/industrial-style-doors-for-modern-uk-homes/` is linked from at least one already-migrated page's content but has no route/content.html — will 404 if clicked
+- [ ] `/products/` and `/security-levels/` pages exist and build, but are only reachable via a homepage link (not in main nav) — not yet re-verified against live site content/images in this audit pass
+- [ ] `/doors/arch-doors/`, `/doors/bespoke-doors/`, `/doors/stained-glass-doors/`, and 2 more blog posts linked from audited pages (`/bespoke-front-door-designs-for-modern-homes-style/`, `/victorian-front-doors-for-elegant-secure-uk-homes/`) exist but have not yet been through the content/image audit pass applied to the 30 nav-reachable pages
+
 ## Blocked on Client
 - [ ] GTM container ID
 - [ ] Microsoft Clarity project ID
