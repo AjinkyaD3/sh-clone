@@ -1,0 +1,81 @@
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 140px 90px;
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #1c1e36;
+  margin: 0 0 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #333333;
+  padding: 40px 40px 46px;
+  min-height: 260px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: overlay;
+}
+
+.cardCategory {
+  text-align: left;
+  color: #f7931e;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cardTitle {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+.cardExcerpt {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #dcd7ca;
+  margin: 0 0 10px;
+}
+
+.cardDate {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #dcd7ca;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    padding: 30px 40px 60px;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+}
