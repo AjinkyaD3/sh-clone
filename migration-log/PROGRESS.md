@@ -28,10 +28,12 @@ Update this file after every session — this is the single source of truth for 
 ## Phase 4: Product Sub-Pages
 - [ ] Not started
 
+## Completed (continued)
+- [x] Extended the content/image audit to the "second layer" (8 pages linked directly from the 30 nav-reachable pages: /products/, /security-levels/, /doors/arch-doors/, /doors/bespoke-doors/, /doors/stained-glass-doors/, /bespoke-front-door-designs-for-modern-homes-style/, /victorian-front-doors-for-elegant-secure-uk-homes/, and /industrial-style-doors-for-modern-uk-homes/) and "third layer" (2 more pages linked from those: /bullet-proof-door-solutions-safe-room-panic-doors/, /security-garage-doors-for-maximum-home-protection/) — 10 pages total. Built the missing `/industrial-style-doors-for-modern-uk-homes/` route from a fresh live-site scrape (no backup copy existed) following the same pipeline as `scripts/process_pages.py`; fixed unconverted data-bg lazy-load images on doors/bespoke-doors and doors/stained-glass-doors; filled in missing thumbnail variants. One background image on `/doors/arch-doors/` (a custom-authored page with no live-site source) remains genuinely missing — see below.
+- [x] Confirmed the site's link graph converges fast past two hops: 30 nav-reachable pages → 8 second-layer → only 2 new third-layer pages, everything else loops back into the already-known set (excluding WordPress infra links like /feed/, /wp-json/, /author/*)
+
 ## Found During Audit — Not Yet Fixed
-- [ ] `/industrial-style-doors-for-modern-uk-homes/` is linked from at least one already-migrated page's content but has no route/content.html — will 404 if clicked
-- [ ] `/products/` and `/security-levels/` pages exist and build, but are only reachable via a homepage link (not in main nav) — not yet re-verified against live site content/images in this audit pass
-- [ ] `/doors/arch-doors/`, `/doors/bespoke-doors/`, `/doors/stained-glass-doors/`, and 2 more blog posts linked from audited pages (`/bespoke-front-door-designs-for-modern-homes-style/`, `/victorian-front-doors-for-elegant-secure-uk-homes/`) exist but have not yet been through the content/image audit pass applied to the 30 nav-reachable pages
+- [ ] `/doors/arch-doors/` references `/legacy-assets/uploads/2024/02/Bespoke-arch-doors.jpg` as a section background, but the file doesn't exist locally or on the live site (404 both places). This is one of the 3 custom-authored pages with no original WordPress source to recover the image from — needs the correct image sourced from the client, not guessed
 
 ## Blocked on Client
 - [ ] GTM container ID
