@@ -106,6 +106,43 @@ export default function RootLayout({
             background-position: center !important;
             background-repeat: no-repeat !important;
           }
+
+          /* Phase 2: Add missing hover states for product/door cards */
+          .fusion-column-liftup-border {
+            transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+          }
+          .fusion-column-liftup-border:hover {
+            transform: translateY(-10px) !important;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15) !important;
+            z-index: 10 !important;
+          }
+          .hover-type-liftup {
+            transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+          }
+          .hover-type-zoomin .fusion-column-inner-bg-image {
+            transition: transform 0.5s ease !important;
+          }
+          .fusion-column-liftup-border:hover .hover-type-zoomin .fusion-column-inner-bg-image,
+          .post-card-item:hover .fusion-column-inner-bg-image {
+            transform: scale(1.05) !important;
+          }
+
+          /* Fix for Issue #7: Post-card filter tabs (All/Commercial/Residential)
+             never appear. Avada's own CSS hides them by default (display:none)
+             and only reveals them via a JS-added state on desktop - that JS
+             never runs in this static migration, so the tabs stayed invisible
+             on every page using a Fusion post-cards grid (e.g. /projects). */
+          .fusion-filters {
+            display: flex !important;
+          }
+
+          /* Phase 2: Add text-shadow/scrim to improve legibility on busy hero images */
+          .fusion-column-has-bg-image .fusion-title-heading,
+          .fusion-column-has-bg-image-small .fusion-title-heading,
+          .fusion-builder-row-3 .fusion-title-heading,
+          .fusion-builder-row-1 .fusion-title-heading {
+            text-shadow: 0 4px 25px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.6) !important;
+          }
         ` }} />
       </head>
       <body suppressHydrationWarning>
