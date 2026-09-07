@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PC354BRBBF"></script>
         <script dangerouslySetInnerHTML={{
@@ -91,6 +91,21 @@ export default function RootLayout({
           .awb-icon-twitter:before, .fusion-icon-twitter:before { content: "\\f099" !important; font-family: "Font Awesome 6 Brands" !important; }
           .awb-icon-linkedin:before, .fusion-icon-linkedin:before { content: "\\f08c" !important; font-family: "Font Awesome 6 Brands" !important; }
           .awb-icon-pinterest:before, .fusion-icon-pinterest:before { content: "\\f0d2" !important; font-family: "Font Awesome 6 Brands" !important; }
+
+          /* Fix for Issue #6: Avada "liftup" hover-image background never gets sized.
+             The theme's own compiled CSS (never migrated) normally gives
+             .fusion-column-inner-bg-image its box; without it the element is
+             0x0 and its background-image never paints (seen on /products/ and
+             other pages using this component). */
+          .fusion-column-inner-bg-image {
+            position: absolute !important;
+            inset: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+          }
         ` }} />
       </head>
       <body suppressHydrationWarning>
