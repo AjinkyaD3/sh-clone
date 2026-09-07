@@ -40,11 +40,32 @@ export default function RootLayout({
           .post-card-item {
               background-color: #333333 !important; /* Keep the grey background for the whole card */
           }
-          .post-card-item .fusion-column-wrapper {
-              background-color: transparent !important; /* Remove the solid black bars */
-              padding: 20px !important;
+
+          /* /projects card redesign: text centered and pinned to the bottom of
+             the card over a gradient scrim (was top-anchored, left-aligned,
+             using per-card inline --awb-padding-top values of 200px+ inherited
+             from the WordPress builder - those are zeroed out here so the text
+             block's own flex/gradient layout controls position instead). */
+          .post-card-item {
+              padding: 0 !important;
+              position: relative;
           }
-          
+          .post-card-item .fusion-column-wrapper {
+              position: absolute !important;
+              inset: 0 !important;
+              display: flex !important;
+              flex-direction: column !important;
+              justify-content: flex-end !important;
+              align-items: center !important;
+              text-align: center !important;
+              padding: 30px !important;
+              background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.55) 40%, rgba(0,0,0,0) 75%) !important;
+          }
+          .post-card-item .fusion-title-heading,
+          .post-card-item .project-category-subtitle {
+              text-align: center !important;
+          }
+
           /* Fix for Issue #5: Navbar flexbox layout (Desktop) */
           .fusion-tb-header .fusion-builder-row-1 .fusion-builder-row-inner {
               display: flex !important;
