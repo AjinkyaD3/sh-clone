@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About Us - Secure House',
+  description: 'Secure House Ltd stands out as a premier provider of security solutions. Enhancing safety and aesthetics for flats, offices, and commercial properties.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/about-us',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'about-us', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');

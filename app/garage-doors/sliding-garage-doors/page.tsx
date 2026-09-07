@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Sliding garage doors - Secure House',
+  description: 'Sliding garage doors: space-saving design with superior performance and customization. Sliding garage doors by Secure House are the most advanced garage door solution.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/garage-doors/sliding-garage-doors',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'garage-doors/sliding-garage-doors', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');

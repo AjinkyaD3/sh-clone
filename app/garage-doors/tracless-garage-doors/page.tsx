@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Tracless garage doors - Secure House',
+  description: 'Our security garage doors is an innovative product with high level of security and design since 2010. Original opening system that doesn\'t require ceiling tracks.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/garage-doors/tracless-garage-doors',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'garage-doors/tracless-garage-doors', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');

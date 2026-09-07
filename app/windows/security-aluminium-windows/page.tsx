@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Security aluminium windows - Secure House',
+  description: 'Security aluminium windows London. Windows play a defining role in shaping the appearance and character of any project. Schüco system technology.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/windows/security-aluminium-windows',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'windows/security-aluminium-windows', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');

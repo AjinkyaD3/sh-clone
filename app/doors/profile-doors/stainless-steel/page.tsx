@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Stainless steel - Secure House',
+  description: 'Stainless Steel Fire Doors: Timeless Strength, Style, and Security. Best suited to commercial applications, offices, communal entrance doors, embassies.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/doors/profile-doors/stainless-steel',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'doors/profile-doors/stainless-steel', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');

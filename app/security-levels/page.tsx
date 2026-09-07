@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Security levels - Secure House',
+  description: 'LS1 Class, RC3 Class, RC4 Class, RC4 + FB4 Class, RC4 + FB6 Class. Make your property a fortress - choose the right security level doors.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/security-levels',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'security-levels', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');

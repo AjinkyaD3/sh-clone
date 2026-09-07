@@ -4,9 +4,11 @@ import posts from '@/data/blog-posts.json';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-  title: 'Blog | Secure House',
-  description:
-    'Security door and window insight, product guides, and project stories from Secure House.',
+  title: 'Blog - Secure House',
+  description: 'Blog',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/blog',
+  },
 };
 
 export default function BlogIndexPage() {

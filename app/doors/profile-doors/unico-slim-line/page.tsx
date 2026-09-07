@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Unico slim line - Secure House',
+  description: 'Thermally insulated windows, doors and glazings – elements produced with profiles in this unique framework style, can be fitted indoors and outdoors.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/doors/profile-doors/unico-slim-line',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'doors/profile-doors/unico-slim-line', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');
