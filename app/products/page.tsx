@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Products - Secure House',
+  description: 'Products: Security doors, Windows, Security shutters, Garage doors. Residential doors: Premium high security doors, Panic room doors, Steel security doors.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/products',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'products', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');

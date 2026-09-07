@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Colllabsible grilles - Secure House',
+  description: 'Collapsible security grilles. A security grille can add a valuable layer of security for your doors as well as windows in both commercial and private premises.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/grilles-shutters/colllabsible-grilles',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'grilles-shutters/colllabsible-grilles', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');

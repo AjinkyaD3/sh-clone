@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Fuego fire - Secure House',
+  description: 'Forster, Janisol fuego light is the reliable profile system for fire protection. Flush doors with narrow steel frame and large glass area.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/doors/profile-doors/fuego-fire',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'doors/profile-doors/fuego-fire', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');

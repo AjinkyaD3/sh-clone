@@ -1,6 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Presto bullet proof - Secure House',
+  description: 'System for flush mounted single or double-leaf doors, windows and glazed closures without thermal break. Forster, Janisol presto stands for security and safety.',
+  alternates: {
+    canonical: 'https://secure-house-next-js.vercel.app/doors/profile-doors/presto-bullet-proof',
+  },
+};
+
 export default function Page() {
   const filePath = path.join(process.cwd(), 'app', 'doors/profile-doors/presto-bullet-proof', 'content.html');
   const html = fs.readFileSync(filePath, 'utf-8');
