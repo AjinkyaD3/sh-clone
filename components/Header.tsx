@@ -1,11 +1,14 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [mounted, setMounted] = useState(false);
 	const headerRef = useRef<HTMLDivElement>(null);
+	const pathname = usePathname();
+	const isLightPage = pathname?.startsWith('/projects');
 
 	// The full-screen PRODUCTS panel is rendered via a portal straight into
 	// <body> (see below) - an ancestor column div in the header has
@@ -112,6 +115,36 @@ export default function Header() {
         .mobile-menu-active .fusion-no-medium-visibility {
             display: block !important;
         }
+
+        /* On a page with a light (white) background and no dark hero image behind
+           it, the header's normal styling is unusable as-is:
+           1) The nav row is positioned absolute (meant to float on top of a tall
+              hero image), which collapses its parent to 0 height and lets page
+              content paint over/behind it - the header effectively disappears.
+           2) Its text/logo colors (--awb-color1, resolving to #ffffff) are made
+              for sitting on a dark hero image, so even where it did render it
+              would be invisible white-on-white.
+           Fix: put the row back in normal document flow (so it reserves real
+           space and pushes page content down instead of overlapping it), give
+           it an opaque white bar, and swap the header-scoped color variable to
+           a dark tone so nav text/buttons read as dark-on-white. The raster
+           logo images are separately inverted so their light artwork reads as
+           dark too. */
+        ${isLightPage ? `
+        .fusion-tb-header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #e7e6e6;
+            --awb-color1: #1c1e36;
+        }
+        .fusion-tb-header .fusion-builder-row-1,
+        .fusion-tb-header .fusion-builder-row-2 {
+            position: relative !important;
+            top: auto !important;
+        }
+        .fusion-tb-header .fusion-imageframe img {
+            filter: invert(1);
+        }
+        ` : ''}
       ` }} />
 
 			{/* Close (X) button for the full-screen menu panel */}
