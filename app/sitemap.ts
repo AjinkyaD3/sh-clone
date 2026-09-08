@@ -4,24 +4,35 @@ import path from 'path';
 
 const BASE_URL = 'https://secure-house-next-js.vercel.app';
 
+const PAGE_MARKERS = new Set(['page.tsx', 'page.ts', 'page.jsx', 'page.js', 'content.html']);
+
 function getPages(dir: string, basePath: string = ''): string[] {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
   const urls: string[] = [];
 
+  // A directory can carry both a page.tsx and a legacy content.html (raw-HTML
+  // pages still mid-migration) — count it as one route, not one per marker file.
+  const hasPage = entries.some((entry) => !entry.isDirectory() && PAGE_MARKERS.has(entry.name));
+  if (hasPage) {
+    urls.push(basePath || '/');
+  }
+
   for (const entry of entries) {
-    // Skip non-route directories
-    if (entry.name.startsWith('.') || entry.name.startsWith('_') || entry.name === 'api') {
+    // Skip non-route directories, plus dynamic segments (e.g. "[slug]") —
+    // these are route templates, not real URLs to list in the sitemap.
+    if (
+      entry.name.startsWith('.') ||
+      entry.name.startsWith('_') ||
+      entry.name === 'api' ||
+      (entry.name.startsWith('[') && entry.name.endsWith(']'))
+    ) {
       continue;
     }
 
-    const fullPath = path.join(dir, entry.name);
-
     if (entry.isDirectory()) {
+      const fullPath = path.join(dir, entry.name);
       // Recurse into subdirectories
       urls.push(...getPages(fullPath, `${basePath}/${entry.name}`));
-    } else if (entry.name === 'page.tsx' || entry.name === 'page.ts' || entry.name === 'page.jsx' || entry.name === 'page.js' || entry.name === 'content.html') {
-      // Found a page — add the route
-      urls.push(basePath || '/');
     }
   }
 
