@@ -6,9 +6,6 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Secure House",
   description: "Bespoke Security Doors",
-  verification: {
-    google: 'edxXEeyWtd6YDmc7jkuwID3cQnresUn5GIcq6hDwr_8',
-  },
 };
 
 export default function RootLayout({
@@ -23,22 +20,14 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PC354BRBBF"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-PC354BRBBF');
-          `
-        }} />
+
         <style dangerouslySetInnerHTML={{
           __html: `
           body { font-family: 'Montserrat', sans-serif !important; }
           
           /* Fix for Issue #2: Project card layout */
           .post-card-item {
-              background-color: #333333 !important; /* Keep the grey background for the whole card */
+              background-color: #333333 !important; /* Keep the grey backgound for the whole card */
           }
 
           /* /projects card redesign: text centered and pinned to the bottom of
