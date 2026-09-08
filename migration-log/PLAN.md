@@ -1,5 +1,13 @@
 # Secure House Migration - Plan
 
+## Scope reduced to 32 client-approved pages (2026-09-08)
+
+The client's audit spreadsheet approved exactly 32 pages as the official site. Every other page (the ~120 fire-door/blog article pages, `inspiration/` and its sub-pages, and 6 `doors/` sub-pages not on the approved list — `arch-doors`, `bespoke-doors`, `curved-glass-doors`, `industrial-style-doors`, `premium-high-security-doors`, `stained-glass-doors`) has been moved out of `app/` into `_archive/` (not deleted — see `SCOPE-REDUCTION-2026-09-08.md` for the full manifest and `PROGRESS.md` for the summary).
+
+**Everything below this note was written before the scope reduction and still describes the full ~194-page site.** It remains useful for phase/tier ordering and reasoning, but any page it references that is no longer in `app/` (check `SCOPE-REDUCTION-2026-09-08.md`'s manifest if unsure) is out of scope going forward — skip it rather than rebuilding it. The pure-JSX conversion work now only needs to cover the 32 approved pages + `/thank-you/`.
+
+---
+
 The following outlines the phased plan for the full "pure Next.js" conversion (moving all remaining pages from raw HTML injection to genuine JSX/component-based templates).
 
 - **Phase 1: Blog Pages (122)**
@@ -59,16 +67,16 @@ Rather than jumping straight to Phase 4's original "product sub-pages last" orde
 
 | Page | content.html size | Sibling of |
 |---|---|---|
-| `app/doors/premium-high-security-doors/content.html` | 509 KB (largest in scope) | fire-resistant-doors |
+| ~~`app/doors/premium-high-security-doors/content.html`~~ | 509 KB (largest in scope) | **ARCHIVED 2026-09-08 — not on client's approved list, out of scope** |
 | `app/doors/high-security-doors/content.html` | 472 KB | fire-resistant-doors |
 | `app/doors/panic-room-doors/content.html` | 349 KB | fire-resistant-doors |
 | `app/doors/bullet-proof-doors/content.html` | 299 KB | fire-resistant-doors |
 | `app/doors/communal-entrance-doors/content.html` | 288 KB | fire-resistant-doors |
-| `app/doors/stained-glass-doors/content.html` | 240 KB | fire-resistant-doors |
-| `app/doors/bespoke-doors/content.html` | 223 KB | fire-resistant-doors |
-| `app/doors/industrial-style-doors/content.html` | 180 KB | fire-resistant-doors |
-| `app/doors/arch-doors/content.html` | 16 KB (smallest — custom-authored, thin page) | fire-resistant-doors |
-| `app/doors/curved-glass-doors/content.html` | 15 KB (custom-authored, thin page) | fire-resistant-doors |
+| ~~`app/doors/stained-glass-doors/content.html`~~ | 240 KB | **ARCHIVED 2026-09-08 — not on client's approved list, out of scope** |
+| ~~`app/doors/bespoke-doors/content.html`~~ | 223 KB | **ARCHIVED 2026-09-08 — not on client's approved list, out of scope** |
+| ~~`app/doors/industrial-style-doors/content.html`~~ | 180 KB | **ARCHIVED 2026-09-08 — not on client's approved list, out of scope** |
+| ~~`app/doors/arch-doors/content.html`~~ | 16 KB (smallest — custom-authored, thin page) | **ARCHIVED 2026-09-08 — not on client's approved list, out of scope** |
+| ~~`app/doors/curved-glass-doors/content.html`~~ | 15 KB (custom-authored, thin page) | **ARCHIVED 2026-09-08 — not on client's approved list, out of scope** |
 | `app/doors/profile-doors/fuego-fire/content.html` | 189 KB | profile-doors (parent already in Tier A) |
 | `app/doors/profile-doors/presto-bullet-proof/content.html` | 188 KB | profile-doors |
 | `app/doors/profile-doors/unico-slim-line/content.html` | 189 KB | profile-doors |

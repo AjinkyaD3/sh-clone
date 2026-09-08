@@ -2,6 +2,18 @@
 
 Update this file after every session — this is the single source of truth for "what's actually done."
 
+## Site scope reduced to 32 client-approved pages — 2026-09-08
+
+The client's own audit spreadsheet approved exactly 32 pages as the official site (see full list and reasoning in `PLAN.md`'s "Scope" section, and the full move manifest in `SCOPE-REDUCTION-2026-09-08.md`). All other page folders — 133 top-level (the ~120 fire-door/blog-style article pages, `inspiration/` and its 20 sub-pages, and assorted one-off pages) plus 6 `doors/` sub-pages not on the client list (`arch-doors`, `bespoke-doors`, `curved-glass-doors`, `industrial-style-doors`, `premium-high-security-doors`, `stained-glass-doors`) — were **moved (not deleted)** from `app/` into a new top-level `_archive/` folder, fully recoverable if the client re-approves any of them later.
+
+- [x] Categorized all ~150 page folders as KEEP/ARCHIVE against the client spreadsheet, confirmed with the client before moving anything
+- [x] Moved 139 folders into `_archive/`, preserving structure
+- [x] Found and fixed the only dead-link fallout: `app/doors/content.html`'s off-canvas/mega-menu markup had 4 stray links to the now-archived `/doors/bespoke-doors/` — removed. Confirmed via full 139-slug grep across `app/` and `components/` that no other kept page links to an archived route
+- [x] `sitemap.ts` (which dynamically walks `app/`) now emits exactly 37 routes (32 approved pages + `/thank-you/`) with no manual list needed — also fixed two pre-existing bugs found while touching it: duplicate route entries for pages with both `page.tsx` and `content.html`, and a literal `/blog/[slug]` template URL leaking into the sitemap
+- [x] `npm run build` passes clean (0 errors) with the reduced route set
+
+**Effect on the phased JSX-conversion plan below**: the pure-JSX conversion work (Phases 1-4, and the "31-page family" reprioritization in `PLAN.md`) now only needs to cover the 32 approved pages, not the full ~194-page site. Any phase/batch item referencing an archived page (e.g. any of the 6 removed `doors/` sub-pages) is no longer in scope. See `PLAN.md` for the updated scope note.
+
 ## Completed
 - [x] Content/structure/image/video audit of homepage, /projects/, /about-us/, and every nav/mega-menu link (30 pages) against live site — fixed unconverted lazy-load background images (14 pages) and ~780 missing responsive image thumbnail variants (widespread WordPress srcset gap); see MISTAKES-AND-PATCHES.md #2 and #5. /blog/ index confirmed still correctly blocked pending client content confirmation (individual blog post pages are unaffected)
 - [x] 190+ pages migrated, spam removed, verified
