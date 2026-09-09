@@ -248,4 +248,7 @@ console.log('=== JSX (first 3000 chars) ===');
 console.log(jsx.slice(0, 3000));
 const outPath = path.join(process.cwd(), 'scratch', 'converted_body.jsx.txt');
 fs.writeFileSync(outPath, jsx);
+const headLinksPath = path.join(process.cwd(), 'scratch', 'converted_head_links.json');
+fs.writeFileSync(headLinksPath, JSON.stringify(headLinks));
 console.log('\nFull output written to', outPath);
+console.log('Head links written to', headLinksPath);

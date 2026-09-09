@@ -9,16 +9,18 @@ const path = require('path');
 
 const origPageDir = process.argv[2]; // e.g. app/doors/high-security-doors
 const v2PageDir = process.argv[3]; // e.g. app/doors/high-security-doors-v2
-const headLinksJson = process.argv[4]; // JSON array string
 
-if (!origPageDir || !v2PageDir || !headLinksJson) {
-  console.error('Usage: node assemble_jsx_page.js <origPageDir> <v2PageDir> <headLinksJsonArray>');
+if (!origPageDir || !v2PageDir) {
+  console.error('Usage: node assemble_jsx_page.js <origPageDir> <v2PageDir>');
+  console.error('(run html_to_jsx.js on the same page first - reads its scratch/ output)');
   process.exit(1);
 }
 
 const origSrc = fs.readFileSync(path.join(origPageDir, 'page.tsx'), 'utf8');
 const body = fs.readFileSync(path.join(process.cwd(), 'scratch', 'converted_body.jsx.txt'), 'utf8');
-const headLinks = JSON.parse(headLinksJson);
+const headLinks = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), 'scratch', 'converted_head_links.json'), 'utf8')
+);
 
 // Extract the metadata object block
 const metaMatch = origSrc.match(/export const metadata: Metadata = \{[\s\S]*?\n\};/);
