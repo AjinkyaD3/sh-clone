@@ -2,6 +2,51 @@
 
 Update this file after every session — this is the single source of truth for "what's actually done."
 
+## Media optimization (Phase 0 + 1 of 3) & pure-JSX conversion kickoff — 2026-09-09 (evening)
+
+Two separate workstreams this session, both mid-flight — **resume-here notes at the bottom of each section**.
+
+### Media optimization — video done, images explicitly deferred
+
+Client asked for image (WebP) + video compression across the site. Reviewed a plan from another AI tool first: the asset inventory (video/image file counts and sizes) checked out as accurate, but the projected load-time/CWV numbers in it were fabricated (plausible-looking, not measured), and its plan to bulk-rewrite every image reference across 35+ files in one pass was flagged as high-risk given today's earlier bugs all came from exactly that kind of blanket find-and-replace. Agreed a safer phased plan with the client instead:
+
+- [x] **Phase 0 — real baseline**, measured with Lighthouse against a production build (not dev mode): homepage 51/100 performance, LCP 11.6s, 58.9MB transferred; `/doors/bullet-proof-doors/` 60/100, **LCP 38.6s**, 74.3MB transferred (the 243MB uncompressed shopfront video is the obvious culprit there).
+- [x] **Phase 1 — video compression**, done page-by-page with a visual frame-diff check before swapping each one in (not a blind batch script):
+  - Archived 4 dead uncompressed master videos (215MB, nothing in `app/`/`components/` referenced them) to `../backup_dump/videos/` — not deleted.
+  - Re-encoded the 8 actually-referenced videos (libx264, `+faststart`, audio stripped from muted background loops, kept on the one video with real audio/controls): 344.6MB → 61.2MB combined (82% reduction). Full per-file breakdown in the `perf:` commit from this session. One video (`Secure-House-Factory-compressed.mp4`) needed CRF 27 instead of the default 24 — CRF 24 actually came out *larger* than the pre-existing file, so it was already efficiently encoded; checked before assuming the standard formula would always help.
+  - Re-measured after: transferred weight on `/doors/bullet-proof-doors/` dropped 76MB → 20MB, homepage 60MB → 30MB. **LCP itself did not improve on either page** (still ~38.6s / ~11.7s) — so raw video byte-size wasn't the actual LCP bottleneck; that needs separate investigation before it's called "fixed."
+  - Originals of the 8 compressed videos kept in `scratch/video_originals/` pending final client sign-off before deletion.
+- [ ] **Phase 2 (WebP image conversion) and Phase 3 (delete old files)** — **explicitly on hold, not started.** Client asked to stop after video and revisit images later. Do not start Phase 2 without the client re-confirming — when it does start, pilot on one page first (same discipline as the JSX work below), not a single site-wide script run.
+- [ ] **The LCP-didn't-improve finding above is unresolved** — worth a real look (likely a render-blocking resource, not video weight) before telling the client "video is optimized" implies the loading-speed complaint is fully addressed. It isn't, yet.
+
+### Pure-JSX conversion (replacing `dangerouslySetInnerHTML` page-by-page) — 22 pages done, 17 fully verified
+
+Client's goal: convert every page's raw-HTML `content.html` + `dangerouslySetInnerHTML` into real, structurally-identical JSX — same design, same DOM, just proper React instead of an injected HTML blob. Agreed approach after discussion: a **parser-driven** converter (`scripts/html_to_jsx.js`, uses `cheerio` to walk the real DOM tree), not hand-authored JSX — a mechanical parser can't skip or misread a node the way manual rewriting can, which is exactly what caused the earlier homepage-rebuild disaster recorded elsewhere in this log. Plain `<img>` stays `<img>` (no `next/image` swap) — deliberately kept out of scope for this pass; see the reasoning already captured in this session's conversation if revisiting that decision.
+
+Every converted page is parked at a parallel `-v2` route (e.g. `/doors/fire-resistant-doors-v2/`) — **nothing has been swapped into a live route yet.** Verification per page: `npx tsc --noEmit` clean, `npm run build` clean, then a structural diff against the live route (text length, `<img src>` count, computed `background-image` count, `<a href>` count — all must match exactly) plus a manual look for anything the counts wouldn't catch (video/iframe playback, header/footer rendering).
+
+**Real bugs found and fixed in the converter itself during this rollout** (each one fixed globally, so already covered for every future page — not something to rediscover per page):
+1. Text nodes between inline elements (e.g. `<span>Home</span> » <span>Doors</span>`) were losing their boundary whitespace because the converter `.trim()`'d every text node — the breadcrumb literally lost its spacing on the first pilot page. Fixed: whitespace is collapsed like HTML does but never trimmed at the edges, and text renders as a `` {`...`} `` expression instead of raw JSX text so JSX's own line-based whitespace rules can't touch it.
+2. **The big one — see `MISTAKES-AND-PATCHES.md` item 20 for the full writeup**: every unconverted page's raw `<body class="...">` tag (inside the `dangerouslySetInnerHTML` blob) gets silently merged onto the *real* document `<body>` by the browser's HTML parser (you can't have two `<body>` elements). A real CSS rule Header/Footer depend on for text-align/font-size requires a class from that list (`fusion-body`) on an ancestor — which only worked because of this merge side-effect. A clean JSX page never renders a literal `<body>` tag, so the merge never happens and Header/Footer styling broke silently (confirmed: Footer's copyright line went left-aligned and oversized) despite `Footer.tsx` itself being completely unchanged. **Fixed once, globally, in `app/layout.tsx`'s real `<body>` tag** — every page converted since (12 of the 22) got this correct automatically with zero extra work, confirming it's a real global fix and not a one-off patch.
+3. `text-align: var(--custom-property)` and other strict-enum-typed CSS properties rejected a plain `as React.CSSProperties` cast (valid CSS, not a valid `TextAlign` union member as far as TS is concerned) — now routes through `as unknown as React.CSSProperties`.
+4. `aria-level` and the other numeric ARIA attributes (`aria-valuemax`, `aria-colspan`, etc.) are typed as `number` by React, not `string` like every other attribute — now emitted as `{5}` instead of `"5"`.
+5. `<lite-youtube>` (a real custom-element/web-component video embed, found on `tracless-garage-doors`) needed a TypeScript module augmentation (`types/custom-elements.d.ts`) since TS doesn't know about custom elements unless declared — not a conversion bug, just an unhandled tag type until now. Worth noting: this element has no backing JS library loaded anywhere in this app, so it's inert on **both** the old and new version of that page — pre-existing gap, not something this session's conversion work changed either way.
+
+Also built `scripts/assemble_jsx_page.js`, which pulls each page's `metadata`/body-`className`/trailing `<CTABlock/>` straight out of its existing `page.tsx` via regex rather than having them retyped by hand — removed a real transcription-risk once this became a repeated, many-pages-per-session operation.
+
+**Pages done, in order:**
+- Pilots (2): `/doors/fire-resistant-doors-v2/`, `/doors/panic-room-doors-v2/` — fully verified.
+- Batch of 5: `/doors/high-security-doors-v2/`, `/doors/communal-entrance-doors-v2/`, `/doors/profile-doors/unico-slim-line-v2/`, `/windows/high-security-steel-windows-v2/`, `/garage-doors/sectional-garage-doors-v2/` — fully verified.
+- Batch of 10: `/doors-v2/`, `/doors/bullet-proof-doors-v2/`, `/doors/profile-doors-v2/`, `/doors/profile-doors/fuego-fire-v2/`, `/doors/profile-doors/presto-bullet-proof-v2/`, `/doors/profile-doors/stainless-steel-v2/`, `/windows-v2/`, `/windows/security-aluminium-windows-v2/`, `/grilles-shutters-v2/`, `/grilles-shutters/high-security-shutters-v2/` — fully verified.
+- Batch of 5 (**generated + typecheck/build clean, structural verification NOT yet run — do this first tomorrow**): `/garage-doors-v2/`, `/garage-doors/tracless-garage-doors-v2/`, `/garage-doors/side-hinged-garage-doors-v2/`, `/garage-doors/sliding-garage-doors-v2/`, `/grilles-shutters/colllabsible-grilles-v2/`.
+
+**Not started yet** (remaining from the 32 client-approved pages, minus `/blog/` which is already pure JSX): `/` (homepage — deliberately saved for its own careful pass given its size/history, see the JSX-rebuild incident elsewhere in this log), `/projects/` (has a client-component wrapper, `ProjectsClient.tsx` — needs thought about how that interacts with the converter, not a plain server-rendered page like the others), `/contact-us/` (PLAN.md flags a "hidden global form dependency" here — treat carefully, don't just run the standard pipeline), `/about-us/`, `/trade/`, `/products/`, `/security-levels/`, `/door-styles/` (+ its 4 children: french-doors, victorian-doors, edwardian-doors, georgian-doors).
+
+**Resume here tomorrow:**
+1. Run the structural verification pass on the 5 generated-but-unverified pages above (this was paused, not skipped, at the user's request to stop for the day).
+2. Then continue rolling out to the remaining ~13 pages, saving `/`, `/projects/`, and `/contact-us/` for their own careful individual passes rather than the standard batch pipeline.
+3. None of the 22 `-v2` pages have been swapped into their live routes yet — that's a separate, later decision, not part of this rollout.
+
 ## Follow-up fixes from client feedback — 2026-09-09 (later)
 
 Client reported a batch of visual issues after the verification pass above. Root-caused and fixed each:
