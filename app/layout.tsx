@@ -129,6 +129,19 @@ export default function RootLayout({
             background-repeat: no-repeat !important;
           }
 
+          /* Fix: door/window/garage-door card titles were unreadable (black text
+             directly on the photo). Each card already carries the real white
+             scrim gradient in --awb-inner-bg-image (set inline by the scrape)
+             for exactly this purpose, but nothing applied it as an actual
+             background - only the photo itself got painted. Layer it onto the
+             text wrapper that already sits on top of the photo. */
+          .fusion-column-liftup-border > .fusion-column-wrapper {
+            background-image: var(--awb-inner-bg-image) !important;
+            background-size: var(--awb-inner-bg-size, cover) !important;
+            background-repeat: no-repeat !important;
+            background-position: bottom center !important;
+          }
+
           /* Phase 2: Add missing hover states for product/door cards */
           .fusion-column-liftup-border {
             transition: transform 0.3s ease, box-shadow 0.3s ease !important;
@@ -190,6 +203,33 @@ export default function RootLayout({
           .fusion-builder-row-3 .fusion-title-heading,
           .fusion-builder-row-1 .fusion-title-heading {
             text-shadow: 0 4px 25px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.6) !important;
+          }
+          /* The rule above is meant for real photo heroes; it was also
+             matching two cases where it just adds an ugly dark glow:
+             - door/window/garage-door card titles (now have their own white
+               scrim background from the fix above, so a black shadow just
+               looks wrong on top of it)
+             - a small decorative logo image used as a card background on
+               /projects (marked with .fusion-decorative-bg), not a photo */
+          .fusion-column-liftup-border .fusion-title-heading,
+          .fusion-decorative-bg .fusion-title-heading {
+            text-shadow: none !important;
+          }
+
+          /* Fix: self-hosted YouTube embeds (6 pages) render on top of the
+             section right after them. This is the standard responsive-iframe
+             "padding-top: X%" trick (used by .fluid-width-video-wrapper) -
+             it only works when the wrapper is positioned and the iframe is
+             pulled out of flow with position:absolute; that CSS was never
+             migrated, so the wrapper collapsed instead of reserving space. */
+          .fluid-width-video-wrapper {
+            position: relative !important;
+          }
+          .fluid-width-video-wrapper iframe {
+            position: absolute !important;
+            inset: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
           }
         `,
           }}

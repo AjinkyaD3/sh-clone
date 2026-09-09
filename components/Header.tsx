@@ -8,7 +8,13 @@ export default function Header() {
 	const [mounted, setMounted] = useState(false);
 	const headerRef = useRef<HTMLDivElement>(null);
 	const pathname = usePathname();
-	const isLightPage = pathname?.startsWith('/projects');
+	// Pages with no hero photo directly under the header: the header's default
+	// style floats transparently on top of a dark hero image, so on these
+	// pages (plain cream background right at the top) it collided with the
+	// breadcrumb/title instead of sitting on its own solid bar - same root
+	// cause already fixed for /projects.
+	const LIGHT_PAGE_PREFIXES = ['/projects', '/doors/profile-doors/'];
+	const isLightPage = LIGHT_PAGE_PREFIXES.some((p) => pathname?.startsWith(p));
 
 	// The full-screen PRODUCTS panel is rendered via a portal straight into
 	// <body> (see below) - an ancestor column div in the header has
