@@ -224,6 +224,6 @@ console.log('=== HEAD STYLESHEET LINKS TO PRESERVE ===');
 console.log(JSON.stringify(headLinks, null, 1));
 console.log('=== JSX (first 3000 chars) ===');
 console.log(jsx.slice(0, 3000));
-const outPath = path.join(__dirname, 'converted_body.jsx.txt');
+const outPath = path.join(process.cwd(), 'scratch', 'converted_body.jsx.txt');
 fs.writeFileSync(outPath, jsx);
 console.log('\nFull output written to', outPath);
