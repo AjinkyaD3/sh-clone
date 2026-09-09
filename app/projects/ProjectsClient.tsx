@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 interface Props {
   html: string;
@@ -15,33 +15,37 @@ export default function ProjectsClient({ html }: Props) {
 
     // --- Projects filter tabs ---
     const filterLinks = wrapper.querySelectorAll<HTMLAnchorElement>(
-      '.fusion-filters .fusion-filter a'
+      ".fusion-filters .fusion-filter a",
     );
     const projectItems = wrapper.querySelectorAll<HTMLLIElement>(
-      'ul.fusion-grid > li.post-card-item'
+      "ul.fusion-grid > li.post-card-item",
     );
 
     if (!filterLinks.length || !projectItems.length) return;
 
     filterLinks.forEach((link) => {
-      link.addEventListener('click', (e) => {
+      link.addEventListener("click", (e) => {
         e.preventDefault();
 
         // Update active state on tabs
-        wrapper.querySelectorAll('.fusion-filters .fusion-filter').forEach((li) => {
-          li.classList.remove('fusion-active');
-        });
-        (link.closest('.fusion-filter') as HTMLElement)?.classList.add('fusion-active');
+        wrapper
+          .querySelectorAll(".fusion-filters .fusion-filter")
+          .forEach((li) => {
+            li.classList.remove("fusion-active");
+          });
+        (link.closest(".fusion-filter") as HTMLElement)?.classList.add(
+          "fusion-active",
+        );
 
-        const filter = link.getAttribute('data-filter') || '*';
+        const filter = link.getAttribute("data-filter") || "*";
 
         projectItems.forEach((item) => {
-          if (filter === '*') {
-            item.style.display = '';
+          if (filter === "*") {
+            item.style.display = "";
           } else {
             // filter is like ".commercial" → class name is "commercial"
-            const cls = filter.replace('.', '');
-            item.style.display = item.classList.contains(cls) ? '' : 'none';
+            const cls = filter.replace(".", "");
+            item.style.display = item.classList.contains(cls) ? "" : "none";
           }
         });
       });

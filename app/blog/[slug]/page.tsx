@@ -1,7 +1,7 @@
-import { notFound } from 'next/navigation';
-import type { Metadata } from 'next';
-import BlogPostTemplate from '@/components/BlogPostTemplate';
-import posts from '@/data/blog-posts.json';
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+import BlogPostTemplate from "@/components/BlogPostTemplate";
+import posts from "@/data/blog-posts.json";
 
 type Params = { slug: string };
 
