@@ -20,6 +20,16 @@ const BOOLEAN_ATTRS = new Set([
   'itemscope',
 ]);
 
+// React types these ARIA attributes as `number`, not `string`, unlike every
+// other ARIA/HTML attribute - scraped HTML always has them as plain strings
+// (e.g. aria-level="5"), so they need to render as a numeric expression
+// ({5}) rather than a quoted string ("5") or TS rejects the assignment.
+const NUMERIC_ATTRS = new Set([
+  'aria-level', 'aria-valuemax', 'aria-valuemin', 'aria-valuenow',
+  'aria-colcount', 'aria-colindex', 'aria-colspan', 'aria-rowcount',
+  'aria-rowindex', 'aria-rowspan', 'aria-setsize', 'aria-posinset',
+]);
+
 const ATTR_RENAME = {
   class: 'className',
   for: 'htmlFor',
@@ -90,12 +100,24 @@ function jsxAttrString(key, value) {
   if (ATTR_DROP.has(lower)) return null;
   if (lower === 'style') {
     const obj = styleStringToObject(value).slice(1, -1); // strip outer {{ }} -> { }
-    return `style={${obj} as React.CSSProperties}`;
+    // Strict-enum style properties (textAlign, whiteSpace, position, etc.)
+    // reject a plain `as React.CSSProperties` cast when their value is a
+    // var() reference instead of a literal keyword (e.g.
+    // `text-align: var(--awb-content-alignment)` - valid CSS, but not a
+    // valid TextAlign union member as far as TS is concerned). Route
+    // through `unknown` first, same as the TS compiler's own suggested fix,
+    // rather than special-casing which properties can trigger this.
+    return `style={${obj} as unknown as React.CSSProperties}`;
   }
   const reactKey = ATTR_RENAME[lower] || key;
   if (BOOLEAN_ATTRS.has(lower)) {
     const truthy = value === '' || value === 'true' || value === '1' || value === lower;
     return truthy ? `${reactKey}={true}` : `${reactKey}={false}`;
+  }
+  if (NUMERIC_ATTRS.has(lower)) {
+    const n = parseFloat(String(value).trim());
+    if (!Number.isNaN(n)) return `${reactKey}={${n}}`;
+    // fall through to string rendering if it wasn't actually numeric
   }
   // Same reasoning as styleStringToObject: a long attribute value can be
   // Prettier-wrapped across lines in the source; collapse to keep the
