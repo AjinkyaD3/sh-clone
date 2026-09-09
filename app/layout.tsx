@@ -158,6 +158,32 @@ export default function RootLayout({
             display: flex !important;
           }
 
+          /* Fix: Fusion image galleries (Avada "fusion-gallery" widget, used on
+             23 pages) never show any images. Avada's own CSS hides every
+             .fusion-gallery-column by default and only reveals them via
+             isotope/imagesloaded JS that never runs in this static migration -
+             same root cause as the .fusion-filters issue above. */
+          .fusion-gallery .fusion-gallery-column {
+            display: block !important;
+            float: left !important;
+          }
+          .fusion-gallery:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          /* Fix: Avada's scroll-triggered entrance animations (elements with
+             data-animationtype, marked with class "fusion-animated") start
+             visibility:hidden and are only revealed by an IntersectionObserver
+             JS that never runs in this static migration, so any content using
+             this feature stayed permanently invisible (found on 7 pages,
+             including about-us and the sectional-garage-doors product-card
+             section restored today). Same root cause as the two fixes above. */
+          .fusion-animated {
+            visibility: visible !important;
+          }
+
           /* Phase 2: Add text-shadow/scrim to improve legibility on busy hero images */
           .fusion-column-has-bg-image .fusion-title-heading,
           .fusion-column-has-bg-image-small .fusion-title-heading,
