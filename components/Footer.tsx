@@ -158,7 +158,7 @@ export default function Footer() {
 							<div className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
 								<div className="fusion-title title fusion-title-26 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-paragraph" style={{ "--awb-font-size": "13px" } as any}>
 									<p className="fusion-title-heading title-heading-center title-heading-tag fusion-responsive-typography-calculated" style={{ "fontFamily": "\"Montserrat\"", "fontStyle": "normal", "fontWeight": "400", "margin": "0", "textTransform": "none", "fontSize": "1em", "--fontSize": "13", "--minFontSize": "13", "lineHeight": "1.3" } as any}>
-										2021| All Rights Reserved |
+										2026 | All Rights Reserved |
 										<a href="#" target="_blank">
 											Privacy Policy
 										</a>
