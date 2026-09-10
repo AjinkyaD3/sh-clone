@@ -73,7 +73,27 @@ const ATTR_RENAME = {
 
 // attrs React warns about / that don't exist as DOM props - drop silently
 // (scrape artifacts with no visual effect: lazyload plugin bookkeeping etc.)
-const ATTR_DROP = new Set([]);
+// The medium-editor-* / data-inline-override-* / contenteditable set below
+// is Avada's WordPress-admin inline-editor state, accidentally captured by
+// the scraper while a page was open for editing (found on
+// bullet-proof-doors's "4 reasons..." heading - see
+// MISTAKES-AND-PATCHES.md). `contenteditable` in particular is never
+// legitimate on a real static page: on the old dangerouslySetInnerHTML
+// pages it was inert (raw HTML, no React), but on a real JSX page it makes
+// React treat the element as a live-editable text box, letting any visitor
+// click in and edit the heading (client-side only, but still unintended).
+const ATTR_DROP = new Set([
+  'contenteditable',
+  'data-medium-editor-element',
+  'data-medium-editor-editor-index',
+  'data-medium-focused',
+  'data-inline-override-color',
+  'data-inline-override-font-size',
+  'data-inline-override-letter-spacing',
+  'data-inline-override-line-height',
+  'data-inline-override-tag',
+  'data-inline-parent-cid',
+]);
 
 function styleStringToObject(styleStr) {
   // Prettier-formatted attribute values can contain real newlines/indentation
