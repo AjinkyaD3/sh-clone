@@ -14,7 +14,7 @@ Converted the last 3 of the 32 approved pages — the ones deliberately held bac
 **Effect: all 32 approved pages (+ `/blog/`, already pure JSX before this effort started) now have a fully converted, build-clean `-v2` route.** Structural/visual verification is done for 31 of them (the earlier 14-page batch plus these 3); nothing is swapped into a live route yet.
 
 **Resume here next:**
-1. The JSX-conversion workstream is functionally complete for all 32 pages. Decide when/how to start swapping verified `-v2` routes into their live paths — no timeline set yet, explicitly a separate later decision.
+1. **Swapping the 32 verified `-v2` routes into their live paths is explicitly on hold — user said "will do that later on."** Not scheduled, not blocked on anything technical, just deliberately deferred. Don't start this without the user raising it again.
 2. French Doors and Edwardian Doors still need real title/meta description copy from the client (see "Blocked on Client" below) — Georgian and Victorian are done.
 3. Media optimization Phase 2/3 (images) still on hold pending client re-confirmation.
 
