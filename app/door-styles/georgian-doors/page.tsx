@@ -1,6 +1,17 @@
 import fs from "fs";
 import path from "path";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Georgian Front Doors UK – Bespoke Designs & High Security",
+  description:
+    "Georgian doors UK with bespoke front door designs, advanced security and premium finishes. Explore custom Georgian front doors with a free consultation.",
+  alternates: {
+    canonical: "https://secure-house-next-js.vercel.app/door-styles/georgian-doors",
+  },
+};
+
 export default function Page() {
   const filePath = path.join(
     process.cwd(),

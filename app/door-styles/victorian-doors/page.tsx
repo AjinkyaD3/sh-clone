@@ -1,6 +1,17 @@
 import fs from "fs";
 import path from "path";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Victorian Front Doors UK – Custom Design & Free Consultation",
+  description:
+    "Victorian front doors UK with bespoke designs, high security and premium finishes. Discover custom Victorian doors from Secure House with a free consultation.",
+  alternates: {
+    canonical: "https://secure-house-next-js.vercel.app/door-styles/victorian-doors",
+  },
+};
+
 export default function Page() {
   const filePath = path.join(
     process.cwd(),
