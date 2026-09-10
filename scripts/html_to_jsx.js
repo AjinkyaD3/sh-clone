@@ -24,10 +24,17 @@ const BOOLEAN_ATTRS = new Set([
 // other ARIA/HTML attribute - scraped HTML always has them as plain strings
 // (e.g. aria-level="5"), so they need to render as a numeric expression
 // ({5}) rather than a quoted string ("5") or TS rejects the assignment.
+// Same reasoning, but for plain (non-ARIA) HTML attributes React types as
+// `number` even though the DOM/HTML spec itself treats them as plain text
+// (an invalid/non-numeric value is simply ignored per HTML5, not a parse
+// error) - found on contact-us's real <form> (tabindex="", minlength="0",
+// cols/rows on a <textarea>).
 const NUMERIC_ATTRS = new Set([
   'aria-level', 'aria-valuemax', 'aria-valuemin', 'aria-valuenow',
   'aria-colcount', 'aria-colindex', 'aria-colspan', 'aria-rowcount',
   'aria-rowindex', 'aria-rowspan', 'aria-setsize', 'aria-posinset',
+  'tabindex', 'minlength', 'maxlength', 'cols', 'rows', 'size',
+  'colspan', 'rowspan',
 ]);
 
 const ATTR_RENAME = {
@@ -117,7 +124,11 @@ function jsxAttrString(key, value) {
   if (NUMERIC_ATTRS.has(lower)) {
     const n = parseFloat(String(value).trim());
     if (!Number.isNaN(n)) return `${reactKey}={${n}}`;
-    // fall through to string rendering if it wasn't actually numeric
+    // An empty/non-numeric value (e.g. tabindex="") is invalid per the HTML5
+    // spec and browsers simply ignore it - matching that by dropping the
+    // attribute entirely, since React's type for this prop won't accept a
+    // string fallback the way plain HTML/the DOM would.
+    return null;
   }
   // Same reasoning as styleStringToObject: a long attribute value can be
   // Prettier-wrapped across lines in the source; collapse to keep the
