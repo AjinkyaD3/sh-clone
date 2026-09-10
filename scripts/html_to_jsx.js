@@ -102,7 +102,7 @@ function styleStringToObject(styleStr) {
   return `{{ ${props.join(', ')} }}`;
 }
 
-function jsxAttrString(key, value) {
+function jsxAttrString(key, value, tag) {
   const lower = key.toLowerCase();
   if (ATTR_DROP.has(lower)) return null;
   if (lower === 'style') {
@@ -116,7 +116,22 @@ function jsxAttrString(key, value) {
     // rather than special-casing which properties can trigger this.
     return `style={${obj} as unknown as React.CSSProperties}`;
   }
-  const reactKey = ATTR_RENAME[lower] || key;
+  // React warns ("You provided a `value`/`checked` prop to a form field
+  // without an `onChange` handler... this will render a read-only field")
+  // whenever a form field gets a plain initial value with no change
+  // handler - which every converted page hits, since this converter never
+  // generates event handlers. The scraped value was only ever meant to
+  // seed the field's starting content (exactly what `defaultValue`/
+  // `defaultChecked` do for an uncontrolled input), not to lock it
+  // read-only, so route through the uncontrolled equivalents instead.
+  // `checked` only appears on `<input>` in valid HTML, so it's always safe
+  // to rename regardless of tag.
+  let reactKey = ATTR_RENAME[lower] || key;
+  if (lower === 'value' && (tag === 'input' || tag === 'textarea')) {
+    reactKey = 'defaultValue';
+  } else if (lower === 'checked') {
+    reactKey = 'defaultChecked';
+  }
   if (BOOLEAN_ATTRS.has(lower)) {
     const truthy = value === '' || value === 'true' || value === '1' || value === lower;
     return truthy ? `${reactKey}={true}` : `${reactKey}={false}`;
@@ -204,7 +219,7 @@ function renderNode($, node, indent) {
 
   const attrParts = [];
   for (const [k, v] of Object.entries(attribs)) {
-    const rendered = jsxAttrString(k, v);
+    const rendered = jsxAttrString(k, v, tag);
     if (rendered) attrParts.push(rendered);
   }
   const attrStr = attrParts.length
