@@ -15,7 +15,7 @@ Continuing the JSX-conversion rollout described in the entry directly below. Con
 **Not converted yet, still needs its own individual pass (not the standard pipeline):** `/` (homepage), `/projects/` (has `ProjectsClient.tsx` wrapper), `/contact-us/` (hidden global form dependency per `PLAN.md`).
 
 **Resume here next:**
-1. Get the Georgian Doors (and possibly French/Victorian/Edwardian) title + meta description copy from the client — they said they have it — and add it to both the original and `-v2` `page.tsx` files once supplied.
+1. Georgian Doors and Victorian Doors metadata is now resolved (see "Blocked on Client" below) — French Doors and Edwardian Doors still need real title/meta description copy from the client; what's in the migration-checklist spreadsheet for those two is just generic filler, not usable.
 2. Handle the 3 remaining special-case pages (`/`, `/projects/`, `/contact-us/`) — each needs its own individual investigation/pass, not a batch pipeline run.
 3. None of the 31 `-v2` pages (22 + 9) have been swapped into their live routes yet — still a separate, later decision.
 
@@ -185,7 +185,8 @@ The client's own audit spreadsheet approved exactly 32 pages as the official sit
 ## Blocked on Client
 - [ ] GTM container ID
 - [ ] Microsoft Clarity project ID
-- [ ] Georgian Doors / Georgian Front Doors meta content
+- [x] **RESOLVED 2026-09-10** — Georgian Doors / Georgian Front Doors meta content. Client supplied 3 reference docs (`C:\Users\AJINKYA\Downloads\secure house docs\`) — the actual answer was already sitting in `Website Migration Checklist - Secure House.xlsx`'s `Meta Description`/`Title ` sheets (a Screaming Frog crawl of the live site), just never copied into this project's `page.tsx` files during the original build. Added `title`/`description`/`alternates.canonical` to both `app/door-styles/georgian-doors/page.tsx` and `-v2`. Found Victorian Doors' equivalent real copy in the same file as a bonus and applied it too (`app/door-styles/victorian-doors/page.tsx` + `-v2`).
+- [ ] **French Doors and Edwardian Doors still have no real meta content.** Checked the same spreadsheet — their live-site Title/Meta Description rows only contain generic filler ("French doors - Secure House", "Edwardian doors - Secure House"), unlike Georgian/Victorian's properly written copy. This means the live site itself never had good SEO metadata for these two, not that it's sitting somewhere unfound. Needs genuinely new copy from the client, not just another document check.
 - [ ] Blog content confirmation
 - [ ] Brochure/CTA clarification
 - [ ] Contact form submission/redirect spec
