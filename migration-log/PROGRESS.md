@@ -2,6 +2,23 @@
 
 Update this file after every session — this is the single source of truth for "what's actually done."
 
+## Pure-JSX conversion — remaining standard pages batch — 2026-09-10
+
+Continuing the JSX-conversion rollout described in the entry directly below. Converted the last 9 "standard-pipeline" pages in one pass: `/about-us-v2/`, `/trade-v2/`, `/products-v2/`, `/security-levels-v2/`, `/door-styles-v2/`, `/door-styles/french-doors-v2/`, `/door-styles/victorian-doors-v2/`, `/door-styles/edwardian-doors-v2/`, `/door-styles/georgian-doors-v2/`. Per user instruction, ran the automated checks (`tsc --noEmit` + `npm run build`) after each page as I went rather than stopping for the full structural/visual verification each time — that manual pass is now batched up and pending for **all 14 not-yet-verified pages together** (the 9 above + the 5 from the previous session that were also left build-clean-but-unverified).
+
+**One converter bug found and fixed** (see `MISTAKES-AND-PATCHES.md` item 22 for full writeup): `scripts/assemble_jsx_page.js` threw on the 4 `door-styles` children because their existing `page.tsx` files have no `metadata` export at all — not a scraping gap, a pre-existing "Blocked on Client" item (Georgian Doors meta copy never supplied). Fixed by making the metadata block optional in the assembler rather than fabricating placeholder copy; the generated `-v2` pages correctly have no metadata either, same as their originals.
+
+- [x] `npx tsc --noEmit` clean after each of the 9 pages, individually
+- [x] `npm run build` clean (exit code 0, 0 errors) with all 9 new `-v2` routes plus the existing 22
+- [ ] Structural/visual verification not yet run on any of these 9 — bundled into the pending 14-page verification batch below
+
+**Not converted yet, still needs its own individual pass (not the standard pipeline):** `/` (homepage), `/projects/` (has `ProjectsClient.tsx` wrapper), `/contact-us/` (hidden global form dependency per `PLAN.md`).
+
+**Resume here next:**
+1. Run the full structural/visual verification pass on all 14 pending pages: the 5 from 2026-09-09 evening (`/garage-doors-v2/`, `/garage-doors/tracless-garage-doors-v2/`, `/garage-doors/side-hinged-garage-doors-v2/`, `/garage-doors/sliding-garage-doors-v2/`, `/grilles-shutters/colllabsible-grilles-v2/`) plus the 9 from today.
+2. After that, the only remaining unconverted pages are the 3 special-case ones (`/`, `/projects/`, `/contact-us/`) — each needs its own individual investigation/pass, not a batch pipeline run.
+3. None of the 31 `-v2` pages (22 + 9) have been swapped into their live routes yet — still a separate, later decision.
+
 ## Media optimization (Phase 0 + 1 of 3) & pure-JSX conversion kickoff — 2026-09-09 (evening)
 
 Two separate workstreams this session, both mid-flight — **resume-here notes at the bottom of each section**.
