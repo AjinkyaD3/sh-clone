@@ -9,6 +9,7 @@ User supplied a third-party audit doc and asked whether it was correct. Independ
 - Two claims (Georgian Doors' gallery heading says "Edwardian"; Colllabsible Grilles has a duplicated sentence) are **real but pre-existing on the live WordPress site itself** — not migration bugs, left as-is per established project precedent.
 - Two claims are **real, new, and actionable**: Door Styles hub has zero working links to its 4 children (small fix), and the 4 profile-door pages (Fuego Fire, Presto Bullet Proof, Stainless Steel, Unico Slim Line) are missing real content the live site has (PDF spec sheets + a quote form) — bigger fix, needs sourcing from the live site.
 - **Not fixed yet** — user said to note it down for now, not act. See `CHANGES-NEEDED.md` for the full "To do" list.
+- **Also noted (separate from the audit doc)**: user flagged the header's sticky behavior across many pages needs review — how it actually works, not yet investigated. Bare note only, per explicit request — see `CHANGES-NEEDED.md`.
 
 ## Homepage layout/design pass — gaps, project cards, footer, logo carousel — 2026-09-10 (later)
 
