@@ -270,7 +270,7 @@ export default function Page() {
                                                     name="name"
                                                     required={true}
                                                     type="text"
-                                                    value=""
+                                                    defaultValue=""
                                                   />
                                                 </div>
                                                 <div
@@ -303,7 +303,7 @@ export default function Page() {
                                                     name="email"
                                                     required={true}
                                                     type="email"
-                                                    value=""
+                                                    defaultValue=""
                                                   />
                                                 </div>
                                                 <div
@@ -336,7 +336,7 @@ export default function Page() {
                                                     name="phone"
                                                     required={true}
                                                     type="tel"
-                                                    value=""
+                                                    defaultValue=""
                                                   />
                                                 </div>
                                                 <div
@@ -394,7 +394,7 @@ export default function Page() {
                                                     id="utm_source"
                                                     name="utm_source"
                                                     type="hidden"
-                                                    value=""
+                                                    defaultValue=""
                                                   />
                                                 </div>
                                                 <div
@@ -409,7 +409,7 @@ export default function Page() {
                                                     id="utm_medium"
                                                     name="utm_medium"
                                                     type="hidden"
-                                                    value=""
+                                                    defaultValue=""
                                                   />
                                                 </div>
                                                 <div
@@ -424,7 +424,7 @@ export default function Page() {
                                                     id="utm_campaign"
                                                     name="utm_campaign"
                                                     type="hidden"
-                                                    value=""
+                                                    defaultValue=""
                                                   />
                                                 </div>
                                               </div>
@@ -434,17 +434,17 @@ export default function Page() {
                                         <input
                                           name="fusion_privacy_store_ip_ua"
                                           type="hidden"
-                                          value="false"
+                                          defaultValue="false"
                                         />
                                         <input
                                           name="fusion_privacy_expiration_interval"
                                           type="hidden"
-                                          value="48"
+                                          defaultValue="48"
                                         />
                                         <input
                                           name="privacy_expiration_action"
                                           type="hidden"
-                                          value="anonymize"
+                                          defaultValue="anonymize"
                                         />
                                       </form>
                                     </div>
