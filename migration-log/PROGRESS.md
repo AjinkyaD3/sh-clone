@@ -6,18 +6,31 @@ Update this file after every session — this is the single source of truth for 
 
 Continuing the JSX-conversion rollout described in the entry directly below. Converted the last 9 "standard-pipeline" pages in one pass: `/about-us-v2/`, `/trade-v2/`, `/products-v2/`, `/security-levels-v2/`, `/door-styles-v2/`, `/door-styles/french-doors-v2/`, `/door-styles/victorian-doors-v2/`, `/door-styles/edwardian-doors-v2/`, `/door-styles/georgian-doors-v2/`. Per user instruction, ran the automated checks (`tsc --noEmit` + `npm run build`) after each page as I went rather than stopping for the full structural/visual verification each time — that manual pass is now batched up and pending for **all 14 not-yet-verified pages together** (the 9 above + the 5 from the previous session that were also left build-clean-but-unverified).
 
-**One converter bug found and fixed** (see `MISTAKES-AND-PATCHES.md` item 22 for full writeup): `scripts/assemble_jsx_page.js` threw on the 4 `door-styles` children because their existing `page.tsx` files have no `metadata` export at all — not a scraping gap, a pre-existing "Blocked on Client" item (Georgian Doors meta copy never supplied). Fixed by making the metadata block optional in the assembler rather than fabricating placeholder copy; the generated `-v2` pages correctly have no metadata either, same as their originals.
+**One converter bug found and fixed** (see `MISTAKES-AND-PATCHES.md` item 22 for full writeup): `scripts/assemble_jsx_page.js` threw on the 4 `door-styles` children because their existing `page.tsx` files have no `metadata` export at all — not a scraping gap, a pre-existing "Blocked on Client" item (Georgian Doors meta copy never supplied — client confirmed same session they now have this content, see the "Blocked on Client" section below). Fixed by making the metadata block optional in the assembler rather than fabricating placeholder copy; the generated `-v2` pages correctly have no metadata either, same as their originals — pending the client actually supplying it.
 
 - [x] `npx tsc --noEmit` clean after each of the 9 pages, individually
 - [x] `npm run build` clean (exit code 0, 0 errors) with all 9 new `-v2` routes plus the existing 22
-- [ ] Structural/visual verification not yet run on any of these 9 — bundled into the pending 14-page verification batch below
+- [x] Structural/visual verification: **all 14 pending pages (this batch's 9 + the previous session's 5) passed** — see the dedicated entry below for method and results.
 
 **Not converted yet, still needs its own individual pass (not the standard pipeline):** `/` (homepage), `/projects/` (has `ProjectsClient.tsx` wrapper), `/contact-us/` (hidden global form dependency per `PLAN.md`).
 
 **Resume here next:**
-1. Run the full structural/visual verification pass on all 14 pending pages: the 5 from 2026-09-09 evening (`/garage-doors-v2/`, `/garage-doors/tracless-garage-doors-v2/`, `/garage-doors/side-hinged-garage-doors-v2/`, `/garage-doors/sliding-garage-doors-v2/`, `/grilles-shutters/colllabsible-grilles-v2/`) plus the 9 from today.
-2. After that, the only remaining unconverted pages are the 3 special-case ones (`/`, `/projects/`, `/contact-us/`) — each needs its own individual investigation/pass, not a batch pipeline run.
+1. Get the Georgian Doors (and possibly French/Victorian/Edwardian) title + meta description copy from the client — they said they have it — and add it to both the original and `-v2` `page.tsx` files once supplied.
+2. Handle the 3 remaining special-case pages (`/`, `/projects/`, `/contact-us/`) — each needs its own individual investigation/pass, not a batch pipeline run.
 3. None of the 31 `-v2` pages (22 + 9) have been swapped into their live routes yet — still a separate, later decision.
+
+## Structural verification pass — 14 pending pages — 2026-09-10
+
+Ran the full verification (deferred from the previous two sessions per user request) on all 14 build-clean-but-unverified pages: the 5 from 2026-09-09 evening plus the 9 from today's batch (see entry above for the page list).
+
+**Method**: started the dev server, then ran a new script (`scripts/structural_diff.js`, uses `cheerio` — same library the converter itself uses) that fetches each page's original route and its `-v2` counterpart from the running server and compares: visible text length (script/style stripped, whitespace collapsed), `<img>` count, count of elements with an inline `background-image` style, and `<a href>` count. A pass requires all four counts to match exactly and text length to differ by under 1% (pure whitespace-collapsing noise between HTML-string rendering and JSX rendering, not a real content change).
+
+- [x] **14/14 pages passed** — every count matched exactly on every page; text deltas ranged 0.03%–0.47%, consistent with whitespace normalization only, not missing/extra content.
+- [x] Spot-checked the one page with real embedded-video risk (`/garage-doors/tracless-garage-doors-v2/`, has 2 `<lite-youtube>` custom elements): both embeds render with identical `videoid`/`params`/`title` attributes as the original, and the `.fluid-width-video-wrapper` element count matches exactly (8 vs 8 — an earlier `grep -c` pass showed 4 vs 5, but that was counting *matching lines*, not occurrences, in differently-formatted HTML; `grep -o | wc -l` on actual occurrences confirmed no real discrepancy).
+- [x] Checked all 9 of today's pages for the "no hero image, needs `Header.tsx`'s `isLightPage`" failure mode that hit `/doors/profile-doors/*` and `/projects/` previously — every one of them has a `fusion-title-heading` banner section near the top (same shape as pages that already render correctly), so none of them are candidates for that bug.
+- [ ] **Not done this pass: pixel-level visual check in an actual browser.** The Chrome extension used for that in prior sessions wasn't connected this time ("Browser extension is not connected"). The structural diff plus the two targeted checks above cover everything the earlier visual passes were specifically looking for (content completeness, video embeds, header overlap), but if you want the belt-and-suspenders eyeball check too, reconnect the Claude-in-Chrome extension and ask for it.
+
+**Effect**: 31 of the 32 approved pages (all except `/`, `/projects/`, `/contact-us/`, which are intentionally handled separately) now have a fully converted and verified `-v2` route. Still none swapped into live routes.
 
 ## Media optimization (Phase 0 + 1 of 3) & pure-JSX conversion kickoff — 2026-09-09 (evening)
 
