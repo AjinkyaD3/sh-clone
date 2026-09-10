@@ -123,32 +123,32 @@ export default function Footer() {
 						</div>
 						<div className="fusion-layout-column fusion_builder_column fusion-flex-column fusion-flex-align-self-stretch" style={{ "--awb-bg-size": "cover", "--awb-width-large": "20%", "--awb-flex-grow": "0", "--awb-flex-shrink": "0", "--awb-margin-top-large": "0px", "--awb-spacing-right-large": "0%", "--awb-margin-bottom-large": "0px", "--awb-spacing-left-large": "0%", "--awb-width-medium": "100%", "--awb-order-medium": "0", "--awb-flex-grow-medium": "0", "--awb-flex-shrink-medium": "0", "--awb-spacing-right-medium": "1.92%", "--awb-spacing-left-medium": "1.92%", "--awb-width-small": "100%", "--awb-order-small": "2", "--awb-flex-grow-small": "0", "--awb-flex-shrink-small": "0", "--awb-margin-top-small": "0px", "--awb-spacing-right-small": "1.92%", "--awb-margin-bottom-small": "20px", "--awb-spacing-left-small": "0%" } as any}>
 							<div className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
-								<nav aria-label="Footer services menu" style={{ "--awb-line-height": "1.8", "--awb-color": "var(--awb-color1)" } as any}>
+								<nav aria-label="Footer services menu" style={{ "--awb-line-height": "1.8", "--awb-color": "var(--awb-color1)", fontSize: "16px", fontWeight: 400, lineHeight: "24px", fontFamily: "Montserrat, Arial, Helvetica, sans-serif" } as any}>
 									<ul className="fusion-menu" style={{ listStyle: "none", margin: 0, padding: 0 } as any}>
-										<li style={{ fontWeight: 600, marginBottom: "0.6em", color: "var(--awb-color1)" } as any}>
+										<li style={{ color: "var(--awb-color1)" } as any}>
 											Our Services
 										</li>
-										<li style={{ marginBottom: "0.5em" } as any}>
+										<li>
 											<a href="/doors/" style={{ color: "var(--awb-color1)" } as any}>
 												Doors
 											</a>
 										</li>
-										<li style={{ marginBottom: "0.5em" } as any}>
+										<li>
 											<a href="/windows/" style={{ color: "var(--awb-color1)" } as any}>
 												Windows
 											</a>
 										</li>
-										<li style={{ marginBottom: "0.5em" } as any}>
+										<li>
 											<a href="/garage-doors/" style={{ color: "var(--awb-color1)" } as any}>
 												Garage Doors
 											</a>
 										</li>
-										<li style={{ marginBottom: "0.5em" } as any}>
+										<li>
 											<a href="/grilles-shutters/" style={{ color: "var(--awb-color1)" } as any}>
 												Grilles &amp; Shutters
 											</a>
 										</li>
-										<li style={{ marginBottom: "0.5em" } as any}>
+										<li>
 											<a href="/door-styles/" style={{ color: "var(--awb-color1)" } as any}>
 												Door Styles
 											</a>
