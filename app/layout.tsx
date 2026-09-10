@@ -69,6 +69,33 @@ export default function RootLayout({
               text-align: center !important;
           }
 
+          /* Homepage "Our Projects" preview cards: scoped back OUT of the
+             /projects redesign above. That redesign (centered text, dark
+             gradient scrim) was built for /projects, where every card has a
+             real photo behind the scrim - on the homepage these preview
+             cards have no photo at all (a live-site data gap: WordPress's
+             own post-cards widget never got real images on this specific
+             homepage section either, confirmed against secure-house.co.uk),
+             so the same treatment just produced a plain dark box with text
+             stranded in the middle. Restored the live site's actual look
+             instead: a lighter charcoal tone, bottom-left-aligned text, no
+             heavy scrim (nothing to scrim against). Scoped to .home's own
+             row so /projects and everything else is untouched. */
+          .home .fusion-builder-row-10 .post-card-item {
+              background-color: #55565a !important;
+          }
+          .home .fusion-builder-row-10 .post-card-item .fusion-column-wrapper {
+              justify-content: flex-end !important;
+              align-items: flex-start !important;
+              text-align: left !important;
+              padding: 32px 40px !important;
+              background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 55%) !important;
+          }
+          .home .fusion-builder-row-10 .post-card-item .fusion-title-heading,
+          .home .fusion-builder-row-10 .post-card-item .project-category-subtitle {
+              text-align: left !important;
+          }
+
           /* Fix for Issue #5: Navbar flexbox layout (Desktop) */
           .fusion-tb-header .fusion-builder-row-1 .fusion-builder-row-inner {
               display: flex !important;
@@ -106,6 +133,34 @@ export default function RootLayout({
               display: block !important;
               opacity: 1 !important;
               visibility: visible !important;
+          }
+
+          /* Homepage trust-logo carousel: CSS-only infinite marquee, scoped
+             to just this one carousel (higher specificity than the generic
+             .swiper-wrapper grid rule above, which every other carousel/
+             slider on the site still needs). The real Swiper JS that would
+             normally drive this never runs here (same root cause as the
+             scroll-stack sections - see DECISIONS.md); page.tsx duplicates
+             the 4 logos once so this loop is seamless. */
+          .awb-image-carousel-wrapper {
+              display: flex !important;
+              flex-wrap: nowrap !important;
+              width: max-content !important;
+              animation: awb-logo-marquee 22s linear infinite;
+          }
+          .awb-image-carousel-wrapper:hover {
+              animation-play-state: paused;
+          }
+          .awb-image-carousel-wrapper .swiper-slide {
+              width: auto !important;
+              flex: 0 0 auto !important;
+              padding: 0 34px;
+              display: flex !important;
+              align-items: center !important;
+          }
+          @keyframes awb-logo-marquee {
+              from { transform: translateX(0); }
+              to { transform: translateX(-50%); }
           }
 
           /* CSS-only scroll-in reveal for Avada's "scroll-stack" Swiper
