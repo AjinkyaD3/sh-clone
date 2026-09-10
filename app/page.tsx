@@ -127,7 +127,7 @@ export default function Page() {
                     </div>
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '240px', '--awb-padding-right': '80px', '--awb-padding-bottom': '40px', '--awb-padding-left': '80px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '-80px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '70px', '--awb-padding-right': '80px', '--awb-padding-bottom': '40px', '--awb-padding-left': '80px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '-80px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -337,7 +337,7 @@ export default function Page() {
                     </div>
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-6 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '60px', '--awb-padding-right': '150px', '--awb-padding-bottom': '0px', '--awb-padding-left': '150px', '--awb-padding-right-small': '0px', '--awb-padding-bottom-small': '0px', '--awb-padding-left-small': '0px', '--awb-margin-top': '80px', '--awb-margin-bottom': '0px', '--awb-margin-bottom-small': '0px', '--awb-background-color': 'var(--awb-color3)', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color3) 92%, var(--awb-color1) 0% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '60px', '--awb-padding-right': '150px', '--awb-padding-bottom': '0px', '--awb-padding-left': '150px', '--awb-padding-right-small': '0px', '--awb-padding-bottom-small': '0px', '--awb-padding-left-small': '0px', '--awb-margin-top': '20px', '--awb-margin-bottom': '0px', '--awb-margin-bottom-small': '0px', '--awb-background-color': 'var(--awb-color3)', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color3) 92%, var(--awb-color1) 0% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -432,7 +432,7 @@ export default function Page() {
                     </div>
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-7 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '0px', '--awb-padding-left': '0px', '--awb-margin-top': '222px', '--awb-margin-top-small': '-105px', '--awb-min-height': '800px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '0px', '--awb-padding-left': '0px', '--awb-margin-top': '60px', '--awb-margin-top-small': '-105px', '--awb-min-height': '800px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-align-content-space-evenly fusion-flex-content-wrap"
@@ -583,7 +583,7 @@ export default function Page() {
                     </div>
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-8 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '244px', '--awb-padding-right': '200px', '--awb-padding-left': '200px', '--awb-padding-top-small': '150px', '--awb-padding-right-small': '0px', '--awb-padding-left-small': '0px', '--awb-margin-top': '0px', '--awb-background-color': 'rgba(132, 123, 115, 0)', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color5) 90%, var(--awb-color1) 0% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '80px', '--awb-padding-right': '200px', '--awb-padding-left': '200px', '--awb-padding-top-small': '150px', '--awb-padding-right-small': '0px', '--awb-padding-left-small': '0px', '--awb-margin-top': '0px', '--awb-background-color': 'rgba(132, 123, 115, 0)', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color5) 90%, var(--awb-color1) 0% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -684,7 +684,7 @@ export default function Page() {
                     </div>
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-9 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '70px', '--awb-padding-right': '120px', '--awb-padding-left': '50px', '--awb-padding-top-small': '140px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '149px', '--awb-margin-top-small': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color3) 91%, var(--awb-color1) 0% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '70px', '--awb-padding-right': '120px', '--awb-padding-left': '50px', '--awb-padding-top-small': '140px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '40px', '--awb-margin-top-small': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color3) 91%, var(--awb-color1) 0% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -1047,11 +1047,10 @@ export default function Page() {
                                       >
                                         <img
                                           alt=""
-                                          className="lazyload attachment-portfolio-two size-portfolio-two"
-                                          data-orig-src="/legacy-assets/uploads/2024/11/Group-150.png"
+                                          className="attachment-portfolio-two size-portfolio-two"
                                           decoding="async"
                                           height="149"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27149%27%20height%3D%27149%27%20viewBox%3D%270%200%20149%20149%27%3E%3Crect%20width%3D%27149%27%20height%3D%27149%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
+                                          src="/legacy-assets/uploads/2024/11/Group-150.png"
                                           width="149"
                                         />
                                       </div>
@@ -1116,11 +1115,99 @@ export default function Page() {
                                       >
                                         <img
                                           alt=""
-                                          className="lazyload attachment-portfolio-two size-portfolio-two"
-                                          data-orig-src="/legacy-assets/uploads/2024/11/Group-151.png"
+                                          className="attachment-portfolio-two size-portfolio-two"
                                           decoding="async"
                                           height="132"
-                                          src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27157%27%20height%3D%27132%27%20viewBox%3D%270%200%20157%20132%27%3E%3Crect%20width%3D%27157%27%20height%3D%27132%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
+                                          src="/legacy-assets/uploads/2024/11/Group-151.png"
+                                          width="157"
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                  {/* Duplicate set, aria-hidden - Avada's real carousel JS never
+                                      runs in this migration (see DECISIONS.md, "the Swiper carousel
+                                      decision"); this repeats the same 4 logos once so the CSS-only
+                                      marquee animation below (.awb-image-carousel-wrapper in
+                                      layout.tsx) can loop seamlessly instead of snapping. */}
+                                  <div
+                                    aria-hidden="true"
+                                    className="swiper-slide"
+                                  >
+                                    <div
+                                      className="fusion-carousel-item-wrapper"
+                                    >
+                                      <div
+                                        className="fusion-image-wrapper hover-type-none"
+                                      >
+                                        <img
+                                          alt=""
+                                          className="attachment-portfolio-two size-portfolio-two"
+                                          decoding="async"
+                                          height="149"
+                                          src="/legacy-assets/uploads/2024/11/Group-150.png"
+                                          width="149"
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    aria-hidden="true"
+                                    className="swiper-slide"
+                                  >
+                                    <div
+                                      className="fusion-carousel-item-wrapper"
+                                    >
+                                      <div
+                                        className="fusion-image-wrapper hover-type-none"
+                                      >
+                                        <img
+                                          alt=""
+                                          className="attachment-portfolio-two size-portfolio-two"
+                                          decoding="async"
+                                          height="123"
+                                          src="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Secure-ikonos-09-2.png"
+                                          width="244"
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    aria-hidden="true"
+                                    className="swiper-slide"
+                                  >
+                                    <div
+                                      className="fusion-carousel-item-wrapper"
+                                    >
+                                      <div
+                                        className="fusion-image-wrapper hover-type-none"
+                                      >
+                                        <img
+                                          alt=""
+                                          className="attachment-portfolio-two size-portfolio-two"
+                                          decoding="async"
+                                          height="109"
+                                          src="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Group-152.png"
+                                          width="235"
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    aria-hidden="true"
+                                    className="swiper-slide"
+                                  >
+                                    <div
+                                      className="fusion-carousel-item-wrapper"
+                                    >
+                                      <div
+                                        className="fusion-image-wrapper hover-type-none"
+                                      >
+                                        <img
+                                          alt=""
+                                          className="attachment-portfolio-two size-portfolio-two"
+                                          decoding="async"
+                                          height="132"
+                                          src="/legacy-assets/uploads/2024/11/Group-151.png"
                                           width="157"
                                         />
                                       </div>
