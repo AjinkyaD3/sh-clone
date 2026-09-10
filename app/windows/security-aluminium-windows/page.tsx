@@ -1,7 +1,5 @@
-import fs from "fs";
-import path from "path";
-
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Security aluminium windows - Secure House",
@@ -14,18 +12,2395 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const filePath = path.join(
-    process.cwd(),
-    "app",
-    "windows/security-aluminium-windows",
-    "content.html",
-  );
-  const html = fs.readFileSync(filePath, "utf-8");
   return (
     <div
       className="wp-singular page-template page-template-100-width page-template-100-width-php page page-id-2194 page-child parent-pageid-2122 wp-theme-Avada edd-js-none fusion-image-hovers fusion-pagination-sizing fusion-button_type-flat fusion-button_span-yes fusion-button_gradient-linear avada-image-rollover-circle-no avada-image-rollover-yes avada-image-rollover-direction-fade fusion-body ltr no-tablet-sticky-header no-mobile-sticky-header no-mobile-slidingbar fusion-disable-outline fusion-sub-menu-fade mobile-logo-pos-left layout-wide-mode avada-has-boxed-modal-shadow-none layout-scroll-offset-full avada-has-zero-margin-offset-top fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v6 avada-responsive avada-footer-fx-none avada-menu-highlight-style-bar fusion-search-form-classic fusion-main-menu-search-dropdown fusion-avatar-square avada-sticky-shrinkage avada-blog-layout-large avada-blog-archive-layout-large avada-header-shadow-no avada-menu-icon-position-left avada-has-mainmenu-dropdown-divider avada-has-header-100-width avada-has-mobile-menu-search avada-has-main-nav-search-icon avada-has-100-footer avada-has-titlebar-hide avada-header-border-color-full-transparent avada-social-full-transparent avada-has-pagination-padding avada-flyout-menu-direction-fade avada-ec-views-v1 awb-link-decoration"
       suppressHydrationWarning
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
+    >
+      <link key="pl0" rel="stylesheet" href="/legacy-assets/plugins/easy-digital-downloads/includes/blocks/assets/css/edd-blocks.css?ver=3.6.9" />
+      <link key="pl1" rel="stylesheet" href="/legacy-assets/plugins/easy-digital-downloads/assets/build/css/frontend/edd.min.css?ver=3.6.9" />
+      <link key="pl2" rel="stylesheet" href="/legacy-assets/uploads/fusion-styles/3978f22170001630860f0711fbc80184.min.css?ver=3.13.3" />
+      <link key="pl3" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Megrim" />
+      <div
+        id="boxed-wrapper"
+      >
+        <div
+          className="fusion-wrapper"
+          id="wrapper"
+        >
+          <main
+            className="clearfix width-100"
+            id="main"
+          >
+            <div
+              className="fusion-row"
+              style={{ maxWidth: '100%' } as unknown as React.CSSProperties}
+            >
+              <section
+                className="full-width"
+                id="content"
+              >
+                <div
+                  className="post-2194 page type-page status-publish has-post-thumbnail hentry"
+                  id="post-2194"
+                >
+                  <div
+                    className="post-content"
+                  >
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-3 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-left': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-5 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-padding-top': '320px', '--awb-padding-bottom': '80px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-bg-image': 'linear-gradient( 180deg, rgba(33, 35, 38, 0.38) 0%, rgba(33, 35, 38, 0.61) 100% )', '--awb-bg-position': 'center top', '--awb-bg-position-small': 'center center', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-column-has-bg-image"
+                            data-bg-gradient="linear-gradient(180deg, rgba(33,35,38,0.38) 0%,rgba(33,35,38,0.61) 100%)"
+                            data-bg-url="/legacy-assets/uploads/2025/02/Mask-group.png"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Mask-group.png") !important' } as unknown as React.CSSProperties}
+                          >
+                            <div
+                              className="fusion-title title fusion-title-1 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-one"
+                              style={{ '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
+                            >
+                              <h1
+                                className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
+                                style={{ fontFamily: 'var(--awb-typography1-font-family)', fontWeight: 'var(--awb-typography1-font-weight)', fontStyle: 'var(--awb-typography1-font-style)', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var(--awb-typography1-line-height)' } as unknown as React.CSSProperties}
+                              >
+                                {` Security aluminium windows `}
+                              </h1>
+                            </div>
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-3 fusion_builder_column_inner_1_2 1_2 fusion-flex-column"
+                                style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                ></div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-4 fusion_builder_column_inner_1_2 1_2 fusion-flex-column"
+                                style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-4 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '120px', '--awb-padding-left': '120px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '80px', '--awb-margin-bottom': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-6 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <nav
+                              aria-label="Breadcrumb"
+                              className="fusion-breadcrumbs awb-yoast-breadcrumbs fusion-breadcrumbs-1"
+                              style={{ '--awb-font-size': '14px', '--awb-text-color': '#847b73', '--awb-breadcrumb-sep': '"-"' } as unknown as React.CSSProperties}
+                            >
+                              <span>
+                                <span>
+                                  <Link
+                                    href="/"
+                                  >
+                                    {`Home`}
+                                  </Link>
+                                </span>
+                                {` » `}
+                                <span>
+                                  <Link
+                                    href="/windows/"
+                                  >
+                                    {`Windows`}
+                                  </Link>
+                                </span>
+                                {` » `}
+                                <span
+                                  aria-current="page"
+                                  className="breadcrumb_last"
+                                >
+                                  {`Security aluminium windows`}
+                                </span>
+                              </span>
+                            </nav>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '180px', '--awb-padding-left': '180px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '80px', '--awb-margin-bottom': '119px', '--awb-margin-bottom-small': '100px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-7 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-title title fusion-title-2 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two"
+                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '60px', '--awb-margin-bottom-small': '60px', '--awb-font-size': '35px' } as unknown as React.CSSProperties}
+                            >
+                              <h2
+                                className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
+                                style={{ margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '35', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                              >
+                                {` Security aluminium windows London `}
+                              </h2>
+                            </div>
+                            <div
+                              className="fusion-text fusion-text-1"
+                              style={{ '--awb-content-alignment': 'center', '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                            >
+                              <p>
+                                {` Windows play a defining role in shaping the appearance and character of any project—perhaps more than any other element. When it comes to delivering both form and function, the name Schüco represents sophisticated, proven system technology, offering a wide range of materials, designs, and application possibilities to suit any architectural vision. `}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-6 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-left': '0px', '--awb-margin-bottom': '159px', '--awb-margin-bottom-small': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-8 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-5 fusion_builder_column_inner_1_3 1_3 fusion-flex-column fusion-flex-align-self-stretch"
+                                style={{ '--awb-padding-top': '60px', '--awb-padding-right': '80px', '--awb-padding-bottom': '60px', '--awb-padding-left': '80px', '--awb-bg-color': 'var(--awb-color3)', '--awb-bg-color-hover': 'var(--awb-color3)', '--awb-bg-size': 'cover', '--awb-width-large': '33.333333333333%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-text fusion-text-2"
+                                    style={{ '--awb-content-alignment': 'center', '--awb-font-size': '20px', '--awb-text-color': 'var(--awb-color6)', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {`Noise reduction`}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-6 fusion_builder_column_inner_1_3 1_3 fusion-flex-column fusion-flex-align-self-stretch"
+                                style={{ '--awb-padding-top': '60px', '--awb-padding-right': '80px', '--awb-padding-bottom': '60px', '--awb-padding-left': '80px', '--awb-bg-color': 'var(--awb-color1)', '--awb-bg-color-hover': 'var(--awb-color1)', '--awb-bg-size': 'cover', '--awb-width-large': '33.333333333333%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-text fusion-text-3"
+                                    style={{ '--awb-content-alignment': 'center', '--awb-font-size': '20px', '--awb-text-color': 'var(--awb-color6)', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {`Sophisticated system technology`}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-7 fusion_builder_column_inner_1_3 1_3 fusion-flex-column fusion-flex-align-self-stretch"
+                                style={{ '--awb-padding-top': '60px', '--awb-padding-right': '80px', '--awb-padding-bottom': '60px', '--awb-padding-left': '80px', '--awb-bg-color': 'var(--awb-color3)', '--awb-bg-color-hover': 'var(--awb-color3)', '--awb-bg-size': 'cover', '--awb-width-large': '33.333333333333%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-text fusion-text-4"
+                                    style={{ '--awb-content-alignment': 'center', '--awb-font-size': '20px', '--awb-text-color': 'var(--awb-color6)', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {`Security`}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-8 fusion_builder_column_inner_1_3 1_3 fusion-flex-column fusion-flex-align-self-stretch"
+                                style={{ '--awb-padding-top': '60px', '--awb-padding-right': '80px', '--awb-padding-bottom': '60px', '--awb-padding-left': '80px', '--awb-bg-color': 'var(--awb-color1)', '--awb-bg-color-hover': 'var(--awb-color1)', '--awb-bg-size': 'cover', '--awb-width-large': '33.333333333333%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-text fusion-text-5"
+                                    style={{ '--awb-content-alignment': 'center', '--awb-font-size': '20px', '--awb-text-color': 'var(--awb-color6)', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Large range of fittings, glazing beads and handles offers scope for creativity `}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-9 fusion_builder_column_inner_1_3 1_3 fusion-flex-column fusion-flex-align-self-stretch"
+                                style={{ '--awb-padding-top': '60px', '--awb-padding-right': '80px', '--awb-padding-bottom': '60px', '--awb-padding-left': '80px', '--awb-bg-color': 'var(--awb-color3)', '--awb-bg-color-hover': 'var(--awb-color3)', '--awb-bg-size': 'cover', '--awb-width-large': '33.333333333333%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-text fusion-text-6"
+                                    style={{ '--awb-content-alignment': 'center', '--awb-font-size': '20px', '--awb-text-color': 'var(--awb-color6)', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Highly thermally insulated windows allow energy saving `}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-10 fusion_builder_column_inner_1_3 1_3 fusion-flex-column fusion-flex-align-self-stretch"
+                                style={{ '--awb-padding-top': '60px', '--awb-padding-right': '80px', '--awb-padding-bottom': '60px', '--awb-padding-left': '80px', '--awb-bg-color': 'var(--awb-color1)', '--awb-bg-color-hover': 'var(--awb-color1)', '--awb-bg-size': 'cover', '--awb-width-large': '33.333333333333%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-text fusion-text-7"
+                                    style={{ '--awb-content-alignment': 'center', '--awb-font-size': '20px', '--awb-text-color': 'var(--awb-color6)', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Choice of colours.`}
+                                      <br />
+                                      {` Screening and solar shading systems `}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-7 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '63px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '177px', '--awb-margin-bottom': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, #847b73 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-9 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-padding-top-small': '0px', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-11 fusion_builder_column_inner_1_2 1_2 fusion-flex-column"
+                                style={{ '--awb-padding-top': '293px', '--awb-padding-right': '78px', '--awb-padding-left': '136px', '--awb-padding-top-small': '81px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-3 fusion-sep-none fusion-title-text fusion-title-size-three"
+                                    style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                  >
+                                    <h3
+                                      className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: 'var( --awb-typography1-font-family )', fontWeight: 'var( --awb-typography1-font-weight )', fontStyle: 'var( --awb-typography1-font-style )', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var( --awb-typography1-line-height )' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Security aluminium windows London: as diverse as life itself `}
+                                    </h3>
+                                  </div>
+                                  <div
+                                    className="fusion-text fusion-text-8"
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Security aluminium windows in London define the appearance and architectural character of a project—perhaps more than any other element. When it comes to performance, innovation, and aesthetics, Schüco is a name synonymous with sophisticated, proven system technology, offering a wide range of materials, designs, and application options. `}
+                                    </p>
+                                    <p>
+                                      {` Recognised as one of the best security aluminium window systems in London, Schüco combines cutting-edge engineering with premium design flexibility. `}
+                                    </p>
+                                    <p>
+                                      {` Available in both aluminium and steel, Schüco windows allow architects and homeowners to choose the ideal material to complement any façade, ensuring a perfect balance between form, function, and security. `}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-12 fusion_builder_column_inner_1_2 1_2 fusion-flex-column"
+                                style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '1', '--awb-margin-top-small': '68px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-image-element"
+                                    style={{ '--awb-caption-title-font-family': 'var( --h2_typography-font-family )', '--awb-caption-title-font-weight': 'var( --h2_typography-font-weight )', '--awb-caption-title-font-style': 'var( --h2_typography-font-style )', '--awb-caption-title-size': 'var( --h2_typography-font-size )', '--awb-caption-title-transform': 'var( --h2_typography-text-transform )', '--awb-caption-title-line-height': 'var( --h2_typography-line-height )', '--awb-caption-title-letter-spacing': 'var( --h2_typography-letter-spacing )' } as unknown as React.CSSProperties}
+                                  >
+                                    <span
+                                      className="fusion-imageframe imageframe-none imageframe-3 hover-type-none"
+                                    >
+                                      <img
+                                        alt=""
+                                        className="lazyload img-responsive wp-image-5591 bv-tag-attr-replace"
+                                        data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 674px"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/shucko_windows_new-3.png"
+                                        data-sizes="auto"
+                                        data-srcset="/legacy-assets/uploads/2025/02/shucko_windows_new-3-200x292.png 200w, /legacy-assets/uploads/2025/02/shucko_windows_new-3-400x585.png 400w, /legacy-assets/uploads/2025/02/shucko_windows_new-3-600x877.png 600w, /legacy-assets/uploads/2025/02/shucko_windows_new-3.png 674w"
+                                        decoding="async"
+                                        fetchPriority="high"
+                                        height="985"
+                                        src="/legacy-assets/uploads/2025/02/shucko_windows_new-3.png"
+                                        srcSet="/legacy-assets/uploads/2025/02/shucko_windows_new-3-200x292.png 200w, /legacy-assets/uploads/2025/02/shucko_windows_new-3-400x585.png 400w, /legacy-assets/uploads/2025/02/shucko_windows_new-3-600x877.png 600w, /legacy-assets/uploads/2025/02/shucko_windows_new-3.png 674w"
+                                        title="shucko_windows_new_3"
+                                        width="674"
+                                      />
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-8 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '63px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '144px', '--awb-margin-top': '181px', '--awb-margin-bottom': '260px', '--awb-margin-top-small': '0px', '--awb-margin-bottom-small': '88px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, #f5efe9 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-10 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-padding-top-small': '0px', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-13 fusion_builder_column_inner_1_3 1_3 fusion-flex-column"
+                                style={{ '--awb-padding-top-small': '0px', '--awb-bg-size': 'cover', '--awb-width-large': '33.333333333333%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '5.76%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '5.76%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '1', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-image-element"
+                                    style={{ '--awb-caption-title-font-family': 'var( --h2_typography-font-family )', '--awb-caption-title-font-weight': 'var( --h2_typography-font-weight )', '--awb-caption-title-font-style': 'var( --h2_typography-font-style )', '--awb-caption-title-size': 'var( --h2_typography-font-size )', '--awb-caption-title-transform': 'var( --h2_typography-text-transform )', '--awb-caption-title-line-height': 'var( --h2_typography-line-height )', '--awb-caption-title-letter-spacing': 'var( --h2_typography-letter-spacing )' } as unknown as React.CSSProperties}
+                                  >
+                                    <span
+                                      className="fusion-imageframe imageframe-none imageframe-4 hover-type-none"
+                                    >
+                                      <img
+                                        alt=""
+                                        className="lazyload img-responsive wp-image-5601 bv-tag-attr-replace"
+                                        data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 562px"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/windows_1-1.png"
+                                        data-sizes="auto"
+                                        data-srcset="/legacy-assets/uploads/2025/02/windows_1-1-200x269.png 200w, /legacy-assets/uploads/2025/02/windows_1-1-400x537.png 400w, /legacy-assets/uploads/2025/02/windows_1-1.png 562w"
+                                        decoding="async"
+                                        height="755"
+                                        src="/legacy-assets/uploads/2025/02/windows_1-1.png"
+                                        srcSet="/legacy-assets/uploads/2025/02/windows_1-1-200x269.png 200w, /legacy-assets/uploads/2025/02/windows_1-1-400x537.png 400w, /legacy-assets/uploads/2025/02/windows_1-1.png 562w"
+                                        title="windows_1_1"
+                                        width="562"
+                                      />
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-14 fusion_builder_column_inner_2_3 2_3 fusion-flex-column"
+                                style={{ '--awb-padding-top': '236px', '--awb-padding-right': '131px', '--awb-padding-left': '90px', '--awb-padding-top-small': '91px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-bg-size': 'cover', '--awb-width-large': '66.666666666667%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '2.88%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-4 fusion-sep-none fusion-title-text fusion-title-size-three"
+                                    style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                  >
+                                    <h3
+                                      className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: 'var( --awb-typography1-font-family )', fontWeight: 'var( --awb-typography1-font-weight )', fontStyle: 'var( --awb-typography1-font-style )', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var( --awb-typography1-line-height )' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Schüco Windows AWS `}
+                                    </h3>
+                                  </div>
+                                  <div
+                                    className="fusion-text fusion-text-9"
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Schüco aluminium windows range from standard windows to designer windows and special windows in keeping with the original style with diagonal contours and fine mouldings. A special feature of the material: aluminium can be shaped with precision, thereby allowing your individual wishes and requirements for the window to be fulfilled. `}
+                                    </p>
+                                  </div>
+                                  <div
+                                    className="accordian fusion-accordian"
+                                    style={{ marginTop: '20px', '--awb-margin-top': '20px', '--awb-border-size': '1px', '--awb-icon-size': '15px', '--awb-content-font-size': 'var( --awb-typography4-font-size )', '--awb-content-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-content-text-transform': 'var( --awb-typography4-text-transform )', '--awb-content-line-height': 'var( --awb-typography4-line-height )', '--awb-icon-alignment': 'left', '--awb-hover-color': 'var(--awb-color6)', '--awb-border-color': 'hsla( var(--awb-color5-h), var(--awb-color5-s), calc(var(--awb-color5-l) + 56%), var(--awb-color5-a) )', '--awb-background-color': 'var(--awb-color1)', '--awb-divider-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-divider-hover-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-icon-color': 'var(--awb-color6)', '--awb-title-color': 'var(--awb-color6)', '--awb-content-color': 'var(--awb-color6)', '--awb-icon-box-color': 'var(--awb-color1)', '--awb-toggle-hover-accent-color': 'var( --awb-color6 )', '--awb-toggle-active-accent-color': 'var( --awb-color6 )', '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '22px', '--awb-content-font-family': 'var( --awb-typography4-font-family )', '--awb-content-font-weight': 'var( --awb-typography4-font-weight )', '--awb-content-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <div
+                                      className="panel-group fusion-toggle-icon-unboxed"
+                                      id="accordion-2194-1"
+                                    >
+                                      <div
+                                        className="fusion-panel panel-default panel-01df520f03c421bb3 fusion-toggle-no-divider"
+                                        style={{ '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '20px', '--awb-title-text-transform': 'uppercase', '--awb-title-color': 'var(--awb-color6)' } as unknown as React.CSSProperties}
+                                      >
+                                        <div
+                                          className="panel-heading"
+                                        >
+                                          <h4
+                                            className="panel-title toggle"
+                                            id="toggle_01df520f03c421bb3"
+                                          >
+                                            <a
+                                              aria-controls="01df520f03c421bb3"
+                                              aria-expanded="false"
+                                              data-parent="#accordion-2194-1"
+                                              data-target="#01df520f03c421bb3"
+                                              data-toggle="collapse"
+                                              href="#01df520f03c421bb3"
+                                              role="button"
+                                            >
+                                              <span
+                                                aria-hidden="true"
+                                                className="fusion-toggle-icon-wrapper"
+                                              >
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fa-fusion-box active-icon awb-icon-minus"
+                                                ></i>
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fa-fusion-box inactive-icon fa-angle-down fas"
+                                                ></i>
+                                              </span>
+                                              <span
+                                                className="fusion-toggle-heading"
+                                              >
+                                                {`Key benefits`}
+                                              </span>
+                                            </a>
+                                          </h4>
+                                        </div>
+                                        <div
+                                          aria-labelledby="toggle_01df520f03c421bb3"
+                                          className="panel-collapse collapse"
+                                          id="01df520f03c421bb3"
+                                        >
+                                          <div
+                                            className="panel-body toggle-content fusion-clearfix"
+                                          >
+                                            <ul>
+                                              <li>
+                                                {`Innovative technology`}
+                                              </li>
+                                              <li>
+                                                {`System-tested security`}
+                                              </li>
+                                              <li>
+                                                {` Wide range of units and opening types `}
+                                              </li>
+                                              <li>
+                                                {`Wide range of colours`}
+                                              </li>
+                                              <li>
+                                                {` Optional burglar, fire and bullet resistance `}
+                                              </li>
+                                              <li>
+                                                {` Efficient thermal and sound insulation `}
+                                              </li>
+                                              <li>
+                                                {` Benefits of aluminium: durability and stability, narrow face widths and a variety of designs. `}
+                                              </li>
+                                              <li>
+                                                {` Schüco AvanTec – concealed fitting for vent weights up to 130 kg `}
+                                              </li>
+                                              <li>
+                                                {` Schüco TipTronic – mechatronic, concealed fitting for integration in the building management systemSchüco aluminium windows offer quality with an impressive cost-performance ratio.`}
+                                                <br />
+                                                {` Schüco – Your expert in aluminium windows. `}
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-9 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '160px', '--awb-padding-left': '160px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '254px', '--awb-margin-bottom-small': '75px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-11 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-center"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '22.848%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-margin-bottom-small': '54px', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-title title fusion-title-5 fusion-sep-none fusion-title-text fusion-title-size-three"
+                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-font-size': '50px' } as unknown as React.CSSProperties}
+                            >
+                              <h3
+                                className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', textTransform: 'none', fontSize: '1em', '--fontSize': '50', lineHeight: '1.5' } as unknown as React.CSSProperties}
+                              >
+                                <p>
+                                  {` Schüco AWS`}
+                                  <br />
+                                  {` basic depths `}
+                                </p>
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-12 fusion_builder_column_1_2 1_2 fusion-flex-column"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="accordian fusion-accordian"
+                              style={{ '--awb-border-size': '0px', '--awb-icon-size': '15px', '--awb-content-font-size': '18px', '--awb-icon-alignment': 'right', '--awb-hover-color': 'var(--awb-color3)', '--awb-border-color': 'var(--awb-color6)', '--awb-background-color': 'var(--awb-color3)', '--awb-divider-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-divider-hover-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-icon-color': 'var(--awb-color6)', '--awb-title-color': 'var(--awb-color6)', '--awb-content-color': 'var(--awb-color6)', '--awb-icon-box-color': 'var(--awb-color6)', '--awb-toggle-hover-accent-color': 'var( --awb-color6 )', '--awb-toggle-active-accent-color': 'var( --awb-color6 )', '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '500', '--awb-title-font-style': 'normal', '--awb-title-font-size': '20px', '--awb-content-font-family': '"Montserrat"', '--awb-content-font-style': 'normal', '--awb-content-font-weight': '400' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="panel-group fusion-toggle-icon-right fusion-toggle-icon-unboxed"
+                                id="accordion-2194-2"
+                              >
+                                <div
+                                  className="fusion-panel panel-default panel-ff2b4853ce4fa7723 fusion-toggle-no-divider fusion-toggle-boxed-mode"
+                                  style={{ '--awb-content-font-size': '18px', '--awb-content-font-family': '"Montserrat"', '--awb-content-font-style': 'normal', '--awb-content-font-weight': '400' } as unknown as React.CSSProperties}
+                                >
+                                  <div
+                                    className="panel-heading"
+                                  >
+                                    <h4
+                                      className="panel-title toggle"
+                                      id="toggle_ff2b4853ce4fa7723"
+                                    >
+                                      <a
+                                        aria-controls="ff2b4853ce4fa7723"
+                                        aria-expanded="false"
+                                        data-parent="#accordion-2194-2"
+                                        data-target="#ff2b4853ce4fa7723"
+                                        data-toggle="collapse"
+                                        href="#ff2b4853ce4fa7723"
+                                        role="button"
+                                      >
+                                        <span
+                                          aria-hidden="true"
+                                          className="fusion-toggle-icon-wrapper"
+                                        >
+                                          <i
+                                            aria-hidden="true"
+                                            className="fa-fusion-box active-icon fa-angle-up fas"
+                                          ></i>
+                                          <i
+                                            aria-hidden="true"
+                                            className="fa-fusion-box inactive-icon fa-angle-down fas"
+                                          ></i>
+                                        </span>
+                                        <span
+                                          className="fusion-toggle-heading"
+                                        >
+                                          {`Schüco AWS basic depth 65 mm`}
+                                        </span>
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div
+                                    aria-labelledby="toggle_ff2b4853ce4fa7723"
+                                    className="panel-collapse collapse"
+                                    id="ff2b4853ce4fa7723"
+                                  >
+                                    <div
+                                      className="panel-body toggle-content fusion-clearfix"
+                                    >
+                                      <p>
+                                        {` With its new generation of AWS windows (Aluminium Window System), Schüco has created a system to meet all requirements. Benefits such as high thermal insulation with minimal basic depths and narrow face widths up to 65 mm are combined in components perfectly tailored to one another. `}
+                                      </p>
+                                      <p>
+                                        <img
+                                          alt=""
+                                          className="lazyload alignnone size-full wp-image-6692 bv-tag-attr-replace"
+                                          data-orig-sizes="(max-width: 580px) 100vw, 580px"
+                                          data-orig-src="/legacy-assets/uploads/2025/02/Group-314.png"
+                                          data-sizes="auto"
+                                          data-srcset="/legacy-assets/uploads/2025/02/Group-314-200x82.png 200w, /legacy-assets/uploads/2025/02/Group-314-300x123.png 300w, /legacy-assets/uploads/2025/02/Group-314-400x164.png 400w, /legacy-assets/uploads/2025/02/Group-314-500x205.png 500w, /legacy-assets/uploads/2025/02/Group-314.png 580w"
+                                          decoding="async"
+                                          height="238"
+                                          src="/legacy-assets/uploads/2025/02/Group-314.png"
+                                          srcSet="/legacy-assets/uploads/2025/02/Group-314-200x82.png 200w, /legacy-assets/uploads/2025/02/Group-314-300x123.png 300w, /legacy-assets/uploads/2025/02/Group-314-400x164.png 400w, /legacy-assets/uploads/2025/02/Group-314-500x205.png 500w, /legacy-assets/uploads/2025/02/Group-314.png 580w"
+                                          width="580"
+                                        />
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className="fusion-panel panel-default panel-14af372018439d154 fusion-toggle-no-divider fusion-toggle-boxed-mode"
+                                  style={{ '--awb-content-font-size': '18px', '--awb-content-font-family': '"Montserrat"', '--awb-content-font-style': 'normal', '--awb-content-font-weight': '400' } as unknown as React.CSSProperties}
+                                >
+                                  <div
+                                    className="panel-heading"
+                                  >
+                                    <h4
+                                      className="panel-title toggle"
+                                      id="toggle_14af372018439d154"
+                                    >
+                                      <a
+                                        aria-controls="14af372018439d154"
+                                        aria-expanded="false"
+                                        data-parent="#accordion-2194-2"
+                                        data-target="#14af372018439d154"
+                                        data-toggle="collapse"
+                                        href="#14af372018439d154"
+                                        role="button"
+                                      >
+                                        <span
+                                          aria-hidden="true"
+                                          className="fusion-toggle-icon-wrapper"
+                                        >
+                                          <i
+                                            aria-hidden="true"
+                                            className="fa-fusion-box active-icon fa-angle-up fas"
+                                          ></i>
+                                          <i
+                                            aria-hidden="true"
+                                            className="fa-fusion-box inactive-icon fa-angle-down fas"
+                                          ></i>
+                                        </span>
+                                        <span
+                                          className="fusion-toggle-heading"
+                                        >
+                                          {`Schüco AWS basic depth 70 mm`}
+                                        </span>
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div
+                                    aria-labelledby="toggle_14af372018439d154"
+                                    className="panel-collapse collapse"
+                                    id="14af372018439d154"
+                                  >
+                                    <div
+                                      className="panel-body toggle-content fusion-clearfix"
+                                    >
+                                      <p>
+                                        {` The new generation of Schüco AWS windows represents the energy-oriented future of construction. The Schüco AWS window systems from a basic depth of 70 mm combines excellent thermal insulation with the unique advantages of aluminium: durability and stability, narrow face widths and a variety of designs. `}
+                                      </p>
+                                      <p>
+                                        <img
+                                          alt=""
+                                          className="lazyload alignnone size-full wp-image-6691 bv-tag-attr-replace"
+                                          data-orig-sizes="(max-width: 580px) 100vw, 580px"
+                                          data-orig-src="/legacy-assets/uploads/2025/02/Group-315.png"
+                                          data-sizes="auto"
+                                          data-srcset="/legacy-assets/uploads/2025/02/Group-315-200x82.png 200w, /legacy-assets/uploads/2025/02/Group-315-300x123.png 300w, /legacy-assets/uploads/2025/02/Group-315-400x164.png 400w, /legacy-assets/uploads/2025/02/Group-315-500x205.png 500w, /legacy-assets/uploads/2025/02/Group-315.png 580w"
+                                          decoding="async"
+                                          height="238"
+                                          src="/legacy-assets/uploads/2025/02/Group-315.png"
+                                          srcSet="/legacy-assets/uploads/2025/02/Group-315-200x82.png 200w, /legacy-assets/uploads/2025/02/Group-315-300x123.png 300w, /legacy-assets/uploads/2025/02/Group-315-400x164.png 400w, /legacy-assets/uploads/2025/02/Group-315-500x205.png 500w, /legacy-assets/uploads/2025/02/Group-315.png 580w"
+                                          width="580"
+                                        />
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-10 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '63px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '133px', '--awb-margin-top': '198px', '--awb-margin-bottom': '0px', '--awb-margin-top-small': '48px', '--awb-margin-bottom-small': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, var(--awb-color6) 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-13 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-padding-top-small': '60px', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-15 fusion_builder_column_inner_1_2 1_2 fusion-flex-column"
+                                style={{ '--awb-padding-top-small': '0px', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-image-element"
+                                    style={{ '--awb-caption-title-font-family': 'var( --h2_typography-font-family )', '--awb-caption-title-font-weight': 'var( --h2_typography-font-weight )', '--awb-caption-title-font-style': 'var( --h2_typography-font-style )', '--awb-caption-title-size': 'var( --h2_typography-font-size )', '--awb-caption-title-transform': 'var( --h2_typography-text-transform )', '--awb-caption-title-line-height': 'var( --h2_typography-line-height )', '--awb-caption-title-letter-spacing': 'var( --h2_typography-letter-spacing )' } as unknown as React.CSSProperties}
+                                  >
+                                    <span
+                                      className="fusion-imageframe imageframe-none imageframe-5 hover-type-none"
+                                    >
+                                      <img
+                                        alt=""
+                                        className="lazyload img-responsive wp-image-5599 bv-tag-attr-replace"
+                                        data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 752px"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/windows_3-1.png"
+                                        data-sizes="auto"
+                                        data-srcset="/legacy-assets/uploads/2025/02/windows_3-1-200x188.png 200w, /legacy-assets/uploads/2025/02/windows_3-1-400x376.png 400w, /legacy-assets/uploads/2025/02/windows_3-1-600x564.png 600w, /legacy-assets/uploads/2025/02/windows_3-1.png 752w"
+                                        decoding="async"
+                                        height="707"
+                                        src="/legacy-assets/uploads/2025/02/windows_3-1.png"
+                                        srcSet="/legacy-assets/uploads/2025/02/windows_3-1-200x188.png 200w, /legacy-assets/uploads/2025/02/windows_3-1-400x376.png 400w, /legacy-assets/uploads/2025/02/windows_3-1-600x564.png 600w, /legacy-assets/uploads/2025/02/windows_3-1.png 752w"
+                                        title="windows_3_1"
+                                        width="752"
+                                      />
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-16 fusion_builder_column_inner_1_2 1_2 fusion-flex-column"
+                                style={{ '--awb-padding-top': '236px', '--awb-padding-right': '131px', '--awb-padding-left': '90px', '--awb-padding-top-small': '92px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-6 fusion-sep-none fusion-title-text fusion-title-size-three"
+                                    style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                  >
+                                    <h3
+                                      className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: 'var( --awb-typography1-font-family )', fontWeight: 'var( --awb-typography1-font-weight )', fontStyle: 'var( --awb-typography1-font-style )', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var( --awb-typography1-line-height )' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Burglar-resistant systems `}
+                                    </h3>
+                                  </div>
+                                  <div
+                                    className="fusion-text fusion-text-10"
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color1)', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Burglar-resistant windows, doors, sliding systems, façades and conservatories from Schüco always mean comprehensively tested security. All individual components are perfectly matched to one another. `}
+                                    </p>
+                                  </div>
+                                  <div
+                                    className="accordian fusion-accordian"
+                                    style={{ marginTop: '20px', '--awb-margin-top': '20px', '--awb-border-size': '1px', '--awb-icon-size': '15px', '--awb-content-font-size': 'var( --awb-typography4-font-size )', '--awb-content-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-content-text-transform': 'var( --awb-typography4-text-transform )', '--awb-content-line-height': 'var( --awb-typography4-line-height )', '--awb-icon-alignment': 'left', '--awb-hover-color': 'var(--awb-color6)', '--awb-border-color': 'hsla( var(--awb-color5-h), var(--awb-color5-s), calc(var(--awb-color5-l) + 56%), var(--awb-color5-a) )', '--awb-background-color': 'var(--awb-color1)', '--awb-divider-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-divider-hover-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-icon-color': 'var(--awb-color1)', '--awb-title-color': 'var(--awb-color1)', '--awb-content-color': 'var(--awb-color1)', '--awb-icon-box-color': 'var(--awb-color1)', '--awb-toggle-hover-accent-color': 'var( --awb-color3 )', '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '22px', '--awb-content-font-family': 'var( --awb-typography4-font-family )', '--awb-content-font-weight': 'var( --awb-typography4-font-weight )', '--awb-content-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <div
+                                      className="panel-group fusion-toggle-icon-unboxed"
+                                      id="accordion-2194-3"
+                                    >
+                                      <div
+                                        className="fusion-panel panel-default panel-208fe71128c16821d fusion-toggle-no-divider"
+                                        style={{ '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '20px', '--awb-title-text-transform': 'uppercase', '--awb-title-color': 'var(--awb-color1)' } as unknown as React.CSSProperties}
+                                      >
+                                        <div
+                                          className="panel-heading"
+                                        >
+                                          <h4
+                                            className="panel-title toggle"
+                                            id="toggle_208fe71128c16821d"
+                                          >
+                                            <a
+                                              aria-controls="208fe71128c16821d"
+                                              aria-expanded="false"
+                                              data-parent="#accordion-2194-3"
+                                              data-target="#208fe71128c16821d"
+                                              data-toggle="collapse"
+                                              href="#208fe71128c16821d"
+                                              role="button"
+                                            >
+                                              <span
+                                                aria-hidden="true"
+                                                className="fusion-toggle-icon-wrapper"
+                                              >
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fa-fusion-box active-icon awb-icon-minus"
+                                                ></i>
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fa-fusion-box inactive-icon fa-angle-down fas"
+                                                ></i>
+                                              </span>
+                                              <span
+                                                className="fusion-toggle-heading"
+                                              >
+                                                {`Key benefits`}
+                                              </span>
+                                            </a>
+                                          </h4>
+                                        </div>
+                                        <div
+                                          aria-labelledby="toggle_208fe71128c16821d"
+                                          className="panel-collapse collapse"
+                                          id="208fe71128c16821d"
+                                        >
+                                          <div
+                                            className="panel-body toggle-content fusion-clearfix"
+                                          >
+                                            <p>
+                                              {` Key benefits:`}
+                                              <br />
+                                              {` – Secure yet unobtrusive`}
+                                              <br />
+                                              {` – Security classes up to WK3 in accordance with DIN V ENV 1627`}
+                                              <br />
+                                              {` – Windows and façades also tested to WK4 (on request)`}
+                                              <br />
+                                              {` – Multi-functionality with fire protection, smoke protection, access control`}
+                                              <br />
+                                              {` – Used in conjunction with Schüco Protect safety glass `}
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-11 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '180px', '--awb-padding-left': '180px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '181px', '--awb-margin-bottom': '0px', '--awb-margin-top-small': '150px', '--awb-margin-bottom-small': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-14 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-title title fusion-title-7 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two"
+                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '60px', '--awb-margin-bottom-small': '60px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
+                            >
+                              <h2
+                                className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
+                                style={{ fontFamily: 'var(--awb-typography1-font-family)', fontWeight: 'var(--awb-typography1-font-weight)', fontStyle: 'var(--awb-typography1-font-style)', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var(--awb-typography1-line-height)' } as unknown as React.CSSProperties}
+                              >
+                                {` Security classes: secure yet unobtrusive `}
+                              </h2>
+                            </div>
+                            <div
+                              className="fusion-text fusion-text-11"
+                              style={{ '--awb-content-alignment': 'left', '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                            >
+                              <p>
+                                {` An attractive appearance is retained irrespective of the security provided. With Schüco systems, the increased security is largely concealed. The innovative technology protects the user in the long term.`}
+                                <br />
+                                {` The security classes are defined in accordance with DIN V ENV 1627 by type of burglar, method of burglary, place, risk and recommendation from WK1 to WK4.`}
+                                <br />
+                                {` Despite the high security requirements, architects and their clients still retain the same creative freedom on account of customised shapes and colour schemes. `}
+                              </p>
+                              <p>
+                                {` Schüco – Your expert partner for burglar-resistant systems `}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-scroll-section awb-swiper-full-sections"
+                      data-animation="stack"
+                      data-section="1"
+                      data-speed="1020"
+                      id="fusion-scroll-section-1"
+                    >
+                      <div
+                        className="swiper-wrapper"
+                      >
+                        <div
+                          className="swiper-slide"
+                          data-element="1"
+                          data-section="1"
+                        >
+                          <div
+                            className="fusion-fullwidth fullwidth-box fusion-builder-row-12 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth hundred-percent-height hundred-percent-height-center-content hundred-percent-height-scrolling"
+                            style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '160px', '--awb-padding-right': '120px', '--awb-padding-bottom': '216px', '--awb-padding-left': '120px', '--awb-padding-top-medium': '70px', '--awb-padding-bottom-medium': '70px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '0px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                          >
+                            <div
+                              className="fusion-builder-row fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column fusion-builder-column-15 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-animated"
+                                data-animationduration="0.8"
+                                data-animationoffset="top-into-view"
+                                data-animationtype="fadeInRight"
+                                style={{ '--awb-padding-top': '180px', '--awb-padding-right': '70px', '--awb-padding-bottom': '180px', '--awb-padding-left': '70px', '--awb-padding-top-small': '70px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '70px', '--awb-padding-left-small': '40px', '--awb-bg-color': 'var(--awb-color6)', '--awb-bg-color-hover': 'var(--awb-color6)', '--awb-bg-position': 'center top', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.072%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '1', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-8 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
+                                    style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '40px' } as unknown as React.CSSProperties}
+                                  >
+                                    <h4
+                                      className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '40', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Security class`}
+                                      <br />
+                                      {` WK 1: `}
+                                    </h4>
+                                  </div>
+                                  <div
+                                    className="fusion-text fusion-text-12 fusion-text-no-margin"
+                                    style={{ '--awb-content-alignment': 'center', '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color1)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Building components offer basic protection against attempts to break in using body weight, such as kicking, flying kick, shoulder charge, lifting upwards and tearing out. These building components only offer limited protection against the use of lever tools. `}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column fusion-builder-column-16 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-animated"
+                                data-animationduration="0.8"
+                                data-animationoffset="top-into-view"
+                                data-animationtype="fadeInLeft"
+                                style={{ '--awb-padding-bottom': '136px', '--awb-bg-position': 'center center', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-margin-bottom-small': '49px', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
+                                  data-bg-url="/legacy-assets/uploads/2025/02/glass-broken-cracks-splinters-front-car-filtered-image-1.png"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/glass-broken-cracks-splinters-front-car-filtered-image-1.png") !important' } as unknown as React.CSSProperties}
+                                >
+                                  <img
+                                    aria-label="glass-broken-cracks-splinters-front-car-filtered-image_1"
+                                    className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
+                                    decoding="async"
+                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27580%27%20height%3D%27580%27%20viewBox%3D%270%200%20580%20580%27%3E%3Crect%20width%3D%27580%27%20height%3D%27580%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="swiper-slide"
+                          data-element="2"
+                          data-section="1"
+                        >
+                          <div
+                            className="fusion-fullwidth fullwidth-box fusion-builder-row-13 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth hundred-percent-height hundred-percent-height-center-content hundred-percent-height-scrolling"
+                            style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '160px', '--awb-padding-right': '120px', '--awb-padding-bottom': '216px', '--awb-padding-left': '120px', '--awb-padding-top-medium': '70px', '--awb-padding-bottom-medium': '70px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '0px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                          >
+                            <div
+                              className="fusion-builder-row fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column fusion-builder-column-17 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-animated"
+                                data-animationduration="0.8"
+                                data-animationoffset="top-into-view"
+                                data-animationtype="fadeInRight"
+                                style={{ '--awb-padding-top': '180px', '--awb-padding-right': '70px', '--awb-padding-bottom': '180px', '--awb-padding-left': '70px', '--awb-padding-top-small': '70px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '70px', '--awb-padding-left-small': '40px', '--awb-bg-color': 'var(--awb-color6)', '--awb-bg-color-hover': 'var(--awb-color6)', '--awb-bg-position': 'center top', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.072%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-9 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
+                                    style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '40px' } as unknown as React.CSSProperties}
+                                  >
+                                    <h4
+                                      className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '40', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Security class`}
+                                      <br />
+                                      {` WK 2: `}
+                                    </h4>
+                                  </div>
+                                  <div
+                                    className="fusion-text fusion-text-13 fusion-text-no-margin"
+                                    style={{ '--awb-content-alignment': 'center', '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color1)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Opportunitst burglars also use simple tools like screwdrivers, pliers and hand axes to try to break into locked and bolted building components. `}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column fusion-builder-column-18 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-animated"
+                                data-animationduration="0.8"
+                                data-animationoffset="top-into-view"
+                                data-animationtype="fadeInLeft"
+                                style={{ '--awb-padding-bottom': '136px', '--awb-bg-position': 'center bottom', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '1', '--awb-spacing-right-small': '1.92%', '--awb-margin-bottom-small': '49px', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
+                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-251.png"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-251.png") !important' } as unknown as React.CSSProperties}
+                                >
+                                  <img
+                                    className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
+                                    decoding="async"
+                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27580%27%20height%3D%27580%27%20viewBox%3D%270%200%20580%20580%27%3E%3Crect%20width%3D%27580%27%20height%3D%27580%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="swiper-slide"
+                          data-element="3"
+                          data-section="1"
+                        >
+                          <div
+                            className="fusion-fullwidth fullwidth-box fusion-builder-row-14 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth hundred-percent-height hundred-percent-height-center-content hundred-percent-height-scrolling"
+                            style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '160px', '--awb-padding-right': '120px', '--awb-padding-bottom': '216px', '--awb-padding-left': '120px', '--awb-padding-top-medium': '70px', '--awb-padding-bottom-medium': '70px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '0px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                          >
+                            <div
+                              className="fusion-builder-row fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column fusion-builder-column-19 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-animated"
+                                data-animationduration="0.8"
+                                data-animationoffset="top-into-view"
+                                data-animationtype="fadeInRight"
+                                style={{ '--awb-padding-top': '180px', '--awb-padding-right': '70px', '--awb-padding-bottom': '180px', '--awb-padding-left': '70px', '--awb-padding-top-small': '70px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '70px', '--awb-padding-left-small': '40px', '--awb-bg-color': 'var(--awb-color6)', '--awb-bg-color-hover': 'var(--awb-color6)', '--awb-bg-position': 'center top', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.072%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-10 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
+                                    style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '40px' } as unknown as React.CSSProperties}
+                                  >
+                                    <h4
+                                      className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '40', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Security class`}
+                                      <br />
+                                      {` WK 3: `}
+                                    </h4>
+                                  </div>
+                                  <div
+                                    className="fusion-text fusion-text-14 fusion-text-no-margin"
+                                    style={{ '--awb-content-alignment': 'center', '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color1)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Burglars use a second screwdriver and a crow-bar to try to break into locked and bolted building components. `}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column fusion-builder-column-20 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-animated"
+                                data-animationduration="0.8"
+                                data-animationoffset="top-into-view"
+                                data-animationtype="fadeInLeft"
+                                style={{ '--awb-padding-bottom': '136px', '--awb-bg-position': 'center bottom', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-margin-bottom-small': '49px', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
+                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-254.png"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-254.png") !important' } as unknown as React.CSSProperties}
+                                >
+                                  <img
+                                    className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
+                                    decoding="async"
+                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27580%27%20height%3D%27580%27%20viewBox%3D%270%200%20580%20580%27%3E%3Crect%20width%3D%27580%27%20height%3D%27580%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="swiper-slide"
+                          data-element="4"
+                          data-section="1"
+                        >
+                          <div
+                            className="fusion-fullwidth fullwidth-box fusion-builder-row-15 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth hundred-percent-height hundred-percent-height-center-content hundred-percent-height-scrolling"
+                            style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '160px', '--awb-padding-right': '120px', '--awb-padding-bottom': '216px', '--awb-padding-left': '120px', '--awb-padding-top-medium': '70px', '--awb-padding-bottom-medium': '70px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                          >
+                            <div
+                              className="fusion-builder-row fusion-row fusion-flex-align-items-stretch fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column fusion-builder-column-21 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-animated"
+                                data-animationduration="0.8"
+                                data-animationoffset="top-into-view"
+                                data-animationtype="fadeInRight"
+                                style={{ '--awb-padding-top': '180px', '--awb-padding-right': '70px', '--awb-padding-bottom': '180px', '--awb-padding-left': '70px', '--awb-padding-top-small': '70px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '70px', '--awb-padding-left-small': '40px', '--awb-bg-color': 'var(--awb-color6)', '--awb-bg-color-hover': 'var(--awb-color6)', '--awb-bg-position': 'center top', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.072%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-11 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
+                                    style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '40px' } as unknown as React.CSSProperties}
+                                  >
+                                    <h4
+                                      className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '40', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Security class`}
+                                      <br />
+                                      {` WK 4: `}
+                                    </h4>
+                                  </div>
+                                  <div
+                                    className="fusion-text fusion-text-15 fusion-text-no-margin"
+                                    style={{ '--awb-content-alignment': 'center', '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color1)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Experienced burglars may also use cutting and striking tools, such as pickaxe, crowbar, hammer and chisel, and possibly a cordless drill. `}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column fusion-builder-column-22 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-animated"
+                                data-animationduration="0.8"
+                                data-animationoffset="top-into-view"
+                                data-animationtype="fadeInLeft"
+                                style={{ '--awb-padding-bottom': '136px', '--awb-bg-position': 'center bottom', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-margin-bottom-small': '49px', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
+                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-253.png"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-253.png") !important' } as unknown as React.CSSProperties}
+                                >
+                                  <img
+                                    className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
+                                    decoding="async"
+                                    src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27580%27%20height%3D%27580%27%20viewBox%3D%270%200%20580%20580%27%3E%3Crect%20width%3D%27580%27%20height%3D%27580%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <nav
+                        className="fusion-scroll-section-nav scroll-navigation-right"
+                        data-section="1"
+                        id="fusion-scroll-section-nav-1"
+                      >
+                        <ul>
+                          <li>
+                            <a
+                              className="fusion-scroll-section-link"
+                              data-element="1"
+                              data-name="W1"
+                              href="#fusion-scroll-section-element-1-1"
+                            >
+                              <span
+                                className="fusion-scroll-section-link-bullet"
+                              ></span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              className="fusion-scroll-section-link"
+                              data-element="2"
+                              data-name="W1"
+                              href="#fusion-scroll-section-element-1-2"
+                            >
+                              <span
+                                className="fusion-scroll-section-link-bullet"
+                              ></span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              className="fusion-scroll-section-link"
+                              data-element="3"
+                              data-name="W1"
+                              href="#fusion-scroll-section-element-1-3"
+                            >
+                              <span
+                                className="fusion-scroll-section-link-bullet"
+                              ></span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              className="fusion-scroll-section-link"
+                              data-element="4"
+                              data-name="W1"
+                              href="#fusion-scroll-section-element-1-4"
+                            >
+                              <span
+                                className="fusion-scroll-section-link-bullet"
+                              ></span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-16 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '63px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '141px', '--awb-margin-top': '162px', '--awb-margin-bottom': '155px', '--awb-margin-top-small': '77px', '--awb-margin-bottom-small': '58px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, #f5efe9 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-23 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-padding-top-small': '0px', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-17 fusion_builder_column_inner_2_3 2_3 fusion-flex-column"
+                                style={{ '--awb-padding-top': '175px', '--awb-padding-right': '131px', '--awb-padding-left': '161px', '--awb-padding-top-small': '90px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-bg-size': 'cover', '--awb-width-large': '66.666666666667%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '2.88%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-12 fusion-sep-none fusion-title-text fusion-title-size-three"
+                                    style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                  >
+                                    <h3
+                                      className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: 'var( --awb-typography1-font-family )', fontWeight: 'var( --awb-typography1-font-weight )', fontStyle: 'var( --awb-typography1-font-style )', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var( --awb-typography1-line-height )' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Window fittings `}
+                                    </h3>
+                                  </div>
+                                  <div
+                                    className="fusion-text fusion-text-16"
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Schüco provides a comprehensive range of accessories to suit individual design requirements. The fittings for vent weights up to 160 kg are ideal for large format designs and transparent architecture. `}
+                                    </p>
+                                  </div>
+                                  <div
+                                    className="accordian fusion-accordian"
+                                    style={{ marginTop: '20px', '--awb-margin-top': '20px', '--awb-border-size': '1px', '--awb-icon-size': '15px', '--awb-content-font-size': 'var( --awb-typography4-font-size )', '--awb-content-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-content-text-transform': 'var( --awb-typography4-text-transform )', '--awb-content-line-height': 'var( --awb-typography4-line-height )', '--awb-icon-alignment': 'left', '--awb-hover-color': 'var(--awb-color6)', '--awb-border-color': 'hsla( var(--awb-color5-h), var(--awb-color5-s), calc(var(--awb-color5-l) + 56%), var(--awb-color5-a) )', '--awb-background-color': 'var(--awb-color1)', '--awb-divider-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-divider-hover-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-icon-color': 'var(--awb-color6)', '--awb-title-color': 'var(--awb-color6)', '--awb-content-color': 'var(--awb-color6)', '--awb-icon-box-color': 'var(--awb-color1)', '--awb-toggle-hover-accent-color': 'var( --awb-color6 )', '--awb-toggle-active-accent-color': 'var( --awb-color6 )', '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '22px', '--awb-content-font-family': 'var( --awb-typography4-font-family )', '--awb-content-font-weight': 'var( --awb-typography4-font-weight )', '--awb-content-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <div
+                                      className="panel-group fusion-toggle-icon-unboxed"
+                                      id="accordion-2194-4"
+                                    >
+                                      <div
+                                        className="fusion-panel panel-default panel-3d71dd5866d0710a5 fusion-toggle-no-divider"
+                                        style={{ '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '20px', '--awb-title-text-transform': 'uppercase', '--awb-title-color': 'var(--awb-color6)' } as unknown as React.CSSProperties}
+                                      >
+                                        <div
+                                          className="panel-heading"
+                                        >
+                                          <h4
+                                            className="panel-title toggle"
+                                            id="toggle_3d71dd5866d0710a5"
+                                          >
+                                            <a
+                                              aria-controls="3d71dd5866d0710a5"
+                                              aria-expanded="false"
+                                              data-parent="#accordion-2194-4"
+                                              data-target="#3d71dd5866d0710a5"
+                                              data-toggle="collapse"
+                                              href="#3d71dd5866d0710a5"
+                                              role="button"
+                                            >
+                                              <span
+                                                aria-hidden="true"
+                                                className="fusion-toggle-icon-wrapper"
+                                              >
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fa-fusion-box active-icon awb-icon-minus"
+                                                ></i>
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fa-fusion-box inactive-icon fa-angle-down fas"
+                                                ></i>
+                                              </span>
+                                              <span
+                                                className="fusion-toggle-heading"
+                                              >
+                                                {`Key benefits`}
+                                              </span>
+                                            </a>
+                                          </h4>
+                                        </div>
+                                        <div
+                                          aria-labelledby="toggle_3d71dd5866d0710a5"
+                                          className="panel-collapse collapse"
+                                          id="3d71dd5866d0710a5"
+                                        >
+                                          <div
+                                            className="panel-body toggle-content fusion-clearfix"
+                                          >
+                                            <p>
+                                              {` – Modular, multi-layer security concept with robust security locking, anti-drill protection and protection against levering out`}
+                                              <br />
+                                              {` – Classification of burglar resistance based on DIN V EN V 1627 into security classes WK1, WK2, WK3`}
+                                              <br />
+                                              {` – Schüco AvanTec offers the highest security standards with burglar-resistant solutions up to WK3`}
+                                              <br />
+                                              {` – Schüco TipTronic based on Schüco AvanTec security technology up to security class WK2`}
+                                              <br />
+                                              {` – Attractive security handle, lockable or with push-button`}
+                                              <br />
+                                              {` – Option for integrating VdS-approved magnetic switch for monitoring of opening and closing`}
+                                              <br />
+                                              {` – Systems designed to deter burglars `}
+                                            </p>
+                                            <p>
+                                              {` Systems designed to deter burglars`}
+                                              <br />
+                                              {` Windows:`}
+                                              <br />
+                                              {` – Schüco AWS 60`}
+                                              <br />
+                                              {` – Schüco AWS 60.HI`}
+                                              <br />
+                                              {` – Schüco AWS 60 RL`}
+                                              <br />
+                                              {` – Schüco AWS 60 SL`}
+                                              <br />
+                                              {` – Schüco AWS 65`}
+                                              <br />
+                                              {` – Schüco AWS 65 RL`}
+                                              <br />
+                                              {` – Schüco AWS 65 SL`}
+                                              <br />
+                                              {` – Schüco AWS 65 BS`}
+                                              <br />
+                                              {` – Schüco AWS 70.HI`}
+                                              <br />
+                                              {` – Schüco AWS 70 RL.HI`}
+                                              <br />
+                                              {` – Schüco AWS 70 SL.HI`}
+                                              <br />
+                                              {` – Schüco AWS 70 ST.HI`}
+                                              <br />
+                                              {` – Schüco AWS 70 BS.HI`}
+                                              <br />
+                                              {` – Schüco AWS 70 WF.HI`}
+                                              <br />
+                                              {` – Schüco AWS 75.SI`}
+                                              <br />
+                                              {` – Schüco AWS 75 SL.HI`}
+                                              <br />
+                                              {` – Schüco AWS 75 BS.HI`}
+                                              <br />
+                                              {` – Schüco AWS 105 CC.HI `}
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-18 fusion_builder_column_inner_1_3 1_3 fusion-flex-column"
+                                style={{ '--awb-bg-size': 'cover', '--awb-width-large': '33.333333333333%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '5.76%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '5.76%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '1', '--awb-margin-top-small': '68px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-image-element"
+                                    style={{ '--awb-caption-title-font-family': 'var( --h2_typography-font-family )', '--awb-caption-title-font-weight': 'var( --h2_typography-font-weight )', '--awb-caption-title-font-style': 'var( --h2_typography-font-style )', '--awb-caption-title-size': 'var( --h2_typography-font-size )', '--awb-caption-title-transform': 'var( --h2_typography-text-transform )', '--awb-caption-title-line-height': 'var( --h2_typography-line-height )', '--awb-caption-title-letter-spacing': 'var( --h2_typography-letter-spacing )' } as unknown as React.CSSProperties}
+                                  >
+                                    <span
+                                      className="fusion-imageframe imageframe-none imageframe-6 hover-type-none"
+                                    >
+                                      <img
+                                        alt=""
+                                        className="lazyload img-responsive wp-image-6889 bv-tag-attr-replace"
+                                        data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 481px"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/Group-258-1.png"
+                                        data-sizes="auto"
+                                        data-srcset="/legacy-assets/uploads/2025/02/Group-258-1-200x206.png 200w, /legacy-assets/uploads/2025/02/Group-258-1-400x412.png 400w, /legacy-assets/uploads/2025/02/Group-258-1.png 481w"
+                                        decoding="async"
+                                        height="495"
+                                        src="/legacy-assets/uploads/2025/02/Group-258-1.png"
+                                        srcSet="/legacy-assets/uploads/2025/02/Group-258-1-200x206.png 200w, /legacy-assets/uploads/2025/02/Group-258-1-400x412.png 400w, /legacy-assets/uploads/2025/02/Group-258-1.png 481w"
+                                        width="481"
+                                      />
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-17 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '63px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '80px', '--awb-margin-top': '106px', '--awb-margin-bottom': '155px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, var(--awb-color1) 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-24 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-padding-top-small': '0px', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-19 fusion_builder_column_inner_1_3 1_3 fusion-flex-column"
+                                style={{ '--awb-bg-size': 'cover', '--awb-width-large': '33.333333333333%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '5.76%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '5.76%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '1', '--awb-margin-top-small': '68px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-image-element"
+                                    style={{ '--awb-caption-title-font-family': 'var( --h2_typography-font-family )', '--awb-caption-title-font-weight': 'var( --h2_typography-font-weight )', '--awb-caption-title-font-style': 'var( --h2_typography-font-style )', '--awb-caption-title-size': 'var( --h2_typography-font-size )', '--awb-caption-title-transform': 'var( --h2_typography-text-transform )', '--awb-caption-title-line-height': 'var( --h2_typography-line-height )', '--awb-caption-title-letter-spacing': 'var( --h2_typography-letter-spacing )' } as unknown as React.CSSProperties}
+                                  >
+                                    <span
+                                      className="fusion-imageframe imageframe-none imageframe-7 hover-type-none"
+                                    >
+                                      <img
+                                        alt=""
+                                        className="lazyload img-responsive wp-image-6891 bv-tag-attr-replace"
+                                        data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 541px"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/paveikslas-68.png"
+                                        data-sizes="auto"
+                                        data-srcset="/legacy-assets/uploads/2025/02/paveikslas-68-200x201.png 200w, /legacy-assets/uploads/2025/02/paveikslas-68-400x403.png 400w, /legacy-assets/uploads/2025/02/paveikslas-68.png 541w"
+                                        decoding="async"
+                                        height="545"
+                                        src="/legacy-assets/uploads/2025/02/paveikslas-68.png"
+                                        srcSet="/legacy-assets/uploads/2025/02/paveikslas-68-200x201.png 200w, /legacy-assets/uploads/2025/02/paveikslas-68-400x403.png 400w, /legacy-assets/uploads/2025/02/paveikslas-68.png 541w"
+                                        width="541"
+                                      />
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-20 fusion_builder_column_inner_2_3 2_3 fusion-flex-column"
+                                style={{ '--awb-padding-top': '135px', '--awb-padding-right': '131px', '--awb-padding-left': '90px', '--awb-padding-top-small': '88px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-bg-size': 'cover', '--awb-width-large': '66.666666666667%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '2.88%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-13 fusion-sep-none fusion-title-text fusion-title-size-three"
+                                    style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                  >
+                                    <h3
+                                      className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: 'var( --awb-typography1-font-family )', fontWeight: 'var( --awb-typography1-font-weight )', fontStyle: 'var( --awb-typography1-font-style )', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var( --awb-typography1-line-height )' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Door fittings `}
+                                    </h3>
+                                  </div>
+                                  <div
+                                    className="fusion-text fusion-text-17"
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` Statistics show that in Germany a house or flat is broken into every 2 minutes. With its ADS door system, Schüco offers a wide range of options for making opening units more secure. To evaluate door resistance, the standards DIN EN 1627 – 1630 for building component security classes were introduced. These classes stipulate how long a door must withstand an attempted break-in. `}
+                                    </p>
+                                  </div>
+                                  <div
+                                    className="accordian fusion-accordian"
+                                    style={{ marginTop: '20px', '--awb-margin-top': '20px', '--awb-border-size': '1px', '--awb-icon-size': '15px', '--awb-content-font-size': 'var( --awb-typography4-font-size )', '--awb-content-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-content-text-transform': 'var( --awb-typography4-text-transform )', '--awb-content-line-height': 'var( --awb-typography4-line-height )', '--awb-icon-alignment': 'left', '--awb-hover-color': 'var(--awb-color6)', '--awb-border-color': 'hsla( var(--awb-color5-h), var(--awb-color5-s), calc(var(--awb-color5-l) + 56%), var(--awb-color5-a) )', '--awb-background-color': 'var(--awb-color1)', '--awb-divider-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-divider-hover-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-icon-color': 'var(--awb-color6)', '--awb-title-color': 'var(--awb-color6)', '--awb-content-color': 'var(--awb-color6)', '--awb-icon-box-color': 'var(--awb-color1)', '--awb-toggle-hover-accent-color': 'var( --awb-color6 )', '--awb-toggle-active-accent-color': 'var( --awb-color6 )', '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '22px', '--awb-content-font-family': 'var( --awb-typography4-font-family )', '--awb-content-font-weight': 'var( --awb-typography4-font-weight )', '--awb-content-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <div
+                                      className="panel-group fusion-toggle-icon-unboxed"
+                                      id="accordion-2194-5"
+                                    >
+                                      <div
+                                        className="fusion-panel panel-default panel-6b9300a5cae870977 fusion-toggle-no-divider"
+                                        style={{ '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '20px', '--awb-title-text-transform': 'uppercase', '--awb-title-color': 'var(--awb-color6)' } as unknown as React.CSSProperties}
+                                      >
+                                        <div
+                                          className="panel-heading"
+                                        >
+                                          <h4
+                                            className="panel-title toggle"
+                                            id="toggle_6b9300a5cae870977"
+                                          >
+                                            <a
+                                              aria-controls="6b9300a5cae870977"
+                                              aria-expanded="false"
+                                              data-parent="#accordion-2194-5"
+                                              data-target="#6b9300a5cae870977"
+                                              data-toggle="collapse"
+                                              href="#6b9300a5cae870977"
+                                              role="button"
+                                            >
+                                              <span
+                                                aria-hidden="true"
+                                                className="fusion-toggle-icon-wrapper"
+                                              >
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fa-fusion-box active-icon awb-icon-minus"
+                                                ></i>
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fa-fusion-box inactive-icon fa-angle-down fas"
+                                                ></i>
+                                              </span>
+                                              <span
+                                                className="fusion-toggle-heading"
+                                              >
+                                                {`Key benefits`}
+                                              </span>
+                                            </a>
+                                          </h4>
+                                        </div>
+                                        <div
+                                          aria-labelledby="toggle_6b9300a5cae870977"
+                                          className="panel-collapse collapse"
+                                          id="6b9300a5cae870977"
+                                        >
+                                          <div
+                                            className="panel-body toggle-content fusion-clearfix"
+                                          >
+                                            {` – Tested system profiles`}
+                                            <br />
+                                            {` – Multi-point locking`}
+                                            <br />
+                                            {` – Multi-point locking, also self-locking, available: increased tested burglar resistance (WK2) simply by slamming the door, no additional locking necessary`}
+                                            <br />
+                                            {` – Schüco locking points up to WK3`}
+                                            <br />
+                                            {` – Special security fittings prevent the door from being levered out or the lock case from being drilled out`}
+                                            <br />
+                                            {` – Profile cylinder with anti-drill and anti-pull-out protection `}
+                                            <p>
+                                              {` Systems designed to deter burglars`}
+                                              <br />
+                                              {` – Schüco ADS 75.SI`}
+                                              <br />
+                                              {` – Schüco ADS 75 RL.SI`}
+                                              <br />
+                                              {` – Schüco ADS 75 SL.SI`}
+                                              <br />
+                                              {` – Schüco ADS 75 HI HD`}
+                                              <br />
+                                              {` – Schüco ADS 70.HI`}
+                                              <br />
+                                              {` – Schüco ADS 70 RL.HI`}
+                                              <br />
+                                              {` – Schüco ADS 70 SL.HI`}
+                                              <br />
+                                              {` – Schüco ADS 70.HD`}
+                                              <br />
+                                              {` – Schüco ADS 65`}
+                                              <br />
+                                              {` – Schüco ADS 65 RL`}
+                                              <br />
+                                              {` – Schüco ADS 65 SL`}
+                                              <br />
+                                              {` – Schüco ADS 65 HD`}
+                                              <br />
+                                              {` – Schüco ADS 50.NI`}
+                                              <br />
+                                              {` – Schüco ADS 60`}
+                                              <br />
+                                              {` – Schüco ADS 50 `}
+                                            </p>
+                                            <p>
+                                              {` The perfect interplay of all components is an important part of the development of burglar-resistant systems. If the overall system were to have a weakspot, this would be identified immediately during the test by a certified body. The German police recommend security classes WK2 and WK3 for protecting private homes and flats. `}
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-18 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-left': '0px', '--awb-margin-bottom': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-25 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-padding-top-small': '50px', '--awb-padding-bottom-small': '81px', '--awb-bg-position': 'center center', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
+                            data-bg-url="/legacy-assets/uploads/2025/04/Mask-group-16.png"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/04/Mask-group-16.png") !important' } as unknown as React.CSSProperties}
+                          >
+                            <img
+                              className="fusion-empty-dims-img-placeholder"
+                              decoding="async"
+                              src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271535%27%20height%3D%27688%27%20viewBox%3D%270%200%201535%20688%27%3E%3Crect%20width%3D%271535%27%20height%3D%27688%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-19 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '130px', '--awb-padding-right': '120px', '--awb-padding-bottom': '130px', '--awb-padding-left': '120px', '--awb-padding-top-small': '89px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '191px', '--awb-margin-bottom-small': '0px', '--awb-background-color': 'var(--awb-color6)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-26 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-title title fusion-title-14 fusion-sep-none fusion-title-text fusion-title-size-three"
+                              style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-margin-bottom': '60px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
+                            >
+                              <h3
+                                className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                style={{ fontFamily: 'var(--awb-typography1-font-family)', fontWeight: 'var(--awb-typography1-font-weight)', fontStyle: 'var(--awb-typography1-font-style)', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var(--awb-typography1-line-height)' } as unknown as React.CSSProperties}
+                              >
+                                {` Bullet-resistant systems for the protection of people and property `}
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-27 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-text fusion-text-18"
+                              style={{ '--awb-content-alignment': 'left', '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color1)', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                            >
+                              <p>
+                                {` In the project business, in particular, there are sectors where bullet-resistant solutions are required in addition to protection against break-in, for example, at banks and insurance companies, post offices, government institutions and retail outlets. Here too, Schüco offers suitable systems with perfect component compatibility. `}
+                              </p>
+                            </div>
+                            <div
+                              className="accordian fusion-accordian"
+                              style={{ marginTop: '20px', '--awb-margin-top': '20px', '--awb-border-size': '1px', '--awb-icon-size': '15px', '--awb-content-font-size': 'var( --awb-typography4-font-size )', '--awb-content-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-content-text-transform': 'var( --awb-typography4-text-transform )', '--awb-content-line-height': 'var( --awb-typography4-line-height )', '--awb-icon-alignment': 'left', '--awb-hover-color': 'var(--awb-color6)', '--awb-border-color': 'hsla( var(--awb-color5-h), var(--awb-color5-s), calc(var(--awb-color5-l) + 56%), var(--awb-color5-a) )', '--awb-background-color': 'var(--awb-color1)', '--awb-divider-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-divider-hover-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-icon-color': 'var(--awb-color1)', '--awb-title-color': 'var(--awb-color1)', '--awb-content-color': 'var(--awb-color1)', '--awb-icon-box-color': 'var(--awb-color1)', '--awb-toggle-hover-accent-color': 'var( --awb-color3 )', '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '22px', '--awb-content-font-family': 'var( --awb-typography4-font-family )', '--awb-content-font-weight': 'var( --awb-typography4-font-weight )', '--awb-content-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="panel-group fusion-toggle-icon-unboxed"
+                                id="accordion-2194-6"
+                              >
+                                <div
+                                  className="fusion-panel panel-default panel-6dc9536a9fe1f0f01 fusion-toggle-no-divider"
+                                  style={{ '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '20px', '--awb-title-text-transform': 'uppercase', '--awb-title-color': 'var(--awb-color1)' } as unknown as React.CSSProperties}
+                                >
+                                  <div
+                                    className="panel-heading"
+                                  >
+                                    <h4
+                                      className="panel-title toggle"
+                                      id="toggle_6dc9536a9fe1f0f01"
+                                    >
+                                      <a
+                                        aria-controls="6dc9536a9fe1f0f01"
+                                        aria-expanded="false"
+                                        data-parent="#accordion-2194-6"
+                                        data-target="#6dc9536a9fe1f0f01"
+                                        data-toggle="collapse"
+                                        href="#6dc9536a9fe1f0f01"
+                                        role="button"
+                                      >
+                                        <span
+                                          aria-hidden="true"
+                                          className="fusion-toggle-icon-wrapper"
+                                        >
+                                          <i
+                                            aria-hidden="true"
+                                            className="fa-fusion-box active-icon awb-icon-minus"
+                                          ></i>
+                                          <i
+                                            aria-hidden="true"
+                                            className="fa-fusion-box inactive-icon fa-angle-down fas"
+                                          ></i>
+                                        </span>
+                                        <span
+                                          className="fusion-toggle-heading"
+                                        >
+                                          {`Key benefits`}
+                                        </span>
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  <div
+                                    aria-labelledby="toggle_6dc9536a9fe1f0f01"
+                                    className="panel-collapse collapse"
+                                    id="6dc9536a9fe1f0f01"
+                                  >
+                                    <div
+                                      className="panel-body toggle-content fusion-clearfix"
+                                    >
+                                      <p>
+                                        {` Key features:`}
+                                        <br />
+                                        {` – Armoured external profile walls from special aluminium alloy`}
+                                        <br />
+                                        {` – Thick special glazing (Schüco Protect) or special infill panels`}
+                                        <br />
+                                        {` – Security fittings`}
+                                        <br />
+                                        {` – Of course, Schüco systems conform to the standards that apply for bullet-resistant windows, doors and façades, and have appropriate test certificates`}
+                                        <br />
+                                        {` – Wide range of colours and designs`}
+                                        <br />
+                                        {` – High level of system security `}
+                                      </p>
+                                      <p>
+                                        {` The Schüco maxim – increased protection must be unobtrusive – also applies for bullet-resistant units. Aesthetically-speaking, the bullet-resistant constructions appear the same as with standard profiles, and can therefore be harmoniously integrated in the façade. An impressive symbiosis of form, colour and function is achieved. `}
+                                      </p>
+                                      <p>
+                                        {` Schüco – your expert in the design of bullet-resistant systems. `}
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-20 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '63px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '0px', '--awb-margin-top': '106px', '--awb-margin-bottom': '155px', '--awb-margin-top-small': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, var(--awb-color1) 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-28 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-padding-top-small': '0px', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-21 fusion_builder_column_inner_1_3 1_3 fusion-flex-column"
+                                style={{ '--awb-bg-size': 'cover', '--awb-width-large': '33.333333333333%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '5.76%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '5.76%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '1', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-image-element"
+                                    style={{ '--awb-caption-title-font-family': 'var( --h2_typography-font-family )', '--awb-caption-title-font-weight': 'var( --h2_typography-font-weight )', '--awb-caption-title-font-style': 'var( --h2_typography-font-style )', '--awb-caption-title-size': 'var( --h2_typography-font-size )', '--awb-caption-title-transform': 'var( --h2_typography-text-transform )', '--awb-caption-title-line-height': 'var( --h2_typography-line-height )', '--awb-caption-title-letter-spacing': 'var( --h2_typography-letter-spacing )' } as unknown as React.CSSProperties}
+                                  >
+                                    <span
+                                      className="fusion-imageframe imageframe-none imageframe-8 hover-type-none"
+                                    >
+                                      <img
+                                        alt=""
+                                        className="lazyload img-responsive wp-image-6899 bv-tag-attr-replace"
+                                        data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 501px"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/paveikslas-69.png"
+                                        data-sizes="auto"
+                                        data-srcset="/legacy-assets/uploads/2025/02/paveikslas-69-200x200.png 200w, /legacy-assets/uploads/2025/02/paveikslas-69-400x400.png 400w, /legacy-assets/uploads/2025/02/paveikslas-69.png 501w"
+                                        decoding="async"
+                                        height="501"
+                                        src="/legacy-assets/uploads/2025/02/paveikslas-69.png"
+                                        srcSet="/legacy-assets/uploads/2025/02/paveikslas-69-200x200.png 200w, /legacy-assets/uploads/2025/02/paveikslas-69-400x400.png 400w, /legacy-assets/uploads/2025/02/paveikslas-69.png 501w"
+                                        width="501"
+                                      />
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-22 fusion_builder_column_inner_2_3 2_3 fusion-flex-column"
+                                style={{ '--awb-padding-top': '150px', '--awb-padding-right': '206px', '--awb-padding-left': '90px', '--awb-padding-top-small': '89px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-bg-size': 'cover', '--awb-width-large': '66.666666666667%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '2.88%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-15 fusion-sep-none fusion-title-text fusion-title-size-three"
+                                    style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                  >
+                                    <h3
+                                      className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: 'var( --awb-typography1-font-family )', fontWeight: 'var( --awb-typography1-font-weight )', fontStyle: 'var( --awb-typography1-font-style )', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var( --awb-typography1-line-height )' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Bullet-resistant classes `}
+                                    </h3>
+                                  </div>
+                                  <div
+                                    className="fusion-text fusion-text-19"
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <p>
+                                      {` It is in commercial projects, in particular, that there is a demand for bullet-resistant solutions. Windows, doors and façades are classified in security classes from FB2 to FB6 in accordance with the European standard DIN EN 1522. `}
+                                    </p>
+                                  </div>
+                                  <div
+                                    className="accordian fusion-accordian"
+                                    style={{ marginTop: '20px', '--awb-margin-top': '20px', '--awb-border-size': '1px', '--awb-icon-size': '15px', '--awb-content-font-size': 'var( --awb-typography4-font-size )', '--awb-content-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-content-text-transform': 'var( --awb-typography4-text-transform )', '--awb-content-line-height': 'var( --awb-typography4-line-height )', '--awb-icon-alignment': 'left', '--awb-hover-color': 'var(--awb-color6)', '--awb-border-color': 'hsla( var(--awb-color5-h), var(--awb-color5-s), calc(var(--awb-color5-l) + 56%), var(--awb-color5-a) )', '--awb-background-color': 'var(--awb-color1)', '--awb-divider-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-divider-hover-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-icon-color': 'var(--awb-color6)', '--awb-title-color': 'var(--awb-color6)', '--awb-content-color': 'var(--awb-color6)', '--awb-icon-box-color': 'var(--awb-color1)', '--awb-toggle-hover-accent-color': 'var( --awb-color6 )', '--awb-toggle-active-accent-color': 'var( --awb-color6 )', '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '22px', '--awb-content-font-family': 'var( --awb-typography4-font-family )', '--awb-content-font-weight': 'var( --awb-typography4-font-weight )', '--awb-content-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                  >
+                                    <div
+                                      className="panel-group fusion-toggle-icon-unboxed"
+                                      id="accordion-2194-7"
+                                    >
+                                      <div
+                                        className="fusion-panel panel-default panel-89fd57af4f0b06105 fusion-toggle-no-divider"
+                                        style={{ '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '400', '--awb-title-font-style': 'normal', '--awb-title-font-size': '20px', '--awb-title-text-transform': 'uppercase', '--awb-title-color': 'var(--awb-color6)' } as unknown as React.CSSProperties}
+                                      >
+                                        <div
+                                          className="panel-heading"
+                                        >
+                                          <h4
+                                            className="panel-title toggle"
+                                            id="toggle_89fd57af4f0b06105"
+                                          >
+                                            <a
+                                              aria-controls="89fd57af4f0b06105"
+                                              aria-expanded="false"
+                                              data-parent="#accordion-2194-7"
+                                              data-target="#89fd57af4f0b06105"
+                                              data-toggle="collapse"
+                                              href="#89fd57af4f0b06105"
+                                              role="button"
+                                            >
+                                              <span
+                                                aria-hidden="true"
+                                                className="fusion-toggle-icon-wrapper"
+                                              >
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fa-fusion-box active-icon awb-icon-minus"
+                                                ></i>
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fa-fusion-box inactive-icon fa-angle-down fas"
+                                                ></i>
+                                              </span>
+                                              <span
+                                                className="fusion-toggle-heading"
+                                              >
+                                                {`Key benefits`}
+                                              </span>
+                                            </a>
+                                          </h4>
+                                        </div>
+                                        <div
+                                          aria-labelledby="toggle_89fd57af4f0b06105"
+                                          className="panel-collapse collapse"
+                                          id="89fd57af4f0b06105"
+                                        >
+                                          <div
+                                            className="panel-body toggle-content fusion-clearfix"
+                                          >
+                                            <p>
+                                              {` – Increased protection that is not visible`}
+                                              <br />
+                                              {` – Armoured external profile walls with a special aluminium alloy`}
+                                              <br />
+                                              {` – Bullet-resistant Schüco Protect glazing for security in combination with thermal insulation / noise reduction or solar shading in accordance with DIN EN 1063`}
+                                              <br />
+                                              {` – Splintering (S) or non-splintering (NS) glass`}
+                                              <br />
+                                              {` – Classification in accordance with DIN EN 1522`}
+                                              <br />
+                                              {` – FB2 for 9 mm calibre Luger`}
+                                              <br />
+                                              {` – FB3 for 357 Magnum`}
+                                              <br />
+                                              {` – FB4 for 44 Remington`}
+                                              <br />
+                                              {` – FB6 for 7.62 x 51 calibre `}
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-21 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-small-visibility"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '60px', '--awb-padding-right': '0px', '--awb-padding-bottom': '60px', '--awb-padding-left': '0px', '--awb-margin-bottom': '219px', '--awb-background-color': 'var(--awb-color5)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-29 fusion_builder_column_1_1 1_1 fusion-flex-column fusion-flex-align-self-stretch"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-center"
+                          >
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-23 fusion_builder_column_inner_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch"
+                                style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-end fusion-content-layout-row fusion-flex-align-items-center"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-16 fusion-sep-none fusion-title-text fusion-title-size-three"
+                                    style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '20px', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                  >
+                                    <h3
+                                      className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: 'var( --awb-typography1-font-family )', fontWeight: 'var( --awb-typography1-font-weight )', fontStyle: 'var( --awb-typography1-font-style )', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var( --awb-typography1-line-height )' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Windows brochures `}
+                                    </h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-24 fusion_builder_column_inner_1_2 1_2 fusion-flex-column"
+                                style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                                >
+                                  <div>
+                                    <a
+                                      className="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-2 fusion-button-span-no fusion-button-default-type"
+                                      href="#"
+                                      style={{ '--button_accent_color': 'var(--awb-color5)', '--button_border_color': 'var(--awb-color5)', '--button_accent_hover_color': 'var( --awb-color1 )', '--button_border_hover_color': 'hsla( var(--awb-color4-h), var(--awb-color4-s), calc(var(--awb-color4-l) - 4%), var(--awb-color4-a) )', '--button_gradient_top_color': 'var( --awb-color1 )', '--button_gradient_bottom_color': 'var( --awb-color1 )', '--button_gradient_top_color_hover': 'var( --awb-color6 )', '--button_gradient_bottom_color_hover': 'var( --awb-color6 )', '--button_padding-right': '80px', '--button_padding-left': '80px', '--button_margin-top': '30px', '--button_margin-bottom': '50px' } as unknown as React.CSSProperties}
+                                      target="_self"
+                                    >
+                                      <span
+                                        className="fusion-button-text awb-button__text awb-button__text--default"
+                                      >
+                                        {`See all →`}
+                                      </span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-22 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-medium-visibility fusion-no-large-visibility"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '60px', '--awb-padding-right': '0px', '--awb-padding-bottom': '60px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '21px', '--awb-margin-bottom': '219px', '--awb-margin-bottom-small': '134px', '--awb-background-color': 'var(--awb-color5)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-30 fusion_builder_column_1_1 1_1 fusion-flex-column fusion-flex-align-self-center"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                              style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-25 fusion_builder_column_inner_1_2 1_2 fusion-flex-column fusion-flex-align-self-center"
+                                style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-center"
+                                >
+                                  <div
+                                    className="fusion-title title fusion-title-17 fusion-sep-none fusion-title-text fusion-title-size-three"
+                                    style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '20px', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                  >
+                                    <h3
+                                      className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                      style={{ fontFamily: 'var( --awb-typography1-font-family )', fontWeight: 'var( --awb-typography1-font-weight )', fontStyle: 'var( --awb-typography1-font-style )', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var( --awb-typography1-line-height )' } as unknown as React.CSSProperties}
+                                    >
+                                      {` Windows brochures `}
+                                    </h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-26 fusion_builder_column_inner_1_2 1_2 fusion-flex-column fusion-flex-align-self-center"
+                                style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-center"
+                                >
+                                  <div>
+                                    <a
+                                      className="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-3 fusion-button-span-no fusion-button-default-type"
+                                      href="#"
+                                      style={{ '--button_accent_color': 'var(--awb-color5)', '--button_border_color': 'var(--awb-color5)', '--button_accent_hover_color': 'var( --awb-color1 )', '--button_border_hover_color': 'hsla( var(--awb-color4-h), var(--awb-color4-s), calc(var(--awb-color4-l) - 4%), var(--awb-color4-a) )', '--button_gradient_top_color': 'var( --awb-color1 )', '--button_gradient_bottom_color': 'var( --awb-color1 )', '--button_gradient_top_color_hover': 'var( --awb-color6 )', '--button_gradient_bottom_color_hover': 'var( --awb-color6 )', '--button_padding-right': '80px', '--button_padding-left': '80px', '--button_margin-top': '30px', '--button_margin-bottom': '50px' } as unknown as React.CSSProperties}
+                                      target="_self"
+                                    >
+                                      <span
+                                        className="fusion-button-text awb-button__text awb-button__text--default"
+                                      >
+                                        {`See all →`}
+                                      </span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-23 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '120px', '--awb-padding-left': '120px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '0px', '--awb-margin-bottom': '229px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ maxWidth: '1497.6px', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-31 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-title title fusion-title-18 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-three"
+                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '60px', '--awb-margin-bottom-small': '40px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
+                            >
+                              <h3
+                                className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
+                                style={{ fontFamily: 'var(--awb-typography1-font-family)', fontWeight: 'var(--awb-typography1-font-weight)', fontStyle: 'var(--awb-typography1-font-style)', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var(--awb-typography1-line-height)' } as unknown as React.CSSProperties}
+                              >
+                                {` Security aluminium windows gallery `}
+                              </h3>
+                            </div>
+                            <div
+                              className="awb-gallery-wrapper awb-gallery-wrapper-1 button-span-no"
+                              data-limit="3"
+                              data-page="1"
+                              style={{ '--more-btn-alignment': 'center' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="fusion-gallery fusion-gallery-container fusion-grid-3 fusion-columns-total-3 fusion-gallery-layout-grid fusion-gallery-1"
+                                style={{ margin: '-8px', '--awb-bordersize': '0px' } as unknown as React.CSSProperties}
+                              >
+                                <div
+                                  className="fusion-grid-column fusion-gallery-column fusion-gallery-column-3 hover-type-none"
+                                  style={{ padding: '8px' } as unknown as React.CSSProperties}
+                                >
+                                  <div
+                                    className="fusion-gallery-image"
+                                  >
+                                    <img
+                                      alt=""
+                                      aria-label="023._wooden_sash_window"
+                                      className="lazyload img-responsive wp-image-5632 bv-tag-attr-replace"
+                                      data-orig-sizes="(min-width: 2200px) 100vw, (min-width: 704px) 475px, (min-width: 672px) 704px, (min-width: 640px) 672px,"
+                                      data-orig-src="/legacy-assets/uploads/2025/02/023._wooden_sash_window.jpg"
+                                      data-sizes="auto"
+                                      data-srcset="/legacy-assets/uploads/2025/02/023._wooden_sash_window-200x280.jpg 200w, /legacy-assets/uploads/2025/02/023._wooden_sash_window-400x560.jpg 400w, /legacy-assets/uploads/2025/02/023._wooden_sash_window-600x840.jpg 600w, /legacy-assets/uploads/2025/02/023._wooden_sash_window-800x1120.jpg 800w, /legacy-assets/uploads/2025/02/023._wooden_sash_window.jpg 857w"
+                                      decoding="async"
+                                      height="1200"
+                                      src="/legacy-assets/uploads/2025/02/023._wooden_sash_window.jpg"
+                                      srcSet="/legacy-assets/uploads/2025/02/023._wooden_sash_window-200x280.jpg 200w, /legacy-assets/uploads/2025/02/023._wooden_sash_window-400x560.jpg 400w, /legacy-assets/uploads/2025/02/023._wooden_sash_window-600x840.jpg 600w, /legacy-assets/uploads/2025/02/023._wooden_sash_window-800x1120.jpg 800w, /legacy-assets/uploads/2025/02/023._wooden_sash_window.jpg 857w"
+                                      title="023._wooden_sash_window"
+                                      width="857"
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  className="fusion-grid-column fusion-gallery-column fusion-gallery-column-3 hover-type-none"
+                                  style={{ padding: '8px' } as unknown as React.CSSProperties}
+                                >
+                                  <div
+                                    className="fusion-gallery-image"
+                                  >
+                                    <img
+                                      alt=""
+                                      aria-label="009._security_arch_window"
+                                      className="lazyload img-responsive wp-image-5633 bv-tag-attr-replace"
+                                      data-orig-sizes="(min-width: 2200px) 100vw, (min-width: 704px) 475px, (min-width: 672px) 704px, (min-width: 640px) 672px,"
+                                      data-orig-src="/legacy-assets/uploads/2025/02/009._security_arch_window.png"
+                                      data-sizes="auto"
+                                      data-srcset="/legacy-assets/uploads/2025/02/009._security_arch_window-200x297.png 200w, /legacy-assets/uploads/2025/02/009._security_arch_window-400x594.png 400w, /legacy-assets/uploads/2025/02/009._security_arch_window.png 449w"
+                                      decoding="async"
+                                      height="667"
+                                      src="/legacy-assets/uploads/2025/02/009._security_arch_window.png"
+                                      srcSet="/legacy-assets/uploads/2025/02/009._security_arch_window-200x297.png 200w, /legacy-assets/uploads/2025/02/009._security_arch_window-400x594.png 400w, /legacy-assets/uploads/2025/02/009._security_arch_window.png 449w"
+                                      title="009._security_arch_window"
+                                      width="449"
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  className="fusion-grid-column fusion-gallery-column fusion-gallery-column-3 hover-type-none"
+                                  style={{ padding: '8px' } as unknown as React.CSSProperties}
+                                >
+                                  <div
+                                    className="fusion-gallery-image"
+                                  >
+                                    <img
+                                      alt=""
+                                      aria-label="008._wooden_sash_window_(1)"
+                                      className="lazyload img-responsive wp-image-5634 bv-tag-attr-replace"
+                                      data-orig-sizes="(min-width: 2200px) 100vw, (min-width: 704px) 475px, (min-width: 672px) 704px, (min-width: 640px) 672px,"
+                                      data-orig-src="/legacy-assets/uploads/2025/02/008._wooden_sash_window-1.jpg"
+                                      data-sizes="auto"
+                                      data-srcset="/legacy-assets/uploads/2025/02/008._wooden_sash_window-1-200x133.jpg 200w, /legacy-assets/uploads/2025/02/008._wooden_sash_window-1-400x266.jpg 400w, /legacy-assets/uploads/2025/02/008._wooden_sash_window-1-600x399.jpg 600w, /legacy-assets/uploads/2025/02/008._wooden_sash_window-1.jpg 800w"
+                                      decoding="async"
+                                      height="532"
+                                      src="/legacy-assets/uploads/2025/02/008._wooden_sash_window-1.jpg"
+                                      srcSet="/legacy-assets/uploads/2025/02/008._wooden_sash_window-1-200x133.jpg 200w, /legacy-assets/uploads/2025/02/008._wooden_sash_window-1-400x266.jpg 400w, /legacy-assets/uploads/2025/02/008._wooden_sash_window-1-600x399.jpg 600w, /legacy-assets/uploads/2025/02/008._wooden_sash_window-1.jpg 800w"
+                                      title="008._wooden_sash_window_(1)"
+                                      width="800"
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  className="clearfix"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-24 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '0px', '--awb-padding-left': '0px', '--awb-background-color': 'rgba(255, 255, 255, 0)', '--awb-background-image': 'linear-gradient( 180deg, rgba(132, 123, 115, 0.6) 0%, rgba(132, 123, 115, 0.6) 100% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-align-content-space-evenly fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-32 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch"
+                          style={{ '--awb-padding-top': '144px', '--awb-padding-right': '140px', '--awb-padding-bottom': '118.6px', '--awb-padding-left': '140px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-bg-image': 'linear-gradient( 180deg, rgba(132, 123, 115, 0.6) 0%, rgba(132, 123, 115, 0.6) 100% )', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image"
+                            data-bg-gradient="linear-gradient(180deg, rgba(132,123,115,0.6) 0%,rgba(132,123,115,0.6) 100%)"
+                            data-bg-url="/legacy-assets/uploads/2024/11/Mask-group-10.png"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/11/Mask-group-10.png") !important' } as unknown as React.CSSProperties}
+                          >
+                            <div
+                              className="fusion-title title fusion-title-19 fusion-sep-none fusion-title-text fusion-title-size-two"
+                              style={{ '--awb-text-color': 'var(--awb-color1)' } as unknown as React.CSSProperties}
+                            >
+                              <h2
+                                className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                style={{ margin: '0', textTransform: 'none', '--fontSize': '50', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                              >
+                                <p>
+                                  {` Let’s secure your`}
+                                  <br />
+                                  {` property Together `}
+                                </p>
+                              </h2>
+                            </div>
+                            <div
+                              style={{ textAlign: 'left' } as unknown as React.CSSProperties}
+                            >
+                              <Link
+                                className="fusion-button button-flat button-xlarge button-custom fusion-button-default button-4 fusion-button-span-no fusion-button-default-type"
+                                href="/contact-us/"
+                                style={{ '--button_accent_color': 'var(--awb-color6)', '--button_border_color': 'var(--awb-color1)', '--button_accent_hover_color': 'var(--awb-color1)', '--button_border_hover_color': 'hsla( var(--awb-color4-h), var(--awb-color4-s), calc(var(--awb-color4-l) - 4%), var(--awb-color4-a) )', '--button_gradient_top_color': 'var(--awb-color1)', '--button_gradient_bottom_color': 'var( --awb-color1 )', '--button_gradient_top_color_hover': 'var( --awb-color6 )', '--button_gradient_bottom_color_hover': 'var( --awb-color6 )', '--button_margin-top': '30px' } as unknown as React.CSSProperties}
+                                target="_self"
+                              >
+                                <span
+                                  className="fusion-button-text awb-button__text awb-button__text--default"
+                                >
+                                  {`Free consultation`}
+                                </span>
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-33 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch"
+                          style={{ '--awb-padding-top': '194px', '--awb-padding-right': '73px', '--awb-padding-bottom': '178.59699999999998px', '--awb-padding-left': '140px', '--awb-padding-right-small': '30px', '--awb-padding-left-small': '30px', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image"
+                            data-bg-url="/legacy-assets/uploads/2025/01/Group-203-1.png"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Group-203-1.png") !important' } as unknown as React.CSSProperties}
+                          >
+                            <div
+                              className="fusion-title title fusion-title-20 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-paragraph"
+                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-font-size': '16px' } as unknown as React.CSSProperties}
+                            >
+                              <p
+                                className="fusion-title-heading title-heading-center title-heading-tag fusion-responsive-typography-calculated"
+                                style={{ margin: '0', textTransform: 'none', fontSize: '1em', '--fontSize': '16', '--minFontSize': '16', lineHeight: '1.3' } as unknown as React.CSSProperties}
+                              >
+                                {` Unit 20 Ribocon Way LU4 9UR Luton `}
+                              </p>
+                            </div>
+                            <div
+                              className="fusion-title title fusion-title-21 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-three"
+                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-font-size': '50px' } as unknown as React.CSSProperties}
+                            >
+                              <h3
+                                className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
+                                style={{ margin: '0', textTransform: 'none', fontSize: '1em', '--fontSize': '50', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                              >
+                                {` Visit our show room `}
+                              </h3>
+                            </div>
+                            <div
+                              style={{ textAlign: 'center' } as unknown as React.CSSProperties}
+                            >
+                              <a
+                                className="fusion-button button-flat button-xlarge button-custom fusion-button-default button-5 fusion-button-span-no fusion-button-default-type"
+                                href="https://maps.app.goo.gl/wgMrqKugFF8byBr56"
+                                rel="noopener noreferrer"
+                                style={{ '--button_accent_color': 'var(--awb-color1)', '--button_border_color': 'var(--awb-color1)', '--button_accent_hover_color': 'var(--awb-color6)', '--button_border_hover_color': 'var(--awb-color6)', '--button_gradient_top_color': 'var(--awb-color6)', '--button_gradient_bottom_color': 'var( --awb-color6 )', '--button_gradient_top_color_hover': 'var( --awb-color1 )', '--button_gradient_bottom_color_hover': 'var( --awb-color1 )', '--button_margin-top': '30px' } as unknown as React.CSSProperties}
+                                target="_blank"
+                              >
+                                <span
+                                  className="fusion-button-text awb-button__text awb-button__text--default"
+                                >
+                                  {`Get directions`}
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
   );
 }

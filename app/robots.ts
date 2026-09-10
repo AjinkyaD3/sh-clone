@@ -6,10 +6,11 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        // "/new" is the not-yet-live JSX-conversion preview of the whole
-        // site (see migration-log/PROGRESS.md) - keep it out of the index
-        // even though nothing on the live site links into it.
-        disallow: "/new",
+        // "/legacy" holds the old pre-conversion pages, kept for reference
+        // after the swap to live JSX routes (see migration-log/PROGRESS.md)
+        // - keep it out of the index even though nothing on the live site
+        // links into it.
+        disallow: "/legacy",
       },
     ],
     sitemap: "https://secure-house-next-js.vercel.app/sitemap.xml",
