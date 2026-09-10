@@ -13,6 +13,8 @@ User's call: instead of scattering `-v2` suffixes next to their originals, conso
 
 **Effect**: `/new/` is now a single, self-contained mirror of the entire converted site, invisible to the sitemap and disallowed for crawlers. Nothing about the live pages changed. When the "swap to live" decision (still explicitly on hold) eventually happens, it should be: delete all old top-level route folders except `new`, then move everything from `app/new/*` up to `app/*`.
 
+**Phase change**: the user is now manually comparing every `/new/*` page against the real live WordPress site (`secure-house.co.uk`) and will make hands-on edits directly in these files as they find discrepancies. **This means files under `app/new/` may no longer be a pristine 1:1 output of the `html_to_jsx.js`/`assemble_jsx_page.js` pipeline** — don't assume they still exactly match their `content.html` source, and don't blindly re-run the converter over a page the user has already hand-edited (check git history/diff on that specific page first if in doubt).
+
 ## Browser visual verification (Chrome extension reconnected) — 2026-09-10 (evening)
 
 The Chrome extension came back online this session, so ran the pixel-level visual check that was explicitly deferred for the 3 special-case pages (structural diff had already passed for all 32 pages; this was the remaining "eyeball it in a real browser" step).
