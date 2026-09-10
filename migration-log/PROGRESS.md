@@ -2,6 +2,14 @@
 
 Update this file after every session — this is the single source of truth for "what's actually done."
 
+## External audit review — 2026-09-10 (later still)
+
+User supplied a third-party audit doc and asked whether it was correct. Independently verified every claim (didn't trust it at face value) — full detail and reasoning in `CHANGES-NEEDED.md`'s "External audit review" section. Short version:
+- Its headline "Critical: spam on production homepage, block release" claim is **false** — verified clean, almost certainly confused with the live WordPress site's separate, already-known spam issue.
+- Two claims (Georgian Doors' gallery heading says "Edwardian"; Colllabsible Grilles has a duplicated sentence) are **real but pre-existing on the live WordPress site itself** — not migration bugs, left as-is per established project precedent.
+- Two claims are **real, new, and actionable**: Door Styles hub has zero working links to its 4 children (small fix), and the 4 profile-door pages (Fuego Fire, Presto Bullet Proof, Stainless Steel, Unico Slim Line) are missing real content the live site has (PDF spec sheets + a quote form) — bigger fix, needs sourcing from the live site.
+- **Not fixed yet** — user said to note it down for now, not act. See `CHANGES-NEEDED.md` for the full "To do" list.
+
 ## Homepage layout/design pass — gaps, project cards, footer, logo carousel — 2026-09-10 (later)
 
 User-requested homepage polish, now that it's live. Investigated each item against the actual DOM/CSS (exact padding/margin values, live-site comparison) before changing anything, per usual.

@@ -1,5 +1,26 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## External audit review — 2026-09-10 (post-swap)
+
+User supplied a third-party audit doc (`secure-house-35-page-deep-audit.docx`, dated 10 Sep 2026, checked WordPress vs the deployed production site) and asked whether it was correct. Independently verified every claim against the actual production site (`secure-house-next-js.vercel.app`), our own source (`content.html`/`page.tsx`), and the live WordPress site directly, rather than trusting it at face value. Findings below — **not fixed yet, just documented per user's request ("mark it, note it down").**
+
+### To do — confirmed real, needs fixing
+- [ ] **Door Styles hub (`/door-styles`) has zero working links to its 4 children** (French/Victorian/Edwardian/Georgian Doors). Confirmed: live WordPress has real `<a href="https://secure-house.co.uk/door-styles/french-doors/">` etc. on these cards; our scraped `content.html` never captured them at all (zero occurrences of any child-page path in either `content.html` or `page.tsx` — not a JSX-conversion bug, a scrape-time gap). Small, contained fix: add the 4 links back.
+- [ ] **4 profile-door product pages are missing real content**, confirmed for all 4 (Fuego Fire, Presto Bullet Proof, Stainless Steel, Unico Slim Line): the live WordPress site has downloadable PDF spec sheets organized by fire rating (EI30/EI60/EI90/EI120) and a proper "Get a Quote" contact form on each; our scraped `content.html` has **zero PDFs and zero `<form>` elements** on any of the 4 (verified via direct grep on all 4 files). Needs sourcing the PDFs and form markup from the live site and adding them — bigger than the Door Styles fix, not started.
+
+### Already known/tracked, not new
+- [x] **Security Shutters (`/grilles-shutters/security-shutters`) still uses `dangerouslySetInnerHTML`** — true, but this is the one page never converted to JSX yet, already on the project's own list. Not a surprise finding.
+
+### Pre-existing content bugs on the live WordPress site itself — confirmed real, left as-is per project precedent
+- [x] **Georgian Doors (`/door-styles/georgian-doors`) gallery heading literally says "Edwardian door gallery"** — confirmed via direct fetch of both our production page and the live WordPress page: **both** show the identical mislabeled heading. Client's own existing content error, faithfully preserved, not a migration defect. Matches how this project has already handled other live-site typos (e.g. "Frequently asked uestions") — left alone unless the client asks to fix it.
+- [x] **Colllabsible Grilles (`/grilles-shutters/colllabsible-grilles`) has a duplicated sentence** ("To put it simply, security grilles are an additional security measure...") appearing twice back-to-back with no break. Confirmed present identically on the live WordPress site. Same situation — pre-existing, not introduced by the migration.
+
+### Debunked — do not act on these, flagging so nobody else does either
+- [ ] ~~**"Critical: unrelated casino/gambling spam content on the production homepage, should block release."**~~ **FALSE.** Fetched the raw production homepage HTML directly and searched for casino/gambling/betting keywords — zero matches. A second independent check confirmed the page is clean. Almost certainly the audit tool confusing our site with the **live WordPress site's** own separate, already-documented spam-injection issue (see `MISTAKES-AND-PATCHES.md` items 7/13/17) — that issue has never existed on any Next.js page in this project.
+- [ ] ~~**"Homepage navigation items rendered as plain text, not real links."**~~ Checked the production homepage's main nav directly — found 8 real working `<a href>` links for the primary nav items (Products/Doors/Windows/Garage Doors). No evidence found supporting this claim.
+
+## `/new/*` vs live WordPress site — earlier full-site audit (pre-swap)
+
 Full audit of all 34 converted pages against secure-house.co.uk, done 2026-09-10. Method: `get_page_text` comparison of each `/new/*` page against its live WordPress counterpart, with targeted screenshots where text alone was ambiguous. Header/footer/nav were not checked per-page (shared components, already verified separately). Full URL list: `migration-log/PAGE-COMPARISON.md`.
 
 **28 of 34 pages: no changes needed, exact match against live site.**
