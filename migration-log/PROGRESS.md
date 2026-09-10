@@ -2,6 +2,23 @@
 
 Update this file after every session — this is the single source of truth for "what's actually done."
 
+## Swapped converted pages to live routes; old pages moved to /legacy — 2026-09-10 (final)
+
+User's call: "I think it is the right time now." All 34 converted pages (previously under `/new/*`) are now the live routes at their real paths. The old pages are preserved, not deleted, moved to a parallel `/legacy/*` tree.
+
+- [x] Moved each old page's `page.tsx` + `content.html` to `app/legacy/<path>/`, fixing the `path.join()` content.html reference in each.
+- [x] Moved each converted page from `app/new/<path>/` up to `app/<path>/`. Renamed `ProjectsClientV2.tsx` back to `ProjectsClient.tsx` now that it's live.
+- [x] `/grilles-shutters/security-shutters` (never converted) left untouched at its original location.
+- [x] `sitemap.ts`/`robots.ts`: the `/new` exclusion/disallow is now `/legacy`.
+- [x] Verified: `tsc`/`build` clean, sitemap back to 37 URLs with zero `/legacy` references, robots.txt disallows `/legacy`, spot-checked root/legacy/untouched routes all resolve (200).
+
+**Session paused here at the user's request (had to step away) right after reaching this safe, fully-working, committed-and-pushed checkpoint** — deliberately stopped before doing any further work.
+
+**Resume here next:**
+1. Do a full page-by-page visual re-verification pass on the now-live site (every route, in a real browser) — this wasn't done yet, the swap itself was only verified via build/curl/route-table checks, not a visual pass.
+2. Consider whether `/legacy/*` should eventually be deleted entirely once the client has signed off on the live site, or kept indefinitely for reference — no decision made yet, not urgent.
+3. All the previously-tracked open items are unaffected by this swap and still apply: French/Edwardian Doors still need real metadata from the client, media optimization Phase 2/3 still on hold, the Trade page "load more" gallery button is still a known unfixable limitation (see CHANGES-NEEDED.md).
+
 ## Reorganized all 34 converted pages under `app/new/` — 2026-09-10 (later evening)
 
 User's call: instead of scattering `-v2` suffixes next to their originals, consolidate every converted page under one `app/new/` folder that mirrors the site's real structure exactly (e.g. `app/new/door-styles/georgian-doors/page.tsx`, `app/new/doors/profile-doors/fuego-fire/page.tsx`). Reasoning: when it's finally time to go live with the converted pages, the swap becomes "delete every old route folder, then move everything from `app/new/*` up to `app/*`" — one clean operation instead of manually overwriting 32 files one at a time. Old (live) pages are completely untouched.
