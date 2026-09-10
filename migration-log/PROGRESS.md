@@ -12,6 +12,10 @@ User-requested homepage polish, now that it's live. Investigated each item again
 - [x] **Footer redesigned** — found the actual cause of the "empty column" complaint: `components/Footer.tsx` had a genuinely empty layout column (`fusion-builder-column-28`, 14% width, zero children) sitting between the contact-info and "Quick Links" columns, creating a large dead gap. Removed it entirely and redistributed its width across the remaining columns (contact info 25%→28%, Quick Links 20%→27%, About Us 20%→23%). Also reduced the footer's top padding (140px→70px). Verified: no more empty gap, footer noticeably shorter, space used properly.
 - [x] `tsc`/`build` clean after all changes; visually verified every section in-browser (scrolled through the full homepage post-fix).
 
+**Follow-up fixes after user re-check:**
+- [x] **Hero→cards gap overcorrected, then fixed properly**: the hero→4-cards row (row-5) has a pre-existing `margin-top: -80px` (an intentional overlap for a background effect) that the first pass's `padding-top: 240px→70px` reduction didn't account for — net effect was the cards touching/slightly overlapping the hero (70-80=-10px) instead of a clean gap. Corrected to `padding-top: 120px` (120-80=40px visible gap). Lesson: when a row has a negative margin-top, the *visible* gap is padding-top minus that overlap, not padding-top alone — check the net effect, not just the padding value in isolation.
+- [x] **Footer: added a real "Our Services" column** (Doors/Windows/Garage Doors/Grilles & Shutters/Door Styles) instead of just stretching the existing 4 columns wider — user asked for genuine content to fill the space, not just redistributed whitespace. Rebalanced all 5 columns' widths (16/22/20/20/18%).
+
 ## Swapped converted pages to live routes; old pages moved to /legacy — 2026-09-10 (final)
 
 User's call: "I think it is the right time now." All 34 converted pages (previously under `/new/*`) are now the live routes at their real paths. The old pages are preserved, not deleted, moved to a parallel `/legacy/*` tree.
