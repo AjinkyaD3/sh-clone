@@ -318,6 +318,20 @@ export default function RootLayout({
             width: 100% !important;
             height: 100% !important;
           }
+
+          /* Fix: the footer's "Our Services" column (added alongside Quick
+             Links/About Us) inherited the page's base 18px/bold-heading
+             styling instead of matching the rest of the footer's nav menus
+             (16px, weight 400, 24px line-height) - the compiled per-page
+             Avada CSS sets font-size on <li>/<a> with !important, which
+             beats a plain inline style, so this needs !important too. */
+          nav[aria-label="Footer services menu"] li,
+          nav[aria-label="Footer services menu"] a {
+            font-size: 16px !important;
+            font-weight: 400 !important;
+            line-height: 24px !important;
+            font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+          }
         `,
           }}
         />
