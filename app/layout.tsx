@@ -3,6 +3,7 @@ import Script from "next/script";
 import "./theme-globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ScrollReveal from "../components/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "Secure House",
@@ -104,6 +105,24 @@ export default function RootLayout({
               display: block !important;
               opacity: 1 !important;
               visibility: visible !important;
+          }
+
+          /* CSS-only scroll-in reveal for Avada's "scroll-stack" Swiper
+             sections (data-animation="stack") - the real Swiper-driven
+             stack/rotate animation stays out of scope (see DECISIONS.md,
+             "the Swiper carousel decision"), but this adds real motion on
+             top of the static grid above instead of content just
+             appearing. ScrollReveal.tsx (mounted in this layout) adds the
+             .scroll-revealed class via IntersectionObserver as each card
+             scrolls into view. */
+          .fusion-scroll-section .swiper-slide {
+              opacity: 0 !important;
+              transform: translateY(48px) !important;
+              transition: opacity 0.7s ease, transform 0.7s ease !important;
+          }
+          .fusion-scroll-section .swiper-slide.scroll-revealed {
+              opacity: 1 !important;
+              transform: translateY(0) !important;
           }
 
           /* Map missing Avada social icons to FontAwesome */
@@ -266,6 +285,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <ScrollReveal />
       </body>
     </html>
   );

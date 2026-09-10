@@ -4,16 +4,19 @@ Full audit of all 34 converted pages against secure-house.co.uk, done 2026-09-10
 
 **28 of 34 pages: no changes needed, exact match against live site.**
 
-## Needs a decision (real content differences — don't fix without deciding which version is correct)
+## Resolved (user decisions) — 2026-09-10
 
-### Communal Entrance Doors (`/doors/communal-entrance-doors`)
-The `/new/` page has an extra "Versatility for every property type" sub-section with 4 door-type cards (Custom doors, Swing doors, Sliding doors, Storage doors) that does not appear on the current live WordPress page. Either the live site removed this since the scrape, or the live site is missing content it should have. Needs a decision before touching anything.
+### Projects (`/projects`) — keep as-is, no change
+User's call: keep our correct category labels (PROJECTS / DOORS / GRILLES, SHUTTERS) rather than matching the live site's broken "Your Content Goes Here" placeholder.
 
-### Colllabsible Grilles (`/grilles-shutters/colllabsible-grilles`)
-The `/new/` page has a full grille-tier spec section (CX1 entry level, CX2 SR1 rated, VULCAN SR2 rated, ECLIPSE SR3 rated, each with a description) that does not exist anywhere on the live page — confirmed by also checking behind the page's "READ MORE" accordion toggle, which reveals different, unrelated text. Needs a decision: keep it (real product content) or remove it to match live exactly.
+### Communal Entrance Doors (`/doors/communal-entrance-doors`) and Colllabsible Grilles (`/grilles-shutters/colllabsible-grilles`) — false alarms, root cause found and fixed
+Both flagged by the audit as having "extra" content not on the live site (a 4-card "Versatility for every property type" section on Communal Entrance Doors; a CX1/CX2/VULCAN/ECLIPSE grille-tier spec section on Colllabsible Grilles). **Turned out to be a false alarm, not missing/extra content**: both sections use Avada's "scroll-stack" Swiper widget (`data-animation="stack"`, wrapped in `.fusion-scroll-section`), which normally reveals its cards progressively as the user scrolls, driven by real Swiper JS that this static migration never pulls in (see `DECISIONS.md`, "the Swiper carousel decision" — `/doors/communal-entrance-doors` is explicitly named there as an example). The audit's `get_page_text` check on the live site simply couldn't see cards that only reveal via scroll-linked JS animation — the content is real and present on both sides.
 
-### Projects (`/projects`)
-Every project card on the live site shows the literal placeholder text "Your Content Goes Here" where a category label should be (PROJECTS / DOORS / GRILLES, SHUTTERS). The `/new/` page shows the actual category names instead — this looks like a live-site bug or caching issue, and arguably our version is *more* correct. Decision needed: keep the correct labels, or intentionally match the live site's broken placeholder for pixel-parity.
+User reported the actual visible symptom directly: cards render side-by-side in a static grid with zero animation (matches the existing global CSS override in `app/layout.tsx` that forces `.swiper-wrapper` into a plain grid, chosen as a "flat but readable" fallback since full Swiper was never installed). Asked the user whether to leave this as-is, add a lighter CSS-only scroll-in reveal (the middle-ground option `DECISIONS.md` already anticipated), or install real Swiper for the exact stack/rotate motion — **user chose the CSS-only middle ground for both pages**.
+
+**Fix**: added `components/ScrollReveal.tsx` (a small client component using `IntersectionObserver`, re-running on every route change via `usePathname()` since the root layout doesn't remount on client-side navigation) plus matching CSS transition rules in `app/layout.tsx` (`.fusion-scroll-section .swiper-slide` starts faded/translated down, gets `.scroll-revealed` added as it scrolls into view). Mounted globally in `app/layout.tsx`, so it applies automatically to **every** page using this pattern, not just these two: `/doors/communal-entrance-doors`, `/grilles-shutters/colllabsible-grilles`, `/garage-doors/sectional-garage-doors`, `/garage-doors/tracless-garage-doors`, `/grilles-shutters/` (hub), `/windows/security-aluminium-windows`. Verified on both `/doors/communal-entrance-doors` and `/grilles-shutters/colllabsible-grilles`: cards fade/slide in on scroll, end fully visible, all 4 slides get `.scroll-revealed`. `tsc`/`build` clean. This is **not** a replica of the live site's exact "stack and rotate upward" motion (that needs real Swiper — bigger scope, not chosen) — it's real entrance motion instead of content just appearing, same spirit as the live site without the exact same mechanism.
+
+**Side effect worth knowing**: this likely also resolves 2 of the "likely false alarm" items further down this doc (Tracless Garage Doors, Security Aluminium Windows) and the Grilles Shutters hub, since all three use the same `.fusion-scroll-section` pattern and were flagged for the same underlying reason. Not re-verified individually yet — worth a quick recheck.
 
 ## Fixed this session
 
