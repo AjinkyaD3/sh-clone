@@ -515,23 +515,7 @@ export default function Page() {
                                 style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '400', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '50', lineHeight: '1.2' } as unknown as React.CSSProperties}
                               ></h2>
                               <h2
-                                aria-multiline="true"
-                                className="fusion-title-heading title-heading-left awb-responsive-type__disable fusion-live-editable medium-editor-element"
-                                contentEditable="true"
-                                data-inline-override-color="text_color"
-                                data-inline-override-font-size="font_size"
-                                data-inline-override-letter-spacing="letter_spacing"
-                                data-inline-override-line-height="line_height"
-                                data-inline-override-tag="size"
-                                data-inline-parent-cid="55"
-                                data-medium-editor-editor-index="4"
-                                data-medium-editor-element="true"
-                                data-medium-focused="true"
-                                data-param="element_content"
-                                data-placeholder="Residential projects + building regulation compliance = SECURE HOUSE"
-                                data-toolbar="full"
-                                role="textbox"
-                                spellCheck="true"
+                                className="fusion-title-heading title-heading-left awb-responsive-type__disable"
                               >
                                 {` 4 reasons why should`}
                                 <br />
