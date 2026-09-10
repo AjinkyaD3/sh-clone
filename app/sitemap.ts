@@ -32,6 +32,11 @@ function getPages(dir: string, basePath: string = ""): string[] {
       entry.name.startsWith(".") ||
       entry.name.startsWith("_") ||
       entry.name === "api" ||
+      // "/new" holds the not-yet-live JSX-conversion preview of every page
+      // (see migration-log/PROGRESS.md) - a real, working route tree, but
+      // not part of the actual site until it's swapped in, so it must never
+      // appear in the sitemap.
+      entry.name === "new" ||
       (entry.name.startsWith("[") && entry.name.endsWith("]"))
     ) {
       continue;

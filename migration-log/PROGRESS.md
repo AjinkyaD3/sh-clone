@@ -2,6 +2,17 @@
 
 Update this file after every session — this is the single source of truth for "what's actually done."
 
+## Reorganized all 34 converted pages under `app/new/` — 2026-09-10 (later evening)
+
+User's call: instead of scattering `-v2` suffixes next to their originals, consolidate every converted page under one `app/new/` folder that mirrors the site's real structure exactly (e.g. `app/new/door-styles/georgian-doors/page.tsx`, `app/new/doors/profile-doors/fuego-fire/page.tsx`). Reasoning: when it's finally time to go live with the converted pages, the swap becomes "delete every old route folder, then move everything from `app/new/*` up to `app/*`" — one clean operation instead of manually overwriting 32 files one at a time. Old (live) pages are completely untouched.
+
+- [x] Moved all 34 `-v2` pages (32 approved pages minus `/blog/`, which was already pure JSX, plus the 3 special-case pages = 34 total route folders) via `git mv`, preserving git history on every file. Full mapping: `app/<x>-v2` → `app/new/<x>`, with nested families (doors, door-styles, garage-doors, grilles-shutters, windows) properly consolidated into one tree under `app/new/<family>/` instead of being split between a top-level `<family>-v2` hub and `<family>/<child>-v2` children as before.
+- [x] **Found and fixed a real pre-existing gap while doing this**: `app/sitemap.ts` walks `app/` dynamically with no `-v2` exclusion, so all 34 preview pages had been silently leaking into `sitemap.xml` as if they were live, real pages since the day each was created. Added a single `entry.name === "new"` exclusion — trivial now that everything lives under one folder name, would have needed a pattern-match exclusion before. Verified: `sitemap.xml` is back to exactly 37 URLs (the 32 approved pages + `/thank-you/`, matching the pre-JSX-conversion baseline), zero `/new` references.
+- [x] Also added `disallow: "/new"` to `app/robots.ts` as extra insurance against indexing, even though nothing on the live site links into `/new/*`.
+- [x] `npx tsc --noEmit` and `npm run build` both clean after the move (had to clear a stale `.next/types/validator.ts` referencing old `-v2` paths first — disposable build cache, not a real error). Spot-checked 6 `/new/*` routes across different nesting depths, all return 200.
+
+**Effect**: `/new/` is now a single, self-contained mirror of the entire converted site, invisible to the sitemap and disallowed for crawlers. Nothing about the live pages changed. When the "swap to live" decision (still explicitly on hold) eventually happens, it should be: delete all old top-level route folders except `new`, then move everything from `app/new/*` up to `app/*`.
+
 ## Browser visual verification (Chrome extension reconnected) — 2026-09-10 (evening)
 
 The Chrome extension came back online this session, so ran the pixel-level visual check that was explicitly deferred for the 3 special-case pages (structural diff had already passed for all 32 pages; this was the remaining "eyeball it in a real browser" step).
