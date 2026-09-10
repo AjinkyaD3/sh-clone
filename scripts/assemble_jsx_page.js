@@ -22,10 +22,12 @@ const headLinks = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), 'scratch', 'converted_head_links.json'), 'utf8')
 );
 
-// Extract the metadata object block
+// Extract the metadata object block, if present. A few pre-existing pages
+// (door-styles children awaiting client-supplied meta copy - see
+// PROGRESS.md "Blocked on Client") have no metadata export at all; preserve
+// that as-is rather than fabricating content the client hasn't provided.
 const metaMatch = origSrc.match(/export const metadata: Metadata = \{[\s\S]*?\n\};/);
-if (!metaMatch) throw new Error('Could not find metadata block in ' + origPageDir);
-const metadataBlock = metaMatch[0];
+const metadataBlock = metaMatch ? metaMatch[0] : '';
 
 // Extract body className
 const classMatch = origSrc.match(/className="([^"]+)"/);
@@ -41,8 +43,7 @@ const linkTags = headLinks
   .map((h, i) => `      <link key="pl${i}" rel="stylesheet" href="${h}" />`)
   .join('\n');
 
-const out = `import type { Metadata } from "next";
-import Link from "next/link";
+const out = `${metadataBlock ? 'import type { Metadata } from "next";\n' : ''}import Link from "next/link";
 ${needsCtaImport ? 'import CTABlock from "@/components/CTABlock";\n' : ''}
 ${metadataBlock}
 
