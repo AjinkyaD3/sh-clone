@@ -4,6 +4,7 @@ import "./theme-globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ScrollReveal from "../components/ScrollReveal";
+import AccordionToggle from "../components/AccordionToggle";
 
 export const metadata: Metadata = {
   title: "Secure House",
@@ -123,6 +124,18 @@ export default function RootLayout({
           .fusion-scroll-section .swiper-slide.scroll-revealed {
               opacity: 1 !important;
               transform: translateY(0) !important;
+          }
+
+          /* Safety net for FAQ/"Read more" accordion toggles (AccordionToggle.tsx
+             adds the click behavior). Each page's own compiled Avada CSS
+             already defines these two rules, but this guarantees correct
+             collapsed/expanded behavior even if a given page's bundle
+             doesn't happen to include them. */
+          .panel-collapse.collapse:not(.in) {
+              display: none !important;
+          }
+          .panel-collapse.collapse.in {
+              display: block !important;
           }
 
           /* Map missing Avada social icons to FontAwesome */
@@ -286,6 +299,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <ScrollReveal />
+        <AccordionToggle />
       </body>
     </html>
   );
