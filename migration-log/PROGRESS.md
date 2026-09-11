@@ -2,6 +2,10 @@
 
 Update this file after every session — this is the single source of truth for "what's actually done."
 
+## Security Shutters converted to real JSX — 2026-09-11
+
+The last of the 35 approved pages still using `dangerouslySetInnerHTML` is now real JSX, using the exact same conversion pipeline as the other 34. Old raw-HTML version preserved at `/legacy/grilles-shutters/security-shutters` (not deleted). Structural diff, `tsc`, console, and all three interactive elements (FAQ, Read more, gallery See more) verified. **35/35 pages are now real JSX — the JSX-conversion effort is complete.** See `CHANGES-NEEDED.md` for full detail. Not committed/pushed yet — awaiting testing.
+
 ## CEO pre-launch review (via user, AI-sourced checklist attached) — 2026-09-11
 
 CEO asked for a review against 3 points (legacy content migrated, UX/journey best-practice, security/SEO not compromised) plus a 5-item AI-generated checklist. Verified everything independently rather than taking the checklist at face value — first correction: the checklist assumes a **Django** backend; this project is Next.js/Vercel with no backend at all (no `app/api/`, no server actions, no `.env`). Full write-up published as a shareable artifact: https://claude.ai/code/artifact/c6803ff6-6a01-46f3-8c03-c141c6e3a048

@@ -12,6 +12,19 @@ User asked to verify everything in `FAQ_AND_MORE_BUTTONS_DIRECTORY.md` (11 FAQ s
 
 User reported no image showing right after the intro paragraph on Georgian, Victorian, Edwardian, and French Doors. Confirmed real: each of these 4 pages (and only these 4 — verified via `grep -rl "fusion-bg-parallax" app` returning exactly this set) has a `.fusion-fullwidth.fusion-parallax-up` section right after the intro text with a `data-bg-url` attribute but no actual `background-image` CSS — Avada's real parallax JS would normally read that attribute and apply the image at runtime, and this migration never pulls that JS in. Root-caused via the page's own compiled CSS (`fusion-styles/*.min.css`): `.fusion-fullwidth` already resolves `background-image: var(--awb-background-image)` (default `none`) — the same CSS variable pattern already used successfully elsewhere in this codebase (e.g. the homepage hero, `--awb-background-size`/`--awb-background-position` already default to `cover`/`center center` so only the image itself was missing). **Fix**: added `'--awb-background-image': 'url("...")'` to each section's existing inline `style` object, reusing the same `data-bg-url` path already present in the markup — no new assets needed. Verified visually and via `getComputedStyle` on all 4 pages: Georgian shows a purple front door with white brick facade, Victorian/Edwardian/French each resolve their correct background image. `tsc` clean. **Not committed/pushed yet.**
 
+## Security Shutters converted to real JSX (the last raw-HTML page) — 2026-09-11
+
+`/grilles-shutters/security-shutters` was the one page out of all 35 approved pages never converted from `dangerouslySetInnerHTML` to real JSX during the original migration effort — no documented technical reason found in this log for why it specifically was skipped; most likely it was simply the largest remaining `content.html` (384 KB) and conversion work never got back to it.
+
+Converted using the exact same pipeline already proven on the other 34 pages (`scripts/html_to_jsx.js` → `scripts/assemble_jsx_page.js`, pilot at `-v2`, verify, swap):
+- Structural diff against the original wrapper: 0.128% text delta (well under the project's 1% pass threshold), identical `<img>` count (18), background-image count (13), and `<a href>` count (57).
+- `tsc` clean, zero console errors.
+- Verified all interactive elements still work post-conversion: FAQ accordion, "Read more" toggle, and the gallery "See more" button (this page has all three, plus 10 Read-more toggles per `FAQ_AND_MORE_BUTTONS_DIRECTORY.md`) — all confirmed via direct DOM state checks (before/after class toggling), not just visual inspection.
+- Old raw-HTML version preserved (not deleted) at `/legacy/grilles-shutters/security-shutters`, matching the pattern used for all previously-converted pages — confirmed it still renders correctly, and is still excluded from the sitemap / disallowed in robots.txt via the existing generic `/legacy` rule (no changes needed there).
+- Sitemap count unchanged at 37 URLs (this page was already live/indexed — only its internal implementation changed).
+
+Now 35/35 approved pages are real JSX; zero pages left using `dangerouslySetInnerHTML` for their own content (the `/legacy/*` tree is intentionally excluded/preserved-as-reference, not counted).
+
 ## CEO pre-launch review — 2026-09-11
 
 CEO-requested review (via user) against 3 points + a 5-item AI checklist (checklist wrongly assumed Django — this is Next.js/Vercel, no backend). Full artifact: https://claude.ai/code/artifact/c6803ff6-6a01-46f3-8c03-c141c6e3a048. Not fixed yet — review/record-notes only.
