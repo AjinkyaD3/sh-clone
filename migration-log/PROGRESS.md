@@ -2,6 +2,22 @@
 
 Update this file after every session — this is the single source of truth for "what's actually done."
 
+## CEO pre-launch review (via user, AI-sourced checklist attached) — 2026-09-11
+
+CEO asked for a review against 3 points (legacy content migrated, UX/journey best-practice, security/SEO not compromised) plus a 5-item AI-generated checklist. Verified everything independently rather than taking the checklist at face value — first correction: the checklist assumes a **Django** backend; this project is Next.js/Vercel with no backend at all (no `app/api/`, no server actions, no `.env`). Full write-up published as a shareable artifact: https://claude.ai/code/artifact/c6803ff6-6a01-46f3-8c03-c141c6e3a048
+
+New findings this pass (none fixed yet — review/record-notes request only, per established pattern):
+- **Blocker**: `app/contact-us/page.tsx` — the only `<form>` on the entire site — has no `onSubmit`, no API route, no server action. Submitting it does nothing; no email is ever sent. Confirmed via full-codebase grep.
+- **Header confirmed genuinely non-sticky** (not just the earlier unconfirmed user note) — live-tested via JS: `.fusion-sticky-container` stays `position: absolute` at all scroll depths, scrolls fully off-screen (`rectTop: -1500` after `scrollTo(0,1500)`). `Header.tsx` has zero scroll listeners; Avada's sticky config attributes are present in markup but were never implemented in the migration.
+- No custom 404/500 pages (Next.js defaults shown to visitors).
+- No redirects at all (`next.config.ts` is empty) — real SEO exposure for the ~150 pages moved to `_archive/` during the September scope-reduction; those old live URLs 404 with no redirect.
+- No security response headers (CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy).
+- HTTPS/HSTS confirmed properly enforced (curl: 308 + `Strict-Transport-Security`) — genuine pass.
+- Mobile responsiveness **could not be re-verified** this pass — `resize_window` didn't actually change `window.innerWidth` in this automation session (stuck at 2560). Reported as untested, not pass/fail.
+- Folded in already-known items from `CHANGES-NEEDED.md` (Door Styles missing 4 child links, 4 profile-door pages missing PDFs/quote form) and project history (2 pages with unfixable missing images, French/Edwardian Doors missing metadata, image WebP phase not started) into one prioritized action list in the artifact.
+
+**Follow-up same day**: while spot-checking image parity on 5 product pages at the user's request, found the broken "scroll section" card widget described below (see `CHANGES-NEEDED.md`). A fix was written, verified on the dev server across all 5 affected pages, and pushed — but the user canceled the in-progress Vercel deployment before it finished and asked to revert the commit, so **production is unchanged and the cards are still broken**. Reverted cleanly (`git revert`, commit `f8ae692`). The fix itself was correct and can be re-applied later; see `CHANGES-NEEDED.md` for the exact root cause and the diff.
+
 ## External audit review — 2026-09-10 (later still)
 
 User supplied a third-party audit doc and asked whether it was correct. Independently verified every claim (didn't trust it at face value) — full detail and reasoning in `CHANGES-NEEDED.md`'s "External audit review" section. Short version:
