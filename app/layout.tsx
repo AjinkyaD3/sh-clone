@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ScrollReveal from "../components/ScrollReveal";
 import AccordionToggle from "../components/AccordionToggle";
+import GalleryLoadMore from "../components/GalleryLoadMore";
 
 export const metadata: Metadata = {
   title: "Secure House",
@@ -404,6 +405,7 @@ export default function RootLayout({
         <Footer />
         <ScrollReveal />
         <AccordionToggle />
+        <GalleryLoadMore />
       </body>
     </html>
   );
