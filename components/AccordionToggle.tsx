@@ -25,7 +25,13 @@ export default function AccordionToggle() {
         trigger.getAttribute("data-target") || trigger.getAttribute("href");
       if (!targetSelector || !targetSelector.startsWith("#")) return;
 
-      const target = document.querySelector<HTMLElement>(targetSelector);
+      // getElementById, not querySelector(targetSelector): these ids are
+      // content hashes and often start with a digit (e.g. "8b62c..."),
+      // which querySelector rejects as an invalid CSS selector and throws -
+      // silently breaking every toggle whose id happens to start with 0-9
+      // (roughly half of them) since the throw happens before
+      // preventDefault() below.
+      const target = document.getElementById(targetSelector.slice(1));
       if (!target) return;
 
       e.preventDefault();
