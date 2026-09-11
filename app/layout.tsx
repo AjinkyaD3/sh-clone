@@ -135,6 +135,26 @@ export default function RootLayout({
               visibility: visible !important;
           }
 
+          /* Product-page "scroll section" cards (Communal Entrance Doors'
+             "Versatility for every property type", grilles-shutters CX/SR
+             rating cards, security-aluminium-windows benefit cards, etc.):
+             this is a different Avada widget (awb-swiper-full-sections)
+             from the generic .swiper-wrapper carousel handled above, and
+             the generic grid fallback was squeezing its full-width slides
+             into ~250px grid columns. Each slide needs to be its own
+             full-width block, stacked vertically, since the JS that would
+             normally drive the scroll-jack/stack animation never runs here
+             (same root cause as the homepage marquee above - see
+             DECISIONS.md). Higher specificity than the generic rule. */
+          .fusion-scroll-section.awb-swiper-full-sections .swiper-wrapper {
+              display: block !important;
+              gap: 0 !important;
+          }
+          .fusion-scroll-section.awb-swiper-full-sections .swiper-slide {
+              width: 100% !important;
+              margin-bottom: 40px;
+          }
+
           /* Homepage trust-logo carousel: CSS-only infinite marquee, scoped
              to just this one carousel (higher specificity than the generic
              .swiper-wrapper grid rule above, which every other carousel/
