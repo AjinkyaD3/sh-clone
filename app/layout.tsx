@@ -135,6 +135,41 @@ export default function RootLayout({
               visibility: visible !important;
           }
 
+          /* Product-page "scroll section" cards (Communal Entrance Doors'
+             "Versatility for every property type", grilles-shutters CX/SR
+             rating cards, security-aluminium-windows benefit cards, etc.):
+             this is a different Avada widget (awb-swiper-full-sections)
+             from the generic .swiper-wrapper carousel handled above.
+             Avada's own compiled CSS for this widget (see any page's
+             fusion-styles/*.min.css) already ships a designed fallback for
+             exactly this no-JS case, selected via a class
+             (.fusion-full-scroll-disabled) that only real Swiper JS ever
+             adds - so it never fires here. Replicating its 3 rules
+             directly instead of guessing our own: (1) .swiper-wrapper
+             starts at display:none until JS marks it .swiper-ready, so it
+             needs unhiding; (2) each card's outer section carries
+             .hundred-percent-height, which Avada's real CSS clamps to
+             calc(100vh - adminbar-height) regardless of content - taller
+             cards then overflowed that box and the next card started
+             inside the clamped height, overlapping the overflow (this is
+             what broke the first attempt at this fix - see
+             CHANGES-NEEDED.md); height:auto here removes the clamp so each
+             card is exactly as tall as its own content. Higher specificity
+             than the generic .swiper-wrapper rule above. */
+          .awb-swiper-full-sections {
+              height: auto !important;
+          }
+          .awb-swiper-full-sections > .swiper-wrapper {
+              display: block !important;
+          }
+          .awb-swiper-full-sections .hundred-percent-height {
+              height: auto !important;
+          }
+          .awb-swiper-full-sections .swiper-slide {
+              width: 100% !important;
+              margin-bottom: 40px;
+          }
+
           /* Homepage trust-logo carousel: CSS-only infinite marquee, scoped
              to just this one carousel (higher specificity than the generic
              .swiper-wrapper grid rule above, which every other carousel/
