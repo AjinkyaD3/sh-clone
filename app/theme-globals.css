@@ -8,6 +8,21 @@ img:is([sizes="auto" i], [sizes^="auto," i]) {
   contain-intrinsic-size: 3000px 1500px;
 }
 
+/* 1b. Base responsive-image reset. Every Avada-scraped page's own
+   per-page compiled stylesheet (fusion-styles/[hash].min.css or, on the
+   homepage, homepage-styles.css) happens to carry this exact
+   `img { max-width: 100%; height: auto }` rule, so images with explicit
+   width/height attributes (like Header.tsx's watermark logo, width=495)
+   scale down correctly. Pages with no such per-page stylesheet - e.g.
+   /blog, which is hand-built rather than scraped - never get it, so the
+   shared Header's img overflowed unclamped on mobile there. Making it
+   global here so the header doesn't depend on which page happens to
+   load a legacy stylesheet. */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
 
 /* 2. Global WordPress / Avada Theme Tokens & Layout Resets */

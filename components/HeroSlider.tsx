@@ -36,21 +36,12 @@ const slides: Slide[] = [
   },
 ];
 
-const ROTATE_MS = 6500;
-
 export default function HeroSlider() {
   const [mountNode, setMountNode] = useState<Element | null>(null);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
     setMountNode(document.getElementById('__hero-slider-mount'));
-  }, []);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setActive((prev) => (prev + 1) % slides.length);
-    }, ROTATE_MS);
-    return () => clearInterval(timer);
   }, []);
 
   if (!mountNode) return null;

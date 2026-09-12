@@ -126,8 +126,15 @@ export default function RootLayout({
               flex-wrap: nowrap !important;
           }
           
-          /* Force Swiper projects to display as static grid */
-          .swiper-wrapper, .fusion-carousel-wrapper .fusion-carousel-inner {
+          /* Force Swiper projects to display as static grid. Excludes
+             .awb-image-carousel-wrapper (the homepage trust-logo marquee,
+             styled separately below): this rule's transform: none
+             !important was silently overriding the marquee's own
+             @keyframes animation - the animation reported
+             animationPlayState "running" the whole time, but !important
+             beats a running CSS animation for the same property per spec,
+             so the transform never visibly moved. Found 2026-09-12. */
+          .swiper-wrapper:not(.awb-image-carousel-wrapper), .fusion-carousel-wrapper .fusion-carousel-inner {
               display: grid !important;
               grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
               gap: 20px !important;
@@ -376,6 +383,42 @@ export default function RootLayout({
             font-weight: 400 !important;
             line-height: 24px !important;
             font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+          }
+
+          /* Fix: footer columns collapse to one full-width column at
+             <=1024px (confirmed - matches secure-house.co.uk's own
+             behavior at this width, not a migration bug), but only the
+             logo column was ever centered (fusion-flex-justify-content-
+             center). Every other column - phone/email/address, and all
+             3 nav menus - kept its desktop flex-start alignment, so once
+             stacked they hang off the left edge under a centered logo:
+             lopsided, not "not aligned with each other" by accident but
+             by an unfinished responsive rule. Centering everything so
+             the stacked footer reads as one deliberate column. */
+          @media (max-width: 1024px) {
+            .fusion-tb-footer .fusion-builder-row-13 .fusion-column-wrapper {
+              align-items: center !important;
+              justify-content: center !important;
+              text-align: center !important;
+            }
+            .fusion-tb-footer .fusion-builder-row-13 nav[aria-label="Footer services menu"] ul {
+              align-items: center !important;
+              text-align: center !important;
+            }
+            /* "Quick Links" and "Footer left menu" are Avada's awb-menu
+               component - its compiled CSS reads justify-content off this
+               custom property (set inline in Footer.tsx as flex-start for
+               the desktop row layout) rather than a plain class, so
+               align-items/text-align above never reached it. */
+            .fusion-tb-footer .fusion-builder-row-13 nav[aria-label="Footer middle menu"],
+            .fusion-tb-footer .fusion-builder-row-13 nav[aria-label="Footer left menu"] {
+              --awb-main-justify-content: center !important;
+            }
+            .fusion-tb-footer .fusion-builder-row-13 nav[aria-label="Footer middle menu"] .awb-menu__main-ul,
+            .fusion-tb-footer .fusion-builder-row-13 nav[aria-label="Footer left menu"] .awb-menu__main-ul {
+              justify-content: center !important;
+              text-align: center !important;
+            }
           }
 
           /* Homepage mobile responsiveness pass. The hero heading has its

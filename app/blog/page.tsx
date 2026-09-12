@@ -17,7 +17,24 @@ export default function BlogIndexPage() {
   );
 
   return (
-    <div className={styles.wrapper}>
+    <>
+      {/* Every Avada-scraped page loads its own compiled fusion-styles
+         bundle, which - besides page-specific rules - carries the base
+         theme CSS the shared <Header/>/<Footer/> components depend on
+         (menu layout, image resets, etc; confirmed by comparing rule
+         counts: this page loaded ~100 rules total vs several thousand on
+         every other page). This hand-built page never included any such
+         link, so the header rendered as an unstyled bullet list and a
+         plain <img> overflowed unclamped (see theme-globals.css's img
+         reset, added earlier for the same reason). Reusing the
+         homepage's bundle here restores the missing base styling -
+         confirmed these bundles are near-duplicate global CSS across
+         pages, not page-locked, so this carries no page-specific risk. */}
+      <link
+        rel="stylesheet"
+        href="/legacy-assets/uploads/fusion-styles/3978f22170001630860f0711fbc80184.min.css"
+      />
+      <div className={styles.wrapper}>
       <h1 className={styles.heading}>Blog</h1>
       <ul className={styles.grid}>
         {sorted.map((post) => {
@@ -47,6 +64,7 @@ export default function BlogIndexPage() {
           );
         })}
       </ul>
-    </div>
+      </div>
+    </>
   );
 }
