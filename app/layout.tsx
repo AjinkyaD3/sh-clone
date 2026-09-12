@@ -38,8 +38,17 @@ export default function RootLayout({
         <style
           dangerouslySetInnerHTML={{
             __html: `
+          /* Without this, mobile WebKit/Blink auto-inflates text size on
+             narrow viewports (its own readability heuristic, layered on top
+             of any font-size we set) - e.g. a 34px mobile heading rule was
+             actually computing to 50px. Every responsive font-size fix
+             assumes this is off. */
+          html {
+              -webkit-text-size-adjust: 100%;
+              text-size-adjust: 100%;
+          }
           body { font-family: 'Montserrat', sans-serif !important; }
-          
+
           /* Fix for Issue #2: Project card layout */
           .post-card-item {
               background-color: #333333 !important; /* Keep the grey backgound for the whole card */
@@ -367,6 +376,119 @@ export default function RootLayout({
             font-weight: 400 !important;
             line-height: 24px !important;
             font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+          }
+
+          /* Homepage mobile responsiveness pass. The hero heading has its
+             own mobile rule (HeroSlider.module.css, @media max-width:782px,
+             34px) but it never actually wins: this <h1> also matches a
+             legacy Avada rule from the page's own compiled CSS
+             (".post-content h1 { font-size: var(--h1_typography-font-size) }"),
+             whose specificity (0,1,1 - a class + a type selector) beats the
+             module's single class selector (0,1,0) regardless of source
+             order, so the fixed 50px design-token value from that var()
+             wins instead of the module's responsive size. Reinforcing the
+             module's own already-correct intended value here, with
+             sufficient specificity/!important to actually win - using an
+             attribute-substring selector rather than the exact hashed class
+             name, since CSS Modules class hashes aren't guaranteed stable
+             across builds. */
+          @media (max-width: 782px) {
+            [class*="HeroSlider-module"][class*="__heading"] {
+              font-size: 34px !important;
+            }
+          }
+
+          /* Mobile menu trigger icon. Header.tsx's row-2 (the mobile-only
+             header - logo + phone, already correctly shown/hidden per
+             breakpoint by Avada's own real CSS, see DECISIONS.md-style note
+             in the component) has a genuine, correctly-positioned off-canvas
+             trigger anchor already scraped from the live site (3rd column,
+             ordered after the logo and phone icon) - but it was only ever a
+             bare anchor wrapping an empty "background-image" span, meant to
+             get a hamburger icon graphic from Avada's off-canvas JS/CSS that
+             this migration never pulls in, so it rendered as an invisible,
+             zero-content tap target. Header.tsx's href was changed from its
+             scraped value to #mobile-menu-trigger to reuse the click-wiring
+             already built for the (desktop-only, still correctly hidden on
+             mobile) "Products" button - see Header.tsx. This just draws the
+             icon; row-2's own existing responsive classes already handle
+             showing it only on mobile. */
+          a[href="#mobile-menu-trigger"] {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: 44px !important;
+            height: 44px !important;
+          }
+          a[href="#mobile-menu-trigger"] .fusion-column-inner-bg-image {
+            display: block;
+            width: 24px;
+            height: 18px;
+            position: relative;
+          }
+          a[href="#mobile-menu-trigger"] .fusion-column-inner-bg-image::before,
+          a[href="#mobile-menu-trigger"] .fusion-column-inner-bg-image::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--awb-color1, #1c1e36);
+          }
+          a[href="#mobile-menu-trigger"] .fusion-column-inner-bg-image::before {
+            top: 0;
+            box-shadow: 0 8px 0 var(--awb-color1, #1c1e36);
+          }
+          a[href="#mobile-menu-trigger"] .fusion-column-inner-bg-image::after {
+            bottom: 0;
+          }
+
+          /* Full-screen mobile menu panel: its 4-column layout
+             (grid-template-columns: 25% 25% 22% 28%) and 50/100/90/130px
+             padding are set as inline styles in Header.tsx, hard-coded for
+             desktop off-canvas use (the source is a verbatim port of the
+             real site's off-canvas menu markup - see the comment there) -
+             there was never a mobile variant. !important is required to
+             beat an inline style regardless of selector specificity. */
+          @media (max-width: 640px) {
+            .mobile-menu-active nav[aria-label="Mobile menu"] {
+              padding: 80px 24px 40px !important;
+            }
+            .mobile-menu-active nav[aria-label="Mobile menu"] > div:first-child {
+              display: flex !important;
+              flex-direction: column !important;
+              gap: 48px !important;
+            }
+            /* The email/phone contact bar is a separate sibling div, also
+               absolutely positioned (bottom:40px) assuming a fixed-height
+               desktop panel - on mobile the stacked content above is much
+               taller, so it needs to flow after that content instead of
+               floating at a fixed spot and getting overlapped. */
+            .mobile-menu-active nav[aria-label="Mobile menu"] > div:last-child {
+              position: static !important;
+              left: auto !important;
+              right: auto !important;
+              bottom: auto !important;
+              flex-direction: column !important;
+              align-items: flex-start !important;
+              margin-top: 40px !important;
+              padding-bottom: 40px !important;
+            }
+          }
+
+          /* Homepage "Luxurious Security Doors" video slide (.tfs-slider,
+             the only element on the whole site using className="slides" -
+             confirmed via grep). This is Avada's FlexSlider-pattern widget:
+             its own real CSS hides every <li class="slides"> by default and
+             only ever reveals the active one by adding a class via
+             FlexSlider's JS, which this migration never loads - so the
+             slide (and the video inside it) was permanently display:none,
+             collapsing to 0x0 and showing nothing but the page's white
+             background behind the "Loading..." spinner that (also JS-driven)
+             never gets hidden either. This slider has exactly one slide, so
+             forcing it visible is the correct fix, not a workaround. */
+          .tfs-slider .slides li {
+            display: block !important;
           }
         `,
           }}

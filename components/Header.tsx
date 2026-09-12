@@ -29,24 +29,36 @@ export default function Header() {
 	}, []);
 
 	useEffect(() => {
-		// The "PRODUCTS" button trigger
-		const triggerBtn = document.querySelector('a[href="#mobile-menu-trigger"]');
+		// Two separate elements both open this same shared panel (it doubles
+		// as the desktop "PRODUCTS" mega-menu and the mobile off-canvas
+		// menu - see the portal comment above): the desktop "Products"
+		// button (href="#products-panel-trigger") and row-2's off-canvas
+		// trigger anchor, the one actually shown on mobile (originally
+		// scraped as href="#awb-oc__2708", renamed to the stable
+		// "#mobile-menu-trigger" id so this listener doesn't depend on
+		// Avada's generated off-canvas id staying the same across
+		// scrapes/rebuilds). querySelector (singular) would only ever find
+		// and wire up ONE of these two - querySelectorAll + attaching to
+		// each is required so both actually open the panel.
+		const triggerBtns = Array.from(
+			document.querySelectorAll<HTMLElement>(
+				'a[href="#mobile-menu-trigger"], a[href="#products-panel-trigger"]',
+			),
+		);
 
 		const handleTriggerClick = (e: Event) => {
 			e.preventDefault();
 			setMenuOpen(prev => !prev);
 		};
 
-		if (triggerBtn) {
-			triggerBtn.addEventListener('click', handleTriggerClick);
-		}
+		triggerBtns.forEach(btn => btn.addEventListener('click', handleTriggerClick));
 
 		// Handle clicks inside and outside the menu
 		const handleGlobalClick = (e: MouseEvent) => {
 			const target = e.target as HTMLElement;
 
-			// If clicking the trigger button itself, let the trigger handler deal with it
-			if (triggerBtn && triggerBtn.contains(target)) return;
+			// If clicking a trigger button itself, let the trigger handler deal with it
+			if (triggerBtns.some(btn => btn.contains(target))) return;
 
 			const mobileNav = document.querySelector('nav[aria-label="Mobile menu"]');
 			if (menuOpen && mobileNav) {
@@ -68,7 +80,7 @@ export default function Header() {
 		document.addEventListener('click', handleGlobalClick);
 
 		return () => {
-			if (triggerBtn) triggerBtn.removeEventListener('click', handleTriggerClick);
+			triggerBtns.forEach(btn => btn.removeEventListener('click', handleTriggerClick));
 			document.removeEventListener('click', handleGlobalClick);
 		};
 	}, [menuOpen]);
@@ -182,7 +194,7 @@ export default function Header() {
 										<div className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-0 fusion_builder_column_inner_1_3 1_3 fusion-flex-column fusion-no-small-visibility" style={{ "--awb-bg-size": "cover", "--awb-width-large": "33.333333333333%", "--awb-margin-top-large": "0px", "--awb-spacing-right-large": "5.76%", "--awb-margin-bottom-large": "0px", "--awb-spacing-left-large": "0%", "--awb-width-medium": "100%", "--awb-order-medium": "0", "--awb-spacing-right-medium": "1.92%", "--awb-spacing-left-medium": "1.92%", "--awb-width-small": "100%", "--awb-order-small": "0", "--awb-spacing-right-small": "1.92%", "--awb-spacing-left-small": "1.92%" } as any}>
 											<div className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-row fusion-content-nowrap">
 												<div>
-													<a className="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-1 fusion-button-default-span fusion-button-default-type" href="#mobile-menu-trigger" style={{ "--button_accent_color": "var(--awb-color1)", "--button_border_color": "var(--awb-color1)", "--button_accent_hover_color": "var(--awb-color2)", "--button_border_hover_color": "var(--awb-color2)", "--button_gradient_top_color": "rgba(255,255,255,0)", "--button_gradient_bottom_color": "rgba(255,255,255,0)", "--button_gradient_top_color_hover": "rgba(255,255,255,0)", "--button_gradient_bottom_color_hover": "rgba(255,255,255,0)", "--button_text_transform": "uppercase", "--button_font_size": "14px", "--button_typography-font-family": "\"Montserrat\"", "--button_typography-font-style": "normal", "--button_typography-font-weight": "600", "width": "calc(100%)" } as any} target="_self">
+													<a className="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-1 fusion-button-default-span fusion-button-default-type" href="#products-panel-trigger" style={{ "--button_accent_color": "var(--awb-color1)", "--button_border_color": "var(--awb-color1)", "--button_accent_hover_color": "var(--awb-color2)", "--button_border_hover_color": "var(--awb-color2)", "--button_gradient_top_color": "rgba(255,255,255,0)", "--button_gradient_bottom_color": "rgba(255,255,255,0)", "--button_gradient_top_color_hover": "rgba(255,255,255,0)", "--button_gradient_bottom_color_hover": "rgba(255,255,255,0)", "--button_text_transform": "uppercase", "--button_font_size": "14px", "--button_typography-font-family": "\"Montserrat\"", "--button_typography-font-style": "normal", "--button_typography-font-weight": "600", "width": "calc(100%)" } as any} target="_self">
 														<span className="fusion-button-text awb-button__text awb-button__text--default">
 															Products
 														</span>
@@ -262,7 +274,7 @@ export default function Header() {
 							</div>
 							<div className="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_1_1 1_1 fusion-flex-column fusion-flex-align-self-center fusion-column-inner-bg-wrapper" data-scroll-devices="small-visibility,medium-visibility,large-visibility" style={{ "--awb-inner-bg-size": "cover", "--awb-width-large": "100%", "--awb-margin-top-large": "0px", "--awb-spacing-right-large": "1.92%", "--awb-margin-bottom-large": "0px", "--awb-spacing-left-large": "1.92%", "--awb-width-medium": "100%", "--awb-order-medium": "0", "--awb-spacing-right-medium": "1.92%", "--awb-spacing-left-medium": "1.92%", "--awb-width-small": "12%", "--awb-order-small": "3", "--awb-spacing-right-small": "0%", "--awb-spacing-left-small": "16%" } as any}>
 								<span className="fusion-column-inner-bg hover-type-none">
-									<a className="fusion-column-anchor" href="#awb-oc__2708">
+									<a className="fusion-column-anchor" href="#mobile-menu-trigger">
 										<span className="fusion-column-inner-bg-image"></span>
 									</a>
 								</span>

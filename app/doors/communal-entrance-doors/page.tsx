@@ -292,8 +292,8 @@ export default function Page() {
                         >
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-24.png"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-24.png") !important' } as unknown as React.CSSProperties}
+                            data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-24-1.png"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-24-1.png") !important' } as unknown as React.CSSProperties}
                           >
                             <img
                               className="fusion-empty-dims-img-placeholder"
@@ -439,8 +439,8 @@ export default function Page() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-26.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-26.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-26.png"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-26.png") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
@@ -538,8 +538,8 @@ export default function Page() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-27.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-27.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-27-1.png"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-27-1.png") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
@@ -670,8 +670,8 @@ export default function Page() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/02/Mask-group.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Mask-group.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-29.png"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-29.png") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
@@ -864,8 +864,8 @@ export default function Page() {
                         >
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2025/02/Mask-group.png"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Mask-group.png") !important' } as unknown as React.CSSProperties}
+                            data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-30.png"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-30.png") !important' } as unknown as React.CSSProperties}
                           >
                             <img
                               aria-label="mask_group_(30)"
