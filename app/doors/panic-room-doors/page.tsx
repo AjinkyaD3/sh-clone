@@ -63,9 +63,9 @@ export default function Page() {
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-column-has-bg-image fusion-column-has-bg-image-small"
                             data-bg-gradient="linear-gradient(180deg, rgba(33,35,38,0.38) 0%,rgba(33,35,38,0.61) 100%)"
                             data-bg-small="/legacy-assets/uploads/2025/02/Mask-group.png"
-                            data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-24.png"
+                            data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-24.png"
                             data-fusion-responsive-bg="1"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-24.png") !important' } as React.CSSProperties}
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-24.png") !important' } as React.CSSProperties}
                           >
                             <div
                               className="fusion-title title fusion-title-1 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-one"
@@ -433,8 +433,8 @@ export default function Page() {
                         >
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-27.png"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-27.png") !important' } as React.CSSProperties}
+                            data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-27.png"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-27.png") !important' } as React.CSSProperties}
                           >
                             <img
                               className="fusion-empty-dims-img-placeholder"

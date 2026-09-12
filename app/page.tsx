@@ -515,10 +515,12 @@ export default function Page() {
                                       style={{ maxWidth: '100%', height: '863px', filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'\', sizingMethod=\'scale\')' } as unknown as React.CSSProperties}
                                     >
                                       <video
+                                        autoPlay={true}
                                         className="bv-lazyload-video"
                                         height="700"
                                         loop={true}
                                         muted={true}
+                                        playsInline={true}
                                         preload="auto"
                                         src="/legacy-assets/uploads/2024/10/Untitled-2024-11-11-17-47-13copy-2-compressed.mp4"
                                         width="1800"
