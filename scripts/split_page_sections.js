@@ -75,11 +75,26 @@ function processFile(relPath) {
 
   const sections = [];
   let cursor = markers[0].openIdx; // 0-indexed start of first section
-  for (let k = 0; k < markers.length; k++) {
-    const end = findEnd(markers[k].openIdx);
-    if (end === -1) return { relPath, skipped: true, reason: `unbalanced div for row ${markers[k].row}` };
-    sections.push({ row: markers[k].row, start: cursor, end }); // 0-indexed inclusive
+  let k = 0;
+  while (k < markers.length) {
+    // Count depth from `cursor`, not from this row's own opening <div>: some
+    // pages wrap a row in an extra anchor div (e.g. fusion-container-anchor)
+    // that opens *before* the row's own marker but closes *after* it -
+    // counting from the row's own tag would never see that wrapper's open,
+    // so its close would be misread as unbalanced, corrupting every
+    // subsequent section in the file.
+    const startRow = markers[k].row;
+    const end = findEnd(cursor);
+    if (end === -1) return { relPath, skipped: true, reason: `unbalanced div for row ${startRow}` };
+    sections.push({ row: startRow, start: cursor, end }); // 0-indexed inclusive
     cursor = end + 1;
+    // Some rows are themselves nested widgets containing further
+    // "fusion-builder-row-N" markers as children (e.g. a scroll-stack
+    // widget's individual card slides) - those aren't separate top-level
+    // siblings, they were already swallowed whole into the section above.
+    // Skip every marker whose position falls before the new cursor.
+    k++;
+    while (k < markers.length && markers[k].openIdx < cursor) k++;
   }
   const headEnd = markers[0].openIdx; // exclusive
   const tailStart = sections[sections.length - 1].end + 1; // inclusive

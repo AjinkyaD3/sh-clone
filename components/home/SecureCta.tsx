@@ -73,6 +73,7 @@ export default function SecureCta() {
                   className="bv-lazyload-video"
                   controls={true}
                   loop={true}
+                  muted={true}
                   playsInline={true}
                   autoPlay={true}
                   preload="auto"

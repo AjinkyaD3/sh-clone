@@ -192,16 +192,40 @@ export default function RootLayout({
              .swiper-wrapper grid rule above, which every other carousel/
              slider on the site still needs). The real Swiper JS that would
              normally drive this never runs here (same root cause as the
-             scroll-stack sections - see DECISIONS.md); page.tsx duplicates
-             the 4 logos once so this loop is seamless. */
+             scroll-stack sections - see DECISIONS.md).
+
+             Two-collection technique (source: stackoverflow.com/a/65485329,
+             Albert Fernández Martínez, CC BY-SA 4.0) instead of a plain
+             translateX(-50%) on one flat duplicated row: the outer track
+             (.awb-image-carousel-wrapper) slides left continuously while
+             item-collection-1 - the first of the two logo groups inside it,
+             see TrustLogos.tsx - independently jumps from left:0% to
+             left:100% at the exact halfway point of the same-length
+             animation. The jump is timed to exactly cancel out the distance
+             the track has already slid, so collection-1 reappears seamlessly
+             right after collection-2, forever. Doesn't depend on the two
+             collections being pixel-identical widths (the earlier -50%
+             approach did, and a lazyload/srcSet width mismatch between the
+             two logo sets broke it once already - see CHANGES-NEEDED.md). */
           .awb-image-carousel-wrapper {
-              display: flex !important;
+              display: inline-flex !important;
               flex-wrap: nowrap !important;
               width: max-content !important;
               animation: awb-logo-marquee 22s linear infinite;
           }
-          .awb-image-carousel-wrapper:hover {
+          .awb-image-carousel-wrapper:hover,
+          .awb-image-carousel-wrapper:hover .item-collection-1 {
               animation-play-state: paused;
+          }
+          .item-collection-1,
+          .item-collection-2 {
+              display: flex !important;
+              flex-wrap: nowrap !important;
+          }
+          .item-collection-1 {
+              position: relative;
+              left: 0%;
+              animation: awb-logo-swap 22s linear infinite;
           }
           .awb-image-carousel-wrapper .swiper-slide {
               width: auto !important;
@@ -212,7 +236,11 @@ export default function RootLayout({
           }
           @keyframes awb-logo-marquee {
               from { transform: translateX(0); }
-              to { transform: translateX(-50%); }
+              to { transform: translateX(-100%); }
+          }
+          @keyframes awb-logo-swap {
+              0%, 50% { left: 0%; }
+              50.01%, 100% { left: 100%; }
           }
 
           /* CSS-only scroll-in reveal for Avada's "scroll-stack" Swiper
