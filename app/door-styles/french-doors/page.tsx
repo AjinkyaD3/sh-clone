@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Row3 from "@/components/door-styles/french-doors/Row3";
+import FrenchStyleDoors from "@/components/door-styles/french-doors/FrenchStyleDoors";
 import Row4 from "@/components/door-styles/french-doors/Row4";
 import Row5 from "@/components/door-styles/french-doors/Row5";
-import Row6 from "@/components/door-styles/french-doors/Row6";
+import FrenchStyleHighSecurityBackDoors from "@/components/door-styles/french-doors/FrenchStyleHighSecurityBackDoors";
 import Row7 from "@/components/door-styles/french-doors/Row7";
 import Row8 from "@/components/door-styles/french-doors/Row8";
-import Row9 from "@/components/door-styles/french-doors/Row9";
-import Row10 from "@/components/door-styles/french-doors/Row10";
-import Row11 from "@/components/door-styles/french-doors/Row11";
-import Row12 from "@/components/door-styles/french-doors/Row12";
-import Row13 from "@/components/door-styles/french-doors/Row13";
-import Row14 from "@/components/door-styles/french-doors/Row14";
+import OurSideBackFrenchDoorsJust from "@/components/door-styles/french-doors/OurSideBackFrenchDoorsJust";
+import WhyChooseFrenchDoorsFromSecure from "@/components/door-styles/french-doors/WhyChooseFrenchDoorsFromSecure";
+import ExternalFrenchDoorsStylishVersatileChoice from "@/components/door-styles/french-doors/ExternalFrenchDoorsStylishVersatileChoice";
+import ExtraSecureAlternatives from "@/components/door-styles/french-doors/ExtraSecureAlternatives";
+import TheyOpenUpBackHouse from "@/components/door-styles/french-doors/TheyOpenUpBackHouse";
+import FrenchDoorGallery from "@/components/door-styles/french-doors/FrenchDoorGallery";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -69,18 +69,18 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <FrenchStyleDoors />
       <Row4 />
       <Row5 />
-      <Row6 />
+      <FrenchStyleHighSecurityBackDoors />
       <Row7 />
       <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row13 />
-      <Row14 />
+      <OurSideBackFrenchDoorsJust />
+      <WhyChooseFrenchDoorsFromSecure />
+      <ExternalFrenchDoorsStylishVersatileChoice />
+      <ExtraSecureAlternatives />
+      <TheyOpenUpBackHouse />
+      <FrenchDoorGallery />
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-14 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
                       style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '0px', '--awb-padding-left': '0px', '--awb-background-color': 'rgba(255, 255, 255, 0)', '--awb-background-image': 'linear-gradient( 180deg, rgba(132, 123, 115, 0.6) 0%, rgba(132, 123, 115, 0.6) 100% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}

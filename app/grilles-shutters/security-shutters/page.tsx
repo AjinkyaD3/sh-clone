@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 import CTABlock from "@/components/CTABlock";
-import Row3 from "@/components/grilles-shutters/security-shutters/Row3";
+import PremiumHomeSecurityShutters from "@/components/grilles-shutters/security-shutters/PremiumHomeSecurityShutters";
 import Row4 from "@/components/grilles-shutters/security-shutters/Row4";
-import Row5 from "@/components/grilles-shutters/security-shutters/Row5";
+import TrustedDomesticSecurityShutterSolutionsAcross from "@/components/grilles-shutters/security-shutters/TrustedDomesticSecurityShutterSolutionsAcross";
 import Row6 from "@/components/grilles-shutters/security-shutters/Row6";
 import Row7 from "@/components/grilles-shutters/security-shutters/Row7";
-import Row8 from "@/components/grilles-shutters/security-shutters/Row8";
-import Row9 from "@/components/grilles-shutters/security-shutters/Row9";
-import Row10 from "@/components/grilles-shutters/security-shutters/Row10";
-import Row11 from "@/components/grilles-shutters/security-shutters/Row11";
-import Row12 from "@/components/grilles-shutters/security-shutters/Row12";
-import Row13 from "@/components/grilles-shutters/security-shutters/Row13";
-import Row14 from "@/components/grilles-shutters/security-shutters/Row14";
-import Row15 from "@/components/grilles-shutters/security-shutters/Row15";
-import Row16 from "@/components/grilles-shutters/security-shutters/Row16";
-import Row17 from "@/components/grilles-shutters/security-shutters/Row17";
-import Row18 from "@/components/grilles-shutters/security-shutters/Row18";
-import Row19 from "@/components/grilles-shutters/security-shutters/Row19";
-import Row20 from "@/components/grilles-shutters/security-shutters/Row20";
-import Row21 from "@/components/grilles-shutters/security-shutters/Row21";
+import SecurityShuttersLondonManySafetyComfort from "@/components/grilles-shutters/security-shutters/SecurityShuttersLondonManySafetyComfort";
+import RollerSecurityShutters from "@/components/grilles-shutters/security-shutters/RollerSecurityShutters";
+import SecurityShuttersLondonRollerType from "@/components/grilles-shutters/security-shutters/SecurityShuttersLondonRollerType";
+import ProtectHomeAluminiumRollerSecurityShutters from "@/components/grilles-shutters/security-shutters/ProtectHomeAluminiumRollerSecurityShutters";
+import VideoEmbed from "@/components/grilles-shutters/security-shutters/VideoEmbed";
+import SaveEnergyMoneyAluminiumRollerSecurity from "@/components/grilles-shutters/security-shutters/SaveEnergyMoneyAluminiumRollerSecurity";
+import ElectricSecurityShutters from "@/components/grilles-shutters/security-shutters/ElectricSecurityShutters";
+import SecurityShuttersLondonDrives from "@/components/grilles-shutters/security-shutters/SecurityShuttersLondonDrives";
+import VideoEmbed2 from "@/components/grilles-shutters/security-shutters/VideoEmbed2";
+import ManualControlSecurityShutters from "@/components/grilles-shutters/security-shutters/ManualControlSecurityShutters";
+import VideoEmbed3 from "@/components/grilles-shutters/security-shutters/VideoEmbed3";
+import ElectricDriveSecurityShutters from "@/components/grilles-shutters/security-shutters/ElectricDriveSecurityShutters";
+import HighSecurityShutters from "@/components/grilles-shutters/security-shutters/HighSecurityShutters";
+import ClassIiiBurglarResistant from "@/components/grilles-shutters/security-shutters/ClassIiiBurglarResistant";
 import Row22 from "@/components/grilles-shutters/security-shutters/Row22";
-import Row23 from "@/components/grilles-shutters/security-shutters/Row23";
-import Row24 from "@/components/grilles-shutters/security-shutters/Row24";
-import Row25 from "@/components/grilles-shutters/security-shutters/Row25";
-import Row26 from "@/components/grilles-shutters/security-shutters/Row26";
+import WeHaveWorkedSeveralSportsCommunity from "@/components/grilles-shutters/security-shutters/WeHaveWorkedSeveralSportsCommunity";
+import SecurityShuttersGallery from "@/components/grilles-shutters/security-shutters/SecurityShuttersGallery";
+import FrequentlyAskedQuestionsFaq from "@/components/grilles-shutters/security-shutters/FrequentlyAskedQuestionsFaq";
+import LetsSecurePropertyTogether from "@/components/grilles-shutters/security-shutters/LetsSecurePropertyTogether";
 import Row27 from "@/components/grilles-shutters/security-shutters/Row27";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
@@ -83,30 +83,30 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <PremiumHomeSecurityShutters />
       <Row4 />
-      <Row5 />
+      <TrustedDomesticSecurityShutterSolutionsAcross />
       <Row6 />
       <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row13 />
-      <Row14 />
-      <Row15 />
-      <Row16 />
-      <Row17 />
-      <Row18 />
-      <Row19 />
-      <Row20 />
-      <Row21 />
+      <SecurityShuttersLondonManySafetyComfort />
+      <RollerSecurityShutters />
+      <SecurityShuttersLondonRollerType />
+      <ProtectHomeAluminiumRollerSecurityShutters />
+      <VideoEmbed />
+      <SaveEnergyMoneyAluminiumRollerSecurity />
+      <ElectricSecurityShutters />
+      <SecurityShuttersLondonDrives />
+      <VideoEmbed2 />
+      <ManualControlSecurityShutters />
+      <VideoEmbed3 />
+      <ElectricDriveSecurityShutters />
+      <HighSecurityShutters />
+      <ClassIiiBurglarResistant />
       <Row22 />
-      <Row23 />
-      <Row24 />
-      <Row25 />
-      <Row26 />
+      <WeHaveWorkedSeveralSportsCommunity />
+      <SecurityShuttersGallery />
+      <FrequentlyAskedQuestionsFaq />
+      <LetsSecurePropertyTogether />
       <Row27 />
                   </div>
                 </div>

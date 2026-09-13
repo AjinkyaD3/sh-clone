@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
 import CTABlock from "@/components/CTABlock";
-import Row3 from "@/components/doors/fire-resistant-doors/Row3";
+import FireResistantDoors from "@/components/doors/fire-resistant-doors/FireResistantDoors";
 import Row4 from "@/components/doors/fire-resistant-doors/Row4";
 import Row5 from "@/components/doors/fire-resistant-doors/Row5";
-import Row6 from "@/components/doors/fire-resistant-doors/Row6";
+import FireSafetyRegulationsResidentialProperties from "@/components/doors/fire-resistant-doors/FireSafetyRegulationsResidentialProperties";
 import Row7 from "@/components/doors/fire-resistant-doors/Row7";
 import Row8 from "@/components/doors/fire-resistant-doors/Row8";
-import Row9 from "@/components/doors/fire-resistant-doors/Row9";
+import FramelessFireSystems from "@/components/doors/fire-resistant-doors/FramelessFireSystems";
 import Row10 from "@/components/doors/fire-resistant-doors/Row10";
-import Row11 from "@/components/doors/fire-resistant-doors/Row11";
+import FramelessFireSystemsIi from "@/components/doors/fire-resistant-doors/FramelessFireSystemsIi";
 import Row12 from "@/components/doors/fire-resistant-doors/Row12";
-import Row13 from "@/components/doors/fire-resistant-doors/Row13";
+import OfficeLine from "@/components/doors/fire-resistant-doors/OfficeLine";
 import Row14 from "@/components/doors/fire-resistant-doors/Row14";
-import Row15 from "@/components/doors/fire-resistant-doors/Row15";
-import Row16 from "@/components/doors/fire-resistant-doors/Row16";
-import Row17 from "@/components/doors/fire-resistant-doors/Row17";
-import Row18 from "@/components/doors/fire-resistant-doors/Row18";
-import Row19 from "@/components/doors/fire-resistant-doors/Row19";
+import ClassicLine from "@/components/doors/fire-resistant-doors/ClassicLine";
+import FireResistantDoorsGallery from "@/components/doors/fire-resistant-doors/FireResistantDoorsGallery";
+import Gallery from "@/components/doors/fire-resistant-doors/Gallery";
+import FrequentlyAskedQuestionsFaq from "@/components/doors/fire-resistant-doors/FrequentlyAskedQuestionsFaq";
+import LetsSecurePropertyTogether from "@/components/doors/fire-resistant-doors/LetsSecurePropertyTogether";
 import Row20 from "@/components/doors/fire-resistant-doors/Row20";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
@@ -76,23 +76,23 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <FireResistantDoors />
       <Row4 />
       <Row5 />
-      <Row6 />
+      <FireSafetyRegulationsResidentialProperties />
       <Row7 />
       <Row8 />
-      <Row9 />
+      <FramelessFireSystems />
       <Row10 />
-      <Row11 />
+      <FramelessFireSystemsIi />
       <Row12 />
-      <Row13 />
+      <OfficeLine />
       <Row14 />
-      <Row15 />
-      <Row16 />
-      <Row17 />
-      <Row18 />
-      <Row19 />
+      <ClassicLine />
+      <FireResistantDoorsGallery />
+      <Gallery />
+      <FrequentlyAskedQuestionsFaq />
+      <LetsSecurePropertyTogether />
       <Row20 />
                   </div>
                 </div>

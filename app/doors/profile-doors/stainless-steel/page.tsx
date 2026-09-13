@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Row3 from "@/components/doors/profile-doors/stainless-steel/Row3";
-import Row4 from "@/components/doors/profile-doors/stainless-steel/Row4";
-import Row5 from "@/components/doors/profile-doors/stainless-steel/Row5";
-import Row6 from "@/components/doors/profile-doors/stainless-steel/Row6";
-import Row7 from "@/components/doors/profile-doors/stainless-steel/Row7";
-import Row8 from "@/components/doors/profile-doors/stainless-steel/Row8";
-import Row9 from "@/components/doors/profile-doors/stainless-steel/Row9";
+import StainlessSteel from "@/components/doors/profile-doors/stainless-steel/StainlessSteel";
+import VideoEmbed from "@/components/doors/profile-doors/stainless-steel/VideoEmbed";
+import InternalFireDoors from "@/components/doors/profile-doors/stainless-steel/InternalFireDoors";
+import StainlessSteelDoorSolutionsPrivateCommercial from "@/components/doors/profile-doors/stainless-steel/StainlessSteelDoorSolutionsPrivateCommercial";
+import FeaturesStainlessSteelSecurityDoors from "@/components/doors/profile-doors/stainless-steel/FeaturesStainlessSteelSecurityDoors";
+import StainlessSteelGallery from "@/components/doors/profile-doors/stainless-steel/StainlessSteelGallery";
 import { DEFAULT_OG_IMAGE } from "../../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -65,12 +65,12 @@ export default function Page() {
                     className="post-content"
                   >
       <Row3 />
-      <Row4 />
-      <Row5 />
-      <Row6 />
-      <Row7 />
-      <Row8 />
-      <Row9 />
+      <StainlessSteel />
+      <VideoEmbed />
+      <InternalFireDoors />
+      <StainlessSteelDoorSolutionsPrivateCommercial />
+      <FeaturesStainlessSteelSecurityDoors />
+      <StainlessSteelGallery />
                   </div>
                 </div>
               </section>

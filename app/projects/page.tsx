@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import ProjectsClient from "./ProjectsClient";
-import Row3 from "@/components/projects/Row3";
-import Row4 from "@/components/projects/Row4";
+import OurProjects from "@/components/projects/OurProjects";
+import RetirementVillageFireSecurityUpgrade from "@/components/projects/RetirementVillageFireSecurityUpgrade";
 import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -55,8 +55,8 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
-      <Row4 />
+      <OurProjects />
+      <RetirementVillageFireSecurityUpgrade />
                   </div>
                 </div>
               </section>

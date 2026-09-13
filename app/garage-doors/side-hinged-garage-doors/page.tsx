@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 import CTABlock from "@/components/CTABlock";
-import Row3 from "@/components/garage-doors/side-hinged-garage-doors/Row3";
+import SideHingedGarageDoors from "@/components/garage-doors/side-hinged-garage-doors/SideHingedGarageDoors";
 import Row4 from "@/components/garage-doors/side-hinged-garage-doors/Row4";
-import Row5 from "@/components/garage-doors/side-hinged-garage-doors/Row5";
+import SideHingedGarageDoorsOptionWhich from "@/components/garage-doors/side-hinged-garage-doors/SideHingedGarageDoorsOptionWhich";
 import Row6 from "@/components/garage-doors/side-hinged-garage-doors/Row6";
 import Row7 from "@/components/garage-doors/side-hinged-garage-doors/Row7";
-import Row8 from "@/components/garage-doors/side-hinged-garage-doors/Row8";
-import Row9 from "@/components/garage-doors/side-hinged-garage-doors/Row9";
+import CustomMadeAnySize from "@/components/garage-doors/side-hinged-garage-doors/CustomMadeAnySize";
+import IfYoureNotSureAboutWhat from "@/components/garage-doors/side-hinged-garage-doors/IfYoureNotSureAboutWhat";
 import Row10 from "@/components/garage-doors/side-hinged-garage-doors/Row10";
-import Row11 from "@/components/garage-doors/side-hinged-garage-doors/Row11";
-import Row12 from "@/components/garage-doors/side-hinged-garage-doors/Row12";
-import Row13 from "@/components/garage-doors/side-hinged-garage-doors/Row13";
-import Row14 from "@/components/garage-doors/side-hinged-garage-doors/Row14";
-import Row15 from "@/components/garage-doors/side-hinged-garage-doors/Row15";
-import Row16 from "@/components/garage-doors/side-hinged-garage-doors/Row16";
+import MainBenefitsSideHingedGarageDoors from "@/components/garage-doors/side-hinged-garage-doors/MainBenefitsSideHingedGarageDoors";
+import WeConstructHingedGarageDoorsUsing from "@/components/garage-doors/side-hinged-garage-doors/WeConstructHingedGarageDoorsUsing";
+import HowDoesSetSideHingedGarage from "@/components/garage-doors/side-hinged-garage-doors/HowDoesSetSideHingedGarage";
+import SideHingedGarageDoorsGallery from "@/components/garage-doors/side-hinged-garage-doors/SideHingedGarageDoorsGallery";
+import FrequentlyAskedQuestionsFaq from "@/components/garage-doors/side-hinged-garage-doors/FrequentlyAskedQuestionsFaq";
+import LetsSecurePropertyTogether from "@/components/garage-doors/side-hinged-garage-doors/LetsSecurePropertyTogether";
 import Row17 from "@/components/garage-doors/side-hinged-garage-doors/Row17";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
@@ -73,20 +73,20 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <SideHingedGarageDoors />
       <Row4 />
-      <Row5 />
+      <SideHingedGarageDoorsOptionWhich />
       <Row6 />
       <Row7 />
-      <Row8 />
-      <Row9 />
+      <CustomMadeAnySize />
+      <IfYoureNotSureAboutWhat />
       <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row13 />
-      <Row14 />
-      <Row15 />
-      <Row16 />
+      <MainBenefitsSideHingedGarageDoors />
+      <WeConstructHingedGarageDoorsUsing />
+      <HowDoesSetSideHingedGarage />
+      <SideHingedGarageDoorsGallery />
+      <FrequentlyAskedQuestionsFaq />
+      <LetsSecurePropertyTogether />
       <Row17 />
                   </div>
                 </div>

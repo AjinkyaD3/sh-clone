@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import CTABlock from "@/components/CTABlock";
-import Row3 from "@/components/garage-doors/Row3";
-import Row4 from "@/components/garage-doors/Row4";
-import Row5 from "@/components/garage-doors/Row5";
-import Row6 from "@/components/garage-doors/Row6";
-import Row7 from "@/components/garage-doors/Row7";
-import Row8 from "@/components/garage-doors/Row8";
-import Row9 from "@/components/garage-doors/Row9";
-import Row10 from "@/components/garage-doors/Row10";
-import Row11 from "@/components/garage-doors/Row11";
+import PremiumGarageDoorsInstallationUk from "@/components/garage-doors/PremiumGarageDoorsInstallationUk";
+import WideRangeGarageDoorsHomesBusinesses from "@/components/garage-doors/WideRangeGarageDoorsHomesBusinesses";
+import HighQualitySecureGarageDoorsLondon from "@/components/garage-doors/HighQualitySecureGarageDoorsLondon";
+import AboutGarageDoors from "@/components/garage-doors/AboutGarageDoors";
+import WhyItImportantHaveSecureSet from "@/components/garage-doors/WhyItImportantHaveSecureSet";
+import AGarageDoorCompanyThatWill from "@/components/garage-doors/AGarageDoorCompanyThatWill";
+import FindRightSolutionHelpFromExperienced from "@/components/garage-doors/FindRightSolutionHelpFromExperienced";
+import LetsSecurePropertyTogether from "@/components/garage-doors/LetsSecurePropertyTogether";
+import FrequentlyAskedQuestionsFaq from "@/components/garage-doors/FrequentlyAskedQuestionsFaq";
 import Row12 from "@/components/garage-doors/Row12";
 import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
@@ -67,15 +67,15 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
-      <Row4 />
-      <Row5 />
-      <Row6 />
-      <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
+      <PremiumGarageDoorsInstallationUk />
+      <WideRangeGarageDoorsHomesBusinesses />
+      <HighQualitySecureGarageDoorsLondon />
+      <AboutGarageDoors />
+      <WhyItImportantHaveSecureSet />
+      <AGarageDoorCompanyThatWill />
+      <FindRightSolutionHelpFromExperienced />
+      <LetsSecurePropertyTogether />
+      <FrequentlyAskedQuestionsFaq />
       <Row12 />
                   </div>
                 </div>

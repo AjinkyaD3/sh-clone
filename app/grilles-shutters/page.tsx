@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Row3 from "@/components/grilles-shutters/Row3";
-import Row4 from "@/components/grilles-shutters/Row4";
-import Row5 from "@/components/grilles-shutters/Row5";
-import Row7 from "@/components/grilles-shutters/Row7";
+import GrillesShutters from "@/components/grilles-shutters/GrillesShutters";
+import SecurityRatedShuttersGrillesHomesBusinesses from "@/components/grilles-shutters/SecurityRatedShuttersGrillesHomesBusinesses";
+import SecurityShutters from "@/components/grilles-shutters/SecurityShutters";
+import LetsSecurePropertyTogether from "@/components/grilles-shutters/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -60,10 +60,10 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
-      <Row4 />
-      <Row5 />
-      <Row7 />
+      <GrillesShutters />
+      <SecurityRatedShuttersGrillesHomesBusinesses />
+      <SecurityShutters />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

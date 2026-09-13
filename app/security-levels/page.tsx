@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import Row3 from "@/components/security-levels/Row3";
 import Row4 from "@/components/security-levels/Row4";
-import Row5 from "@/components/security-levels/Row5";
-import Row6 from "@/components/security-levels/Row6";
-import Row7 from "@/components/security-levels/Row7";
-import Row8 from "@/components/security-levels/Row8";
-import Row9 from "@/components/security-levels/Row9";
-import Row10 from "@/components/security-levels/Row10";
-import Row11 from "@/components/security-levels/Row11";
+import MakePropertyFortressChooseRightSecurity from "@/components/security-levels/MakePropertyFortressChooseRightSecurity";
+import LightProtectionLevel from "@/components/security-levels/LightProtectionLevel";
+import HighProtectionLevel from "@/components/security-levels/HighProtectionLevel";
+import ExtraProtectionLevel from "@/components/security-levels/ExtraProtectionLevel";
+import ExtremelyHighProtectionLevel from "@/components/security-levels/ExtremelyHighProtectionLevel";
+import ExtremelyHighProtectionLevel2 from "@/components/security-levels/ExtremelyHighProtectionLevel2";
+import LetsSecurePropertyTogether from "@/components/security-levels/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -67,13 +67,13 @@ export default function Page() {
                   >
       <Row3 />
       <Row4 />
-      <Row5 />
-      <Row6 />
-      <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
+      <MakePropertyFortressChooseRightSecurity />
+      <LightProtectionLevel />
+      <HighProtectionLevel />
+      <ExtraProtectionLevel />
+      <ExtremelyHighProtectionLevel />
+      <ExtremelyHighProtectionLevel2 />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

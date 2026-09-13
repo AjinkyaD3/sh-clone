@@ -1,23 +1,23 @@
 import type { Metadata } from "next";
 import CTABlock from "@/components/CTABlock";
-import Row3 from "@/components/doors/high-security-doors/Row3";
+import PremiumHighSecurityDoors from "@/components/doors/high-security-doors/PremiumHighSecurityDoors";
 import Row4 from "@/components/doors/high-security-doors/Row4";
 import Row5 from "@/components/doors/high-security-doors/Row5";
-import Row6 from "@/components/doors/high-security-doors/Row6";
-import Row7 from "@/components/doors/high-security-doors/Row7";
-import Row8 from "@/components/doors/high-security-doors/Row8";
-import Row9 from "@/components/doors/high-security-doors/Row9";
-import Row10 from "@/components/doors/high-security-doors/Row10";
-import Row11 from "@/components/doors/high-security-doors/Row11";
+import ProtectHomeHighSecurityFrontDoors from "@/components/doors/high-security-doors/ProtectHomeHighSecurityFrontDoors";
+import OurSecurityDoorFeatures from "@/components/doors/high-security-doors/OurSecurityDoorFeatures";
+import BespokeManufacture from "@/components/doors/high-security-doors/BespokeManufacture";
+import LearnMore from "@/components/doors/high-security-doors/LearnMore";
+import ChooseSecurityDoorType from "@/components/doors/high-security-doors/ChooseSecurityDoorType";
+import PremiumSteelSecurityDoors from "@/components/doors/high-security-doors/PremiumSteelSecurityDoors";
 import Row12 from "@/components/doors/high-security-doors/Row12";
-import Row13 from "@/components/doors/high-security-doors/Row13";
-import Row14 from "@/components/doors/high-security-doors/Row14";
-import Row15 from "@/components/doors/high-security-doors/Row15";
+import StillConsideringIfYouNeedSecurity from "@/components/doors/high-security-doors/StillConsideringIfYouNeedSecurity";
+import WhatMakesSecurityDoorsEssential from "@/components/doors/high-security-doors/WhatMakesSecurityDoorsEssential";
+import HowChooseSecurityDoors from "@/components/doors/high-security-doors/HowChooseSecurityDoors";
 import Row16 from "@/components/doors/high-security-doors/Row16";
 import Row17 from "@/components/doors/high-security-doors/Row17";
-import Row18 from "@/components/doors/high-security-doors/Row18";
-import Row19 from "@/components/doors/high-security-doors/Row19";
-import Row20 from "@/components/doors/high-security-doors/Row20";
+import PremiumHighSecurityDoorsGallery from "@/components/doors/high-security-doors/PremiumHighSecurityDoorsGallery";
+import FrequentlyAskedQuestionsFaq from "@/components/doors/high-security-doors/FrequentlyAskedQuestionsFaq";
+import LetsSecurePropertyTogether from "@/components/doors/high-security-doors/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -76,24 +76,24 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <PremiumHighSecurityDoors />
       <Row4 />
       <Row5 />
-      <Row6 />
-      <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
+      <ProtectHomeHighSecurityFrontDoors />
+      <OurSecurityDoorFeatures />
+      <BespokeManufacture />
+      <LearnMore />
+      <ChooseSecurityDoorType />
+      <PremiumSteelSecurityDoors />
       <Row12 />
-      <Row13 />
-      <Row14 />
-      <Row15 />
+      <StillConsideringIfYouNeedSecurity />
+      <WhatMakesSecurityDoorsEssential />
+      <HowChooseSecurityDoors />
       <Row16 />
       <Row17 />
-      <Row18 />
-      <Row19 />
-      <Row20 />
+      <PremiumHighSecurityDoorsGallery />
+      <FrequentlyAskedQuestionsFaq />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

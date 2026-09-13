@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import Row3 from "@/components/garage-doors/sliding-garage-doors/Row3";
+import SlidingGarageDoors from "@/components/garage-doors/sliding-garage-doors/SlidingGarageDoors";
 import Row4 from "@/components/garage-doors/sliding-garage-doors/Row4";
-import Row5 from "@/components/garage-doors/sliding-garage-doors/Row5";
+import SpaceSavingDesignSuperiorPerformanceCustomization from "@/components/garage-doors/sliding-garage-doors/SpaceSavingDesignSuperiorPerformanceCustomization";
 import Row6 from "@/components/garage-doors/sliding-garage-doors/Row6";
-import Row7 from "@/components/garage-doors/sliding-garage-doors/Row7";
-import Row8 from "@/components/garage-doors/sliding-garage-doors/Row8";
-import Row9 from "@/components/garage-doors/sliding-garage-doors/Row9";
-import Row10 from "@/components/garage-doors/sliding-garage-doors/Row10";
-import Row11 from "@/components/garage-doors/sliding-garage-doors/Row11";
-import Row12 from "@/components/garage-doors/sliding-garage-doors/Row12";
-import Row13 from "@/components/garage-doors/sliding-garage-doors/Row13";
+import TwoHundredPlusDesigns from "@/components/garage-doors/sliding-garage-doors/TwoHundredPlusDesigns";
+import VideoEmbed from "@/components/garage-doors/sliding-garage-doors/VideoEmbed";
+import FeaturesSlidingSectionalGarageDoorRange from "@/components/garage-doors/sliding-garage-doors/FeaturesSlidingSectionalGarageDoorRange";
+import WhyChooseSlidingTypeGarageDoors from "@/components/garage-doors/sliding-garage-doors/WhyChooseSlidingTypeGarageDoors";
+import MaximumPracticality from "@/components/garage-doors/sliding-garage-doors/MaximumPracticality";
+import SlidingGarageDoorsGallery from "@/components/garage-doors/sliding-garage-doors/SlidingGarageDoorsGallery";
+import LetsSecurePropertyTogether from "@/components/garage-doors/sliding-garage-doors/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -68,17 +68,17 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <SlidingGarageDoors />
       <Row4 />
-      <Row5 />
+      <SpaceSavingDesignSuperiorPerformanceCustomization />
       <Row6 />
-      <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row13 />
+      <TwoHundredPlusDesigns />
+      <VideoEmbed />
+      <FeaturesSlidingSectionalGarageDoorRange />
+      <WhyChooseSlidingTypeGarageDoors />
+      <MaximumPracticality />
+      <SlidingGarageDoorsGallery />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

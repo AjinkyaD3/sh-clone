@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Row3 from "@/components/door-styles/victorian-doors/Row3";
+import VictorianStyleDoors from "@/components/door-styles/victorian-doors/VictorianStyleDoors";
 import Row4 from "@/components/door-styles/victorian-doors/Row4";
 import Row5 from "@/components/door-styles/victorian-doors/Row5";
-import Row6 from "@/components/door-styles/victorian-doors/Row6";
+import DiscoverVictorianStyleHighSecurityFront from "@/components/door-styles/victorian-doors/DiscoverVictorianStyleHighSecurityFront";
 import Row7 from "@/components/door-styles/victorian-doors/Row7";
 import Row8 from "@/components/door-styles/victorian-doors/Row8";
-import Row9 from "@/components/door-styles/victorian-doors/Row9";
-import Row10 from "@/components/door-styles/victorian-doors/Row10";
-import Row11 from "@/components/door-styles/victorian-doors/Row11";
-import Row12 from "@/components/door-styles/victorian-doors/Row12";
-import Row13 from "@/components/door-styles/victorian-doors/Row13";
-import Row14 from "@/components/door-styles/victorian-doors/Row14";
-import Row15 from "@/components/door-styles/victorian-doors/Row15";
-import Row16 from "@/components/door-styles/victorian-doors/Row16";
+import SecureInteriorExteriorVictorianDoors from "@/components/door-styles/victorian-doors/SecureInteriorExteriorVictorianDoors";
+import MainFeaturesVictorianDoors from "@/components/door-styles/victorian-doors/MainFeaturesVictorianDoors";
+import DoorGlazedPanels from "@/components/door-styles/victorian-doors/DoorGlazedPanels";
+import PanelledDoor from "@/components/door-styles/victorian-doors/PanelledDoor";
+import InteriorDoorElements from "@/components/door-styles/victorian-doors/InteriorDoorElements";
+import VictorianDoorMaterials from "@/components/door-styles/victorian-doors/VictorianDoorMaterials";
+import VictorianDoorGallery from "@/components/door-styles/victorian-doors/VictorianDoorGallery";
+import FrequentlyAskedQuestionsFaq from "@/components/door-styles/victorian-doors/FrequentlyAskedQuestionsFaq";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -71,20 +71,20 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <VictorianStyleDoors />
       <Row4 />
       <Row5 />
-      <Row6 />
+      <DiscoverVictorianStyleHighSecurityFront />
       <Row7 />
       <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row13 />
-      <Row14 />
-      <Row15 />
-      <Row16 />
+      <SecureInteriorExteriorVictorianDoors />
+      <MainFeaturesVictorianDoors />
+      <DoorGlazedPanels />
+      <PanelledDoor />
+      <InteriorDoorElements />
+      <VictorianDoorMaterials />
+      <VictorianDoorGallery />
+      <FrequentlyAskedQuestionsFaq />
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-16 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
                       style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '0px', '--awb-padding-left': '0px', '--awb-background-color': 'rgba(255, 255, 255, 0)', '--awb-background-image': 'linear-gradient( 180deg, rgba(132, 123, 115, 0.6) 0%, rgba(132, 123, 115, 0.6) 100% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}

@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
 import CTABlock from "@/components/CTABlock";
-import Row3 from "@/components/doors/communal-entrance-doors/Row3";
+import PremiumCommunalEntranceSolutionsApartments from "@/components/doors/communal-entrance-doors/PremiumCommunalEntranceSolutionsApartments";
 import Row4 from "@/components/doors/communal-entrance-doors/Row4";
 import Row5 from "@/components/doors/communal-entrance-doors/Row5";
-import Row6 from "@/components/doors/communal-entrance-doors/Row6";
+import ExploreRangeCommunalFlatEntranceDoors from "@/components/doors/communal-entrance-doors/ExploreRangeCommunalFlatEntranceDoors";
 import Row7 from "@/components/doors/communal-entrance-doors/Row7";
 import Row8 from "@/components/doors/communal-entrance-doors/Row8";
-import Row9 from "@/components/doors/communal-entrance-doors/Row9";
-import Row10 from "@/components/doors/communal-entrance-doors/Row10";
+import VersatilityEveryPropertyType from "@/components/doors/communal-entrance-doors/VersatilityEveryPropertyType";
+import CustomDoors from "@/components/doors/communal-entrance-doors/CustomDoors";
 import Row14 from "@/components/doors/communal-entrance-doors/Row14";
 import Row15 from "@/components/doors/communal-entrance-doors/Row15";
-import Row16 from "@/components/doors/communal-entrance-doors/Row16";
+import FullyAccreditedSecurity from "@/components/doors/communal-entrance-doors/FullyAccreditedSecurity";
 import Row17 from "@/components/doors/communal-entrance-doors/Row17";
-import Row18 from "@/components/doors/communal-entrance-doors/Row18";
-import Row19 from "@/components/doors/communal-entrance-doors/Row19";
-import Row20 from "@/components/doors/communal-entrance-doors/Row20";
-import Row21 from "@/components/doors/communal-entrance-doors/Row21";
-import Row22 from "@/components/doors/communal-entrance-doors/Row22";
+import OverLastFewYearsSecureHouse from "@/components/doors/communal-entrance-doors/OverLastFewYearsSecureHouse";
+import SafetyFirst from "@/components/doors/communal-entrance-doors/SafetyFirst";
+import CommunalEntranceDoorsGallery from "@/components/doors/communal-entrance-doors/CommunalEntranceDoorsGallery";
+import FrequentlyAskedQuestionsFaq from "@/components/doors/communal-entrance-doors/FrequentlyAskedQuestionsFaq";
+import LetsSecurePropertyTogether from "@/components/doors/communal-entrance-doors/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -75,23 +75,23 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <PremiumCommunalEntranceSolutionsApartments />
       <Row4 />
       <Row5 />
-      <Row6 />
+      <ExploreRangeCommunalFlatEntranceDoors />
       <Row7 />
       <Row8 />
-      <Row9 />
-      <Row10 />
+      <VersatilityEveryPropertyType />
+      <CustomDoors />
       <Row14 />
       <Row15 />
-      <Row16 />
+      <FullyAccreditedSecurity />
       <Row17 />
-      <Row18 />
-      <Row19 />
-      <Row20 />
-      <Row21 />
-      <Row22 />
+      <OverLastFewYearsSecureHouse />
+      <SafetyFirst />
+      <CommunalEntranceDoorsGallery />
+      <FrequentlyAskedQuestionsFaq />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

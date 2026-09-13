@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import Row3 from "@/components/products/Row3";
+import Products from "@/components/products/Products";
 import Row4 from "@/components/products/Row4";
-import Row5 from "@/components/products/Row5";
-import Row6 from "@/components/products/Row6";
-import Row7 from "@/components/products/Row7";
-import Row8 from "@/components/products/Row8";
-import Row9 from "@/components/products/Row9";
-import Row10 from "@/components/products/Row10";
+import ResidentialDoors from "@/components/products/ResidentialDoors";
+import CommercialDoors from "@/components/products/CommercialDoors";
+import Windows from "@/components/products/Windows";
+import Shutters from "@/components/products/Shutters";
+import GarageDoors from "@/components/products/GarageDoors";
+import LetsSecurePropertyTogether from "@/components/products/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -64,14 +64,14 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <Products />
       <Row4 />
-      <Row5 />
-      <Row6 />
-      <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
+      <ResidentialDoors />
+      <CommercialDoors />
+      <Windows />
+      <Shutters />
+      <GarageDoors />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

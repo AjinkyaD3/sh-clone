@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
-import Row3 from "@/components/garage-doors/tracless-garage-doors/Row3";
+import TraclessGarageDoors from "@/components/garage-doors/tracless-garage-doors/TraclessGarageDoors";
 import Row4 from "@/components/garage-doors/tracless-garage-doors/Row4";
 import Row5 from "@/components/garage-doors/tracless-garage-doors/Row5";
 import Row6 from "@/components/garage-doors/tracless-garage-doors/Row6";
 import Row7 from "@/components/garage-doors/tracless-garage-doors/Row7";
-import Row8 from "@/components/garage-doors/tracless-garage-doors/Row8";
+import QualitySecureGarageDoorsLondon from "@/components/garage-doors/tracless-garage-doors/QualitySecureGarageDoorsLondon";
 import Row9 from "@/components/garage-doors/tracless-garage-doors/Row9";
-import Row10 from "@/components/garage-doors/tracless-garage-doors/Row10";
-import Row11 from "@/components/garage-doors/tracless-garage-doors/Row11";
-import Row12 from "@/components/garage-doors/tracless-garage-doors/Row12";
-import Row13 from "@/components/garage-doors/tracless-garage-doors/Row13";
-import Row16 from "@/components/garage-doors/tracless-garage-doors/Row16";
-import Row17 from "@/components/garage-doors/tracless-garage-doors/Row17";
-import Row18 from "@/components/garage-doors/tracless-garage-doors/Row18";
-import Row19 from "@/components/garage-doors/tracless-garage-doors/Row19";
-import Row20 from "@/components/garage-doors/tracless-garage-doors/Row20";
+import TechnicalSpecificationsSecurityGarageDoorsLondon from "@/components/garage-doors/tracless-garage-doors/TechnicalSpecificationsSecurityGarageDoorsLondon";
+import SecurityGarageDoorsModels from "@/components/garage-doors/tracless-garage-doors/SecurityGarageDoorsModels";
+import Surfaces from "@/components/garage-doors/tracless-garage-doors/Surfaces";
+import WoodstyleColors from "@/components/garage-doors/tracless-garage-doors/WoodstyleColors";
+import SaveSpaceOverlapGarageDoors from "@/components/garage-doors/tracless-garage-doors/SaveSpaceOverlapGarageDoors";
+import GaragesHaveManyPurposesTheyreNot from "@/components/garage-doors/tracless-garage-doors/GaragesHaveManyPurposesTheyreNot";
+import ReadMore from "@/components/garage-doors/tracless-garage-doors/ReadMore";
+import TraclessGarageDoorsGallery from "@/components/garage-doors/tracless-garage-doors/TraclessGarageDoorsGallery";
+import LetsSecurePropertyTogether from "@/components/garage-doors/tracless-garage-doors/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -73,22 +73,22 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <TraclessGarageDoors />
       <Row4 />
       <Row5 />
       <Row6 />
       <Row7 />
-      <Row8 />
+      <QualitySecureGarageDoorsLondon />
       <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row13 />
-      <Row16 />
-      <Row17 />
-      <Row18 />
-      <Row19 />
-      <Row20 />
+      <TechnicalSpecificationsSecurityGarageDoorsLondon />
+      <SecurityGarageDoorsModels />
+      <Surfaces />
+      <WoodstyleColors />
+      <SaveSpaceOverlapGarageDoors />
+      <GaragesHaveManyPurposesTheyreNot />
+      <ReadMore />
+      <TraclessGarageDoorsGallery />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

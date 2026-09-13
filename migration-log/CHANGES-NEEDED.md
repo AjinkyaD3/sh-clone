@@ -1,5 +1,24 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## RowN.tsx renamed to meaningful names sitewide — 2026-09-13 — DONE
+
+Standing TODO from the sitewide section split (2026-09-12) finally done properly, not rushed - the user asked for the full sweep rather than the incremental "rename it when you touch it anyway" plan.
+
+**Method**: `scripts/rename_rows.js` infers a name from each component's own first heading (`<h1>`-`<h6>`), concatenating all its text chunks (a heading split across `<br />` into two template-literal chunks was truncating badly before this fix - e.g. "What are the key" / "aspects of safe rooms?" was collapsing to just "WhatKey"). Falls back to a small set of structural signals (testimonials, forms, galleries, video embeds, spec tables, FAQ accordions, the new `SystemOverviewModal`/`GetAQuote`/`TrustLogos`) when there's no heading. **Deliberately conservative**: 89 files had no reliable signal at all and were left as `RowN` rather than guessing - matching the standing principle that a wrong name is worse than an honest generic one.
+
+**Piloted before the full run**, per this project's own established practice: dry-run on `/trade`, `/doors/profile-doors/fuego-fire`, `/doors/panic-room-doors`, `/garage-doors/sectional-garage-doors`, `/security-levels` first, and caught two real bugs from that review before running site-wide:
+1. The `<br />`-split heading truncation above.
+2. Repeated-prefix headings (e.g. "Security sectional garage doors London: R40 Sectional" vs "...: TL Sectional" vs "...: SHD Side Hinged Doors") were all truncating to the identical shared prefix before reaching the actually-distinguishing part, since it's within a 5-word cap. Fixed by preferring whatever follows a colon, when there is one.
+
+**Full run**: 275 files renamed, 89 kept as `RowN` (honest skip), across all 34 split pages. Reviewed the complete output line by line (not just spot-checked) before committing, and caught two more real issues that direct read-through - not the pilot - surfaced:
+- `door-styles/georgian-doors`' own gallery section got named `EdwardianDoorGallery.tsx` - not a script bug, it's faithfully reflecting a real, already-documented pre-existing typo on the live site itself (the Georgian gallery heading literally says "Edwardian door gallery" - see the "Pre-existing content bugs" section of this file). The visible content typo is correctly left untouched per this project's standing precedent, but the *file name* doesn't need to inherit that confusion for a future developer - manually renamed to `GeorgianDoorGallery.tsx`.
+- One file in `components/windows/` ended up `LetSSecurePropertyTogether.tsx` (capital S) instead of matching the ~15 other instances of `LetsSecurePropertyTogether.tsx` elsewhere - a stray non-ASCII apostrophe character in that one heading wasn't in the character-strip set, splitting "Let's" into two words. Manually corrected for consistency.
+- **Real crash caught by `tsc`, not assumed away**: 4 generated names started with a digit (`4ReasonsWhyShouldYouConsider`, `200Designs`, `1ManualControlSecurityShutters`, `2UsingElectricDrivesSecurityShutters`) - invalid JS/component identifiers, which `tsc --noEmit` correctly refused to compile. Fixed all 4 by hand (e.g. `FourReasonsToConsider`, `TwoHundredPlusDesigns`) and added a guard to the script itself (strip a purely-numeric leading word) so a future incremental rename doesn't reintroduce this.
+
+**Verified for real, not just "tsc is clean"**: after a full `.next` cache clear and dev server restart (a mass rename this size risked stale file-watcher state), curl-checked all 37 real routes for `200` - all passed - then loaded `/door-styles/georgian-doors` in an actual browser and confirmed both that its content is byte-for-byte unchanged (still shows the "Edwardian door gallery" typo, proving only the file name moved) and zero console errors.
+
+`tsc --noEmit` clean. Not committed yet.
+
 ## Open Graph / Twitter Card metadata sitewide — 2026-09-13 — DONE
 
 Every page now has real `openGraph`/`twitter` metadata instead of a bare link on share. Default set in `app/layout.tsx` (site name, `en_GB`, a real photo - a high-res front-door hallway shot already in `public/legacy-assets`, used as the fallback social image), then every page's own `title`/`description` reused for its own `openGraph`/`twitter` block via a codemod (`scripts/add_open_graph.js`) rather than hand-writing 37 near-identical blocks.
@@ -225,7 +244,9 @@ Verified by reading each card's actual `href` back from the live DOM after the f
 
 Not committed/pushed yet.
 
-### TODO (not started): rename `RowN.tsx` files to meaningful names
+### DONE 2026-09-13: rename `RowN.tsx` files to meaningful names
+
+Superseded by the "RowN.tsx renamed to meaningful names sitewide" entry near the top of this file - user asked for the full sweep rather than the incremental plan below, and it turned out to be safe to do well: piloted first, reviewed the full output before committing, caught and fixed 4 real bugs (heading-truncation quality issues plus digit-prefixed invalid identifiers).
 
 The homepage split (below) named each file for what it actually is (`CategoryCards`, `TrustLogos`, `SecureCta`, etc.) because each was read and named individually. The sitewide split across the other 34 pages used generic `RowN` names instead (accurate to the source Avada markup, but tell you nothing about the content without opening the file) - purely because it ran as one mechanical script across ~250 sections, not something safe to guess names for automatically without actually reading each one (a wrong guess, e.g. calling a testimonials block "IntroText", would be worse than the current honest-but-unhelpful `RowN`). User agrees this is worth doing but wants it done properly, not rushed. Plan: rename incrementally, same as the "split it when you're touching it anyway" approach already used for the section split itself - whenever either of us opens a given `RowN.tsx` for any reason, rename it and its import in the parent `page.tsx` at the same time, rather than one big rename-everything pass. Left as a standing TODO here rather than done today.
 
