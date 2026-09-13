@@ -1,5 +1,21 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## Full-site mobile audit — 2026-09-13 — DONE, clean
+
+Re-verified the whole site at a real 390px viewport using the established iframe-injection workaround (`resize_window` still doesn't change `window.innerWidth` in this environment), specifically because several components built this session (Get a Quote panel, `SystemOverviewModal`, the sticky header, the new custom 404 page) had never been mobile-tested before.
+
+**Sitewide overflow scan**: all 37 real routes from the live sitemap, scanned via a scripted iframe check (`document.documentElement.scrollWidth` vs 390px) in batches to stay under the tool's execution timeout. **Zero pages overflow** - confirms nothing regressed from any of today's work (SEO codemods, the RowN rename, security headers, etc.).
+
+**New components checked individually at real mobile width, verified by screenshot** (not by `getComputedStyle`, see below):
+- Get a Quote panel - opens correctly, fills the width appropriately, all fields usable.
+- Sticky header (dock/hide/reveal) - docks correctly within the 390px frame after a real `scroll` event, no overflow.
+- The "Get a Quote" vertical side tab - stays correctly positioned inside the viewport alongside the docked header.
+- Custom 404 page - all links and text readable and correctly wrapped at mobile width.
+
+**A real lesson about tooling, not a real product bug**: while checking the Get a Quote panel, `getComputedStyle(panel).transform` reported a value consistent with the panel still being closed (`translateX(100%)`) even though the `is-open` class was correctly present and the CSS rule correctly parsed with correct specificity. Chased this as a suspected real bug for a while - checked the CSSOM directly, toggled the class manually, confirmed the rule text was exactly right - before taking an actual screenshot, which showed the panel rendering **correctly open** the whole time. This was a transient/stale `getComputedStyle` read via the automation binding, not a real rendering issue - screenshots are ground truth here, computed-style reads taken via this session's JS execution tool are not always reliable immediately after a CSS transition. Noting this explicitly so a future session doesn't waste time chasing the same false signal, or worse, "fixes" a component that was never broken.
+
+Nothing found that needed fixing. `tsc --noEmit` clean (no code changes this pass).
+
 ## RowN.tsx renamed to meaningful names sitewide — 2026-09-13 — DONE
 
 Standing TODO from the sitewide section split (2026-09-12) finally done properly, not rushed - the user asked for the full sweep rather than the incremental "rename it when you touch it anyway" plan.
