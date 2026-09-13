@@ -32,11 +32,6 @@ function getPages(dir: string, basePath: string = ""): string[] {
       entry.name.startsWith(".") ||
       entry.name.startsWith("_") ||
       entry.name === "api" ||
-      // "/legacy" holds the old dangerouslySetInnerHTML pages, kept for
-      // reference after the JSX-conversion swap to live routes (see
-      // migration-log/PROGRESS.md) - not part of the real site, must never
-      // appear in the sitemap.
-      entry.name === "legacy" ||
       (entry.name.startsWith("[") && entry.name.endsWith("]"))
     ) {
       continue;

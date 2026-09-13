@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 
+# migration scratch/backup work - moved out of the project, don't let it
+# come back tracked if it's ever recreated locally
+/scratch/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
