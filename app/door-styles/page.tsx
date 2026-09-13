@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Row3 from "@/components/door-styles/Row3";
-import Row4 from "@/components/door-styles/Row4";
-import Row5 from "@/components/door-styles/Row5";
+import ExploreSecureDoorDesignStyles from "@/components/door-styles/ExploreSecureDoorDesignStyles";
+import LetsSecurePropertyTogether from "@/components/door-styles/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -60,8 +60,8 @@ export default function Page() {
                     className="post-content"
                   >
       <Row3 />
-      <Row4 />
-      <Row5 />
+      <ExploreSecureDoorDesignStyles />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

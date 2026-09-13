@@ -1,26 +1,26 @@
 import type { Metadata } from "next";
 import CTABlock from "@/components/CTABlock";
-import Row3 from "@/components/garage-doors/sectional-garage-doors/Row3";
+import SectionalGarageDoors from "@/components/garage-doors/sectional-garage-doors/SectionalGarageDoors";
 import Row4 from "@/components/garage-doors/sectional-garage-doors/Row4";
-import Row5 from "@/components/garage-doors/sectional-garage-doors/Row5";
-import Row6 from "@/components/garage-doors/sectional-garage-doors/Row6";
-import Row7 from "@/components/garage-doors/sectional-garage-doors/Row7";
-import Row8 from "@/components/garage-doors/sectional-garage-doors/Row8";
-import Row9 from "@/components/garage-doors/sectional-garage-doors/Row9";
-import Row10 from "@/components/garage-doors/sectional-garage-doors/Row10";
-import Row11 from "@/components/garage-doors/sectional-garage-doors/Row11";
-import Row12 from "@/components/garage-doors/sectional-garage-doors/Row12";
-import Row13 from "@/components/garage-doors/sectional-garage-doors/Row13";
+import SecuritySectionalGarageDoorsLondonFrom from "@/components/garage-doors/sectional-garage-doors/SecuritySectionalGarageDoorsLondonFrom";
+import BestSeller from "@/components/garage-doors/sectional-garage-doors/BestSeller";
+import TheBestSolutionDoubleSizeDoors from "@/components/garage-doors/sectional-garage-doors/TheBestSolutionDoubleSizeDoors";
+import VideoEmbed from "@/components/garage-doors/sectional-garage-doors/VideoEmbed";
+import SelectFromTwoCoreSubstratesVariety from "@/components/garage-doors/sectional-garage-doors/SelectFromTwoCoreSubstratesVariety";
+import OurSectionalDoorsHighTrafficHeavy from "@/components/garage-doors/sectional-garage-doors/OurSectionalDoorsHighTrafficHeavy";
+import VersatilityEveryPropertyType from "@/components/garage-doors/sectional-garage-doors/VersatilityEveryPropertyType";
+import GarageDoorsBrochures from "@/components/garage-doors/sectional-garage-doors/GarageDoorsBrochures";
+import EachResidentialSideSlidingGarageDoors from "@/components/garage-doors/sectional-garage-doors/EachResidentialSideSlidingGarageDoors";
 import Row19 from "@/components/garage-doors/sectional-garage-doors/Row19";
-import Row15 from "@/components/garage-doors/sectional-garage-doors/Row15";
-import Row16 from "@/components/garage-doors/sectional-garage-doors/Row16";
-import Row17 from "@/components/garage-doors/sectional-garage-doors/Row17";
-import Row18 from "@/components/garage-doors/sectional-garage-doors/Row18";
-import Row20 from "@/components/garage-doors/sectional-garage-doors/Row20";
-import Row21 from "@/components/garage-doors/sectional-garage-doors/Row21";
-import Row22 from "@/components/garage-doors/sectional-garage-doors/Row22";
-import Row23 from "@/components/garage-doors/sectional-garage-doors/Row23";
-import Row24 from "@/components/garage-doors/sectional-garage-doors/Row24";
+import R40Sectional from "@/components/garage-doors/sectional-garage-doors/R40Sectional";
+import TlSectional from "@/components/garage-doors/sectional-garage-doors/TlSectional";
+import ShdSideHingedDoors from "@/components/garage-doors/sectional-garage-doors/ShdSideHingedDoors";
+import SsdSideSlidingDoors from "@/components/garage-doors/sectional-garage-doors/SsdSideSlidingDoors";
+import QuickEasyInstallInsulatedSectionalDoors from "@/components/garage-doors/sectional-garage-doors/QuickEasyInstallInsulatedSectionalDoors";
+import WhySectionalGarageDoorsOneMost from "@/components/garage-doors/sectional-garage-doors/WhySectionalGarageDoorsOneMost";
+import SectionalGarageDoorsGallery from "@/components/garage-doors/sectional-garage-doors/SectionalGarageDoorsGallery";
+import LetsSecurePropertyTogether from "@/components/garage-doors/sectional-garage-doors/LetsSecurePropertyTogether";
+import FrequentlyAskedQuestionsFaq from "@/components/garage-doors/sectional-garage-doors/FrequentlyAskedQuestionsFaq";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -79,27 +79,27 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <SectionalGarageDoors />
       <Row4 />
-      <Row5 />
-      <Row6 />
-      <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row13 />
+      <SecuritySectionalGarageDoorsLondonFrom />
+      <BestSeller />
+      <TheBestSolutionDoubleSizeDoors />
+      <VideoEmbed />
+      <SelectFromTwoCoreSubstratesVariety />
+      <OurSectionalDoorsHighTrafficHeavy />
+      <VersatilityEveryPropertyType />
+      <GarageDoorsBrochures />
+      <EachResidentialSideSlidingGarageDoors />
       <Row19 />
-      <Row15 />
-      <Row16 />
-      <Row17 />
-      <Row18 />
-      <Row20 />
-      <Row21 />
-      <Row22 />
-      <Row23 />
-      <Row24 />
+      <R40Sectional />
+      <TlSectional />
+      <ShdSideHingedDoors />
+      <SsdSideSlidingDoors />
+      <QuickEasyInstallInsulatedSectionalDoors />
+      <WhySectionalGarageDoorsOneMost />
+      <SectionalGarageDoorsGallery />
+      <LetsSecurePropertyTogether />
+      <FrequentlyAskedQuestionsFaq />
                   </div>
                 </div>
               </section>

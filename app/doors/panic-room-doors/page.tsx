@@ -1,25 +1,25 @@
 import type { Metadata } from "next";
 import CTABlock from "@/components/CTABlock";
-import Row3 from "@/components/doors/panic-room-doors/Row3";
+import HighSecuritySafeRoomPanicRoom from "@/components/doors/panic-room-doors/HighSecuritySafeRoomPanicRoom";
 import Row4 from "@/components/doors/panic-room-doors/Row4";
 import Row5 from "@/components/doors/panic-room-doors/Row5";
-import Row6 from "@/components/doors/panic-room-doors/Row6";
+import BespokeSafeRoomPanicRoomDoor from "@/components/doors/panic-room-doors/BespokeSafeRoomPanicRoomDoor";
 import Row7 from "@/components/doors/panic-room-doors/Row7";
 import Row8 from "@/components/doors/panic-room-doors/Row8";
 import Row9 from "@/components/doors/panic-room-doors/Row9";
-import Row10 from "@/components/doors/panic-room-doors/Row10";
-import Row11 from "@/components/doors/panic-room-doors/Row11";
-import Row12 from "@/components/doors/panic-room-doors/Row12";
-import Row13 from "@/components/doors/panic-room-doors/Row13";
-import Row14 from "@/components/doors/panic-room-doors/Row14";
-import Row15 from "@/components/doors/panic-room-doors/Row15";
-import Row16 from "@/components/doors/panic-room-doors/Row16";
-import Row17 from "@/components/doors/panic-room-doors/Row17";
-import Row18 from "@/components/doors/panic-room-doors/Row18";
-import Row19 from "@/components/doors/panic-room-doors/Row19";
-import Row20 from "@/components/doors/panic-room-doors/Row20";
-import Row21 from "@/components/doors/panic-room-doors/Row21";
-import Row22 from "@/components/doors/panic-room-doors/Row22";
+import OurPanicRoomDoorsOptions from "@/components/doors/panic-room-doors/OurPanicRoomDoorsOptions";
+import VideoEmbed from "@/components/doors/panic-room-doors/VideoEmbed";
+import ChoosePanicRoomDoorType from "@/components/doors/panic-room-doors/ChoosePanicRoomDoorType";
+import InternalVaultDoors from "@/components/doors/panic-room-doors/InternalVaultDoors";
+import VideoEmbed2 from "@/components/doors/panic-room-doors/VideoEmbed2";
+import FireProtectionUp120Minutes from "@/components/doors/panic-room-doors/FireProtectionUp120Minutes";
+import VaultDoorDesign from "@/components/doors/panic-room-doors/VaultDoorDesign";
+import HowChoosePanicRoomSafeRoom from "@/components/doors/panic-room-doors/HowChoosePanicRoomSafeRoom";
+import WhatKeyAspectsSafeRooms from "@/components/doors/panic-room-doors/WhatKeyAspectsSafeRooms";
+import VaultDoorsVsPanicRoomDoors from "@/components/doors/panic-room-doors/VaultDoorsVsPanicRoomDoors";
+import VaultPanicRoomDoorsGallery from "@/components/doors/panic-room-doors/VaultPanicRoomDoorsGallery";
+import FrequentlyAskedQuestionsFaq from "@/components/doors/panic-room-doors/FrequentlyAskedQuestionsFaq";
+import LetsSecurePropertyTogether from "@/components/doors/panic-room-doors/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -77,26 +77,26 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <HighSecuritySafeRoomPanicRoom />
       <Row4 />
       <Row5 />
-      <Row6 />
+      <BespokeSafeRoomPanicRoomDoor />
       <Row7 />
       <Row8 />
       <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row13 />
-      <Row14 />
-      <Row15 />
-      <Row16 />
-      <Row17 />
-      <Row18 />
-      <Row19 />
-      <Row20 />
-      <Row21 />
-      <Row22 />
+      <OurPanicRoomDoorsOptions />
+      <VideoEmbed />
+      <ChoosePanicRoomDoorType />
+      <InternalVaultDoors />
+      <VideoEmbed2 />
+      <FireProtectionUp120Minutes />
+      <VaultDoorDesign />
+      <HowChoosePanicRoomSafeRoom />
+      <WhatKeyAspectsSafeRooms />
+      <VaultDoorsVsPanicRoomDoors />
+      <VaultPanicRoomDoorsGallery />
+      <FrequentlyAskedQuestionsFaq />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Row3 from "@/components/windows/Row3";
-import Row4 from "@/components/windows/Row4";
-import Row5 from "@/components/windows/Row5";
+import Windows from "@/components/windows/Windows";
+import ElegantDurable from "@/components/windows/ElegantDurable";
+import LetsSecurePropertyTogether from "@/components/windows/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -59,9 +59,9 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
-      <Row4 />
-      <Row5 />
+      <Windows />
+      <ElegantDurable />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

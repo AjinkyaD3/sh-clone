@@ -1,23 +1,23 @@
 import type { Metadata } from "next";
-import Row3 from "@/components/windows/security-aluminium-windows/Row3";
+import SecurityAluminiumWindows from "@/components/windows/security-aluminium-windows/SecurityAluminiumWindows";
 import Row4 from "@/components/windows/security-aluminium-windows/Row4";
-import Row5 from "@/components/windows/security-aluminium-windows/Row5";
+import SecurityAluminiumWindowsLondon from "@/components/windows/security-aluminium-windows/SecurityAluminiumWindowsLondon";
 import Row6 from "@/components/windows/security-aluminium-windows/Row6";
-import Row7 from "@/components/windows/security-aluminium-windows/Row7";
-import Row8 from "@/components/windows/security-aluminium-windows/Row8";
-import Row9 from "@/components/windows/security-aluminium-windows/Row9";
-import Row10 from "@/components/windows/security-aluminium-windows/Row10";
-import Row11 from "@/components/windows/security-aluminium-windows/Row11";
-import Row12 from "@/components/windows/security-aluminium-windows/Row12";
-import Row16 from "@/components/windows/security-aluminium-windows/Row16";
-import Row17 from "@/components/windows/security-aluminium-windows/Row17";
+import AsDiverseAsLifeItself from "@/components/windows/security-aluminium-windows/AsDiverseAsLifeItself";
+import SchCoWindowsAws from "@/components/windows/security-aluminium-windows/SchCoWindowsAws";
+import SchCoAwsBasicDepths from "@/components/windows/security-aluminium-windows/SchCoAwsBasicDepths";
+import BurglarResistantSystems from "@/components/windows/security-aluminium-windows/BurglarResistantSystems";
+import SecureYetUnobtrusive from "@/components/windows/security-aluminium-windows/SecureYetUnobtrusive";
+import SecurityClassWk1 from "@/components/windows/security-aluminium-windows/SecurityClassWk1";
+import WindowFittings from "@/components/windows/security-aluminium-windows/WindowFittings";
+import DoorFittings from "@/components/windows/security-aluminium-windows/DoorFittings";
 import Row18 from "@/components/windows/security-aluminium-windows/Row18";
-import Row19 from "@/components/windows/security-aluminium-windows/Row19";
-import Row20 from "@/components/windows/security-aluminium-windows/Row20";
-import Row21 from "@/components/windows/security-aluminium-windows/Row21";
-import Row22 from "@/components/windows/security-aluminium-windows/Row22";
-import Row23 from "@/components/windows/security-aluminium-windows/Row23";
-import Row24 from "@/components/windows/security-aluminium-windows/Row24";
+import BulletResistantSystemsProtectionPeopleProperty from "@/components/windows/security-aluminium-windows/BulletResistantSystemsProtectionPeopleProperty";
+import BulletResistantClasses from "@/components/windows/security-aluminium-windows/BulletResistantClasses";
+import WindowsBrochures from "@/components/windows/security-aluminium-windows/WindowsBrochures";
+import WindowsBrochures2 from "@/components/windows/security-aluminium-windows/WindowsBrochures2";
+import SecurityAluminiumWindowsGallery from "@/components/windows/security-aluminium-windows/SecurityAluminiumWindowsGallery";
+import LetsSecurePropertyTogether from "@/components/windows/security-aluminium-windows/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -76,25 +76,25 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <SecurityAluminiumWindows />
       <Row4 />
-      <Row5 />
+      <SecurityAluminiumWindowsLondon />
       <Row6 />
-      <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row16 />
-      <Row17 />
+      <AsDiverseAsLifeItself />
+      <SchCoWindowsAws />
+      <SchCoAwsBasicDepths />
+      <BurglarResistantSystems />
+      <SecureYetUnobtrusive />
+      <SecurityClassWk1 />
+      <WindowFittings />
+      <DoorFittings />
       <Row18 />
-      <Row19 />
-      <Row20 />
-      <Row21 />
-      <Row22 />
-      <Row23 />
-      <Row24 />
+      <BulletResistantSystemsProtectionPeopleProperty />
+      <BulletResistantClasses />
+      <WindowsBrochures />
+      <WindowsBrochures2 />
+      <SecurityAluminiumWindowsGallery />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

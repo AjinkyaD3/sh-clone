@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import Row3 from "@/components/door-styles/georgian-doors/Row3";
+import GeorgianStyleDoors from "@/components/door-styles/georgian-doors/GeorgianStyleDoors";
 import Row4 from "@/components/door-styles/georgian-doors/Row4";
 import Row5 from "@/components/door-styles/georgian-doors/Row5";
-import Row6 from "@/components/door-styles/georgian-doors/Row6";
+import GeorgianStyleHighSecurityBackDoors from "@/components/door-styles/georgian-doors/GeorgianStyleHighSecurityBackDoors";
 import Row7 from "@/components/door-styles/georgian-doors/Row7";
 import Row8 from "@/components/door-styles/georgian-doors/Row8";
-import Row9 from "@/components/door-styles/georgian-doors/Row9";
-import Row10 from "@/components/door-styles/georgian-doors/Row10";
-import Row11 from "@/components/door-styles/georgian-doors/Row11";
-import Row12 from "@/components/door-styles/georgian-doors/Row12";
-import Row13 from "@/components/door-styles/georgian-doors/Row13";
-import Row14 from "@/components/door-styles/georgian-doors/Row14";
-import Row15 from "@/components/door-styles/georgian-doors/Row15";
-import Row16 from "@/components/door-styles/georgian-doors/Row16";
-import Row17 from "@/components/door-styles/georgian-doors/Row17";
+import GeorgianStyleInternalFrontDoorsFrom from "@/components/door-styles/georgian-doors/GeorgianStyleInternalFrontDoorsFrom";
+import HowDoesGeorgianFrontDoorLook from "@/components/door-styles/georgian-doors/HowDoesGeorgianFrontDoorLook";
+import MainFeaturesGeorgianStyleHomeEverything from "@/components/door-styles/georgian-doors/MainFeaturesGeorgianStyleHomeEverything";
+import FurtherEnhanceGeorgianDoorBespokeIronmongery from "@/components/door-styles/georgian-doors/FurtherEnhanceGeorgianDoorBespokeIronmongery";
+import HowCreatePerfectGeorgianFrontDoor from "@/components/door-styles/georgian-doors/HowCreatePerfectGeorgianFrontDoor";
+import SturdyYetGorgeousReplicaInternalGeorgian from "@/components/door-styles/georgian-doors/SturdyYetGorgeousReplicaInternalGeorgian";
+import GeorgianDoorGallery from "@/components/door-styles/georgian-doors/GeorgianDoorGallery";
+import FrequentlyAskedQuestionsFaq from "@/components/door-styles/georgian-doors/FrequentlyAskedQuestionsFaq";
+import LetsSecurePropertyTogether from "@/components/door-styles/georgian-doors/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -71,21 +71,21 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <GeorgianStyleDoors />
       <Row4 />
       <Row5 />
-      <Row6 />
+      <GeorgianStyleHighSecurityBackDoors />
       <Row7 />
       <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row13 />
-      <Row14 />
-      <Row15 />
-      <Row16 />
-      <Row17 />
+      <GeorgianStyleInternalFrontDoorsFrom />
+      <HowDoesGeorgianFrontDoorLook />
+      <MainFeaturesGeorgianStyleHomeEverything />
+      <FurtherEnhanceGeorgianDoorBespokeIronmongery />
+      <HowCreatePerfectGeorgianFrontDoor />
+      <SturdyYetGorgeousReplicaInternalGeorgian />
+      <GeorgianDoorGallery />
+      <FrequentlyAskedQuestionsFaq />
+      <LetsSecurePropertyTogether />
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-17 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
                       style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Row3 from "@/components/grilles-shutters/high-security-shutters/Row3";
+import HighSecurityShutters from "@/components/grilles-shutters/high-security-shutters/HighSecurityShutters";
 import Row4 from "@/components/grilles-shutters/high-security-shutters/Row4";
-import Row5 from "@/components/grilles-shutters/high-security-shutters/Row5";
+import PremiumSecurityShutters from "@/components/grilles-shutters/high-security-shutters/PremiumSecurityShutters";
 import Row6 from "@/components/grilles-shutters/high-security-shutters/Row6";
-import Row7 from "@/components/grilles-shutters/high-security-shutters/Row7";
-import Row8 from "@/components/grilles-shutters/high-security-shutters/Row8";
+import HighSecurityShuttersGallery from "@/components/grilles-shutters/high-security-shutters/HighSecurityShuttersGallery";
+import LetsSecurePropertyTogether from "@/components/grilles-shutters/high-security-shutters/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -63,12 +63,12 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <HighSecurityShutters />
       <Row4 />
-      <Row5 />
+      <PremiumSecurityShutters />
       <Row6 />
-      <Row7 />
-      <Row8 />
+      <HighSecurityShuttersGallery />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import Row3 from "@/components/grilles-shutters/colllabsible-grilles/Row3";
+import CollabsibleGrilles from "@/components/grilles-shutters/colllabsible-grilles/CollabsibleGrilles";
 import Row4 from "@/components/grilles-shutters/colllabsible-grilles/Row4";
-import Row5 from "@/components/grilles-shutters/colllabsible-grilles/Row5";
+import CollapsibleSecurityGrilles from "@/components/grilles-shutters/colllabsible-grilles/CollapsibleSecurityGrilles";
 import Row6 from "@/components/grilles-shutters/colllabsible-grilles/Row6";
 import Row7 from "@/components/grilles-shutters/colllabsible-grilles/Row7";
-import Row8 from "@/components/grilles-shutters/colllabsible-grilles/Row8";
-import Row12 from "@/components/grilles-shutters/colllabsible-grilles/Row12";
-import Row13 from "@/components/grilles-shutters/colllabsible-grilles/Row13";
-import Row14 from "@/components/grilles-shutters/colllabsible-grilles/Row14";
-import Row15 from "@/components/grilles-shutters/colllabsible-grilles/Row15";
-import Row16 from "@/components/grilles-shutters/colllabsible-grilles/Row16";
+import Cx1EntryLevelSecurityGrilles from "@/components/grilles-shutters/colllabsible-grilles/Cx1EntryLevelSecurityGrilles";
+import WhatSecurityGrille from "@/components/grilles-shutters/colllabsible-grilles/WhatSecurityGrille";
+import FeaturesDoorWindowCollapsibleGrilles from "@/components/grilles-shutters/colllabsible-grilles/FeaturesDoorWindowCollapsibleGrilles";
+import KeyFactsAboutSecurityGrilles from "@/components/grilles-shutters/colllabsible-grilles/KeyFactsAboutSecurityGrilles";
+import CollabsibleGrillesGallery from "@/components/grilles-shutters/colllabsible-grilles/CollabsibleGrillesGallery";
+import LetsSecurePropertyTogether from "@/components/grilles-shutters/colllabsible-grilles/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -68,17 +68,17 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <CollabsibleGrilles />
       <Row4 />
-      <Row5 />
+      <CollapsibleSecurityGrilles />
       <Row6 />
       <Row7 />
-      <Row8 />
-      <Row12 />
-      <Row13 />
-      <Row14 />
-      <Row15 />
-      <Row16 />
+      <Cx1EntryLevelSecurityGrilles />
+      <WhatSecurityGrille />
+      <FeaturesDoorWindowCollapsibleGrilles />
+      <KeyFactsAboutSecurityGrilles />
+      <CollabsibleGrillesGallery />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

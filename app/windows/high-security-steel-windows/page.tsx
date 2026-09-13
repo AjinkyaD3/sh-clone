@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import Row3 from "@/components/windows/high-security-steel-windows/Row3";
+import HighSecuritySteelWindows from "@/components/windows/high-security-steel-windows/HighSecuritySteelWindows";
 import Row4 from "@/components/windows/high-security-steel-windows/Row4";
-import Row5 from "@/components/windows/high-security-steel-windows/Row5";
+import HighestQualitySecurityWindowsLondon from "@/components/windows/high-security-steel-windows/HighestQualitySecurityWindowsLondon";
 import Row6 from "@/components/windows/high-security-steel-windows/Row6";
-import Row7 from "@/components/windows/high-security-steel-windows/Row7";
-import Row8 from "@/components/windows/high-security-steel-windows/Row8";
-import Row9 from "@/components/windows/high-security-steel-windows/Row9";
-import Row10 from "@/components/windows/high-security-steel-windows/Row10";
+import KeyFeaturesSecurityWindows from "@/components/windows/high-security-steel-windows/KeyFeaturesSecurityWindows";
+import WeTeamYearsExperienceHomeSecurity from "@/components/windows/high-security-steel-windows/WeTeamYearsExperienceHomeSecurity";
+import HighSecuritySteelWindowsGallery from "@/components/windows/high-security-steel-windows/HighSecuritySteelWindowsGallery";
+import LetsSecurePropertyTogether from "@/components/windows/high-security-steel-windows/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -65,14 +65,14 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <HighSecuritySteelWindows />
       <Row4 />
-      <Row5 />
+      <HighestQualitySecurityWindowsLondon />
       <Row6 />
-      <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
+      <KeyFeaturesSecurityWindows />
+      <WeTeamYearsExperienceHomeSecurity />
+      <HighSecuritySteelWindowsGallery />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 import CTABlock from "@/components/CTABlock";
-import Row3 from "@/components/doors/bullet-proof-doors/Row3";
+import BulletProofDoorsUltimateSafetySecurity from "@/components/doors/bullet-proof-doors/BulletProofDoorsUltimateSafetySecurity";
 import Row4 from "@/components/doors/bullet-proof-doors/Row4";
 import Row5 from "@/components/doors/bullet-proof-doors/Row5";
-import Row6 from "@/components/doors/bullet-proof-doors/Row6";
+import TrustedSupplierBulletProofDoorsUk from "@/components/doors/bullet-proof-doors/TrustedSupplierBulletProofDoorsUk";
 import Row7 from "@/components/doors/bullet-proof-doors/Row7";
-import Row8 from "@/components/doors/bullet-proof-doors/Row8";
-import Row9 from "@/components/doors/bullet-proof-doors/Row9";
-import Row10 from "@/components/doors/bullet-proof-doors/Row10";
-import Row11 from "@/components/doors/bullet-proof-doors/Row11";
-import Row12 from "@/components/doors/bullet-proof-doors/Row12";
-import Row13 from "@/components/doors/bullet-proof-doors/Row13";
-import Row14 from "@/components/doors/bullet-proof-doors/Row14";
-import Row15 from "@/components/doors/bullet-proof-doors/Row15";
-import Row16 from "@/components/doors/bullet-proof-doors/Row16";
-import Row17 from "@/components/doors/bullet-proof-doors/Row17";
-import Row18 from "@/components/doors/bullet-proof-doors/Row18";
+import BulletProofSteelDoorsFromSecure from "@/components/doors/bullet-proof-doors/BulletProofSteelDoorsFromSecure";
+import FourReasonsToConsider from "@/components/doors/bullet-proof-doors/FourReasonsToConsider";
+import BespokeFrontDoorMakeLastingFirst from "@/components/doors/bullet-proof-doors/BespokeFrontDoorMakeLastingFirst";
+import KeyFeaturesBulletProofSteelDoors from "@/components/doors/bullet-proof-doors/KeyFeaturesBulletProofSteelDoors";
+import Video from "@/components/doors/bullet-proof-doors/Video";
+import BulletProofDoorsJewelleryStores from "@/components/doors/bullet-proof-doors/BulletProofDoorsJewelleryStores";
+import BulletProofDoorsHomesResidentialAreas from "@/components/doors/bullet-proof-doors/BulletProofDoorsHomesResidentialAreas";
+import LetsUsFindYouBestSecurity from "@/components/doors/bullet-proof-doors/LetsUsFindYouBestSecurity";
+import BulletProofDoorsGallery from "@/components/doors/bullet-proof-doors/BulletProofDoorsGallery";
+import FrequentlyAskedUestionsFaq from "@/components/doors/bullet-proof-doors/FrequentlyAskedUestionsFaq";
+import LetsSecurePropertyTogether from "@/components/doors/bullet-proof-doors/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -74,22 +74,22 @@ export default function Page() {
                   <div
                     className="post-content"
                   >
-      <Row3 />
+      <BulletProofDoorsUltimateSafetySecurity />
       <Row4 />
       <Row5 />
-      <Row6 />
+      <TrustedSupplierBulletProofDoorsUk />
       <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
-      <Row13 />
-      <Row14 />
-      <Row15 />
-      <Row16 />
-      <Row17 />
-      <Row18 />
+      <BulletProofSteelDoorsFromSecure />
+      <FourReasonsToConsider />
+      <BespokeFrontDoorMakeLastingFirst />
+      <KeyFeaturesBulletProofSteelDoors />
+      <Video />
+      <BulletProofDoorsJewelleryStores />
+      <BulletProofDoorsHomesResidentialAreas />
+      <LetsUsFindYouBestSecurity />
+      <BulletProofDoorsGallery />
+      <FrequentlyAskedUestionsFaq />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

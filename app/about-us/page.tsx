@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Row3 from "@/components/about-us/Row3";
-import Row4 from "@/components/about-us/Row4";
-import Row5 from "@/components/about-us/Row5";
+import SecureHouseLtdStandsOutAs from "@/components/about-us/SecureHouseLtdStandsOutAs";
+import ComprehensiveSecuritySolutions from "@/components/about-us/ComprehensiveSecuritySolutions";
 import Row6 from "@/components/about-us/Row6";
-import Row7 from "@/components/about-us/Row7";
-import Row8 from "@/components/about-us/Row8";
+import BespokeDesignInstallation from "@/components/about-us/BespokeDesignInstallation";
+import CommitmentQualityInnovation from "@/components/about-us/CommitmentQualityInnovation";
 import Row9 from "@/components/about-us/Row9";
-import Row10 from "@/components/about-us/Row10";
-import Row11 from "@/components/about-us/Row11";
-import Row12 from "@/components/about-us/Row12";
+import ExceptionalCustomerService from "@/components/about-us/ExceptionalCustomerService";
+import CoreValues from "@/components/about-us/CoreValues";
+import LetsSecurePropertyTogether from "@/components/about-us/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -67,15 +67,15 @@ export default function Page() {
                     className="post-content"
                   >
       <Row3 />
-      <Row4 />
-      <Row5 />
+      <SecureHouseLtdStandsOutAs />
+      <ComprehensiveSecuritySolutions />
       <Row6 />
-      <Row7 />
-      <Row8 />
+      <BespokeDesignInstallation />
+      <CommitmentQualityInnovation />
       <Row9 />
-      <Row10 />
-      <Row11 />
-      <Row12 />
+      <ExceptionalCustomerService />
+      <CoreValues />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>

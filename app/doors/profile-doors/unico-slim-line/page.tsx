@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Row3 from "@/components/doors/profile-doors/unico-slim-line/Row3";
-import Row4 from "@/components/doors/profile-doors/unico-slim-line/Row4";
-import Row5 from "@/components/doors/profile-doors/unico-slim-line/Row5";
-import Row6 from "@/components/doors/profile-doors/unico-slim-line/Row6";
+import UnicoSlimLine from "@/components/doors/profile-doors/unico-slim-line/UnicoSlimLine";
+import SystemOverview from "@/components/doors/profile-doors/unico-slim-line/SystemOverview";
+import UnicoSlimLineGallery from "@/components/doors/profile-doors/unico-slim-line/UnicoSlimLineGallery";
 import { DEFAULT_OG_IMAGE } from "../../../../lib/seo";
 
 export const metadata: Metadata = {
@@ -62,9 +62,9 @@ export default function Page() {
                     className="post-content"
                   >
       <Row3 />
-      <Row4 />
-      <Row5 />
-      <Row6 />
+      <UnicoSlimLine />
+      <SystemOverview />
+      <UnicoSlimLineGallery />
                   </div>
                 </div>
               </section>

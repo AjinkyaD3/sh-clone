@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import Row3 from "@/components/trade/Row3";
-import Row4 from "@/components/trade/Row4";
+import DoorsTrade from "@/components/trade/DoorsTrade";
 import Row5 from "@/components/trade/Row5";
-import Row6 from "@/components/trade/Row6";
-import Row7 from "@/components/trade/Row7";
-import Row8 from "@/components/trade/Row8";
-import Row9 from "@/components/trade/Row9";
-import Row10 from "@/components/trade/Row10";
-import Row11 from "@/components/trade/Row11";
+import CustomMadeSecurityDoorFrame from "@/components/trade/CustomMadeSecurityDoorFrame";
+import SelectingPerfectDoorNeeds from "@/components/trade/SelectingPerfectDoorNeeds";
+import HighSecurityDoors from "@/components/trade/HighSecurityDoors";
+import DiscoverWholesaleDoorSecuritySolutionsExpert from "@/components/trade/DiscoverWholesaleDoorSecuritySolutionsExpert";
+import Gallery from "@/components/trade/Gallery";
+import LetsSecurePropertyTogether from "@/components/trade/LetsSecurePropertyTogether";
 import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
@@ -66,14 +66,14 @@ export default function Page() {
                     className="post-content"
                   >
       <Row3 />
-      <Row4 />
+      <DoorsTrade />
       <Row5 />
-      <Row6 />
-      <Row7 />
-      <Row8 />
-      <Row9 />
-      <Row10 />
-      <Row11 />
+      <CustomMadeSecurityDoorFrame />
+      <SelectingPerfectDoorNeeds />
+      <HighSecurityDoors />
+      <DiscoverWholesaleDoorSecuritySolutionsExpert />
+      <Gallery />
+      <LetsSecurePropertyTogether />
                   </div>
                 </div>
               </section>
