@@ -1,5 +1,59 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## Broken Avada "testimonials shortcode" carousel, sitewide — 2026-09-13 — FIXED
+
+User reported specific paragraph text (from `/doors/profile-doors/fuego-fire`, the "Smoke protection doors (forster, janisol presto)..." paragraph) as "not working," and asked to find every other place the same thing happens before fixing anything.
+
+**Root cause**: Avada's `.fusion-testimonials` widget (a text carousel, distinct from the trust-logo image marquee) renders all `.review` panels in the DOM but relies on its own JS to toggle which one has `.active-testimonial` (opacity 1 via the legacy fusion stylesheets; everything else is opacity 0 but still `display:block`, so it silently reserves layout space while being permanently invisible) and to move `.activeSlide` between the `.testimonial-pagination` dots on click/timer. That JS never runs in this migration (same category as the trust-logo marquee and the scroll-stack cards `ScrollReveal.tsx` already handles) - so only the first `.review` was ever visible, and the dots were dead `href="#"` links with no click handler. Confirmed via live `getComputedStyle` before touching anything.
+
+**Sitewide survey** (`grep -rl "testimonials-shortcode-blockquote\|testimonial-pagination" app components`, excluding `app/legacy`) found 8 pages using this exact widget, all with the identical broken pattern:
+- `components/doors/bullet-proof-doors/Row9.tsx` (4 reviews)
+- `components/doors/panic-room-doors/Row17.tsx` (6 reviews)
+- `components/doors/profile-doors/fuego-fire/Row4.tsx` (4 reviews) — the one the user quoted
+- `components/doors/profile-doors/presto-bullet-proof/Row4.tsx` (2 reviews)
+- `components/doors/profile-doors/stainless-steel/Row4.tsx` (2 reviews)
+- `components/doors/profile-doors/unico-slim-line/Row4.tsx` (3 reviews)
+- `components/garage-doors/side-hinged-garage-doors/Row9.tsx` (5 reviews)
+- `components/grilles-shutters/security-shutters/Row10.tsx` (3 reviews)
+
+**Fix**: one new global client component, `components/TestimonialsCarousel.tsx` (mounted once in `app/layout.tsx`, same pattern as `ScrollReveal.tsx`), rather than editing all 8 already-verified Row files. On mount (and on every route change, via `usePathname`), it finds every `.fusion-testimonials` widget on the page, reads its real `data-speed` attribute, and auto-advances which `.review`/dot pair carries `.active-testimonial`/`.activeSlide` on that timer; clicking a dot jumps straight to that slide and resets the timer. No Row files touched - none of the verified JSX changed.
+
+**Real bug caught during verification, not assumed away**: the first version tracked the active index in a separate closure variable per widget. On the 6-review page (`panic-room-doors`) this desynced after a few ticks - the dot and the visible review pointed at *different* slides (e.g. dot 3 active while review 5 had the opacity). Rewrote so every tick/click derives the current index by reading which `.review` actually has `.active-testimonial` in the DOM right now, instead of trusting a counter - dot and review can no longer drift apart no matter how many times the effect fires. Also added a `data-testimonials-wired` guard on each widget so a Strict-Mode/Fast-Refresh double-invoke of the effect can't wire the same widget twice.
+
+Verified live in-browser on `/doors/profile-doors/fuego-fire` (4 slides) and `/doors/panic-room-doors` (6 slides): polled review/dot active index every ~4s across multiple ticks and confirmed they always match and advance in order; dispatched clicks on multiple dots and confirmed both jump-to-slide and resume-autoplay work, indices staying in sync. `tsc --noEmit` clean.
+
+Not committed yet.
+
+## Header sticky behavior extended to isLightPage routes too — 2026-09-13 — DONE
+
+Follow-up to the entry directly below: that first pass deliberately scoped the new dock/hide/reveal behavior to the default (dark-hero) header only, and left `/projects` + `/doors/profile-doors/*` (the "light page" routes - solid white bar, sits in normal document flow since there's no hero to float over) untouched. User asked for it across all pages including these.
+
+The real risk here, not present in the default case: `isLightPage`'s header is normally `position: relative` and actually reserves layout space (unlike the default header, which was always absolute/floating and never took up flow space either way). Switching it to `position: fixed` on dock removes it from flow, which would jump all page content up by the header's own height the instant it docks. Handled with a spacer: measured the header's real rendered height via `ResizeObserver` (not a hardcoded guess - it differs between the desktop/medium row and the mobile row, which swap via CSS visibility at different breakpoints) and render an empty div of that exact height immediately before the header, only while both `isLightPage` and `stuck` are true. Also had to move the measurement `ref` from the outer class-carrying wrapper to `.fusion-tb-header` itself specifically - the spacer is a sibling *inside* that outer wrapper, so measuring the wrapper would have included the spacer's own height in the measurement, growing it on every resize/re-render.
+
+CSS restructured so the docked (`.header-stuck`) rule is shared by both page types (same fixed positioning, background color swapped to white+border for light pages vs the translucent grey otherwise) instead of being duplicated per-branch, with the light-page "stay in relative flow at rest" rule scoped to apply only when *not* stuck (source-order tie-break against `.header-stuck`'s equal-specificity `!important` rule, same technique used for the footer alignment fix earlier this session).
+
+Verified on both light-page routes (`/projects`, `/doors/profile-doors/fuego-fire`): dock, hide-on-scroll-down, and reveal-on-scroll-up all confirmed via DOM class checks after dispatched `scroll` events, and screenshotted to confirm zero layout jump - page content sits flush against the header both before and after it docks. Re-verified the default (dark-hero) homepage still works correctly after the CSS restructure (regression check, not assumed). `tsc --noEmit` clean, zero console errors on all three routes tested.
+
+Not committed/pushed yet.
+
+## Header: real sticky (dock + hide-on-scroll-down/reveal-on-scroll-up) — 2026-09-13 — DONE
+
+Built the actual feature the "Sitewide header" investigation (below) stopped short of - this had been `position: absolute` at every scroll depth with zero scroll listeners since the original migration.
+
+`components/Header.tsx`: added a `scroll` listener (passive, cleaned up on unmount) that tracks `window.scrollY` and its delta since the last event. Two pieces of state drive two CSS classes on the header's outer wrapper div:
+- `header-stuck` once scrolled past 150px - docks both nav rows (`fusion-builder-row-1`/`-2`) as `position: fixed; top: 0` with the site's own sticky background color (`rgba(132,123,115,0.7)` - see note below on why this is hardcoded rather than read via `var()`).
+- `header-hidden` when scrolling down by more than a 10px threshold while stuck (ignores small jitter from trackpads/momentum scrolling); cleared immediately on any scroll-up, and always cleared once back above the 150px stuck threshold.
+
+**Real bug caught before it shipped**: the header's own inline style already carries `--awb-sticky-background-color: "rgba(132,123,115,0.7) !important"` - the obvious thing to do was read it via `background-color: var(--awb-sticky-background-color)`. That's invalid: a custom property's stored value is an opaque token stream, and when substituted through `var()` the literal text `!important` becomes part of the *value* (not a cascade origin flag) - `"rgba(...) !important"` isn't a valid `background-color` value, so the whole declaration is dropped and the header would render fully transparent once docked. Hardcoded the rgba value directly instead.
+
+**Scoped deliberately to non-`isLightPage` routes only** (`/projects`, `/doors/profile-doors/*`) - those already solved a different problem (no hero to float over) by keeping the header in normal document flow with a solid white bar; turning that into a fixed docking/hiding bar too is a separate change with its own layout-shift considerations, not attempted this pass. Verified explicitly that `/projects` is completely unaffected by scrolling (no `header-stuck`/`header-hidden` classes ever applied, screenshot confirms the white bar renders exactly as before).
+
+Verified the default (dark-hero) behavior for real, not just by reading the code: dispatched a genuine `scroll` event after `window.scrollTo` and confirmed via the DOM (not just visually) that `header-stuck`/`header-hidden` toggle correctly across scroll-down-fast, scroll-up, and back-to-top; screenshotted all three states. Also tried this session's `computer` tool's synthetic mouse-wheel scroll and `Page_Down` key action to test via a more "real" input path - **neither actually moved the page at all** (`window.scrollY` stayed `0`), and a temporary capture-phase listener confirmed zero `wheel`/`keydown` events ever reached the page - this is a limitation of synthetic input dispatch in this automated browser session (the same category of gap already documented for video autoplay and CSS animation timing in this environment), not a site bug: genuine user wheel/keyboard/touch scrolling fires real browser-native `scroll` events tied to `window.scrollY`, which is exactly what this implementation listens for. Flagging only so a future verification pass in a real, non-automated browser isn't skipped on the assumption this was already fully proven.
+
+`tsc --noEmit` clean, zero console errors on fresh load and after scrolling.
+
+Not committed/pushed yet.
+
 ## SecureCta testimonial video now autoplays — 2026-09-12 — FIXED
 
 This is the `Secure-reviews-compressed.mp4` video flagged earlier this session as a maybe-intentional exception ("missing autoplay AND not muted... may be intentional click-to-play, not assumed to be the same bug"). User has now given explicit intent: it should autoplay. It already had `autoPlay={true}` in `components/home/SecureCta.tsx`, but no `muted` - browsers refuse to autoplay video with audio unless it's also muted, so the attribute was silently doing nothing. Added `muted={true}` (keeps `controls={true}`, so a visitor can still unmute/interact). Verified for real, not just by attribute presence: reloaded and read the live `<video>` element's own state - `paused: false`, `currentTime` climbing on repeated reads - genuinely playing, not stuck the way this environment's backgrounded-tab throttling affects other videos. `tsc --noEmit` clean.

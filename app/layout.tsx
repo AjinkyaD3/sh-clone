@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import ScrollReveal from "../components/ScrollReveal";
 import AccordionToggle from "../components/AccordionToggle";
 import GalleryLoadMore from "../components/GalleryLoadMore";
+import TestimonialsCarousel from "../components/TestimonialsCarousel";
 
 export const metadata: Metadata = {
   title: "Secure House",
@@ -599,6 +600,7 @@ export default function RootLayout({
         <ScrollReveal />
         <AccordionToggle />
         <GalleryLoadMore />
+        <TestimonialsCarousel />
       </body>
     </html>
   );

@@ -6,6 +6,9 @@ import { usePathname } from 'next/navigation';
 export default function Header() {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [mounted, setMounted] = useState(false);
+	const [stuck, setStuck] = useState(false);
+	const [hidden, setHidden] = useState(false);
+	const [headerHeight, setHeaderHeight] = useState(0);
 	const headerRef = useRef<HTMLDivElement>(null);
 	const pathname = usePathname();
 	// Pages with no hero photo directly under the header: the header's default
@@ -27,6 +30,61 @@ export default function Header() {
 	useEffect(() => {
 		setMounted(true);
 	}, []);
+
+	// Real sticky header: dock as position:fixed once scrolled past the hero,
+	// and hide/reveal based on scroll direction while docked - matching the
+	// live site's own behavior (its compiled JS toggles a `scrolling-down`
+	// class the same way; that JS never runs in this migration, so this had
+	// stayed permanently `position: absolute` with no scroll listener at all
+	// - see the "Sitewide header" entry in migration-log/CHANGES-NEEDED.md).
+	// Runs for isLightPage routes too (initially scoped out, added back on
+	// request): those pages have no hero to float over, so the header sits
+	// in normal document flow at rest - once it docks as position:fixed it
+	// stops reserving that space, which would jump page content up by the
+	// header's own height. The spacer effect below measures and compensates
+	// for exactly that, only while both isLightPage and stuck are true.
+	useEffect(() => {
+		const STUCK_AT = isLightPage ? 10 : 150; // light pages have no hero to scroll past
+		const HIDE_DELTA = 10; // ignore sub-10px jitter (trackpads, momentum)
+		let lastY = window.scrollY;
+
+		const onScroll = () => {
+			const y = window.scrollY;
+			const delta = y - lastY;
+			const nowStuck = y > STUCK_AT;
+
+			setStuck(nowStuck);
+			if (!nowStuck) {
+				setHidden(false);
+			} else if (delta > HIDE_DELTA) {
+				setHidden(true);
+			} else if (delta < -HIDE_DELTA) {
+				setHidden(false);
+			}
+			lastY = y;
+		};
+
+		onScroll(); // set correct initial state if the page loads mid-scroll
+		window.addEventListener('scroll', onScroll, { passive: true });
+		return () => window.removeEventListener('scroll', onScroll);
+	}, [isLightPage]);
+
+	// Measure the header's own in-flow height (only the currently-visible
+	// row contributes, since the other is display:none at this breakpoint)
+	// so the isLightPage spacer below can reserve exactly that much space
+	// once the header docks as position:fixed and leaves the flow.
+	// ResizeObserver rather than a one-time measurement: this height
+	// differs across the responsive breakpoints (row-1 desktop/medium vs
+	// row-2 mobile), so it needs to stay correct across a resize too.
+	useEffect(() => {
+		if (!isLightPage || !headerRef.current) return;
+		const el = headerRef.current;
+		const measure = () => setHeaderHeight(el.offsetHeight);
+		measure();
+		const ro = new ResizeObserver(measure);
+		ro.observe(el);
+		return () => ro.disconnect();
+	}, [isLightPage]);
 
 	useEffect(() => {
 		// Two separate elements both open this same shared panel (it doubles
@@ -154,15 +212,53 @@ export default function Header() {
             border-bottom: 1px solid #e7e6e6;
             --awb-color1: #1c1e36;
         }
+        .fusion-tb-header .fusion-imageframe img {
+            filter: invert(1);
+        }
+        /* Resting (not yet scrolled/docked) state only - the shared
+           .header-stuck rule below overrides this back to fixed once
+           docked. Same selector specificity + !important on both sides,
+           so source order is the tie-breaker: this one has to come first. */
         .fusion-tb-header .fusion-builder-row-1,
         .fusion-tb-header .fusion-builder-row-2 {
             position: relative !important;
             top: auto !important;
         }
-        .fusion-tb-header .fusion-imageframe img {
-            filter: invert(1);
-        }
         ` : ''}
+
+        /* Real sticky header: dock as position:fixed once .header-stuck is
+           applied (see the useEffect above), using the same translucent
+           sticky background the site's own inline style already carries as
+           --awb-sticky-background-color on isLightPage:false routes
+           (hardcoded here rather than read via var() - that custom
+           property's value literally includes the text "!important",
+           which is only meaningful written directly after a declaration;
+           substituted through var() it makes the whole background-color
+           declaration invalid and the browser drops it, leaving the header
+           transparent), or the same opaque white bar isLightPage already
+           uses at rest otherwise - so docking never changes its color, only
+           whether it's floating over the hero or fixed to the viewport top.
+           .header-hidden slides it up out of view; the transition only
+           animates transform, so it stays cheap. */
+        .header-stuck .fusion-builder-row-1,
+        .header-stuck .fusion-builder-row-2 {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0;
+            right: 0;
+            z-index: 10011;
+            background-color: ${isLightPage ? '#ffffff' : 'rgba(132,123,115,0.7)'};
+            ${isLightPage ? 'border-bottom: 1px solid #e7e6e6;' : ''}
+            transition: transform 0.3s ease-out;
+        }
+        .fusion-builder-row-1,
+        .fusion-builder-row-2 {
+            transition: transform 0.3s ease-out;
+        }
+        .header-hidden .fusion-builder-row-1,
+        .header-hidden .fusion-builder-row-2 {
+            transform: translateY(-110%);
+        }
       ` }} />
 
 			{/* Close (X) button for the full-screen menu panel */}
@@ -182,10 +278,24 @@ export default function Header() {
 			)}
 
 			<div
-				ref={headerRef}
-				className={menuOpen ? "mobile-menu-active" : ""}
+				className={[
+					menuOpen ? "mobile-menu-active" : "",
+					stuck ? "header-stuck" : "",
+					hidden ? "header-hidden" : "",
+				].filter(Boolean).join(" ")}
 			>
-				<div className="fusion-tb-header">
+				{/* isLightPage keeps the header in normal document flow (see the
+				   CSS below) so it reserves real space at rest; once it docks as
+				   position:fixed that space collapses to 0 and page content
+				   would jump up by the header's height. This spacer reserves the
+				   same height only while docked, so nothing shifts either way.
+				   Sits outside headerRef (attached to .fusion-tb-header just
+				   below) so its own height never feeds back into the
+				   measurement it's based on. */}
+				{isLightPage && (
+					<div style={{ height: stuck ? headerHeight : 0 }} />
+				)}
+				<div ref={headerRef} className="fusion-tb-header">
 					<div className="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-small-visibility fusion-sticky-container fusion-absolute-container fusion-absolute-position-small fusion-absolute-position-medium fusion-absolute-position-large" data-scroll-offset="250" data-sticky-large-visibility="1" data-sticky-medium-visibility="1" data-sticky-small-visibility="1" data-transition-offset="0" style={{ "--awb-border-radius-top-left": "0px", "--awb-border-radius-top-right": "0px", "--awb-border-radius-bottom-right": "0px", "--awb-border-radius-bottom-left": "0px", "--awb-padding-top": "10px", "--awb-padding-right": "40px", "--awb-padding-bottom": "10px", "--awb-padding-left": "40px", "--awb-padding-top-small": "10px", "--awb-padding-right-small": "15px", "--awb-padding-bottom-small": "10px", "--awb-padding-left-small": "15px", "--awb-min-height": "100px", "--awb-sticky-background-color": "rgba(132,123,115,0.7) !important", "--awb-flex-wrap": "wrap" } as any}>
 						<div className="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-content-wrap" style={{ "width": "104% !important", "maxWidth": "104% !important", "marginLeft": "calc(-4% / 2 )", "marginRight": "calc(-4% / 2 )" } as any}>
 							<div className="fusion-layout-column fusion_builder_column fusion-builder-column-0 fusion_builder_column_1_1 1_1 fusion-flex-column fusion-flex-align-self-stretch" style={{ "--awb-bg-size": "cover", "--awb-width-large": "100%", "--awb-margin-top-large": "0px", "--awb-spacing-right-large": "1.92%", "--awb-margin-bottom-large": "0px", "--awb-spacing-left-large": "1.92%", "--awb-width-medium": "100%", "--awb-order-medium": "0", "--awb-spacing-right-medium": "1.92%", "--awb-spacing-left-medium": "1.92%", "--awb-width-small": "100%", "--awb-order-small": "0", "--awb-spacing-right-small": "1.92%", "--awb-spacing-left-small": "1.92%" } as any}>
