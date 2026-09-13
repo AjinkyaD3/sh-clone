@@ -2,6 +2,20 @@
 
 Update this file after every session — this is the single source of truth for "what's actually done."
 
+## Repo cleanup + SEO domain fix + Tawk.to/Get-a-Quote/enquiry backend — 2026-09-13
+
+Busy session, full detail in `CHANGES-NEEDED.md` (each has its own dated entry) - short version of what's now DONE, committed, and pushed:
+- **Tawk.to live chat** added sitewide (real property ID confirmed from the live site).
+- **"Get a Quote" side panel** built - a feature the live site has on every page that was missing entirely from this migration.
+- **Enquiry backend** (`app/api/enquiry/route.ts`, Resend) wired to both this new panel and the main `/contact-us` form - code is live, just needs a real `RESEND_API_KEY` (see `.env.example`) to actually send.
+- **Broken testimonials-carousel widget fixed sitewide** (8 pages) - only the first review panel was ever visible; now cycles and dots work.
+- **Sticky header** (dock/hide/reveal on scroll) implemented across every page, including the light-header routes.
+- **SEO**: every canonical URL was pointing at the Vercel preview domain instead of `secure-house.co.uk` - fixed across 69 files, plus `metadataBase` added and the 2 pages with no metadata at all fixed.
+- **Repo cleanup**: `app/legacy/` (71 files), `scratch/` (364MB), and 166 genuinely-unreferenced upload files (62MB) all moved OUT of the project to `../archive/` (not deleted - explicit client preference). `cheerio` moved to devDependencies. `RECOMMENDED-IMPROVEMENTS.md` checkboxes updated to match.
+- **New finding while cleaning up uploads**: the 3 `.heic` files flagged in the earlier audit are NOT dead code - they're actively referenced by `components/garage-doors/side-hinged-garage-doors/Row14.tsx`, meaning that page is rendering broken images right now (no browser can display `.heic`). Real bug, not yet fixed.
+
+Still pending, not touched this session: door-styles hub's 4 dead child links, 4 profile-door pages missing PDFs/quote content, custom 404/500 pages, redirects for archived URLs, security headers, Open Graph/Twitter Card metadata, most pages missing a real `<h1>`, Organization/LocalBusiness structured data, Lighthouse audit, GTM/Clarity real IDs, `RowN.tsx` renaming, the trust-logo marquee (still reported broken by the user, deferred).
+
 ## Security Shutters converted to real JSX — 2026-09-11
 
 The last of the 35 approved pages still using `dangerouslySetInnerHTML` is now real JSX, using the exact same conversion pipeline as the other 34. Old raw-HTML version preserved at `/legacy/grilles-shutters/security-shutters` (not deleted). Structural diff, `tsc`, console, and all three interactive elements (FAQ, Read more, gallery See more) verified. **35/35 pages are now real JSX — the JSX-conversion effort is complete.** See `CHANGES-NEEDED.md` for full detail. Not committed/pushed yet — awaiting testing.

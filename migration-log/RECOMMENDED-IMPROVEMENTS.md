@@ -12,13 +12,13 @@ This master document provides an end-to-end prioritized breakdown of:
 
 ## Part 1: Dead Code & Removable Bloat (Verified via Live Scan)
 
-### 1. The `app/legacy/` Directory (35 Dead Routes, 71 Files)
+### 1. The `app/legacy/` Directory (35 Dead Routes, 71 Files) — DONE 2026-09-13
 - **The Reality**: All 35 client-approved pages are now 100% real JSX at their live routes. The entire `app/legacy/` folder is obsolete.
 - **The Problem**: Next.js compiles every route inside `app/legacy/` on every build. `npm run build` generates **79 routes instead of 44**. TypeScript spends **82 seconds** type-checking these duplicate pages, and the `.next` build cache exceeds **1.0 GB**.
 - **Action Required**:
-  - [ ] Move `app/legacy/` out of `app/` into an external backup outside the repo, or delete it entirely.
-  - [ ] Remove `/legacy` exclusions from [`app/robots.ts`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/robots.ts) and [`app/sitemap.ts`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/sitemap.ts).
-  - [ ] **Expected Impact**: Cuts build and TypeScript check time by ~50% (from 82s to ~35s).
+  - [x] Move `app/legacy/` out of `app/` into an external backup outside the repo, or delete it entirely. — Moved (not deleted) to `../archive/app-legacy`, outside the project folder entirely, per the client's own preference to keep a reference rather than lose it.
+  - [x] Remove `/legacy` exclusions from [`app/robots.ts`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/robots.ts) and [`app/sitemap.ts`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/sitemap.ts). — Done, both files no longer reference `/legacy` at all.
+  - [ ] **Expected Impact**: Cuts build and TypeScript check time by ~50% (from 82s to ~35s) — not independently re-measured.
 
 ### 2. Dead Tracking Scripts with Dummy IDs in [`app/layout.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/layout.tsx#L501-L524)
 - **The Reality**: The root layout runs two analytics scripts with placeholder dummy IDs on **every single page load**:
@@ -32,30 +32,32 @@ This master document provides an end-to-end prioritized breakdown of:
 - **Action Required**:
   - [ ] Remove both dummy script blocks or gate them behind environment variables (`process.env.NEXT_PUBLIC_GTM_ID`).
 
-### 3. `scratch/` Directory (363.66 MB Tracked in Git)
+### 3. `scratch/` Directory (363.66 MB Tracked in Git) — DONE 2026-09-13
 - **The Reality**: The `scratch/` folder contains:
   - **280+ MB** of uncompressed raw `.mp4` videos in `scratch/video_originals/` (compressed versions are already live in `public/`).
   - **80+ MB** of old HTML backups (`backup_before_items_1_to_5`, `head_clean_backup`, etc.).
   - 34 one-off migration and test scripts.
 - **The Problem**: `scratch/` is **not in `.gitignore`** and is actively tracked by Git. Every clone, push, and deploy drags 363 MB across the network.
 - **Action Required**:
-  - [ ] Add `scratch/` to [`.gitignore`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/.gitignore).
-  - [ ] Untrack from git: `git rm -r --cached scratch/`.
-  - [ ] Move original video archives out of the project repository.
+  - [x] Add `scratch/` to [`.gitignore`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/.gitignore).
+  - [x] Untrack from git: `git rm -r --cached scratch/`. — Handled as part of moving the folder out entirely (git recorded it as ~364MB of deletions).
+  - [x] Move original video archives out of the project repository. — Whole `scratch/` folder moved to `../archive/scratch`, outside the project.
 
-### 4. 221 Unused Assets in `public/legacy-assets/uploads/` (71.26 MB)
+### 4. Unused Assets in `public/legacy-assets/uploads/` — DONE 2026-09-13 (166 files, not 221 — see note)
 - **The Reality**: A script checking all live JSX and CSS files proved that **221 files in uploads are never referenced anywhere in code** (leftovers from the 150 archived pages).
-- **Corrupted / Invalid Scraper Artifacts Found**:
+- **Corrected figure**: re-derived independently with a purpose-built script (`scripts/find_unreferenced_uploads.js`) that scans every `.tsx`/`.ts`/`.css`/`.html` file under `app/`, `components/`, and every compiled CSS bundle under `public/` (images are referenced from inside those bundles too, not just JSX) — found **166** genuinely unreferenced files (62MB), not 221. Not chasing the discrepancy further since this figure is independently verified rather than trusted from the original claim.
+- **Corrupted / Invalid Scraper Artifacts Found** (not yet separately verified against the new 166 list):
   - **3 `.heic` files (6.65 MB)**: `IMG_2238.heic`, `IMG_6231.heic`, `IMG_6232.heic` (Apple format unreadable by standard browsers).
   - **2 `.png,` files (2.74 MB)**: Saved with a literal trailing comma in the file extension.
 - **Action Required**:
-  - [ ] Purge or archive the 221 unreferenced assets and the corrupted `.heic` / `.png,` files.
+  - [x] Purge or archive the unreferenced assets. — Moved (not deleted) to `../archive/unreferenced-uploads/`, preserving folder structure; full list at `../archive/unreferenced-uploads-list.txt`.
+  - [x] Checked the `.heic` / `.png,` files specifically: **the 2 `.png,` files were genuinely unreferenced and got moved with the rest.** The 3 `.heic` files were NOT moved and are NOT dead code - they're actually referenced by `components/garage-doors/side-hinged-garage-doors/Row14.tsx`, meaning `/garage-doors/side-hinged-garage-doors` is currently rendering `<img>` tags pointing at `.heic` files, which no standard browser can display. This is a real, separate bug (broken images on a live page), not a cleanup item - left untouched since it wasn't part of what was asked this round, but worth fixing: either convert those 3 source photos to `.jpg`/`.png` or swap in different images.
 
-### 5. Misplaced Production Dependency in [`package.json`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/package.json#L12)
+### 5. Misplaced Production Dependency in [`package.json`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/package.json#L12) — DONE 2026-09-13
 - **The Reality**: `"cheerio": "^1.2.0"` is listed under runtime `"dependencies"`.
 - **The Problem**: Cheerio is only used in offline build/migration scripts (`scripts/html_to_jsx.js`). It is never imported in `app/` or `components/`. It needlessly bloats the production bundle and Vercel serverless containers.
 - **Action Required**:
-  - [ ] Move `cheerio` to `"devDependencies"`.
+  - [x] Move `cheerio` to `"devDependencies"`. — Done, `package-lock.json` regenerated to match.
 
 ### 6. Dead Easy-Digital-Downloads (EDD) CSS Across Every Page
 - **The Reality**: Every page template contains:
@@ -67,32 +69,32 @@ This master document provides an end-to-end prioritized breakdown of:
 - **Action Required**:
   - [ ] Remove both EDD `<link>` tags across all page files.
 
-### 7. Scraper Dumps in Project Root
-- [ ] Delete `all url.txt` (1.5 KB scrape dump).
-- [ ] Clean or delete `chat.txt` (temporary CLI log).
+### 7. Scraper Dumps in Project Root — DECLINED 2026-09-13
+- [x] ~~Delete `all url.txt` (1.5 KB scrape dump).~~ **Explicitly kept, per user instruction ("don't delete all your .txt and chat.txt").** Left untouched at the project root.
+- [x] ~~Clean or delete `chat.txt` (temporary CLI log).~~ Same - explicitly kept, not touched.
 
 ---
 
 ## Part 2: Launch Blockers & Critical Lead-Gen Gaps (Must-Fix)
 
-### 1. Contact Form Backend & Email Delivery
+### 1. Contact Form Backend & Email Delivery — MOSTLY DONE 2026-09-13 (needs a real API key)
 - **Target File**: [`app/contact-us/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/contact-us/page.tsx#L148-L220)
 - **Current State**: The only `<form>` on the entire site posts to `/contact-us` with no API route or server action. Submitting the form silently reloads the page with zero data captured.
 - **Business Impact**: **Critical revenue blocker**. For a bespoke security door business, every lost inquiry is thousands of pounds in lost sales.
 - **Action Required**:
-  - [ ] Build an API route (`app/api/contact/route.ts`) or React Server Action.
-  - [ ] Integrate transactional email (Resend, SendGrid, AWS SES, or Nodemailer).
-  - [ ] Add client feedback states (submitting spinner, success confirmation alert, error toast).
-  - [ ] Add spam prevention (honeypot field or Cloudflare Turnstile).
+  - [x] Build an API route (`app/api/enquiry/route.ts`) — shared by this form and the new "Get a Quote" panel.
+  - [x] Integrate transactional email (Resend) — code is live; blocked only on a real `RESEND_API_KEY` (see `.env.example`), returns a clean "not configured" error until then instead of failing silently.
+  - [x] Add client feedback states (submitting spinner, success confirmation alert, error toast) — done on both forms.
+  - [ ] Add spam prevention (honeypot field or Cloudflare Turnstile) — not done yet.
 
-### 2. Implement Real Sticky Header
+### 2. Implement Real Sticky Header — DONE 2026-09-13
 - **Target File**: [`components/Header.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/components/Header.tsx#L188-L192)
 - **Current State**: Markup uses `.fusion-sticky-container`, but remains `position: absolute` at all scroll depths. It scrolls completely off-screen on longer pages.
 - **Business Impact**: Visitors scrolling through long product showcases (often 5,000–8,000px tall) lose access to the site navigation, phone numbers (+44 20 7859 4207), and the Products menu.
 - **Action Required**:
-  - [ ] Add CSS `position: sticky` or a lightweight scroll listener in `Header.tsx`.
-  - [ ] Apply a compact layout and frosted/solid background when `scrollY > 150`.
-  - [ ] Ensure correct z-index layering above page elements without obstructing modals.
+  - [x] Add CSS `position: sticky` or a lightweight scroll listener in `Header.tsx`. — Real scroll-direction-aware dock/hide/reveal behavior implemented, across every page including the light-header routes (`/projects`, `/doors/profile-doors/*`).
+  - [x] Apply a compact layout and frosted/solid background when `scrollY > 150`. — Docks with the site's own translucent sticky background color.
+  - [x] Ensure correct z-index layering above page elements without obstructing modals. — Verified no conflicts with the mobile menu, Get-a-Quote panel, or Tawk.to widget.
 
 ### 3. Restore Broken Links on Door Styles Hub
 - **Target File**: [`app/door-styles/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/door-styles/page.tsx#L116-L150)
@@ -128,11 +130,11 @@ This master document provides an end-to-end prioritized breakdown of:
 
 ## Part 3: UX, Content & Accessibility Enhancements
 
-### 1. Missing Page Metadata on French & Edwardian Doors
+### 1. Missing Page Metadata on French & Edwardian Doors — DONE 2026-09-13
 - **Target Files**: 
   - [`app/door-styles/french-doors/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/door-styles/french-doors/page.tsx)
   - [`app/door-styles/edwardian-doors/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/door-styles/edwardian-doors/page.tsx)
-- **Action Required**: Add complete `Metadata` exports with optimized title, description, and canonical tags.
+- **Action Required**: Add complete `Metadata` exports with optimized title, description, and canonical tags. — Done, matching the pattern every sibling door-style page already used. Also fixed sitewide: every page's canonical was pointing at the Vercel preview domain instead of `secure-house.co.uk` - see `CHANGES-NEEDED.md`.
 
 ### 2. Missing Spec Sheets (PDFs) & Quote Forms on 4 Profile-Door Pages
 - **Target Files**:
@@ -324,4 +326,4 @@ Audit and verify the responsive foundation against the 5 primary template patter
 
 ---
 
-*Last Updated: 2026-09-12*
+*Last Updated: 2026-09-13 - see checked-off items above for what's since been done; everything else in this document is still accurate and pending.*
