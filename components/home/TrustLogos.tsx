@@ -44,6 +44,7 @@ export default function TrustLogos() {
                                   <div
                                     className="swiper-wrapper awb-image-carousel-wrapper fusion-flex-align-items-center"
                                   >
+                                    <div className="item-collection-1">
                                     <div
                                       className="swiper-slide"
                                     >
@@ -124,11 +125,19 @@ export default function TrustLogos() {
                                         </div>
                                       </div>
                                     </div>
-                                    {/* Duplicate set, aria-hidden - Avada's real carousel JS never
-                                      runs in this migration (see DECISIONS.md, "the Swiper carousel
-                                      decision"); this repeats the same 4 logos once so the CSS-only
-                                      marquee animation below (.awb-image-carousel-wrapper in
-                                      layout.tsx) can loop seamlessly instead of snapping. */}
+                                    </div>
+                                    {/* Second collection, aria-hidden - Avada's real carousel JS
+                                      never runs in this migration (see DECISIONS.md, "the Swiper
+                                      carousel decision"). Two-collection marquee technique (source:
+                                      https://stackoverflow.com/a/65485329, Albert Fernández
+                                      Martínez, CC BY-SA 4.0): item-collection-1 swaps from left:0%
+                                      to left:100% at the animation's halfway point while the outer
+                                      .awb-image-carousel-wrapper track slides the same distance, so
+                                      collection-1 seamlessly reappears right after collection-2
+                                      forever - no pixel-perfect width matching required between the
+                                      two collections, unlike the earlier plain translateX(-50%)
+                                      approach. See the CSS in layout.tsx. */}
+                                    <div className="item-collection-2">
                                     <div
                                       aria-hidden="true"
                                       className="swiper-slide"
@@ -212,6 +221,7 @@ export default function TrustLogos() {
                                           />
                                         </div>
                                       </div>
+                                    </div>
                                     </div>
                                   </div>
                                 </div>
