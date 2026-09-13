@@ -1,5 +1,15 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## Alignment gap re-checked (resolved), EDD CSS removed — 2026-09-13
+
+**~11px category-page alignment gap - re-checked, no longer present.** User asked to see this side-by-side before deciding whether to fix it. Measured `getBoundingClientRect().left` of the `/garage-doors` heading against the live site at an identical, real 2560px viewport width (not the original 1425px comparison) - both now report the exact same value, `99.109375`. Whatever caused the original difference has already resolved itself as a side effect of other layout work done earlier this session (probably one of the many padding/spacing changes) - nothing left to fix here.
+
+**Hero entrance fade-in animation - explicitly deprioritized by user ("don't worry about the fade in thing")** after seeing the side-by-side comparison (live site mid-fade vs ours snapping instantly). Not fixed, not going to be - closing this one out per instruction rather than leaving it ambiguously open.
+
+**Dead Easy-Digital-Downloads CSS `<link>` tags removed from all 34 real pages.** Every page loaded two stylesheets (`edd-blocks.css`, `edd.min.css`) for a WordPress e-commerce plugin with zero relevance to a door manufacturer - pure leftover from the original theme setup, blocking a small amount of render for no benefit. Confirmed the lines were consistent (only a `?ver=3.6.9` query-string variant) before a blind removal, then stripped any line containing `easy-digital-downloads` from every non-legacy `app/**/page.tsx`. Purely mechanical - took about 2 minutes including verification. Verified: zero `easy-digital-downloads` references left anywhere outside `app/legacy`, `tsc --noEmit` clean, spot-checked `/about-us` loads with zero console errors and zero EDD `<link>` elements in the DOM.
+
+Not committed yet.
+
 ## Security headers, Door Styles links, .heic photos, profile-door PDFs — 2026-09-13 — DONE
 
 Four items from the standing punch list, all confirmed done with real verification (not assumed).

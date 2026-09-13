@@ -59,7 +59,7 @@ This master document provides an end-to-end prioritized breakdown of:
 - **Action Required**:
   - [x] Move `cheerio` to `"devDependencies"`. — Done, `package-lock.json` regenerated to match.
 
-### 6. Dead Easy-Digital-Downloads (EDD) CSS Across Every Page
+### 6. Dead Easy-Digital-Downloads (EDD) CSS Across Every Page — DONE 2026-09-13
 - **The Reality**: Every page template contains:
   ```tsx
   <link key="pl0" rel="stylesheet" href="/legacy-assets/plugins/easy-digital-downloads/includes/blocks/assets/css/edd-blocks.css" />
@@ -67,7 +67,7 @@ This master document provides an end-to-end prioritized breakdown of:
   ```
 - **The Problem**: Secure House is a high-security physical door and window fabricator, not an e-commerce digital downloads store. EDD was a WordPress plugin leftover. These two CSS files block page rendering on all 35 pages for zero benefit.
 - **Action Required**:
-  - [ ] Remove both EDD `<link>` tags across all page files.
+  - [x] Remove both EDD `<link>` tags across all page files. — Done across all 34 non-legacy pages. Purely mechanical, ~2 minutes including verification.
 
 ### 7. Scraper Dumps in Project Root — DECLINED 2026-09-13
 - [x] ~~Delete `all url.txt` (1.5 KB scrape dump).~~ **Explicitly kept, per user instruction ("don't delete all your .txt and chat.txt").** Left untouched at the project root.
