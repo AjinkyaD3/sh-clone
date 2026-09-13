@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Row3 from "@/components/door-styles/edwardian-doors/Row3";
 import Row4 from "@/components/door-styles/edwardian-doors/Row4";
@@ -13,7 +14,14 @@ import Row13 from "@/components/door-styles/edwardian-doors/Row13";
 import Row14 from "@/components/door-styles/edwardian-doors/Row14";
 import Row15 from "@/components/door-styles/edwardian-doors/Row15";
 
-
+export const metadata: Metadata = {
+  title: "Edwardian Front Doors UK – Bespoke Designs & High Security",
+  description:
+    "Edwardian style front doors UK with bespoke designs, advanced security and premium finishes. Explore custom Edwardian doors with a free consultation.",
+  alternates: {
+    canonical: "https://secure-house.co.uk/door-styles/edwardian-doors",
+  },
+};
 
 export default function Page() {
   return (

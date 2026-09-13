@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Products: Security doors, Windows, Security shutters, Garage doors. Residential doors: Premium high security doors, Panic room doors, Steel security doors.",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/products",
+    canonical: "https://secure-house.co.uk/products",
   },
 };
 

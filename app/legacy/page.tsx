@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Bespoke, mastercrafted security doors and windows manufactured in the UK. Explore high-security solutions for homes and businesses.",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/",
+    canonical: "https://secure-house.co.uk/",
   },
 };
 

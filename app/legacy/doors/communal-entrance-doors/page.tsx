@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Upgrade security with premium communal entrance doors for flats. Explore durable, stylish, and secure solutions tailored for apartment and flat entrances.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/doors/communal-entrance-doors",
+      "https://secure-house.co.uk/doors/communal-entrance-doors",
   },
 };
 

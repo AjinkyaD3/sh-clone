@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Projects - Secure House",
   description: "Our projects",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/projects",
+    canonical: "https://secure-house.co.uk/projects",
   },
 };
 

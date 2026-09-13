@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Windows – Elegant and durable. Our windows combine style with practicality. With a diverse selection available, we have options to complement any home, setting, and budget.",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/windows",
+    canonical: "https://secure-house.co.uk/windows",
   },
 };
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Enhance home safety with premium fire resistant doors for flats and houses. Shop certified fire rated doors for ultimate protection and peace of mind.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/doors/fire-resistant-doors",
+      "https://secure-house.co.uk/doors/fire-resistant-doors",
   },
 };
 

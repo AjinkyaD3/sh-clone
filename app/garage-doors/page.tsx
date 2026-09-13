@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Secure and stylish garage doors UK. Expert garage door installation & supply. Quality, durability, and affordable prices. Get your perfect garage door today!",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/garage-doors",
+    canonical: "https://secure-house.co.uk/garage-doors",
   },
 };
 

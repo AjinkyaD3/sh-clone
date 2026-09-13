@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "System for flush mounted single or double-leaf doors, windows and glazed closures without thermal break. Forster, Janisol presto stands for security and safety.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/doors/profile-doors/presto-bullet-proof",
+      "https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof",
   },
 };
 

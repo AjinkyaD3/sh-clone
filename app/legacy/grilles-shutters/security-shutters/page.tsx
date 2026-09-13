@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Discover top-quality home security shutters in the UK. Secure your home with durable, stylish domestic and house security shutter solutions. Contact us today!",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/grilles-shutters/security-shutters",
+      "https://secure-house.co.uk/grilles-shutters/security-shutters",
   },
 };
 

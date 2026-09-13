@@ -1,5 +1,26 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## SEO: canonical domain fixed + real audit — 2026-09-13 — DOMAIN DONE, findings below need decisions
+
+**Domain fix.** Every `alternates.canonical` (69 files, including `app/legacy/*`), `app/sitemap.ts`'s `BASE_URL`, and `app/robots.ts`'s `sitemap:` field pointed at `https://secure-house-next-js.vercel.app` - the Vercel preview domain, not the real one. Replaced all of it with `https://secure-house.co.uk` (plain string replacement in metadata only - no `<Link>` component was touched; internal navigation still uses relative paths via `next/link`, as it should, so client-side routing keeps working regardless of which domain the site is eventually served from). Also added `metadataBase: new URL("https://secure-house.co.uk")` to the root layout's metadata, which was missing entirely - without it, any future relative Open Graph/Twitter image path wouldn't resolve to a real URL.
+
+**Real audit - what's actually good vs what's missing:**
+
+Already solid, confirmed by checking rather than assuming:
+- Per-page `title` + `description` + canonical on effectively every real route (found and fixed the only 2 gaps: `app/door-styles/edwardian-doors` and `app/door-styles/french-doors` had no `metadata` export at all - fixed, matching the pattern every sibling door-style page already uses).
+- `robots.ts` already correctly disallows `/legacy` and points to a real sitemap; `sitemap.ts` already correctly walks `app/` and excludes `/legacy` and dynamic route segments.
+- Some pages carry real `FAQPage` JSON-LD structured data (schema.org), ported from the original site - e.g. `components/garage-doors/Row11.tsx`, `app/door-styles/georgian-doors/page.tsx`.
+- No indexation risk from the `/legacy/*` duplicate-content tree - it's both disallowed in robots.txt and excluded from the sitemap.
+
+**Gaps found, not yet fixed - need a decision, not just code:**
+1. **No Open Graph or Twitter Card metadata anywhere** - zero `openGraph`/`twitter` fields in any page's metadata, and none at the root level either. Concretely: sharing any page link on WhatsApp, Facebook, LinkedIn, or iMessage today shows no image, no title, no description - just a bare link. This is probably the single highest-impact gap: it doesn't move Google ranking, but it visibly hurts every social share and every internal team member pasting a link in Slack/WhatsApp to a client.
+2. **Most pages have no real `<h1>`.** Checked every page's actual rendered heading levels (not just the page.tsx wrapper - the real content lives in the split `components/<page>/RowN.tsx` files): `about-us`, `projects`, `security-levels`, and `trade` have zero `<h1>` anywhere on the page - their main heading renders as `<h2>`/`<h3>` instead (an Avada styling artifact, not a deliberate SEO choice). Google still ranks pages without an `<h1>`, but a correct single `<h1>` matching the page's primary keyword is one of the cheapest, most reliable on-page SEO signals there is - this is a real, fixable gap, not a nitpick.
+3. **No sitewide Organization/LocalBusiness structured data.** The FAQ schema that exists is good, but there's nothing telling Google this is a real UK business - no NAP (name/address/phone), no `LocalBusiness` or `Organization` JSON-LD with logo, sameAs (social links), opening hours, etc. This is what can earn a Knowledge Panel / rich business result for "Secure House" searches.
+4. **Lighthouse/Core Web Vitals never measured** (standing item, not new) - page speed is a confirmed Google ranking factor and nobody has checked where this site actually stands.
+5. **GTM and Microsoft Clarity are still placeholder IDs** (`GTM-XXXXXXX`, `CLARITY-XXXXXXX`, standing item) - not an SEO factor directly, but means there is currently no real analytics or search-query data being collected at all.
+
+Not committed yet.
+
 ## Enquiry backend (Resend) + homepage spacing tweaks — 2026-09-13 — DONE (backend needs a real API key)
 
 **Enquiry backend.** Both `/contact-us` and the new Get-a-Quote panel had no working submission path (the contact form posted `action="/contact-us" method="post"` to itself with no handler; Get a Quote just set local state). Built one shared route, `app/api/enquiry/route.ts`, using the `resend` package (added to `package.json`), differentiated by a `formType: "contact" | "quote"` field so one endpoint serves both forms instead of two near-identical ones. Validates required fields server-side before touching Resend at all.

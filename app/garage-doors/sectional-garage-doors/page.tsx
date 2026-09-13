@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "Buy sectional garage doors designed for strength and style. Trusted UK seller offering top-quality doors with easy installation and quick delivery.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/garage-doors/sectional-garage-doors",
+      "https://secure-house.co.uk/garage-doors/sectional-garage-doors",
   },
 };
 

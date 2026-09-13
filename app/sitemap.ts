@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import fs from "fs";
 import path from "path";
 
-const BASE_URL = "https://secure-house-next-js.vercel.app";
+const BASE_URL = "https://secure-house.co.uk";
 
 const PAGE_MARKERS = new Set([
   "page.tsx",

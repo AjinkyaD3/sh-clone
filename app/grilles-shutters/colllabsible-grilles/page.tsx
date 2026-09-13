@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Collapsible security grilles. A security grille can add a valuable layer of security for your doors as well as windows in both commercial and private premises.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/grilles-shutters/colllabsible-grilles",
+      "https://secure-house.co.uk/grilles-shutters/colllabsible-grilles",
   },
 };
 
