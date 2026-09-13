@@ -1,3 +1,5 @@
+import SystemOverviewModal from "@/components/SystemOverviewModal";
+
 export default function Row5() {
   return (
                     <div
@@ -41,18 +43,19 @@ export default function Row5() {
                             <div
                               style={{ textAlign: 'center' } as unknown as React.CSSProperties}
                             >
-                              <a
-                                className="fusion-button button-flat button-large button-custom fusion-button-default button-3 fusion-button-span-no fusion-button-default-type"
-                                href="#awb-oc__5440"
-                                style={{ '--button_accent_color': 'var(--awb-color1)', '--button_border_color': 'var(--awb-color1)', '--button_accent_hover_color': 'var(--awb-color1)', '--button_border_hover_color': 'hsla( var(--awb-color4-h), var(--awb-color4-s), calc(var(--awb-color4-l) - 4%), var(--awb-color4-a) )', '--button_gradient_top_color': 'var(--awb-color5)', '--button_gradient_bottom_color': 'var( --awb-color5 )', '--button_gradient_top_color_hover': 'var( --awb-color6 )', '--button_gradient_bottom_color_hover': 'var( --awb-color6 )' } as unknown as React.CSSProperties}
-                                target="_self"
-                              >
-                                <span
-                                  className="fusion-button-text awb-button__text awb-button__text--default"
-                                >
-                                  {`System overview`}
-                                </span>
-                              </a>
+                              <SystemOverviewModal
+                                heading="Forster, Janisol Fuego Fire – system overview"
+                                items={[
+                                  { label: 'EI30: fire-resistant door | flush mounted sheet metal door | sliding door', href: '/downloads/profile-doors/fuego-fire/fl_systemuebersichtteil1.pdf' },
+                                  { label: 'EI30: fire-resistant and burglary-resistant door | anti-finger trap door | door in all-glass design', href: '/downloads/profile-doors/fuego-fire/fl_systemuebersichtteil2.pdf' },
+                                  { label: 'EI30: fire-resistant glazing glass-to-glass with 4 mm joint | door with wooden panel | door with wooden door leaf', href: '/downloads/profile-doors/fuego-fire/fl_systemuebersichtteil3.pdf' },
+                                  { label: 'EI60, EI90: fire-resistant door and glazing | EI120 glazing', href: '/downloads/profile-doors/fuego-fire/fl_systemuebersichtteil3.pdf' },
+                                  { label: 'System overview EI30', href: '/downloads/profile-doors/fuego-fire/systemplakat_forster_fuego_light_ei30.pdf' },
+                                  { label: 'System overview EI60 – EI120', href: '/downloads/profile-doors/fuego-fire/systemplakat_forster_fuego_light_ei60-ei120.pdf' },
+                                ]}
+                                triggerClassName="fusion-button button-flat button-large button-custom fusion-button-default button-3 fusion-button-span-no fusion-button-default-type"
+                                triggerStyle={{ '--button_accent_color': 'var(--awb-color1)', '--button_border_color': 'var(--awb-color1)', '--button_accent_hover_color': 'var(--awb-color1)', '--button_border_hover_color': 'hsla( var(--awb-color4-h), var(--awb-color4-s), calc(var(--awb-color4-l) - 4%), var(--awb-color4-a) )', '--button_gradient_top_color': 'var(--awb-color5)', '--button_gradient_bottom_color': 'var( --awb-color5 )', '--button_gradient_top_color_hover': 'var( --awb-color6 )', '--button_gradient_bottom_color_hover': 'var( --awb-color6 )' } as unknown as React.CSSProperties}
+                              />
                             </div>
                           </div>
                         </div>
