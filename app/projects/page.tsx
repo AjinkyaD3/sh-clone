@@ -2,12 +2,25 @@ import type { Metadata } from "next";
 import ProjectsClient from "./ProjectsClient";
 import Row3 from "@/components/projects/Row3";
 import Row4 from "@/components/projects/Row4";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Projects - Secure House",
   description: "Our projects",
   alternates: {
     canonical: "https://secure-house.co.uk/projects",
+  },
+  openGraph: {
+    title: "Projects - Secure House",
+    description: "Our projects",
+    url: "https://secure-house.co.uk/projects",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Projects - Secure House",
+    description: "Our projects",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

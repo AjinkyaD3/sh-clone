@@ -3,6 +3,7 @@ import Row3 from "@/components/doors/profile-doors/Row3";
 import Row4 from "@/components/doors/profile-doors/Row4";
 import Row5 from "@/components/doors/profile-doors/Row5";
 import Row6 from "@/components/doors/profile-doors/Row6";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Profile Doors UK – Bespoke Security & Premium Door Systems",
@@ -10,6 +11,18 @@ export const metadata: Metadata = {
     "Profile doors: Unico slim line, Fuego fire, Presto bullet proof, Stainless steel.",
   alternates: {
     canonical: "https://secure-house.co.uk/doors/profile-doors",
+  },
+  openGraph: {
+    title: "Profile Doors UK – Bespoke Security & Premium Door Systems",
+    description: "Profile doors: Unico slim line, Fuego fire, Presto bullet proof, Stainless steel.",
+    url: "https://secure-house.co.uk/doors/profile-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Profile Doors UK – Bespoke Security & Premium Door Systems",
+    description: "Profile doors: Unico slim line, Fuego fire, Presto bullet proof, Stainless steel.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

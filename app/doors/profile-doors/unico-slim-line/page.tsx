@@ -3,6 +3,7 @@ import Row3 from "@/components/doors/profile-doors/unico-slim-line/Row3";
 import Row4 from "@/components/doors/profile-doors/unico-slim-line/Row4";
 import Row5 from "@/components/doors/profile-doors/unico-slim-line/Row5";
 import Row6 from "@/components/doors/profile-doors/unico-slim-line/Row6";
+import { DEFAULT_OG_IMAGE } from "../../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Unico slim line - Secure House",
@@ -11,6 +12,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/doors/profile-doors/unico-slim-line",
+  },
+  openGraph: {
+    title: "Unico slim line - Secure House",
+    description: "Thermally insulated windows, doors and glazings – elements produced with profiles in this unique framework style, can be fitted indoors and outdoors.",
+    url: "https://secure-house.co.uk/doors/profile-doors/unico-slim-line",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Unico slim line - Secure House",
+    description: "Thermally insulated windows, doors and glazings – elements produced with profiles in this unique framework style, can be fitted indoors and outdoors.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

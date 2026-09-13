@@ -7,6 +7,7 @@ import Row7 from "@/components/products/Row7";
 import Row8 from "@/components/products/Row8";
 import Row9 from "@/components/products/Row9";
 import Row10 from "@/components/products/Row10";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Products - Secure House",
@@ -14,6 +15,18 @@ export const metadata: Metadata = {
     "Products: Security doors, Windows, Security shutters, Garage doors. Residential doors: Premium high security doors, Panic room doors, Steel security doors.",
   alternates: {
     canonical: "https://secure-house.co.uk/products",
+  },
+  openGraph: {
+    title: "Products - Secure House",
+    description: "Products: Security doors, Windows, Security shutters, Garage doors. Residential doors: Premium high security doors, Panic room doors, Steel security doors.",
+    url: "https://secure-house.co.uk/products",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Products - Secure House",
+    description: "Products: Security doors, Windows, Security shutters, Garage doors. Residential doors: Premium high security doors, Panic room doors, Steel security doors.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

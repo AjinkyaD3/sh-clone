@@ -1,5 +1,15 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## Open Graph / Twitter Card metadata sitewide — 2026-09-13 — DONE
+
+Every page now has real `openGraph`/`twitter` metadata instead of a bare link on share. Default set in `app/layout.tsx` (site name, `en_GB`, a real photo - a high-res front-door hallway shot already in `public/legacy-assets`, used as the fallback social image), then every page's own `title`/`description` reused for its own `openGraph`/`twitter` block via a codemod (`scripts/add_open_graph.js`) rather than hand-writing 37 near-identical blocks.
+
+**Real bug caught by actually checking the rendered `<meta>` tags, not just trusting the code**: the first pass left every page's `og:image` missing. Next.js does not deep-merge a child page's `openGraph` object into the layout's default - if a page declares its own `openGraph` at all (even just for a page-specific title), the whole object replaces the layout's, silently dropping `images` since the page's block didn't include it. Fixed by creating `lib/seo.ts` (one shared `DEFAULT_OG_IMAGE` constant) and a follow-up codemod (`scripts/add_og_image.js`) that adds it to every page's own block too, rather than relying on inheritance that doesn't actually happen.
+
+**Second real bug, same root cause (checking output, not just re-running the script and assuming success)**: `app/page.tsx` (the homepage) was silently skipped by both codemods - `git ls-files "app/**/page.tsx"` does not match `app/page.tsx` itself (the pattern requires at least one subdirectory), so the homepage kept the generic sitewide default (`og:title: "Secure House"`) instead of its own real title, and nobody would have noticed without checking the actual rendered meta tags per page rather than trusting the script's own "Updated: 36" count. Fixed by hand for this one file.
+
+Verified: checked rendered `<meta property="og:...">` tags directly in the browser on the homepage and `/contact-us` - correct page-specific title/description, and `og:image` resolving (via `metadataBase`) to a real, servable image on all pages. `tsc --noEmit` clean. Not committed yet.
+
 ## Alignment gap re-checked (resolved), EDD CSS removed — 2026-09-13
 
 **~11px category-page alignment gap - re-checked, no longer present.** User asked to see this side-by-side before deciding whether to fix it. Measured `getBoundingClientRect().left` of the `/garage-doors` heading against the live site at an identical, real 2560px viewport width (not the original 1425px comparison) - both now report the exact same value, `99.109375`. Whatever caused the original difference has already resolved itself as a side effect of other layout work done earlier this session (probably one of the many padding/spacing changes) - nothing left to fix here.

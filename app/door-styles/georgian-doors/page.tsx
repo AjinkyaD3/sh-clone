@@ -14,6 +14,7 @@ import Row14 from "@/components/door-styles/georgian-doors/Row14";
 import Row15 from "@/components/door-styles/georgian-doors/Row15";
 import Row16 from "@/components/door-styles/georgian-doors/Row16";
 import Row17 from "@/components/door-styles/georgian-doors/Row17";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Georgian Front Doors UK – Bespoke Designs & High Security",
@@ -21,6 +22,18 @@ export const metadata: Metadata = {
     "Georgian doors UK with bespoke front door designs, advanced security and premium finishes. Explore custom Georgian front doors with a free consultation.",
   alternates: {
     canonical: "https://secure-house.co.uk/door-styles/georgian-doors",
+  },
+  openGraph: {
+    title: "Georgian Front Doors UK – Bespoke Designs & High Security",
+    description: "Georgian doors UK with bespoke front door designs, advanced security and premium finishes. Explore custom Georgian front doors with a free consultation.",
+    url: "https://secure-house.co.uk/door-styles/georgian-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Georgian Front Doors UK – Bespoke Designs & High Security",
+    description: "Georgian doors UK with bespoke front door designs, advanced security and premium finishes. Explore custom Georgian front doors with a free consultation.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

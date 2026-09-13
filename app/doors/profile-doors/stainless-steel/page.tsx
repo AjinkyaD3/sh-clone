@@ -6,6 +6,7 @@ import Row6 from "@/components/doors/profile-doors/stainless-steel/Row6";
 import Row7 from "@/components/doors/profile-doors/stainless-steel/Row7";
 import Row8 from "@/components/doors/profile-doors/stainless-steel/Row8";
 import Row9 from "@/components/doors/profile-doors/stainless-steel/Row9";
+import { DEFAULT_OG_IMAGE } from "../../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Stainless steel - Secure House",
@@ -14,6 +15,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/doors/profile-doors/stainless-steel",
+  },
+  openGraph: {
+    title: "Stainless steel - Secure House",
+    description: "Stainless Steel Fire Doors: Timeless Strength, Style, and Security. Best suited to commercial applications, offices, communal entrance doors, embassies.",
+    url: "https://secure-house.co.uk/doors/profile-doors/stainless-steel",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Stainless steel - Secure House",
+    description: "Stainless Steel Fire Doors: Timeless Strength, Style, and Security. Best suited to commercial applications, offices, communal entrance doors, embassies.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

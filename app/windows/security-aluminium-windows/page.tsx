@@ -18,6 +18,7 @@ import Row21 from "@/components/windows/security-aluminium-windows/Row21";
 import Row22 from "@/components/windows/security-aluminium-windows/Row22";
 import Row23 from "@/components/windows/security-aluminium-windows/Row23";
 import Row24 from "@/components/windows/security-aluminium-windows/Row24";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Security aluminium windows - Secure House",
@@ -26,6 +27,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/windows/security-aluminium-windows",
+  },
+  openGraph: {
+    title: "Security aluminium windows - Secure House",
+    description: "Security aluminium windows London. Windows play a defining role in shaping the appearance and character of any project. Schüco system technology.",
+    url: "https://secure-house.co.uk/windows/security-aluminium-windows",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Security aluminium windows - Secure House",
+    description: "Security aluminium windows London. Windows play a defining role in shaping the appearance and character of any project. Schüco system technology.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

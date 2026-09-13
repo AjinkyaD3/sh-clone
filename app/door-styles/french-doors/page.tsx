@@ -12,6 +12,7 @@ import Row11 from "@/components/door-styles/french-doors/Row11";
 import Row12 from "@/components/door-styles/french-doors/Row12";
 import Row13 from "@/components/door-styles/french-doors/Row13";
 import Row14 from "@/components/door-styles/french-doors/Row14";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "French Front Doors UK – Bespoke Designs & High Security",
@@ -19,6 +20,18 @@ export const metadata: Metadata = {
     "French style front doors UK with bespoke designs, advanced security and premium finishes. Explore custom French doors with a free consultation.",
   alternates: {
     canonical: "https://secure-house.co.uk/door-styles/french-doors",
+  },
+  openGraph: {
+    title: "French Front Doors UK – Bespoke Designs & High Security",
+    description: "French style front doors UK with bespoke designs, advanced security and premium finishes. Explore custom French doors with a free consultation.",
+    url: "https://secure-house.co.uk/door-styles/french-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "French Front Doors UK – Bespoke Designs & High Security",
+    description: "French style front doors UK with bespoke designs, advanced security and premium finishes. Explore custom French doors with a free consultation.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

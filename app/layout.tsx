@@ -8,11 +8,26 @@ import AccordionToggle from "../components/AccordionToggle";
 import GalleryLoadMore from "../components/GalleryLoadMore";
 import TestimonialsCarousel from "../components/TestimonialsCarousel";
 import GetAQuote from "../components/GetAQuote";
+import { DEFAULT_OG_IMAGE } from "../lib/seo";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://secure-house.co.uk"),
   title: "Secure House",
   description: "Bespoke Security Doors",
+  openGraph: {
+    siteName: "Secure House",
+    type: "website",
+    locale: "en_GB",
+    title: "Secure House",
+    description: "Bespoke Security Doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Secure House",
+    description: "Bespoke Security Doors",
+    images: [DEFAULT_OG_IMAGE.url],
+  },
 };
 
 export default function RootLayout({

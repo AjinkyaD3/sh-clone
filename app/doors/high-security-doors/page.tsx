@@ -18,6 +18,7 @@ import Row17 from "@/components/doors/high-security-doors/Row17";
 import Row18 from "@/components/doors/high-security-doors/Row18";
 import Row19 from "@/components/doors/high-security-doors/Row19";
 import Row20 from "@/components/doors/high-security-doors/Row20";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "High Security Doors | Security Front Doors UK",
@@ -26,6 +27,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/doors/high-security-doors",
+  },
+  openGraph: {
+    title: "High Security Doors | Security Front Doors UK",
+    description: "Explore the best high security doors in the UK. Secure House offers expert insights into choosing the right security front doors for maximum protection.",
+    url: "https://secure-house.co.uk/doors/high-security-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "High Security Doors | Security Front Doors UK",
+    description: "Explore the best high security doors in the UK. Secure House offers expert insights into choosing the right security front doors for maximum protection.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

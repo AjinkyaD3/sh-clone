@@ -16,6 +16,7 @@ import Row15 from "@/components/doors/bullet-proof-doors/Row15";
 import Row16 from "@/components/doors/bullet-proof-doors/Row16";
 import Row17 from "@/components/doors/bullet-proof-doors/Row17";
 import Row18 from "@/components/doors/bullet-proof-doors/Row18";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Bullet Proof Doors | Bullet Proof Doors for Safety",
@@ -24,6 +25,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/doors/bullet-proof-doors",
+  },
+  openGraph: {
+    title: "Bullet Proof Doors | Bullet Proof Doors for Safety",
+    description: "Enhance your security with premium bullet proof doors. Explore high-quality bullet proof door solutions for homes, offices, institutions and VIP facilities.",
+    url: "https://secure-house.co.uk/doors/bullet-proof-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bullet Proof Doors | Bullet Proof Doors for Safety",
+    description: "Enhance your security with premium bullet proof doors. Explore high-quality bullet proof door solutions for homes, offices, institutions and VIP facilities.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

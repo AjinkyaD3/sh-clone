@@ -15,6 +15,7 @@ import Row17 from "@/components/garage-doors/tracless-garage-doors/Row17";
 import Row18 from "@/components/garage-doors/tracless-garage-doors/Row18";
 import Row19 from "@/components/garage-doors/tracless-garage-doors/Row19";
 import Row20 from "@/components/garage-doors/tracless-garage-doors/Row20";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Tracless garage doors - Secure House",
@@ -23,6 +24,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/garage-doors/tracless-garage-doors",
+  },
+  openGraph: {
+    title: "Tracless garage doors - Secure House",
+    description: "Our security garage doors is an innovative product with high level of security and design since 2010. Original opening system that doesn't require ceiling tracks.",
+    url: "https://secure-house.co.uk/garage-doors/tracless-garage-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tracless garage doors - Secure House",
+    description: "Our security garage doors is an innovative product with high level of security and design since 2010. Original opening system that doesn't require ceiling tracks.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

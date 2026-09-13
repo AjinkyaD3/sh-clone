@@ -15,6 +15,7 @@ import Row14 from "@/components/garage-doors/side-hinged-garage-doors/Row14";
 import Row15 from "@/components/garage-doors/side-hinged-garage-doors/Row15";
 import Row16 from "@/components/garage-doors/side-hinged-garage-doors/Row16";
 import Row17 from "@/components/garage-doors/side-hinged-garage-doors/Row17";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Side Hinged Garage Doors – Style with Modern Security",
@@ -23,6 +24,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/garage-doors/side-hinged-garage-doors",
+  },
+  openGraph: {
+    title: "Side Hinged Garage Doors – Style with Modern Security",
+    description: "Side hinged garage doors offer classic style with easy access and strong security. Explore high-quality options for your home at Secure House UK today.",
+    url: "https://secure-house.co.uk/garage-doors/side-hinged-garage-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Side Hinged Garage Doors – Style with Modern Security",
+    description: "Side hinged garage doors offer classic style with easy access and strong security. Explore high-quality options for your home at Secure House UK today.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

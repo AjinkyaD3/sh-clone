@@ -18,6 +18,7 @@ import Row17 from "@/components/doors/fire-resistant-doors/Row17";
 import Row18 from "@/components/doors/fire-resistant-doors/Row18";
 import Row19 from "@/components/doors/fire-resistant-doors/Row19";
 import Row20 from "@/components/doors/fire-resistant-doors/Row20";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Fire Resistant Doors for Homes & Flats | Secure House",
@@ -26,6 +27,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/doors/fire-resistant-doors",
+  },
+  openGraph: {
+    title: "Fire Resistant Doors for Homes & Flats | Secure House",
+    description: "Enhance home safety with premium fire resistant doors for flats and houses. Shop certified fire rated doors for ultimate protection and peace of mind.",
+    url: "https://secure-house.co.uk/doors/fire-resistant-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fire Resistant Doors for Homes & Flats | Secure House",
+    description: "Enhance home safety with premium fire resistant doors for flats and houses. Shop certified fire rated doors for ultimate protection and peace of mind.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

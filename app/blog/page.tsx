@@ -2,12 +2,25 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import posts from "@/data/blog-posts.json";
 import styles from "./page.module.css";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Blog - Secure House",
   description: "Blog",
   alternates: {
     canonical: "https://secure-house.co.uk/blog",
+  },
+  openGraph: {
+    title: "Blog - Secure House",
+    description: "Blog",
+    url: "https://secure-house.co.uk/blog",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog - Secure House",
+    description: "Blog",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

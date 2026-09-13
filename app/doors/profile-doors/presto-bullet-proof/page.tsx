@@ -3,6 +3,7 @@ import Row3 from "@/components/doors/profile-doors/presto-bullet-proof/Row3";
 import Row4 from "@/components/doors/profile-doors/presto-bullet-proof/Row4";
 import Row5 from "@/components/doors/profile-doors/presto-bullet-proof/Row5";
 import Row6 from "@/components/doors/profile-doors/presto-bullet-proof/Row6";
+import { DEFAULT_OG_IMAGE } from "../../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Presto bullet proof - Secure House",
@@ -11,6 +12,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof",
+  },
+  openGraph: {
+    title: "Presto bullet proof - Secure House",
+    description: "System for flush mounted single or double-leaf doors, windows and glazed closures without thermal break. Forster, Janisol presto stands for security and safety.",
+    url: "https://secure-house.co.uk/doors/profile-doors/presto-bullet-proof",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Presto bullet proof - Secure House",
+    description: "System for flush mounted single or double-leaf doors, windows and glazed closures without thermal break. Forster, Janisol presto stands for security and safety.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

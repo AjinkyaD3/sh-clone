@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Row3 from "@/components/windows/Row3";
 import Row4 from "@/components/windows/Row4";
 import Row5 from "@/components/windows/Row5";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Windows - Secure House",
@@ -9,6 +10,18 @@ export const metadata: Metadata = {
     "Windows – Elegant and durable. Our windows combine style with practicality. With a diverse selection available, we have options to complement any home, setting, and budget.",
   alternates: {
     canonical: "https://secure-house.co.uk/windows",
+  },
+  openGraph: {
+    title: "Windows - Secure House",
+    description: "Windows – Elegant and durable. Our windows combine style with practicality. With a diverse selection available, we have options to complement any home, setting, and budget.",
+    url: "https://secure-house.co.uk/windows",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Windows - Secure House",
+    description: "Windows – Elegant and durable. Our windows combine style with practicality. With a diverse selection available, we have options to complement any home, setting, and budget.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

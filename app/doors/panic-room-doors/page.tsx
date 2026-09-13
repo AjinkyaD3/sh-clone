@@ -20,6 +20,7 @@ import Row19 from "@/components/doors/panic-room-doors/Row19";
 import Row20 from "@/components/doors/panic-room-doors/Row20";
 import Row21 from "@/components/doors/panic-room-doors/Row21";
 import Row22 from "@/components/doors/panic-room-doors/Row22";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Safe Room & Panic Room Doors for Ultimate Security | UK Made",
@@ -27,6 +28,18 @@ export const metadata: Metadata = {
     "Looking for top-grade Safe Room or Panic Room Doors? Explore UK-engineered solutions for maximum security, durability & protection. Built to resist threats.",
   alternates: {
     canonical: "https://secure-house.co.uk/doors/panic-room-doors",
+  },
+  openGraph: {
+    title: "Safe Room & Panic Room Doors for Ultimate Security | UK Made",
+    description: "Looking for top-grade Safe Room or Panic Room Doors? Explore UK-engineered solutions for maximum security, durability & protection. Built to resist threats.",
+    url: "https://secure-house.co.uk/doors/panic-room-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Safe Room & Panic Room Doors for Ultimate Security | UK Made",
+    description: "Looking for top-grade Safe Room or Panic Room Doors? Explore UK-engineered solutions for maximum security, durability & protection. Built to resist threats.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 
