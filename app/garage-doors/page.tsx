@@ -10,6 +10,7 @@ import Row9 from "@/components/garage-doors/Row9";
 import Row10 from "@/components/garage-doors/Row10";
 import Row11 from "@/components/garage-doors/Row11";
 import Row12 from "@/components/garage-doors/Row12";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Garage Doors UK | Garage Door Installation & Supply",
@@ -17,6 +18,18 @@ export const metadata: Metadata = {
     "Secure and stylish garage doors UK. Expert garage door installation & supply. Quality, durability, and affordable prices. Get your perfect garage door today!",
   alternates: {
     canonical: "https://secure-house.co.uk/garage-doors",
+  },
+  openGraph: {
+    title: "Garage Doors UK | Garage Door Installation & Supply",
+    description: "Secure and stylish garage doors UK. Expert garage door installation & supply. Quality, durability, and affordable prices. Get your perfect garage door today!",
+    url: "https://secure-house.co.uk/garage-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Garage Doors UK | Garage Door Installation & Supply",
+    description: "Secure and stylish garage doors UK. Expert garage door installation & supply. Quality, durability, and affordable prices. Get your perfect garage door today!",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

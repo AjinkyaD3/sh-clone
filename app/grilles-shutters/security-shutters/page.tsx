@@ -25,6 +25,7 @@ import Row24 from "@/components/grilles-shutters/security-shutters/Row24";
 import Row25 from "@/components/grilles-shutters/security-shutters/Row25";
 import Row26 from "@/components/grilles-shutters/security-shutters/Row26";
 import Row27 from "@/components/grilles-shutters/security-shutters/Row27";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Home Security Shutters UK | Domestic Security Shutters UK",
@@ -33,6 +34,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/grilles-shutters/security-shutters",
+  },
+  openGraph: {
+    title: "Home Security Shutters UK | Domestic Security Shutters UK",
+    description: "Discover top-quality home security shutters in the UK. Secure your home with durable, stylish domestic and house security shutter solutions. Contact us today!",
+    url: "https://secure-house.co.uk/grilles-shutters/security-shutters",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Security Shutters UK | Domestic Security Shutters UK",
+    description: "Discover top-quality home security shutters in the UK. Secure your home with durable, stylish domestic and house security shutter solutions. Contact us today!",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

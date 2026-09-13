@@ -3,6 +3,7 @@ import Row3 from "@/components/grilles-shutters/Row3";
 import Row4 from "@/components/grilles-shutters/Row4";
 import Row5 from "@/components/grilles-shutters/Row5";
 import Row7 from "@/components/grilles-shutters/Row7";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Grilles, shutters - Secure House",
@@ -10,6 +11,18 @@ export const metadata: Metadata = {
     "Security-rated shutters and grilles for homes and businesses. Security shutters, High security shutters, Collapsible grilles.",
   alternates: {
     canonical: "https://secure-house.co.uk/grilles-shutters",
+  },
+  openGraph: {
+    title: "Grilles, shutters - Secure House",
+    description: "Security-rated shutters and grilles for homes and businesses. Security shutters, High security shutters, Collapsible grilles.",
+    url: "https://secure-house.co.uk/grilles-shutters",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Grilles, shutters - Secure House",
+    description: "Security-rated shutters and grilles for homes and businesses. Security shutters, High security shutters, Collapsible grilles.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

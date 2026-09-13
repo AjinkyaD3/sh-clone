@@ -21,9 +21,27 @@ export async function generateMetadata({
     return {};
   }
 
+  const url = `https://secure-house.co.uk/blog/${post.slug}`;
+
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url,
+      type: "article",
+      images: post.featuredImage ? [{ url: post.featuredImage }] : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: post.featuredImage ? [post.featuredImage] : undefined,
+    },
   };
 }
 

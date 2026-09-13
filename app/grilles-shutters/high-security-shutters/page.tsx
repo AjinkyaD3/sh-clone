@@ -5,6 +5,7 @@ import Row5 from "@/components/grilles-shutters/high-security-shutters/Row5";
 import Row6 from "@/components/grilles-shutters/high-security-shutters/Row6";
 import Row7 from "@/components/grilles-shutters/high-security-shutters/Row7";
 import Row8 from "@/components/grilles-shutters/high-security-shutters/Row8";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "High security shutters - Secure House",
@@ -13,6 +14,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/grilles-shutters/high-security-shutters",
+  },
+  openGraph: {
+    title: "High security shutters - Secure House",
+    description: "Premium security shutters. A compact roller shutter system with reduced roll sizes, combining architectural style and engineering excellence.",
+    url: "https://secure-house.co.uk/grilles-shutters/high-security-shutters",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "High security shutters - Secure House",
+    description: "Premium security shutters. A compact roller shutter system with reduced roll sizes, combining architectural style and engineering excellence.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

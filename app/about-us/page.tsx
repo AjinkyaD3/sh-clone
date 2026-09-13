@@ -9,6 +9,7 @@ import Row9 from "@/components/about-us/Row9";
 import Row10 from "@/components/about-us/Row10";
 import Row11 from "@/components/about-us/Row11";
 import Row12 from "@/components/about-us/Row12";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "About Us - Secure House",
@@ -16,6 +17,18 @@ export const metadata: Metadata = {
     "Secure House Ltd stands out as a premier provider of security solutions. Enhancing safety and aesthetics for flats, offices, and commercial properties.",
   alternates: {
     canonical: "https://secure-house.co.uk/about-us",
+  },
+  openGraph: {
+    title: "About Us - Secure House",
+    description: "Secure House Ltd stands out as a premier provider of security solutions. Enhancing safety and aesthetics for flats, offices, and commercial properties.",
+    url: "https://secure-house.co.uk/about-us",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us - Secure House",
+    description: "Secure House Ltd stands out as a premier provider of security solutions. Enhancing safety and aesthetics for flats, offices, and commercial properties.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

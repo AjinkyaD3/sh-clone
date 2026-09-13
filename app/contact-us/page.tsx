@@ -3,6 +3,7 @@ import Row3 from "@/components/contact-us/Row3";
 import Row4 from "@/components/contact-us/Row4";
 import Row5 from "@/components/contact-us/Row5";
 import Row6 from "@/components/contact-us/Row6";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Contact us - Secure House",
@@ -10,6 +11,18 @@ export const metadata: Metadata = {
     "Please don't hesitate to call, pop in or get in touch. info@secure-house.co.uk, +44 20 7859 4207. Mon–Fri: 08:00–18:00, Sat–Sun: Closed.",
   alternates: {
     canonical: "https://secure-house.co.uk/contact-us",
+  },
+  openGraph: {
+    title: "Contact us - Secure House",
+    description: "Please don't hesitate to call, pop in or get in touch. info@secure-house.co.uk, +44 20 7859 4207. Mon–Fri: 08:00–18:00, Sat–Sun: Closed.",
+    url: "https://secure-house.co.uk/contact-us",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact us - Secure House",
+    description: "Please don't hesitate to call, pop in or get in touch. info@secure-house.co.uk, +44 20 7859 4207. Mon–Fri: 08:00–18:00, Sat–Sun: Closed.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

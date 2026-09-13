@@ -10,6 +10,7 @@ import Row13 from "@/components/grilles-shutters/colllabsible-grilles/Row13";
 import Row14 from "@/components/grilles-shutters/colllabsible-grilles/Row14";
 import Row15 from "@/components/grilles-shutters/colllabsible-grilles/Row15";
 import Row16 from "@/components/grilles-shutters/colllabsible-grilles/Row16";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Colllabsible grilles - Secure House",
@@ -18,6 +19,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/grilles-shutters/colllabsible-grilles",
+  },
+  openGraph: {
+    title: "Colllabsible grilles - Secure House",
+    description: "Collapsible security grilles. A security grille can add a valuable layer of security for your doors as well as windows in both commercial and private premises.",
+    url: "https://secure-house.co.uk/grilles-shutters/colllabsible-grilles",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Colllabsible grilles - Secure House",
+    description: "Collapsible security grilles. A security grille can add a valuable layer of security for your doors as well as windows in both commercial and private premises.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

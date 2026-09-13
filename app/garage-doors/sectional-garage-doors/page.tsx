@@ -21,6 +21,7 @@ import Row21 from "@/components/garage-doors/sectional-garage-doors/Row21";
 import Row22 from "@/components/garage-doors/sectional-garage-doors/Row22";
 import Row23 from "@/components/garage-doors/sectional-garage-doors/Row23";
 import Row24 from "@/components/garage-doors/sectional-garage-doors/Row24";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "High-Quality Sectional Garage Doors – UK’s Trusted Seller",
@@ -29,6 +30,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/garage-doors/sectional-garage-doors",
+  },
+  openGraph: {
+    title: "High-Quality Sectional Garage Doors – UK’s Trusted Seller",
+    description: "Buy sectional garage doors designed for strength and style. Trusted UK seller offering top-quality doors with easy installation and quick delivery.",
+    url: "https://secure-house.co.uk/garage-doors/sectional-garage-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "High-Quality Sectional Garage Doors – UK’s Trusted Seller",
+    description: "Buy sectional garage doors designed for strength and style. Trusted UK seller offering top-quality doors with easy installation and quick delivery.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

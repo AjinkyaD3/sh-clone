@@ -7,6 +7,7 @@ import Row7 from "@/components/windows/high-security-steel-windows/Row7";
 import Row8 from "@/components/windows/high-security-steel-windows/Row8";
 import Row9 from "@/components/windows/high-security-steel-windows/Row9";
 import Row10 from "@/components/windows/high-security-steel-windows/Row10";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "High security steel windows - Secure House",
@@ -15,6 +16,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/windows/high-security-steel-windows",
+  },
+  openGraph: {
+    title: "High security steel windows - Secure House",
+    description: "Highest quality security windows in London. Every single security windows solution is designed to protect, help you feel safe and secure.",
+    url: "https://secure-house.co.uk/windows/high-security-steel-windows",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "High security steel windows - Secure House",
+    description: "Highest quality security windows in London. Every single security windows solution is designed to protect, help you feel safe and secure.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

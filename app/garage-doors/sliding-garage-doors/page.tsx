@@ -10,6 +10,7 @@ import Row10 from "@/components/garage-doors/sliding-garage-doors/Row10";
 import Row11 from "@/components/garage-doors/sliding-garage-doors/Row11";
 import Row12 from "@/components/garage-doors/sliding-garage-doors/Row12";
 import Row13 from "@/components/garage-doors/sliding-garage-doors/Row13";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Sliding garage doors - Secure House",
@@ -18,6 +19,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/garage-doors/sliding-garage-doors",
+  },
+  openGraph: {
+    title: "Sliding garage doors - Secure House",
+    description: "Sliding garage doors: space-saving design with superior performance and customization. Sliding garage doors by Secure House are the most advanced garage door solution.",
+    url: "https://secure-house.co.uk/garage-doors/sliding-garage-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sliding garage doors - Secure House",
+    description: "Sliding garage doors: space-saving design with superior performance and customization. Sliding garage doors by Secure House are the most advanced garage door solution.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

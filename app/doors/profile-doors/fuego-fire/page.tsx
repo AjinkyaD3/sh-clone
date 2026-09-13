@@ -3,6 +3,7 @@ import Row3 from "@/components/doors/profile-doors/fuego-fire/Row3";
 import Row4 from "@/components/doors/profile-doors/fuego-fire/Row4";
 import Row5 from "@/components/doors/profile-doors/fuego-fire/Row5";
 import Row6 from "@/components/doors/profile-doors/fuego-fire/Row6";
+import { DEFAULT_OG_IMAGE } from "../../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Fuego fire - Secure House",
@@ -11,6 +12,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/doors/profile-doors/fuego-fire",
+  },
+  openGraph: {
+    title: "Fuego fire - Secure House",
+    description: "Forster, Janisol fuego light is the reliable profile system for fire protection. Flush doors with narrow steel frame and large glass area.",
+    url: "https://secure-house.co.uk/doors/profile-doors/fuego-fire",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fuego fire - Secure House",
+    description: "Forster, Janisol fuego light is the reliable profile system for fire protection. Flush doors with narrow steel frame and large glass area.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

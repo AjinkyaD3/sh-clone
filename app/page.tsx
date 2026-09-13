@@ -9,14 +9,30 @@ import TrustedManufacturer from "@/components/home/TrustedManufacturer";
 import OurProjects from "@/components/home/OurProjects";
 import SecureCta from "@/components/home/SecureCta";
 import TrustLogos from "@/components/home/TrustLogos";
+import { DEFAULT_OG_IMAGE } from "../lib/seo";
+
+const TITLE =
+  "Security Doors Manufacturer London, UK | Bespoke Security Doors – Secure House";
+const DESCRIPTION =
+  "Bespoke, mastercrafted security doors and windows manufactured in the UK. Explore high-security solutions for homes and businesses.";
 
 export const metadata: Metadata = {
-  title:
-    "Security Doors Manufacturer London, UK | Bespoke Security Doors – Secure House",
-  description:
-    "Bespoke, mastercrafted security doors and windows manufactured in the UK. Explore high-security solutions for homes and businesses.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: {
     canonical: "https://secure-house.co.uk/",
+  },
+  openGraph: {
+    title: TITLE,
+    description: DESCRIPTION,
+    url: "https://secure-house.co.uk/",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

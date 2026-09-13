@@ -8,6 +8,7 @@ import Row8 from "@/components/security-levels/Row8";
 import Row9 from "@/components/security-levels/Row9";
 import Row10 from "@/components/security-levels/Row10";
 import Row11 from "@/components/security-levels/Row11";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Security levels - Secure House",
@@ -15,6 +16,18 @@ export const metadata: Metadata = {
     "LS1 Class, RC3 Class, RC4 Class, RC4 + FB4 Class, RC4 + FB6 Class. Make your property a fortress - choose the right security level doors.",
   alternates: {
     canonical: "https://secure-house.co.uk/security-levels",
+  },
+  openGraph: {
+    title: "Security levels - Secure House",
+    description: "LS1 Class, RC3 Class, RC4 Class, RC4 + FB4 Class, RC4 + FB6 Class. Make your property a fortress - choose the right security level doors.",
+    url: "https://secure-house.co.uk/security-levels",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Security levels - Secure House",
+    description: "LS1 Class, RC3 Class, RC4 Class, RC4 + FB4 Class, RC4 + FB6 Class. Make your property a fortress - choose the right security level doors.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

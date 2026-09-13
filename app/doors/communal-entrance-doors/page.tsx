@@ -17,6 +17,7 @@ import Row19 from "@/components/doors/communal-entrance-doors/Row19";
 import Row20 from "@/components/doors/communal-entrance-doors/Row20";
 import Row21 from "@/components/doors/communal-entrance-doors/Row21";
 import Row22 from "@/components/doors/communal-entrance-doors/Row22";
+import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Communal Entrance Doors | Communal Entrance Doors for Flats",
@@ -25,6 +26,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical:
       "https://secure-house.co.uk/doors/communal-entrance-doors",
+  },
+  openGraph: {
+    title: "Communal Entrance Doors | Communal Entrance Doors for Flats",
+    description: "Upgrade security with premium communal entrance doors for flats. Explore durable, stylish, and secure solutions tailored for apartment and flat entrances.",
+    url: "https://secure-house.co.uk/doors/communal-entrance-doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Communal Entrance Doors | Communal Entrance Doors for Flats",
+    description: "Upgrade security with premium communal entrance doors for flats. Explore durable, stylish, and secure solutions tailored for apartment and flat entrances.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

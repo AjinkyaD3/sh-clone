@@ -3,6 +3,7 @@ import Row3 from "@/components/doors/Row3";
 import Row4 from "@/components/doors/Row4";
 import Row5 from "@/components/doors/Row5";
 import Row6 from "@/components/doors/Row6";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Doors - Secure House",
@@ -10,6 +11,18 @@ export const metadata: Metadata = {
     "Doors – Stylish and secure. Our products are custom made - beautiful and functional. We can produce doors to suit every type of property, location and budget.",
   alternates: {
     canonical: "https://secure-house.co.uk/doors",
+  },
+  openGraph: {
+    title: "Doors - Secure House",
+    description: "Doors – Stylish and secure. Our products are custom made - beautiful and functional. We can produce doors to suit every type of property, location and budget.",
+    url: "https://secure-house.co.uk/doors",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Doors - Secure House",
+    description: "Doors – Stylish and secure. Our products are custom made - beautiful and functional. We can produce doors to suit every type of property, location and budget.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 

@@ -1,10 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Thank You | Secure House",
   description:
     "Thank you for contacting Secure House. We have received your enquiry and will be in touch shortly.",
+  openGraph: {
+    title: "Thank You | Secure House",
+    description: "Thank you for contacting Secure House. We have received your enquiry and will be in touch shortly.",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Thank You | Secure House",
+    description: "Thank you for contacting Secure House. We have received your enquiry and will be in touch shortly.",
+    images: [DEFAULT_OG_IMAGE.url],
+  },
 };
 
 export default function ThankYouPage() {

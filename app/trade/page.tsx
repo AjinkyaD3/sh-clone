@@ -8,6 +8,7 @@ import Row8 from "@/components/trade/Row8";
 import Row9 from "@/components/trade/Row9";
 import Row10 from "@/components/trade/Row10";
 import Row11 from "@/components/trade/Row11";
+import { DEFAULT_OG_IMAGE } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Trade - Secure House",
@@ -15,6 +16,18 @@ export const metadata: Metadata = {
     "Doors for trade. At Door World Factory we manufacture high security, steel timber clad doors, slim line industrial steel doors, French doors, bespoke doors.",
   alternates: {
     canonical: "https://secure-house.co.uk/trade",
+  },
+  openGraph: {
+    title: "Trade - Secure House",
+    description: "Doors for trade. At Door World Factory we manufacture high security, steel timber clad doors, slim line industrial steel doors, French doors, bespoke doors.",
+    url: "https://secure-house.co.uk/trade",
+    images: [DEFAULT_OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Trade - Secure House",
+    description: "Doors for trade. At Door World Factory we manufacture high security, steel timber clad doors, slim line industrial steel doors, French doors, bespoke doors.",
+    images: [DEFAULT_OG_IMAGE.url],
   },
 };
 
