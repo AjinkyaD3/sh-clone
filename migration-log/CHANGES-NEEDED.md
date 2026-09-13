@@ -1,5 +1,38 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## TODO for tomorrow (2026-09-14): video quality + "prod-level brand" punch list
+
+Not started - logged tonight (2026-09-13) so tomorrow starts from real numbers instead of a re-investigation. User asked "what can be done better across the whole site to make it prod-level, high-quality brand finish" and separately asked to look at video quality specifically - both logged here together as the plan for tomorrow.
+
+### 1. Video quality - checked with `ffprobe`, not guessed. 2 of 7 videos are genuinely weak:
+All 7 real `<video>` sources on the site (`components/**/*.tsx`, excluding `app/legacy`):
+| Video | Used in | Resolution | Bitrate | Size / Length | Verdict |
+|---|---|---|---|---|---|
+| `Secure-House-v2-GOLD-SHOPFRONT.mp4` | Bullet Proof Doors | 1920×1080 | 3.8 Mbps | 24MB / 52s | fine |
+| `Secure-House-Factory-compressed.mp4` | Bespoke Manufacturer | 1920×1080 | 2.2 Mbps | 8.7MB / 33s | fine |
+| `Untitled-2024-11-11-17-47-13copy-2-compressed.mp4` | Doors Design Video | 1000×1030 | 828 kbps | 884KB / 9s | fine (short clip) |
+| `Attention-to-details-1-compressed.mp4` | Luxury Doors Details | 746×1000 | 1.7 Mbps | 3.6MB / 18s | fine |
+| **`Secure-reviews-compressed.mp4`** | `SecureCta` testimonial (autoplay+loop on homepage) | 1280×818 | **961 kbps** | 9.8MB / **84s** | weak - low bitrate stretched over a long loop, likely soft/blocky on motion |
+| `Bullet-proof-1.trumpesnis-2-2.mp4` | Trusted Manufacturer | 746×1000 | 1.05 Mbps | 856KB / 7s | fine (short clip) |
+| **`Secure-House-Explotion-animation.mp4`** | Security Levels (light protection) | **1080×1920** | **891 kbps** | 2.3MB / 21s | weak - same pixel count as standard 1080p, running at under half the bitrate 1080p usually wants (5-8 Mbps) |
+
+**Plan**: re-encode these 2 at a proper bitrate for their resolution (keep the same crop/resolution, just raise bitrate - roughly 2.5-4 Mbps for the 1280×818 one, 4-6 Mbps for the 1080×1920 one, quality-tested visually before committing to exact numbers). Source files aren't in the repo (only the already-compressed derivatives are), so re-encoding means working from these existing `.mp4`s at a smarter bitrate/CRF rather than from a higher-quality original - re-compressing a re-compressed file has diminishing returns, worth knowing whether a better-quality source exists before this is done.
+
+### 2. "Prod-level, high-quality brand" punch list, in priority order
+
+1. **🔴 Both live blog posts are still Lorem Ipsum placeholder content** - the single worst thing on the site for brand perception right now. `/blog/3-point-locking` and `/blog/arched-doors` (`data/blog-posts.json`) show real title/date/excerpt, then a literal `"**Placeholder content.** ... Everything below this line is Lorem-ipsum placeholder text..."` note followed by actual Lorem ipsum. Confirmed by reading the JSON directly, not assumed. **Needs a decision**: get real copy written for both, or unpublish/hide them until ready - leaving them live as-is risks a prospect or client stumbling onto visible Lorem Ipsum.
+2. Video quality - see above.
+3. Trust-logo marquee still reported broken by the user (standing item, deferred, user is sourcing reference code for it).
+4. **1.05GB of unoptimized images, zero WebP** (standing item from the Antigravity audit, never started) - both a performance and a visual-quality opportunity, likely 60-80% size reduction with no visible quality loss.
+5. **Fonts loaded via a plain `<link>` tag** (`app/layout.tsx`) instead of `next/font/google` - causes a visible flash of unstyled text / layout shift on slower connections; a "next/font" migration is a well-defined, contained change.
+6. **No Lighthouse baseline ever run** (standing item) - can't credibly call anything "production-level" without having measured performance/accessibility/SEO scores at least once.
+7. Accessibility never systematically audited (alt text/contrast/focus states have been fixed ad hoc as found, not swept deliberately).
+8. No spam protection (honeypot/Turnstile) on either enquiry form.
+9. GTM/Clarity still placeholder IDs - zero real analytics on live traffic until the team provides real ones (user is getting these).
+10. Never tested on a real mobile device or a non-Chrome browser - everything this whole migration has been verified through one automated Chrome environment.
+
+Not started. Logged only.
+
 ## Full-site mobile audit — 2026-09-13 — DONE, clean
 
 Re-verified the whole site at a real 390px viewport using the established iframe-injection workaround (`resize_window` still doesn't change `window.innerWidth` in this environment), specifically because several components built this session (Get a Quote panel, `SystemOverviewModal`, the sticky header, the new custom 404 page) had never been mobile-tested before.
