@@ -1,5 +1,20 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## Custom 404/500 pages + redirect decision — 2026-09-13 — DONE
+
+User decided: no redirects for the ~150 archived URLs (those pages are empty, and the archive already lives outside the project as a reference) - closing that item as a deliberate decision, not a gap. Custom error pages: user asked to build them and explain what they do.
+
+**Built three files**, each a distinct Next.js App Router convention:
+- **`app/not-found.tsx`** - renders whenever a route doesn't match anything (a mistyped URL, an old bookmark, one of the ~150 archived URLs). This is the one that matters most day-to-day.
+- **`app/error.tsx`** - a client component (required by Next.js, since it needs interactivity) that catches an unexpected runtime error anywhere under the root layout - e.g. a page component throwing during render. Gets a `reset()` function from Next.js that re-renders just that segment without a full page reload, wired to a real "Try again" button.
+- **`app/global-error.tsx`** - the one edge case the other two can't cover: an error thrown by the root layout itself (`Header`, `Footer`, the big inline `<style>` block, the Tawk.to script, etc.). Next.js requires this file to render its own complete `<html>/<body>`, since the layout that would normally provide those is exactly what's assumed broken - kept deliberately minimal and import-free (no `Header`/`Footer`/`Link`) for the same reason.
+
+All three styled on-brand (cream `#f5efe9` background, navy `#1c1e36` text, Playfair Display heading, matching the Get-a-Quote panel's palette) rather than left as generic Next.js defaults - the 404 page links to every primary category plus the phone number, so a lost visitor has somewhere real to go instead of a dead end.
+
+**Real bug caught during verification, not assumed away**: `not-found.tsx` and `error.tsx` both render inside the root layout, so `Header`/`Footer`/the chat widget/the Get-a-Quote tab all appear automatically - but the first version rendered with the header nav and footer completely unstyled (raw bullet-list menu, overlapping footer text). This is the *exact same root cause* as the earlier `/blog` bug already documented in this file: every Avada-scraped page loads its own compiled `fusion-styles/[hash].min.css` bundle, which carries a large shared base-theme payload that `Header`/`Footer` depend on - and these two new files aren't scraped pages, so they never had it. Fixed the same way `/blog` was fixed: added the homepage's stylesheet link to both files. A second, smaller bug surfaced once that link was in place: the loaded bundle's own global `h1` rule (likely meant for hero headings) was setting the heading to white, rendering it as an invisible ghost against the cream background - fixed with a scoped `!important` override, the same technique already used elsewhere in this project for identical cascade conflicts.
+
+Verified for real: screenshotted both pages with the full site chrome correctly styled: took a direct 404 hit on a nonexistent URL and confirmed the page renders with working links (clicked "Doors," landed on `/doors`); temporarily added a route that throws inside its page component, confirmed `error.tsx` renders (screenshotted) with a working "Try again" button, then deleted the test route. `tsc --noEmit` clean throughout.
+
 ## Repo cleanup: legacy/scratch/unused uploads moved out, cheerio relocated — 2026-09-13 — DONE
 
 User asked to move (not delete) the dead weight identified in the earlier Antigravity audit out of the project entirely, plus fix the misplaced `cheerio` dependency. Explicitly asked to leave `chat.txt` and `all url.txt` alone.

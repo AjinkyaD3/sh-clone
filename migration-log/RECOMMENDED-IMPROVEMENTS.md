@@ -103,17 +103,13 @@ This master document provides an end-to-end prioritized breakdown of:
 - **Action Required**:
   - [ ] Wrap each style card in `<Link href="/door-styles/...">`.
 
-### 4. Custom 404 / 500 Pages & 301 Wildcard Redirects
+### 4. Custom 404 / 500 Pages — DONE 2026-09-13. Redirects — DECLINED (client decision)
 - **Target Files**: `app/not-found.tsx` (to create), [`next.config.ts`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/next.config.ts)
 - **Current State**: Generic unstyled Next.js 404 page is rendered. When site scope was reduced from 194 to 32 pages, ~150 URLs were archived with no redirects.
 - **Business Impact**: Severe SEO hazard. Backlinks and indexed Google URLs to old blog posts, archived inspiration galleries, and legacy product variants return raw 404s, shedding domain authority and traffic.
 - **Action Required**:
-  - [ ] Create an on-brand `app/not-found.tsx` with links to primary categories.
-  - [ ] Add wildcard redirects in `next.config.ts`:
-    - `/doors/arch-doors` → `/doors`
-    - `/doors/stained-glass-doors` → `/doors`
-    - Archived blog URLs → `/blog`
-    - Archived inspiration URLs → `/projects`
+  - [x] Create an on-brand `app/not-found.tsx` with links to primary categories. — Done, plus `app/error.tsx` and `app/global-error.tsx` for runtime errors (see `CHANGES-NEEDED.md` for the full writeup, including a real Header/Footer styling bug found and fixed along the way).
+  - [x] ~~Add wildcard redirects in `next.config.ts`~~ **Client decision: not needed.** The archived pages are empty content and the archive is already kept outside the project as a reference - accepting the 404s rather than building redirects for URLs pointing at nothing.
 
 ### 5. Security Response Headers
 - **Target File**: [`next.config.ts`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/next.config.ts)
