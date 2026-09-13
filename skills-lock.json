@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "ux-audit": {
+      "source": "EliaAlberti/ux-audit-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "f4d6cc1ae2c851e2892f486a989b2c72c837d9b557ebc824cc7fcef517964b19"
+    },
+    "wcag-accessibility-audit": {
+      "source": "mastepanoski/claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/wcag-accessibility-audit/SKILL.md",
+      "computedHash": "8a64fda5213720bcfe16bca7716f32aea1d1c6aee34f1a46df79ecc989f01ea8"
+    }
+  }
+}
