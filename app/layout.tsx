@@ -7,6 +7,7 @@ import ScrollReveal from "../components/ScrollReveal";
 import AccordionToggle from "../components/AccordionToggle";
 import GalleryLoadMore from "../components/GalleryLoadMore";
 import TestimonialsCarousel from "../components/TestimonialsCarousel";
+import GetAQuote from "../components/GetAQuote";
 
 export const metadata: Metadata = {
   title: "Secure House",
@@ -594,6 +595,23 @@ export default function RootLayout({
           }}
         />
         {/* TODO: replace GTM-XXXXXXX above with real GTM container ID from Priyanka */}
+        {/* Tawk.to live chat - property ID confirmed from the live secure-house.co.uk
+            site (embed.tawk.to/5dcaa5a1d96992700fc70d72/default), unlike the GTM/Clarity
+            IDs above which are still placeholders. Loaded lazily since chat is not
+            needed for first paint or interactivity. */}
+        <Script id="tawk-to" strategy="lazyOnload">
+          {`
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+              var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+              s1.async = true;
+              s1.src = 'https://embed.tawk.to/5dcaa5a1d96992700fc70d72/default';
+              s1.charset = 'UTF-8';
+              s1.setAttribute('crossorigin', '*');
+              s0.parentNode.insertBefore(s1, s0);
+            })();
+          `}
+        </Script>
         <Header />
         {children}
         <Footer />
@@ -601,6 +619,7 @@ export default function RootLayout({
         <AccordionToggle />
         <GalleryLoadMore />
         <TestimonialsCarousel />
+        <GetAQuote />
       </body>
     </html>
   );
