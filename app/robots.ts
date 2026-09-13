@@ -13,6 +13,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: "/legacy",
       },
     ],
-    sitemap: "https://secure-house-next-js.vercel.app/sitemap.xml",
+    sitemap: "https://secure-house.co.uk/sitemap.xml",
   };
 }

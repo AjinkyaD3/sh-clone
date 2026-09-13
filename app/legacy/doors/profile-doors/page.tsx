@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Profile doors: Unico slim line, Fuego fire, Presto bullet proof, Stainless steel.",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/doors/profile-doors",
+    canonical: "https://secure-house.co.uk/doors/profile-doors",
   },
 };
 

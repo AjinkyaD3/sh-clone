@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Looking for top-grade Safe Room or Panic Room Doors? Explore UK-engineered solutions for maximum security, durability & protection. Built to resist threats.",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/doors/panic-room-doors",
+    canonical: "https://secure-house.co.uk/doors/panic-room-doors",
   },
 };
 

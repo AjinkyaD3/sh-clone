@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Doors – Stylish and secure. Our products are custom made - beautiful and functional. We can produce doors to suit every type of property, location and budget.",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/doors",
+    canonical: "https://secure-house.co.uk/doors",
   },
 };
 

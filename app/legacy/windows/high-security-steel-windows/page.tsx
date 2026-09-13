@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Highest quality security windows in London. Every single security windows solution is designed to protect, help you feel safe and secure.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/windows/high-security-steel-windows",
+      "https://secure-house.co.uk/windows/high-security-steel-windows",
   },
 };
 

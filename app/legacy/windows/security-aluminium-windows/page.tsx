@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Security aluminium windows London. Windows play a defining role in shaping the appearance and character of any project. Schüco system technology.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/windows/security-aluminium-windows",
+      "https://secure-house.co.uk/windows/security-aluminium-windows",
   },
 };
 

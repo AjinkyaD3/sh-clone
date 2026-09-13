@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Side hinged garage doors offer classic style with easy access and strong security. Explore high-quality options for your home at Secure House UK today.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/garage-doors/side-hinged-garage-doors",
+      "https://secure-house.co.uk/garage-doors/side-hinged-garage-doors",
   },
 };
 

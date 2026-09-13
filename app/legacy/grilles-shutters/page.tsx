@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Security-rated shutters and grilles for homes and businesses. Security shutters, High security shutters, Collapsible grilles.",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/grilles-shutters",
+    canonical: "https://secure-house.co.uk/grilles-shutters",
   },
 };
 

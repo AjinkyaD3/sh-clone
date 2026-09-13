@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Explore secure door design styles. Explore diverse range of secure door design styles, each combining timeless aesthetics with modern security features.",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/door-styles",
+    canonical: "https://secure-house.co.uk/door-styles",
   },
 };
 

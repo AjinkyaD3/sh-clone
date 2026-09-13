@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Forster, Janisol fuego light is the reliable profile system for fire protection. Flush doors with narrow steel frame and large glass area.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/doors/profile-doors/fuego-fire",
+      "https://secure-house.co.uk/doors/profile-doors/fuego-fire",
   },
 };
 

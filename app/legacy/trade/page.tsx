@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Doors for trade. At Door World Factory we manufacture high security, steel timber clad doors, slim line industrial steel doors, French doors, bespoke doors.",
   alternates: {
-    canonical: "https://secure-house-next-js.vercel.app/trade",
+    canonical: "https://secure-house.co.uk/trade",
   },
 };
 

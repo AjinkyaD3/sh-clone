@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Enhance your security with premium bullet proof doors. Explore high-quality bullet proof door solutions for homes, offices, institutions and VIP facilities.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/doors/bullet-proof-doors",
+      "https://secure-house.co.uk/doors/bullet-proof-doors",
   },
 };
 

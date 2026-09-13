@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Thermally insulated windows, doors and glazings – elements produced with profiles in this unique framework style, can be fitted indoors and outdoors.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/doors/profile-doors/unico-slim-line",
+      "https://secure-house.co.uk/doors/profile-doors/unico-slim-line",
   },
 };
 

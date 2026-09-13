@@ -10,6 +10,7 @@ import TestimonialsCarousel from "../components/TestimonialsCarousel";
 import GetAQuote from "../components/GetAQuote";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://secure-house.co.uk"),
   title: "Secure House",
   description: "Bespoke Security Doors",
 };

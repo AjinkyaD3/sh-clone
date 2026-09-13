@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Sliding garage doors: space-saving design with superior performance and customization. Sliding garage doors by Secure House are the most advanced garage door solution.",
   alternates: {
     canonical:
-      "https://secure-house-next-js.vercel.app/garage-doors/sliding-garage-doors",
+      "https://secure-house.co.uk/garage-doors/sliding-garage-doors",
   },
 };
 
