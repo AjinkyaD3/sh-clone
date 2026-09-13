@@ -1,4 +1,46 @@
+"use client";
+
+import { useState } from "react";
+
+// Original WordPress form posted to Avada/Fusion's own ajax handler, which
+// doesn't exist in this migration - the form had no working submission path
+// at all. Wired to the shared /api/enquiry route (see
+// migration-log/CHANGES-NEEDED.md, "contact form backend") instead of
+// building a second endpoint just for this form. The two response alert
+// blocks below already existed in the ported markup (Avada renders both,
+// permanently hidden, and its own JS shows one or the other) - now toggled
+// by real submission state instead of always being present in the DOM.
 export default function Row4() {
+  const [sending, setSending] = useState(false);
+  const [result, setResult] = useState<"success" | "error" | null>(null);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setResult(null);
+    setSending(true);
+    const data = new FormData(e.currentTarget);
+    try {
+      const res = await fetch("/api/enquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          formType: "contact",
+          name: data.get("name"),
+          email: data.get("email"),
+          phone: data.get("phone"),
+          message: data.get("message"),
+        }),
+      });
+      if (!res.ok) throw new Error();
+      setResult("success");
+      e.currentTarget.reset();
+    } catch {
+      setResult("error");
+    } finally {
+      setSending(false);
+    }
+  };
+
   return (
                     <div
                       className="fusion-container-anchor"
@@ -48,9 +90,8 @@ export default function Row4() {
                                       style={{ '--awb-tooltip-text-color': '#ffffff', '--awb-tooltip-background-color': 'var( --awb-color1 )', '--awb-form-input-height': '30px', '--awb-form-bg-color': 'var(--awb-color3)', '--awb-label-font-size': '18px', '--awb-form-font-size': '18px', '--awb-form-placeholder-color': '#635548', '--awb-form-text-color': '#635548', '--awb-form-label-color': '#635548', '--awb-form-border-width-bottom': '1px', '--awb-form-border-color': '#1c1e36', '--awb-icon-alignment-top': '1px', '--awb-icon-alignment-bottom': '1px', '--awb-icon-alignment-font-size': '18px' } as unknown as React.CSSProperties}
                                     >
                                       <form
-                                        action="/contact-us"
                                         className="fusion-form fusion-form-1040"
-                                        method="post"
+                                        onSubmit={handleSubmit}
                                       >
                                         <div
                                           className="fusion-fullwidth fullwidth-box fusion-builder-row-4-1 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
@@ -71,66 +112,72 @@ export default function Row4() {
                                                   className="form-submission-notices data-notice_1"
                                                   id="fusion-notices-1"
                                                 >
-                                                  <div
-                                                    className="fusion-alert alert success alert-success fusion-alert-center fusion-form-response fusion-form-response-success fusion-alert-capitalize awb-alert-native-link-color alert-dismissable awb-alert-close-boxed"
-                                                    role="alert"
-                                                  >
+                                                  {result === "success" && (
                                                     <div
-                                                      className="fusion-alert-content-wrapper"
+                                                      className="fusion-alert alert success alert-success fusion-alert-center fusion-form-response fusion-form-response-success fusion-alert-capitalize awb-alert-native-link-color alert-dismissable awb-alert-close-boxed"
+                                                      role="alert"
+                                                      style={{ display: 'block' }}
                                                     >
-                                                      <span
-                                                        className="alert-icon"
+                                                      <div
+                                                        className="fusion-alert-content-wrapper"
                                                       >
-                                                        <i
-                                                          aria-hidden="true"
-                                                          className="awb-icon-check-circle"
-                                                        ></i>
-                                                      </span>
-                                                      <span
-                                                        className="fusion-alert-content"
+                                                        <span
+                                                          className="alert-icon"
+                                                        >
+                                                          <i
+                                                            aria-hidden="true"
+                                                            className="awb-icon-check-circle"
+                                                          ></i>
+                                                        </span>
+                                                        <span
+                                                          className="fusion-alert-content"
+                                                        >
+                                                          {`Thank you for your message. It has been sent.`}
+                                                        </span>
+                                                      </div>
+                                                      <button
+                                                        aria-label="Close"
+                                                        className="close toggle-alert"
+                                                        onClick={() => setResult(null)}
+                                                        type="button"
                                                       >
-                                                        {`Thank you for your message. It has been sent.`}
-                                                      </span>
+                                                        {` × `}
+                                                      </button>
                                                     </div>
-                                                    <button
-                                                      aria-label="Close"
-                                                      className="close toggle-alert"
-                                                      data-dismiss="alert"
-                                                      type="button"
-                                                    >
-                                                      {` × `}
-                                                    </button>
-                                                  </div>
-                                                  <div
-                                                    className="fusion-alert alert error alert-danger fusion-alert-center fusion-form-response fusion-form-response-error fusion-alert-capitalize awb-alert-native-link-color alert-dismissable awb-alert-close-boxed"
-                                                    role="alert"
-                                                  >
+                                                  )}
+                                                  {result === "error" && (
                                                     <div
-                                                      className="fusion-alert-content-wrapper"
+                                                      className="fusion-alert alert error alert-danger fusion-alert-center fusion-form-response fusion-form-response-error fusion-alert-capitalize awb-alert-native-link-color alert-dismissable awb-alert-close-boxed"
+                                                      role="alert"
+                                                      style={{ display: 'block' }}
                                                     >
-                                                      <span
-                                                        className="alert-icon"
+                                                      <div
+                                                        className="fusion-alert-content-wrapper"
                                                       >
-                                                        <i
-                                                          aria-hidden="true"
-                                                          className="awb-icon-exclamation-triangle"
-                                                        ></i>
-                                                      </span>
-                                                      <span
-                                                        className="fusion-alert-content"
+                                                        <span
+                                                          className="alert-icon"
+                                                        >
+                                                          <i
+                                                            aria-hidden="true"
+                                                            className="awb-icon-exclamation-triangle"
+                                                          ></i>
+                                                        </span>
+                                                        <span
+                                                          className="fusion-alert-content"
+                                                        >
+                                                          {`There was an error trying to send your message. Please try again later.`}
+                                                        </span>
+                                                      </div>
+                                                      <button
+                                                        aria-label="Close"
+                                                        className="close toggle-alert"
+                                                        onClick={() => setResult(null)}
+                                                        type="button"
                                                       >
-                                                        {`There was an error trying to send your message. Please try again later.`}
-                                                      </span>
+                                                        {` × `}
+                                                      </button>
                                                     </div>
-                                                    <button
-                                                      aria-label="Close"
-                                                      className="close toggle-alert"
-                                                      data-dismiss="alert"
-                                                      type="button"
-                                                    >
-                                                      {` × `}
-                                                    </button>
-                                                  </div>
+                                                  )}
                                                 </div>
                                               </div>
                                             </div>
@@ -273,13 +320,14 @@ export default function Row4() {
                                                     <button
                                                       className="fusion-button button-flat fusion-button-default-size button-custom fusion-button-default button-2 fusion-button-span-no form-form-submit button-default"
                                                       data-form-number="1040"
+                                                      disabled={sending}
                                                       style={{ '--button_accent_color': 'var( --awb-color1 )', '--button_accent_hover_color': 'var( --awb-color1 )', '--button_border_hover_color': 'hsla( var(--awb-color4-h), var(--awb-color4-s), calc( var(--awb-color4-l) - 4% ), var(--awb-color4-a) )', '--button_gradient_top_color': 'var( --awb-color6 )', '--button_gradient_bottom_color': 'var( --awb-color6 )', '--button_gradient_top_color_hover': 'var( --awb-color5 )', '--button_gradient_bottom_color_hover': 'var( --awb-color5 )', '--button_padding-top': '10px', '--button_padding-right': '70px', '--button_padding-bottom': '10px', '--button_padding-left': '70px', '--button_margin-top': '30px' } as unknown as React.CSSProperties}
                                                       type="submit"
                                                     >
                                                       <span
                                                         className="fusion-button-text awb-button__text awb-button__text--default"
                                                       >
-                                                        {`Send`}
+                                                        {sending ? `Sending…` : `Send`}
                                                       </span>
                                                     </button>
                                                   </div>

@@ -27,6 +27,8 @@ export default function GetAQuote() {
   const [open, setOpen] = useState(false);
   const [interests, setInterests] = useState<string[]>([]);
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!open) return;
@@ -88,9 +90,34 @@ export default function GetAQuote() {
           <>
             <h2>Get a Quote</h2>
             <form
-              onSubmit={(e) => {
+              onSubmit={async (e) => {
                 e.preventDefault();
-                setSent(true);
+                setError(null);
+                setSending(true);
+                const form = e.currentTarget;
+                const data = new FormData(form);
+                try {
+                  const res = await fetch("/api/enquiry", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                      formType: "quote",
+                      interests,
+                      enquiry: data.get("enquiry"),
+                      name: data.get("name"),
+                      email: data.get("email"),
+                      phone: data.get("phone"),
+                      address: data.get("address"),
+                    }),
+                  });
+                  const body = await res.json();
+                  if (!res.ok) throw new Error(body.error || "Something went wrong.");
+                  setSent(true);
+                } catch (err) {
+                  setError(err instanceof Error ? err.message : "Something went wrong.");
+                } finally {
+                  setSending(false);
+                }
               }}
             >
               <fieldset className="get-a-quote-fieldset">
@@ -108,26 +135,27 @@ export default function GetAQuote() {
               </fieldset>
               <label className="get-a-quote-field">
                 Your enquiry <span aria-hidden="true">*</span>
-                <textarea required rows={3} />
+                <textarea name="enquiry" required rows={3} />
               </label>
               <label className="get-a-quote-field">
                 Name <span aria-hidden="true">*</span>
-                <input type="text" required />
+                <input name="name" type="text" required />
               </label>
               <label className="get-a-quote-field">
                 Email <span aria-hidden="true">*</span>
-                <input type="email" required />
+                <input name="email" type="email" required />
               </label>
               <label className="get-a-quote-field">
                 Phone number <span aria-hidden="true">*</span>
-                <input type="tel" required />
+                <input name="phone" type="tel" required />
               </label>
               <label className="get-a-quote-field">
                 Full postal address <span aria-hidden="true">*</span>
-                <input type="text" required />
+                <input name="address" type="text" required />
               </label>
-              <button type="submit" className="get-a-quote-submit">
-                Send Enquiry
+              {error && <p className="get-a-quote-error">{error}</p>}
+              <button type="submit" className="get-a-quote-submit" disabled={sending}>
+                {sending ? "Sending…" : "Send Enquiry"}
               </button>
             </form>
           </>
@@ -281,6 +309,16 @@ export default function GetAQuote() {
             .get-a-quote-submit:hover {
               background-color: #1c1e36;
               color: #f5efe9;
+            }
+            .get-a-quote-submit:disabled {
+              opacity: 0.6;
+              cursor: not-allowed;
+            }
+
+            .get-a-quote-error {
+              color: #a33;
+              font-size: 13px;
+              margin: -6px 0 14px;
             }
 
             .get-a-quote-thanks h2 {

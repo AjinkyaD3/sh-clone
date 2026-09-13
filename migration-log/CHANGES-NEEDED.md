@@ -1,5 +1,23 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## Enquiry backend (Resend) + homepage spacing tweaks — 2026-09-13 — DONE (backend needs a real API key)
+
+**Enquiry backend.** Both `/contact-us` and the new Get-a-Quote panel had no working submission path (the contact form posted `action="/contact-us" method="post"` to itself with no handler; Get a Quote just set local state). Built one shared route, `app/api/enquiry/route.ts`, using the `resend` package (added to `package.json`), differentiated by a `formType: "contact" | "quote"` field so one endpoint serves both forms instead of two near-identical ones. Validates required fields server-side before touching Resend at all.
+
+User doesn't have a Resend API key yet - rather than block on that, the route reads `RESEND_API_KEY` from env and, when it's unset, returns a clean 503 with "Email sending is not configured yet. Please call us instead." instead of crashing or silently no-opping. Documented in a new `.env.example` (added `!.env.example` to `.gitignore` since `.env*` is otherwise fully ignored) along with `CONTACT_TO_EMAIL` and `CONTACT_FROM_EMAIL`. Once a real key is dropped into `.env.local`, both forms work with no code changes.
+
+Wired up both forms to actually call it:
+- `components/GetAQuote.tsx` - form now POSTs to `/api/enquiry`, shows a real loading state ("Sending…", disabled button) and its own inline error message on failure, and the existing "Thank you" state only shows on a genuine 200.
+- `components/contact-us/Row4.tsx` - converted to a client component with the same fetch-on-submit pattern. Found and fixed a real bug while wiring this up: the two response alert `<div>`s in the ported markup (`fusion-form-response-success` / `-error`) are hidden by a global CSS rule (`display: none`) that Avada's own JS would normally clear - since that JS never runs here, even conditionally rendering the right one in React left it invisible (`display:none` from the stylesheet, confirmed via `getComputedStyle`). Fixed by adding an explicit inline `display: block` on both, since React's conditional rendering is now the only thing controlling visibility. Verified end-to-end: submitting with no API key shows the real (if plainly-styled - the `.fusion-alert` color classes aren't loaded in this migration, cosmetic only) error banner; the Get-a-Quote panel's own styled error shows correctly.
+
+**Homepage spacing, on request** - both requested as "reduce, don't remove":
+- `components/home/OurProjects.tsx`: `--awb-padding-top` 160px → 130px. (This matched the live site's own value exactly before the change - not a regression, just judged too much air and trimmed on request.)
+- `components/home/TrustLogos.tsx`: `--awb-padding-bottom` 67px → 35px, tightening the gap between the trust-badge row and the footer.
+
+**Footer alignment - checked, no bug found.** Verified via `getBoundingClientRect` that the three footer link-column headings ("Quick Links", "Our Services", "About Us") sit on the identical top offset and are evenly spaced (~487px apart), with matching computed font-weight/size/color despite "Our Services" being marked up as a bare `<li>` where the other two use a `<span class="menu-text">` wrapper (a markup inconsistency worth normalizing someday, but it renders identically today - not a visible bug). Copyright bar and social icons row read correctly centered in the screenshot. Nothing to fix here right now.
+
+`tsc --noEmit` clean. Not committed yet.
+
 ## Fit-and-finish / UX audit vs live site — 2026-09-13 — Tawk.to + Get a Quote DONE, rest is a punch list
 
 User asked for a broad pass on "fit and finish, alignment, UX and user journey" across the whole site, specifically calling out the live site's Tawk.to chat widget and asking what else the original site does that we're missing or could improve. Treated as: research + implement the two concrete, well-defined gaps found; log everything else as a prioritized punch list rather than guessing at a site-wide redesign with no defined scope.
