@@ -1,3 +1,5 @@
+import SystemOverviewModal from "@/components/SystemOverviewModal";
+
 export default function Row5() {
   return (
                     <div
@@ -41,18 +43,15 @@ export default function Row5() {
                             <div
                               style={{ textAlign: 'center' } as unknown as React.CSSProperties}
                             >
-                              <a
-                                className="fusion-button button-flat button-large button-custom fusion-button-default button-3 fusion-button-span-no fusion-button-default-type"
-                                href="#awb-oc__5450"
-                                style={{ '--button_accent_color': 'var(--awb-color1)', '--button_border_color': 'var(--awb-color1)', '--button_accent_hover_color': 'var(--awb-color1)', '--button_border_hover_color': 'hsla( var(--awb-color4-h), var(--awb-color4-s), calc(var(--awb-color4-l) - 4%), var(--awb-color4-a) )', '--button_gradient_top_color': 'var(--awb-color5)', '--button_gradient_bottom_color': 'var( --awb-color5 )', '--button_gradient_top_color_hover': 'var( --awb-color6 )', '--button_gradient_bottom_color_hover': 'var( --awb-color6 )' } as unknown as React.CSSProperties}
-                                target="_self"
-                              >
-                                <span
-                                  className="fusion-button-text awb-button__text awb-button__text--default"
-                                >
-                                  {`System overview`}
-                                </span>
-                              </a>
+                              <SystemOverviewModal
+                                heading="Forster, Janisol presto bullet proof – System overview"
+                                items={[
+                                  { label: 'Door and window without thermal break, forster, janisol presto', href: '/downloads/profile-doors/presto-bullet-proof/pr_systemuebersichtteil1.pdf' },
+                                  { label: 'Smoke protection door and screen and sheet metal door forster, janisol presto', href: '/downloads/profile-doors/presto-bullet-proof/pr_systemuebersichtteil2.pdf' },
+                                ]}
+                                triggerClassName="fusion-button button-flat button-large button-custom fusion-button-default button-3 fusion-button-span-no fusion-button-default-type"
+                                triggerStyle={{ '--button_accent_color': 'var(--awb-color1)', '--button_border_color': 'var(--awb-color1)', '--button_accent_hover_color': 'var(--awb-color1)', '--button_border_hover_color': 'hsla( var(--awb-color4-h), var(--awb-color4-s), calc(var(--awb-color4-l) - 4%), var(--awb-color4-a) )', '--button_gradient_top_color': 'var(--awb-color5)', '--button_gradient_bottom_color': 'var( --awb-color5 )', '--button_gradient_top_color_hover': 'var( --awb-color6 )', '--button_gradient_bottom_color_hover': 'var( --awb-color6 )' } as unknown as React.CSSProperties}
+                              />
                             </div>
                           </div>
                         </div>

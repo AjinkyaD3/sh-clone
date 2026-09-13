@@ -96,12 +96,12 @@ This master document provides an end-to-end prioritized breakdown of:
   - [x] Apply a compact layout and frosted/solid background when `scrollY > 150`. — Docks with the site's own translucent sticky background color.
   - [x] Ensure correct z-index layering above page elements without obstructing modals. — Verified no conflicts with the mobile menu, Get-a-Quote panel, or Tawk.to widget.
 
-### 3. Restore Broken Links on Door Styles Hub
-- **Target File**: [`app/door-styles/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/door-styles/page.tsx#L116-L150)
+### 3. Restore Broken Links on Door Styles Hub — DONE 2026-09-13
+- **Target File**: `components/door-styles/Row4.tsx` (the page's content lives here now, post-split)
 - **Current State**: The 4 main style cards (French Doors, Victorian Doors, Edwardian Doors, Georgian Doors) render as unclickable `<div>` elements without any `<a>` or `<Link>` tags.
 - **Business Impact**: Complete dead-end on `/door-styles`. Visitors cannot reach child style pages.
 - **Action Required**:
-  - [ ] Wrap each style card in `<Link href="/door-styles/...">`.
+  - [x] Wrap each style card in `<Link href="/door-styles/...">`. — Done, using the same `fusion-column-anchor` pattern already verified on `/grilles-shutters`, `/garage-doors`, `/windows`. Verified by reading the rendered hrefs back from the DOM and clicking through.
 
 ### 4. Custom 404 / 500 Pages — DONE 2026-09-13. Redirects — DECLINED (client decision)
 - **Target Files**: `app/not-found.tsx` (to create), [`next.config.ts`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/next.config.ts)
@@ -111,16 +111,16 @@ This master document provides an end-to-end prioritized breakdown of:
   - [x] Create an on-brand `app/not-found.tsx` with links to primary categories. — Done, plus `app/error.tsx` and `app/global-error.tsx` for runtime errors (see `CHANGES-NEEDED.md` for the full writeup, including a real Header/Footer styling bug found and fixed along the way).
   - [x] ~~Add wildcard redirects in `next.config.ts`~~ **Client decision: not needed.** The archived pages are empty content and the archive is already kept outside the project as a reference - accepting the 404s rather than building redirects for URLs pointing at nothing.
 
-### 5. Security Response Headers
+### 5. Security Response Headers — DONE 2026-09-13
 - **Target File**: [`next.config.ts`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/next.config.ts)
 - **Current State**: Empty configuration object. Missing standard browser hardening headers.
 - **Action Required**:
-  - [ ] Configure `headers()` in `next.config.ts`:
+  - [x] Configure `headers()` in `next.config.ts`:
     - `X-Frame-Options: SAMEORIGIN`
     - `X-Content-Type-Options: nosniff`
     - `Referrer-Policy: strict-origin-when-cross-origin`
     - `Permissions-Policy: camera=(), microphone=(), geolocation=()`
-    - Content Security Policy (CSP).
+    - Content Security Policy (CSP) - production-only (see `CHANGES-NEEDED.md` for why), with every allowed domain sourced from grepping actual usage rather than guessed. Verified on a real production build: headers present via `curl -I`, zero CSP console violations, chat/YouTube-embed/Get-a-Quote all still work.
 
 ---
 
@@ -132,16 +132,16 @@ This master document provides an end-to-end prioritized breakdown of:
   - [`app/door-styles/edwardian-doors/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/door-styles/edwardian-doors/page.tsx)
 - **Action Required**: Add complete `Metadata` exports with optimized title, description, and canonical tags. — Done, matching the pattern every sibling door-style page already used. Also fixed sitewide: every page's canonical was pointing at the Vercel preview domain instead of `secure-house.co.uk` - see `CHANGES-NEEDED.md`.
 
-### 2. Missing Spec Sheets (PDFs) & Quote Forms on 4 Profile-Door Pages
+### 2. Missing Spec Sheets (PDFs) & Quote Forms on Profile-Door Pages — DONE 2026-09-13
 - **Target Files**:
-  - [`app/doors/profile-doors/fuego-fire/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/doors/profile-doors/fuego-fire/page.tsx)
-  - [`app/doors/profile-doors/presto-bullet-proof/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/doors/profile-doors/presto-bullet-proof/page.tsx)
-  - [`app/doors/profile-doors/stainless-steel/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/doors/profile-doors/stainless-steel/page.tsx)
-  - [`app/doors/profile-doors/unico-slim-line/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/doors/profile-doors/unico-slim-line/page.tsx)
+  - `components/doors/profile-doors/fuego-fire/Row5.tsx`
+  - `components/doors/profile-doors/presto-bullet-proof/Row5.tsx`
+  - `components/doors/profile-doors/stainless-steel/page.tsx` (checked - live site has no product-specific PDFs here either, nothing to add)
+  - `components/doors/profile-doors/unico-slim-line/Row5.tsx`
 - **Current State**: Original WordPress pages had downloadable technical spec sheets by fire rating (EI30, EI60, EI90, EI120) and quote forms.
 - **Action Required**:
-  - [ ] Place original spec PDFs in `public/downloads/` and render clean download buttons.
-  - [ ] Connect quote buttons to the contact inquiry flow.
+  - [x] Place original spec PDFs in `public/downloads/` and render clean download buttons. — Done, all 13 real PDFs downloaded from the live site (with explicit go-ahead) to `public/downloads/profile-doors/<page>/`, and a real `System overview` modal (`components/SystemOverviewModal.tsx`) built to replace the dead anchor button the scrape had already captured. See `CHANGES-NEEDED.md` for the full writeup, including a second bug (dead lazy-load placeholders) found and fixed on the 3 formerly-`.heic` gallery images on a different page in the same pass.
+  - [x] ~~Connect quote buttons to the contact inquiry flow.~~ Already covered - the live site's per-page quote form has identical fields to the sitewide Get-a-Quote panel already built this session.
 
 ### 3. Non-Functional "See More" Gallery Buttons on 16 Pages
 - **Target Files**: 16 pages including [`app/doors/bullet-proof-doors/page.tsx`](file:///c:/Users/AJINKYA/OneDrive/Desktop/SH%20NEXT%20JS/secure-house-nextjs/app/doors/bullet-proof-doors/page.tsx).

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Row4() {
   return (
                     <div
@@ -45,11 +47,16 @@ export default function Row4() {
                           <span
                             className="fusion-column-inner-bg hover-type-none"
                           >
-                            <span
-                              className="fusion-column-inner-bg-image lazyload"
-                              data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
-                              style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/10/Screenshot-2024-09-24-at-10-32-03-High-Security-Doors-☑️-Front-_-Back-External-Doors-3.png") !important' } as unknown as React.CSSProperties}
-                            ></span>
+                            <Link
+                              className="fusion-column-anchor"
+                              href="/door-styles/french-doors/"
+                            >
+                              <span
+                                className="fusion-column-inner-bg-image lazyload"
+                                data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
+                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/10/Screenshot-2024-09-24-at-10-32-03-High-Security-Doors-☑️-Front-_-Back-External-Doors-3.png") !important' } as unknown as React.CSSProperties}
+                              ></span>
+                            </Link>
                           </span>
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-flex-end fusion-column-has-bg-image"
@@ -76,11 +83,16 @@ export default function Row4() {
                           <span
                             className="fusion-column-inner-bg hover-type-none"
                           >
-                            <span
-                              className="fusion-column-inner-bg-image lazyload"
-                              data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
-                              style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/11/0-1-1-1.png") !important' } as unknown as React.CSSProperties}
-                            ></span>
+                            <Link
+                              className="fusion-column-anchor"
+                              href="/door-styles/victorian-doors/"
+                            >
+                              <span
+                                className="fusion-column-inner-bg-image lazyload"
+                                data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
+                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/11/0-1-1-1.png") !important' } as unknown as React.CSSProperties}
+                              ></span>
+                            </Link>
                           </span>
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-flex-end fusion-column-has-bg-image"
@@ -107,11 +119,16 @@ export default function Row4() {
                           <span
                             className="fusion-column-inner-bg hover-type-none"
                           >
-                            <span
-                              className="fusion-column-inner-bg-image lazyload"
-                              data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
-                              style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/10-downing-street-entrance-door-scaled.jpg") !important' } as unknown as React.CSSProperties}
-                            ></span>
+                            <Link
+                              className="fusion-column-anchor"
+                              href="/door-styles/edwardian-doors/"
+                            >
+                              <span
+                                className="fusion-column-inner-bg-image lazyload"
+                                data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
+                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/10-downing-street-entrance-door-scaled.jpg") !important' } as unknown as React.CSSProperties}
+                              ></span>
+                            </Link>
                           </span>
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-flex-end fusion-column-has-bg-image"
@@ -138,11 +155,16 @@ export default function Row4() {
                           <span
                             className="fusion-column-inner-bg hover-type-none"
                           >
-                            <span
-                              className="fusion-column-inner-bg-image lazyload"
-                              data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
-                              style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/london-architecture-scaled.jpg") !important' } as unknown as React.CSSProperties}
-                            ></span>
+                            <Link
+                              className="fusion-column-anchor"
+                              href="/door-styles/georgian-doors/"
+                            >
+                              <span
+                                className="fusion-column-inner-bg-image lazyload"
+                                data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
+                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/london-architecture-scaled.jpg") !important' } as unknown as React.CSSProperties}
+                              ></span>
+                            </Link>
                           </span>
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-flex-end fusion-column-has-bg-image"
