@@ -79,19 +79,18 @@ export default function DoorsDesignVideo() {
                                       <div
                                         className="background self-hosted-video-bg"
                                         data-imgwidth=""
-                                        style={{ maxWidth: '100%', height: '863px', filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'\', sizingMethod=\'scale\')' } as unknown as React.CSSProperties}
+                                        style={{ position: 'relative', overflow: 'hidden', maxWidth: '100%', height: '863px', filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'\', sizingMethod=\'scale\')' } as unknown as React.CSSProperties}
                                       >
                                         <video
                                           autoPlay={true}
                                           className="bv-lazyload-video"
-                                          height="700"
                                           loop={true}
                                           muted={true}
                                           playsInline={true}
                                           poster="/legacy-assets/uploads/2024/10/doors-design-video-poster.jpg"
                                           preload="auto"
                                           src="/legacy-assets/uploads/2024/10/Untitled-2024-11-11-17-47-13copy-2-compressed.mp4"
-                                          width="1800"
+                                          style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' } as unknown as React.CSSProperties}
                                         ></video>
                                       </div>
                                     </li>
