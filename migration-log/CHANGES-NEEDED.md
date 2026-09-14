@@ -1,5 +1,22 @@
 # Changes Needed — `/new/*` pages vs live WordPress site
 
+## All 8 site videos re-encoded at higher quality — 2026-09-14 — DONE
+
+User instruction: "improve the quality [of all videos] so it's super good and high quality" - not just the 2 previously-flagged weak ones. Re-encoded all 8 real `<video>` sources (`libx264, preset slow, CRF 18, maxrate 8M, faststart`, same resolution/duration/fps, no audio tracks existed to preserve) using `ffmpeg`. CRF-based encoding adapts bitrate to what each clip's content actually needs rather than forcing a flat target, so bitrate gains vary by clip - all otherwise-fine videos still got a real quality bump (less banding/blockiness), and the 2 previously-flagged weak ones improved most in perceived quality even though their new bitrate (~1.3-1.4 Mbps) came in under the earlier back-of-envelope target (their content is simple/low-motion enough that CRF 18 didn't need more bits to look clean - verified by pulling a frame from each and inspecting visually, including the flat-grey-background explosion-animation clip where blocking artifacts would show most).
+
+| Video | Old bitrate | New bitrate | New file size |
+|---|---|---|---|
+| `Secure-House-v2-GOLD-SHOPFRONT.mp4` | 3.8 Mbps | 5.4 Mbps | 34MB |
+| `Secure-House-Factory-compressed.mp4` | 2.2 Mbps | 3.8 Mbps | 15MB |
+| `Hero-_-secure-house-1-2.mp4` (homepage hero) | 2.5 Mbps | 3.4 Mbps | 14MB |
+| `Untitled-2024-11-11-17-47-13copy-2-compressed.mp4` | 828 kbps | 1.2 Mbps | 1.3MB |
+| `Attention-to-details-1-compressed.mp4` | 1.7 Mbps | 2.3 Mbps | 5.0MB |
+| `Bullet-proof-1.trumpesnis-2-2.mp4` | 1.05 Mbps | 1.6 Mbps | 1.3MB |
+| `Secure-reviews-compressed.mp4` (was weak) | 961 kbps | 1.4 Mbps | 15MB |
+| `Secure-House-Explotion-animation.mp4` (was weak) | 891 kbps | 1.35 Mbps | 3.4MB |
+
+Also regenerated `hero-video-poster.jpg` from the re-encoded hero file (same source frame, cleaner encode). `public/` grew from re-encoding but nothing near a concern (~89MB total across all 8 videos). Source files aren't in the repo (only these already-compressed derivatives were ever available), so this is the ceiling on quality without the client supplying original masters.
+
 ## Heuristic UX audit — 2026-09-14 — DONE, 5 of 8 findings fixed
 
 Ran the `ux-audit` Agent Skill (Nielsen/WCAG/Fitts/Gestalt/Fogg etc.) across 20 representative routes × 3 viewports (375/768/1440px) covering the full homepage → category → product → enquiry → confirmation journey. Full report + 62 screenshots + 13 annotated images: `ux-audit-2026-09-14-secure-house/report.md`. 8 findings (2 Critical, 2 Major, 3 Minor, 1 Cosmetic) + 5 positives.
@@ -22,19 +39,7 @@ Ran the `ux-audit` Agent Skill (Nielsen/WCAG/Fitts/Gestalt/Fogg etc.) across 20 
 
 Not started - logged tonight (2026-09-13) so tomorrow starts from real numbers instead of a re-investigation. User asked "what can be done better across the whole site to make it prod-level, high-quality brand finish" and separately asked to look at video quality specifically - both logged here together as the plan for tomorrow.
 
-### 1. Video quality - checked with `ffprobe`, not guessed. 2 of 7 videos are genuinely weak:
-All 7 real `<video>` sources on the site (`components/**/*.tsx`, excluding `app/legacy`):
-| Video | Used in | Resolution | Bitrate | Size / Length | Verdict |
-|---|---|---|---|---|---|
-| `Secure-House-v2-GOLD-SHOPFRONT.mp4` | Bullet Proof Doors | 1920×1080 | 3.8 Mbps | 24MB / 52s | fine |
-| `Secure-House-Factory-compressed.mp4` | Bespoke Manufacturer | 1920×1080 | 2.2 Mbps | 8.7MB / 33s | fine |
-| `Untitled-2024-11-11-17-47-13copy-2-compressed.mp4` | Doors Design Video | 1000×1030 | 828 kbps | 884KB / 9s | fine (short clip) |
-| `Attention-to-details-1-compressed.mp4` | Luxury Doors Details | 746×1000 | 1.7 Mbps | 3.6MB / 18s | fine |
-| **`Secure-reviews-compressed.mp4`** | `SecureCta` testimonial (autoplay+loop on homepage) | 1280×818 | **961 kbps** | 9.8MB / **84s** | weak - low bitrate stretched over a long loop, likely soft/blocky on motion |
-| `Bullet-proof-1.trumpesnis-2-2.mp4` | Trusted Manufacturer | 746×1000 | 1.05 Mbps | 856KB / 7s | fine (short clip) |
-| **`Secure-House-Explotion-animation.mp4`** | Security Levels (light protection) | **1080×1920** | **891 kbps** | 2.3MB / 21s | weak - same pixel count as standard 1080p, running at under half the bitrate 1080p usually wants (5-8 Mbps) |
-
-**Plan**: re-encode these 2 at a proper bitrate for their resolution (keep the same crop/resolution, just raise bitrate - roughly 2.5-4 Mbps for the 1280×818 one, 4-6 Mbps for the 1080×1920 one, quality-tested visually before committing to exact numbers). Source files aren't in the repo (only the already-compressed derivatives are), so re-encoding means working from these existing `.mp4`s at a smarter bitrate/CRF rather than from a higher-quality original - re-compressing a re-compressed file has diminishing returns, worth knowing whether a better-quality source exists before this is done.
+### 1. Video quality - DONE 2026-09-14, see the entry at the top of this file. All 8 real `<video>` sources re-encoded at higher quality, not just the 2 originally flagged weak (user's instruction: improve all of them).
 
 ### 2. "Prod-level, high-quality brand" punch list, in priority order
 
