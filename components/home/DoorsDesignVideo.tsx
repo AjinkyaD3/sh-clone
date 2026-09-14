@@ -29,11 +29,6 @@ export default function DoorsDesignVideo() {
                                   {` .fusion-slider-51 .flex-direction-nav a { width: 63px; height: 63px; line-height: 63px; font-size: 25px; } `}
                                 </style>
                                 <div
-                                  className="fusion-slider-loading"
-                                >
-                                  {`Loading...`}
-                                </div>
-                                <div
                                   className="tfs-slider flexslider main-flex full-width-slider"
                                   data-animation="fade"
                                   data-animation_speed="600"
@@ -127,7 +122,7 @@ export default function DoorsDesignVideo() {
                                   <span
                                     style={{ color: '#ffffff' } as unknown as React.CSSProperties}
                                   >
-                                    {`Luxurious Security Doors`}
+                                    {`Luxurious Security Doors `}
                                   </span>
                                   <span
                                     style={{ color: 'var(--awb-color6)' } as unknown as React.CSSProperties}
