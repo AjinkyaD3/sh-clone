@@ -13,6 +13,11 @@ import { useState } from "react";
 export default function Row4() {
   const [sending, setSending] = useState(false);
   const [result, setResult] = useState<"success" | "error" | null>(null);
+  const [emailInvalid, setEmailInvalid] = useState(false);
+
+  const handleEmailBlur = (e: React.FocusEvent<HTMLInputElement>) => {
+    setEmailInvalid(e.target.value !== "" && !e.target.validity.valid);
+  };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -244,6 +249,7 @@ export default function Row4() {
                                                   </div>
                                                   <input
                                                     aria-required="true"
+                                                    aria-invalid={emailInvalid}
                                                     autoComplete="off"
                                                     className="fusion-form-input"
                                                     data-empty-notice="please fill"
@@ -253,7 +259,18 @@ export default function Row4() {
                                                     required={true}
                                                     type="email"
                                                     defaultValue=""
+                                                    onBlur={handleEmailBlur}
+                                                    onChange={() => emailInvalid && setEmailInvalid(false)}
+                                                    style={emailInvalid ? { borderBottomColor: '#e3000f' } as React.CSSProperties : undefined}
                                                   />
+                                                  {emailInvalid && (
+                                                    <span
+                                                      role="alert"
+                                                      style={{ display: 'block', color: '#e3000f', fontSize: '13px', marginTop: '4px' } as React.CSSProperties}
+                                                    >
+                                                      {`Enter a valid email, like name@example.com`}
+                                                    </span>
+                                                  )}
                                                 </div>
                                                 <div
                                                   className="fusion-form-field fusion-form-phone-number-field fusion-form-label-above"

@@ -20,7 +20,7 @@ const slides: Slide[] = [
     buttonLabel: 'Learn more about us',
     buttonHref: '/about-us/',
     video: '/legacy-assets/uploads/2024/11/Hero-_-secure-house-1-2.mp4',
-    poster: '/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/plugins/fusion-core/images/video_preview.jpg',
+    poster: '/legacy-assets/uploads/2024/11/hero-video-poster.jpg',
   },
   {
     heading: 'Bespoke Security Doors with\nPremium Craftsmanship & Advanced Security.',
