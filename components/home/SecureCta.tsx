@@ -76,6 +76,7 @@ export default function SecureCta() {
                   muted={true}
                   playsInline={true}
                   autoPlay={true}
+                  poster="/legacy-assets/uploads/2025/02/secure-reviews-poster.jpg"
                   preload="auto"
                   src="/legacy-assets/uploads/2025/02/Secure-reviews-compressed.mp4"
                   style={{ objectFit: 'cover' } as unknown as React.CSSProperties}

@@ -39,6 +39,7 @@ export default function LuxuryDoorsDetails() {
                                           loop={true}
                                           muted={true}
                                           playsInline={true}
+                                          poster="/legacy-assets/uploads/2024/11/attention-to-details-poster.jpg"
                                           preload="auto"
                                           src="/legacy-assets/uploads/2024/11/Attention-to-details-1-compressed.mp4"
                                           style={{ objectFit: 'contain', width: '100%', aspectRatio: '746 / 1000' } as unknown as React.CSSProperties}
