@@ -92,6 +92,7 @@ export default function BespokeManufacturer() {
                                     loop={true}
                                     muted={true}
                                     playsInline={true}
+                                    poster="/legacy-assets/uploads/2025/01/factory-video-poster.jpg"
                                     preload="auto"
                                     src="/legacy-assets/uploads/2025/01/Secure-House-Factory-compressed.mp4"
                                     style={{ objectFit: 'cover' } as unknown as React.CSSProperties}

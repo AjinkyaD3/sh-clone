@@ -93,6 +93,7 @@ export default function DoorsDesignVideo() {
                                           loop={true}
                                           muted={true}
                                           playsInline={true}
+                                          poster="/legacy-assets/uploads/2024/10/doors-design-video-poster.jpg"
                                           preload="auto"
                                           src="/legacy-assets/uploads/2024/10/Untitled-2024-11-11-17-47-13copy-2-compressed.mp4"
                                           width="1800"
