@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import "./theme-globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -638,6 +639,7 @@ export default function RootLayout({
         <TestimonialsCarousel />
         <GetAQuote />
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
