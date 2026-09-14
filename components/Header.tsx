@@ -16,7 +16,7 @@ export default function Header() {
 	// pages (plain cream background right at the top) it collided with the
 	// breadcrumb/title instead of sitting on its own solid bar - same root
 	// cause already fixed for /projects.
-	const LIGHT_PAGE_PREFIXES = ['/projects', '/doors/profile-doors/'];
+	const LIGHT_PAGE_PREFIXES = ['/projects', '/doors/profile-doors/', '/thank-you'];
 	const isLightPage = LIGHT_PAGE_PREFIXES.some((p) => pathname?.startsWith(p));
 
 	// The full-screen PRODUCTS panel is rendered via a portal straight into
@@ -207,13 +207,30 @@ export default function Header() {
            logo images are separately inverted so their light artwork reads as
            dark too. */
         ${isLightPage ? `
+        /* !important on both declarations below: a page-specific compiled
+           Avada CSS bundle (loaded via a <link> the page itself renders,
+           later in the cascade than this <style> tag) can carry its own
+           .fusion-tb-header background-color rule of equal specificity -
+           found on /thank-you, whose bundle computes the header's
+           background from var(--awb_header_bg_color), which in turn
+           resolves from --awb-color1. Without !important, the bundle's
+           later rule wins the tie and silently reverts the background to
+           --awb-color1's own new dark value below, producing dark-on-dark
+           (invisible) nav text. !important guarantees this wins regardless
+           of which bundle a given page happens to load. */
         .fusion-tb-header {
-            background-color: #ffffff;
+            background-color: #ffffff !important;
             border-bottom: 1px solid #e7e6e6;
             --awb-color1: #1c1e36;
+            --awb_header_bg_color: #ffffff;
         }
         .fusion-tb-header .fusion-imageframe img {
             filter: invert(1);
+        }
+        /* Same tie-breaking issue as the header background above, applied
+           to nav link color - found on /thank-you. */
+        .fusion-tb-header .awb-menu a {
+            color: #1c1e36 !important;
         }
         /* Resting (not yet scrolled/docked) state only - the shared
            .header-stuck rule below overrides this back to fixed once

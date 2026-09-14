@@ -21,7 +21,13 @@ export const metadata: Metadata = {
 
 export default function ThankYouPage() {
   return (
-    <div
+    <>
+      <link
+        key="pl2"
+        rel="stylesheet"
+        href="/legacy-assets/uploads/fusion-styles/3978f22170001630860f0711fbc80184.min.css"
+      />
+      <div
       style={{
         minHeight: "100vh",
         display: "flex",
@@ -115,6 +121,7 @@ export default function ThankYouPage() {
           Return to Home
         </Link>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

@@ -174,7 +174,8 @@ export default function GetAQuote() {
               background-color: #e1d8c0;
               color: #1c1e36;
               border: none;
-              padding: 18px 10px;
+              padding: 18px 16px;
+              min-width: 44px;
               font-size: 12px;
               font-weight: 600;
               letter-spacing: 0.08em;
