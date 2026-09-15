@@ -37,12 +37,12 @@ export default function Row9() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-5870 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 719px"
-                                        data-orig-src="/legacy-assets/uploads/2025/02/Mask-group-9.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/Mask-group-9.webp"
                                         data-sizes="auto"
                                         decoding="async"
                                         height="838"
-                                        src="/legacy-assets/uploads/2025/02/Mask-group-9.png"
-                                        srcSet="/legacy-assets/uploads/2025/02/Mask-group-9-200x233.png 200w, /legacy-assets/uploads/2025/02/Mask-group-9-400x466.png 400w, /legacy-assets/uploads/2025/02/Mask-group-9-600x699.png 600w, /legacy-assets/uploads/2025/02/Mask-group-9.png 719w"
+                                        src="/legacy-assets/uploads/2025/02/Mask-group-9.webp"
+                                        srcSet="/legacy-assets/uploads/2025/02/Mask-group-9-200x233.webp 200w, /legacy-assets/uploads/2025/02/Mask-group-9-400x466.webp 400w, /legacy-assets/uploads/2025/02/Mask-group-9-600x699.webp 600w, /legacy-assets/uploads/2025/02/Mask-group-9.webp 719w"
                                         width="719"
                                       />
                                     </span>

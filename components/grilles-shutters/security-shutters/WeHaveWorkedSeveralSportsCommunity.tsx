@@ -149,13 +149,13 @@ export default function Row23() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-6188 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 698px"
-                                        data-orig-src="/legacy-assets/uploads/2025/02/image-8.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/image-8.webp"
                                         data-sizes="auto"
-                                        data-srcset="/legacy-assets/uploads/2025/02/image-8-200x245.png 200w, /legacy-assets/uploads/2025/02/image-8-400x489.png 400w, /legacy-assets/uploads/2025/02/image-8-600x734.png 600w, /legacy-assets/uploads/2025/02/image-8.png 698w"
+                                        data-srcset="/legacy-assets/uploads/2025/02/image-8-200x245.webp 200w, /legacy-assets/uploads/2025/02/image-8-400x489.webp 400w, /legacy-assets/uploads/2025/02/image-8-600x734.webp 600w, /legacy-assets/uploads/2025/02/image-8.webp 698w"
                                         decoding="async"
                                         height="854"
-                                        src="/legacy-assets/uploads/2025/02/image-8.png"
-                                        srcSet="/legacy-assets/uploads/2025/02/image-8-200x245.png 200w, /legacy-assets/uploads/2025/02/image-8-400x489.png 400w, /legacy-assets/uploads/2025/02/image-8-600x734.png 600w, /legacy-assets/uploads/2025/02/image-8.png 698w"
+                                        src="/legacy-assets/uploads/2025/02/image-8.webp"
+                                        srcSet="/legacy-assets/uploads/2025/02/image-8-200x245.webp 200w, /legacy-assets/uploads/2025/02/image-8-400x489.webp 400w, /legacy-assets/uploads/2025/02/image-8-600x734.webp 600w, /legacy-assets/uploads/2025/02/image-8.webp 698w"
                                         width="698"
                                       />
                                     </span>

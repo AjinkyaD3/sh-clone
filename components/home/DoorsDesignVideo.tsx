@@ -71,8 +71,8 @@ export default function DoorsDesignVideo() {
                                         </div>
                                       </div>
                                       <div
-                                        bv-data-style="background-image: url(/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Mask-group-11.png);"
-                                        bv-style-url="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Mask-group-11.png"
+                                        bv-data-style="background-image: url(/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Mask-group-11.webp);"
+                                        bv-style-url="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Mask-group-11.webp"
                                         className="mobile_video_image bv-style-attr-replace bv-lazyload-bg-style"
                                         style={{ backgroundImage: 'url( data:image/svg + xml, %3Csvg%20xmlns="http://www.w3.org/2000/svg"%20viewBox="0%200%203188%203288"%3E%3C/svg%3E )' } as unknown as React.CSSProperties}
                                       ></div>
@@ -87,7 +87,7 @@ export default function DoorsDesignVideo() {
                                           loop={true}
                                           muted={true}
                                           playsInline={true}
-                                          poster="/legacy-assets/uploads/2024/10/doors-design-video-poster.jpg"
+                                          poster="/legacy-assets/uploads/2024/10/doors-design-video-poster.webp"
                                           preload="auto"
                                           src="/legacy-assets/uploads/2024/10/Untitled-2024-11-11-17-47-13copy-2-compressed.mp4"
                                           style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' } as unknown as React.CSSProperties}
@@ -106,10 +106,10 @@ export default function DoorsDesignVideo() {
                           >
                             <div
                               className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image fusion-column-has-bg-image-small"
-                              data-bg-small="/legacy-assets/uploads/2024/10/Mask-group-5.png"
-                              data-bg-url="/legacy-assets/uploads/2024/10/Mask-group-5.png"
+                              data-bg-small="/legacy-assets/uploads/2024/10/Mask-group-5.webp"
+                              data-bg-url="/legacy-assets/uploads/2024/10/Mask-group-5.webp"
                               data-fusion-responsive-bg="1"
-                              style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/10/Mask-group-5.png") !important' } as unknown as React.CSSProperties}
+                              style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/10/Mask-group-5.webp") !important' } as unknown as React.CSSProperties}
                             >
                               <div
                                 className="fusion-title title fusion-title-6 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-one"

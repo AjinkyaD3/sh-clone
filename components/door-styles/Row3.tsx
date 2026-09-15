@@ -16,8 +16,8 @@ export default function Row3() {
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
                             data-bg-gradient="linear-gradient(180deg, rgba(0,0,0,0.7) 0%,rgba(255,255,255,0) 100%)"
-                            data-bg-url="/legacy-assets/uploads/2025/03/white-front-door-with-light-it-light-front-door-scaled.jpg"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/white-front-door-with-light-it-light-front-door-scaled.jpg") !important' } as unknown as React.CSSProperties}
+                            data-bg-url="/legacy-assets/uploads/2025/03/white-front-door-with-light-it-light-front-door-scaled.webp"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/white-front-door-with-light-it-light-front-door-scaled.webp") !important' } as unknown as React.CSSProperties}
                           >
                             <img
                               aria-label="white-front-door-with-light-it-light-front-door"

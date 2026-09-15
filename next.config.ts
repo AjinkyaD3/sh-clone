@@ -34,7 +34,7 @@ const contentSecurityPolicy = [
   // allowed here the same as script-src/connect-src/frame-src already are,
   // or the widget renders unstyled the moment Tawk's own service is up.
   `style-src 'self' 'unsafe-inline' ${GOOGLE_FONTS_CSS} ${CDNJS} ${TAWK}`,
-  `font-src 'self' data: ${GOOGLE_FONTS_FILES} ${CDNJS}`,
+  `font-src 'self' data: ${GOOGLE_FONTS_FILES} ${CDNJS} ${TAWK}`,
   // Broad but real: this site's own uploaded images live under /legacy-
   // assets, plus the Tawk.to widget loads its own avatar/icon images from
   // its own CDN at runtime - `https:` covers that without hardcoding every

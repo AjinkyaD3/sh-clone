@@ -14,8 +14,8 @@ export default function Row9() {
                         >
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2025/02/Group-355.png"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-355.png") !important' } as unknown as React.CSSProperties}
+                            data-bg-url="/legacy-assets/uploads/2025/02/Group-355.webp"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-355.webp") !important' } as unknown as React.CSSProperties}
                           >
                             <img
                               className="fusion-empty-dims-img-placeholder"

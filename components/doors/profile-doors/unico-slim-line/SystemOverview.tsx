@@ -28,14 +28,14 @@ export default function Row5() {
                                   alt=""
                                   className="lazyload img-responsive wp-image-5403 bv-tag-attr-replace"
                                   data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 1306px"
-                                  data-orig-src="/legacy-assets/uploads/2025/01/Group-238.png"
+                                  data-orig-src="/legacy-assets/uploads/2025/01/Group-238.webp"
                                   data-sizes="auto"
-                                  data-srcset="/legacy-assets/uploads/2025/01/Group-238-200x69.png 200w, /legacy-assets/uploads/2025/01/Group-238-400x138.png 400w, /legacy-assets/uploads/2025/01/Group-238-600x207.png 600w, /legacy-assets/uploads/2025/01/Group-238-800x276.png 800w, /legacy-assets/uploads/2025/01/Group-238-1200x414.png 1200w, /legacy-assets/uploads/2025/01/Group-238.png 1306w"
+                                  data-srcset="/legacy-assets/uploads/2025/01/Group-238-200x69.webp 200w, /legacy-assets/uploads/2025/01/Group-238-400x138.webp 400w, /legacy-assets/uploads/2025/01/Group-238-600x207.webp 600w, /legacy-assets/uploads/2025/01/Group-238-800x276.webp 800w, /legacy-assets/uploads/2025/01/Group-238-1200x414.webp 1200w, /legacy-assets/uploads/2025/01/Group-238.webp 1306w"
                                   decoding="async"
                                   fetchPriority="high"
                                   height="451"
-                                  src="/legacy-assets/uploads/2025/01/Group-238.png"
-                                  srcSet="/legacy-assets/uploads/2025/01/Group-238-200x69.png 200w, /legacy-assets/uploads/2025/01/Group-238-400x138.png 400w, /legacy-assets/uploads/2025/01/Group-238-600x207.png 600w, /legacy-assets/uploads/2025/01/Group-238-800x276.png 800w, /legacy-assets/uploads/2025/01/Group-238-1200x414.png 1200w, /legacy-assets/uploads/2025/01/Group-238.png 1306w"
+                                  src="/legacy-assets/uploads/2025/01/Group-238.webp"
+                                  srcSet="/legacy-assets/uploads/2025/01/Group-238-200x69.webp 200w, /legacy-assets/uploads/2025/01/Group-238-400x138.webp 400w, /legacy-assets/uploads/2025/01/Group-238-600x207.webp 600w, /legacy-assets/uploads/2025/01/Group-238-800x276.webp 800w, /legacy-assets/uploads/2025/01/Group-238-1200x414.webp 1200w, /legacy-assets/uploads/2025/01/Group-238.webp 1306w"
                                   width="1306"
                                 />
                               </span>

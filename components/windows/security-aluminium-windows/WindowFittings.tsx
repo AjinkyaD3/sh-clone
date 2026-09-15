@@ -183,13 +183,13 @@ export default function Row16() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-6889 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 481px"
-                                        data-orig-src="/legacy-assets/uploads/2025/02/Group-258-1.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/Group-258-1.webp"
                                         data-sizes="auto"
-                                        data-srcset="/legacy-assets/uploads/2025/02/Group-258-1-200x206.png 200w, /legacy-assets/uploads/2025/02/Group-258-1-400x412.png 400w, /legacy-assets/uploads/2025/02/Group-258-1.png 481w"
+                                        data-srcset="/legacy-assets/uploads/2025/02/Group-258-1-200x206.webp 200w, /legacy-assets/uploads/2025/02/Group-258-1-400x412.webp 400w, /legacy-assets/uploads/2025/02/Group-258-1.webp 481w"
                                         decoding="async"
                                         height="495"
-                                        src="/legacy-assets/uploads/2025/02/Group-258-1.png"
-                                        srcSet="/legacy-assets/uploads/2025/02/Group-258-1-200x206.png 200w, /legacy-assets/uploads/2025/02/Group-258-1-400x412.png 400w, /legacy-assets/uploads/2025/02/Group-258-1.png 481w"
+                                        src="/legacy-assets/uploads/2025/02/Group-258-1.webp"
+                                        srcSet="/legacy-assets/uploads/2025/02/Group-258-1-200x206.webp 200w, /legacy-assets/uploads/2025/02/Group-258-1-400x412.webp 400w, /legacy-assets/uploads/2025/02/Group-258-1.webp 481w"
                                         width="481"
                                       />
                                     </span>

@@ -39,7 +39,7 @@ export default function Row17() {
                                       decoding="async"
                                       fetchPriority="high"
                                       height="295"
-                                      src="/legacy-assets/uploads/2025/01/NCC_03-460x295.jpg"
+                                      src="/legacy-assets/uploads/2025/01/NCC_03-460x295.webp"
                                       title="ncc_03"
                                       width="460"
                                     />
@@ -58,7 +58,7 @@ export default function Row17() {
                                       className="img-responsive wp-image-5003 fusion-gallery-image-size-fixed bv-tag-attr-replace bv-lazyload-tag-img"
                                       decoding="async"
                                       height="295"
-                                      src="/legacy-assets/uploads/2025/01/Billede-15-06-2017-15.59.03-460x295.jpg"
+                                      src="/legacy-assets/uploads/2025/01/Billede-15-06-2017-15.59.03-460x295.webp"
                                       title="billede-15-06-2017-15.59.03"
                                       width="460"
                                     />
@@ -77,7 +77,7 @@ export default function Row17() {
                                       className="img-responsive wp-image-5004 fusion-gallery-image-size-fixed bv-tag-attr-replace bv-lazyload-tag-img"
                                       decoding="async"
                                       height="295"
-                                      src="/legacy-assets/uploads/2025/01/Billede-15-06-2017-16.33.29-460x295.jpg"
+                                      src="/legacy-assets/uploads/2025/01/Billede-15-06-2017-16.33.29-460x295.webp"
                                       title="billede-15-06-2017-16.33.29"
                                       width="460"
                                     />

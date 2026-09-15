@@ -59,7 +59,7 @@ export default function TrustLogos() {
                                             className="attachment-portfolio-two size-portfolio-two"
                                             decoding="async"
                                             height="149"
-                                            src="/legacy-assets/uploads/2024/11/Group-150.png"
+                                            src="/legacy-assets/uploads/2024/11/Group-150.webp"
                                             width="149"
                                           />
                                         </div>
@@ -79,7 +79,7 @@ export default function TrustLogos() {
                                             className="attachment-portfolio-two size-portfolio-two"
                                             decoding="async"
                                             height="123"
-                                            src="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Secure-ikonos-09-2.png"
+                                            src="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Secure-ikonos-09-2.webp"
                                             width="244"
                                           />
                                         </div>
@@ -99,7 +99,7 @@ export default function TrustLogos() {
                                             className="attachment-portfolio-two size-portfolio-two"
                                             decoding="async"
                                             height="109"
-                                            src="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Group-152.png"
+                                            src="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Group-152.webp"
                                             width="235"
                                           />
                                         </div>
@@ -119,7 +119,7 @@ export default function TrustLogos() {
                                             className="attachment-portfolio-two size-portfolio-two"
                                             decoding="async"
                                             height="132"
-                                            src="/legacy-assets/uploads/2024/11/Group-151.png"
+                                            src="/legacy-assets/uploads/2024/11/Group-151.webp"
                                             width="157"
                                           />
                                         </div>
@@ -153,7 +153,7 @@ export default function TrustLogos() {
                                             className="attachment-portfolio-two size-portfolio-two"
                                             decoding="async"
                                             height="149"
-                                            src="/legacy-assets/uploads/2024/11/Group-150.png"
+                                            src="/legacy-assets/uploads/2024/11/Group-150.webp"
                                             width="149"
                                           />
                                         </div>
@@ -174,7 +174,7 @@ export default function TrustLogos() {
                                             className="attachment-portfolio-two size-portfolio-two"
                                             decoding="async"
                                             height="123"
-                                            src="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Secure-ikonos-09-2.png"
+                                            src="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Secure-ikonos-09-2.webp"
                                             width="244"
                                           />
                                         </div>
@@ -195,7 +195,7 @@ export default function TrustLogos() {
                                             className="attachment-portfolio-two size-portfolio-two"
                                             decoding="async"
                                             height="109"
-                                            src="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Group-152.png"
+                                            src="/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Group-152.webp"
                                             width="235"
                                           />
                                         </div>
@@ -216,7 +216,7 @@ export default function TrustLogos() {
                                             className="attachment-portfolio-two size-portfolio-two"
                                             decoding="async"
                                             height="132"
-                                            src="/legacy-assets/uploads/2024/11/Group-151.png"
+                                            src="/legacy-assets/uploads/2024/11/Group-151.webp"
                                             width="157"
                                           />
                                         </div>

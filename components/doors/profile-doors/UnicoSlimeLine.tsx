@@ -37,14 +37,14 @@ export default function Row5() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-15.png"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-15.png") !important' } as unknown as React.CSSProperties}
+                                      data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-15.webp"
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-15.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-15-227x300.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-15-227x300.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-2 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
@@ -74,14 +74,14 @@ export default function Row5() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-16.png"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-16.png") !important' } as unknown as React.CSSProperties}
+                                      data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-16.webp"
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-16.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-16-227x300.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-16-227x300.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-3 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
@@ -111,14 +111,14 @@ export default function Row5() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-17.png"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-17.png") !important' } as unknown as React.CSSProperties}
+                                      data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-17.webp"
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-17.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-17-227x300.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-17-227x300.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-4 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
@@ -148,14 +148,14 @@ export default function Row5() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-18.png"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-18.png") !important' } as unknown as React.CSSProperties}
+                                      data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-18.webp"
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-18.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-18-227x300.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-18-227x300.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-5 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"

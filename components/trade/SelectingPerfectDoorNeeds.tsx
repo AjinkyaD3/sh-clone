@@ -159,13 +159,13 @@ export default function Row7() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-6841 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 714px"
-                                        data-orig-src="/legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1.webp"
                                         data-sizes="auto"
                                         decoding="async"
                                         fetchPriority="high"
                                         height="812"
-                                        src="/legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1.png"
-                                        srcSet="/legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1-200x227.png 200w, /legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1-400x455.png 400w, /legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1-600x682.png 600w, /legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1.png 714w"
+                                        src="/legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1.webp"
+                                        srcSet="/legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1-200x227.webp 200w, /legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1-400x455.webp 400w, /legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1-600x682.webp 600w, /legacy-assets/uploads/2025/02/6594063811301eaf4d127018c8693e4b-1.webp 714w"
                                         width="714"
                                       />
                                     </span>

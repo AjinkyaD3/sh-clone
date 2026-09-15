@@ -15,10 +15,10 @@ export default function Row3() {
                         >
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-column-has-bg-image fusion-column-has-bg-image-small"
-                            data-bg-small="/legacy-assets/uploads/2025/03/Group-506.png"
-                            data-bg-url="/legacy-assets/uploads/2025/03/Group-351.png"
+                            data-bg-small="/legacy-assets/uploads/2025/03/Group-506.webp"
+                            data-bg-url="/legacy-assets/uploads/2025/03/Group-351.webp"
                             data-fusion-responsive-bg="1"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Group-351.png") !important' } as unknown as React.CSSProperties}
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Group-351.webp") !important' } as unknown as React.CSSProperties}
                           >
                             <div
                               className="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"

@@ -100,8 +100,8 @@ export default function Page() {
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image"
                             data-bg-gradient="linear-gradient(180deg, rgba(132,123,115,0.6) 0%,rgba(132,123,115,0.6) 100%)"
-                            data-bg-url="/legacy-assets/uploads/2024/11/Mask-group-10.png"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/11/Mask-group-10.png") !important' } as unknown as React.CSSProperties}
+                            data-bg-url="/legacy-assets/uploads/2024/11/Mask-group-10.webp"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/11/Mask-group-10.webp") !important' } as unknown as React.CSSProperties}
                           >
                             <div
                               className="fusion-title title fusion-title-11 fusion-sep-none fusion-title-text fusion-title-size-two"
@@ -142,8 +142,8 @@ export default function Page() {
                         >
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2025/01/Group-203-1.png"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Group-203-1.png") !important' } as unknown as React.CSSProperties}
+                            data-bg-url="/legacy-assets/uploads/2025/01/Group-203-1.webp"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Group-203-1.webp") !important' } as unknown as React.CSSProperties}
                           >
                             <div
                               className="fusion-title title fusion-title-12 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-paragraph"

@@ -3,7 +3,7 @@ export default function Row7() {
                     <div
                       className="fusion-bg-parallax"
                       data-bg-align="center center"
-                      data-bg-image="/legacy-assets/uploads/2025/03/mature-woman-walking-her-dog-city-streets-while-it-rains-scaled-e1741093183412.jpg"
+                      data-bg-image="/legacy-assets/uploads/2025/03/mature-woman-walking-her-dog-city-streets-while-it-rains-scaled-e1741093183412.webp"
                       data-bg-repeat="false"
                       data-break_parents="0"
                       data-direction="up"

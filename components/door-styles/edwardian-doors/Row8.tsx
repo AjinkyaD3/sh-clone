@@ -2,8 +2,8 @@ export default function Row8() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-7 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-up hundred-percent-fullwidth non-hundred-percent-height-scrolling lazyload"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-left': '0px', '--awb-min-height': '600px', '--awb-background-size': 'cover', '--awb-background-image': 'url("/legacy-assets/uploads/2025/03/home-architecture-design-victorian-style-with-turret-scaled.jpg")', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
-                      data-bg-url="/legacy-assets/uploads/2025/03/home-architecture-design-victorian-style-with-turret-scaled.jpg"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-left': '0px', '--awb-min-height': '600px', '--awb-background-size': 'cover', '--awb-background-image': 'url("/legacy-assets/uploads/2025/03/home-architecture-design-victorian-style-with-turret-scaled.webp")', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      data-bg-url="/legacy-assets/uploads/2025/03/home-architecture-design-victorian-style-with-turret-scaled.webp"
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"

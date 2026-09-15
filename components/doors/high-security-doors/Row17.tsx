@@ -2,7 +2,7 @@ export default function Row17() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-17 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-fixed hundred-percent-fullwidth non-hundred-percent-height-scrolling lazyload"
-                      style={{ paddingTop: '278px', paddingRight: '0px', paddingBottom: '252px', paddingLeft: '0px', backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundImage: 'url("/legacy-assets/uploads/2025/01/5c30b3dcfadeb5db39270168b7befd1f-1.png") !important' } as unknown as React.CSSProperties}
+                      style={{ paddingTop: '278px', paddingRight: '0px', paddingBottom: '252px', paddingLeft: '0px', backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundImage: 'url("/legacy-assets/uploads/2025/01/5c30b3dcfadeb5db39270168b7befd1f-1.webp") !important' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"

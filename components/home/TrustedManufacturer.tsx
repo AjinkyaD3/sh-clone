@@ -78,7 +78,7 @@ export default function TrustedManufacturer() {
                                     loop={true}
                                     muted={true}
                                     playsInline={true}
-                                    poster="/legacy-assets/uploads/2024/11/bullet-proof-poster.jpg"
+                                    poster="/legacy-assets/uploads/2024/11/bullet-proof-poster.webp"
                                     preload="auto"
                                     src="/legacy-assets/uploads/2024/11/Bullet-proof-1.trumpesnis-2-2.mp4"
                                     style={{ objectFit: 'contain', width: '100%', aspectRatio: '746 / 1000' } as unknown as React.CSSProperties}

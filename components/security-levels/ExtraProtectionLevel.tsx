@@ -829,12 +829,12 @@ export default function Row8() {
                                     alt=""
                                     className="lazyload img-responsive wp-image-7559 bv-tag-attr-replace"
                                     data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 520px"
-                                    data-orig-src="/legacy-assets/uploads/2025/03/Group-427.png"
+                                    data-orig-src="/legacy-assets/uploads/2025/03/Group-427.webp"
                                     data-sizes="auto"
                                     decoding="async"
                                     height="588"
-                                    src="/legacy-assets/uploads/2025/03/Group-427.png"
-                                    srcSet="/legacy-assets/uploads/2025/03/Group-427-200x226.png 200w, /legacy-assets/uploads/2025/03/Group-427-400x452.png 400w, /legacy-assets/uploads/2025/03/Group-427.png 520w"
+                                    src="/legacy-assets/uploads/2025/03/Group-427.webp"
+                                    srcSet="/legacy-assets/uploads/2025/03/Group-427-200x226.webp 200w, /legacy-assets/uploads/2025/03/Group-427-400x452.webp 400w, /legacy-assets/uploads/2025/03/Group-427.webp 520w"
                                     width="520"
                                   />
                                 </span>
@@ -880,7 +880,7 @@ export default function Row8() {
                                         <img
                                           alt=""
                                           className="lazyload img-responsive wp-image-8278"
-                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-9.png"
+                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-9.webp"
                                           decoding="async"
                                           height="78"
                                           src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2778%27%20height%3D%2778%27%20viewBox%3D%270%200%2078%2078%27%3E%3Crect%20width%3D%2778%27%20height%3D%2778%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
@@ -922,7 +922,7 @@ export default function Row8() {
                                         <img
                                           alt=""
                                           className="lazyload img-responsive wp-image-8279"
-                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-4-1.png"
+                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-4-1.webp"
                                           decoding="async"
                                           height="78"
                                           src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2778%27%20height%3D%2778%27%20viewBox%3D%270%200%2078%2078%27%3E%3Crect%20width%3D%2778%27%20height%3D%2778%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
@@ -964,7 +964,7 @@ export default function Row8() {
                                         <img
                                           alt=""
                                           className="lazyload img-responsive wp-image-8277"
-                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-10.png"
+                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-10.webp"
                                           decoding="async"
                                           height="78"
                                           src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2778%27%20height%3D%2778%27%20viewBox%3D%270%200%2078%2078%27%3E%3Crect%20width%3D%2778%27%20height%3D%2778%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
@@ -1006,7 +1006,7 @@ export default function Row8() {
                                         <img
                                           alt=""
                                           className="lazyload img-responsive wp-image-8277"
-                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-10.png"
+                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-10.webp"
                                           decoding="async"
                                           height="78"
                                           src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2778%27%20height%3D%2778%27%20viewBox%3D%270%200%2078%2078%27%3E%3Crect%20width%3D%2778%27%20height%3D%2778%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
@@ -1048,7 +1048,7 @@ export default function Row8() {
                                         <img
                                           alt=""
                                           className="lazyload img-responsive wp-image-8281"
-                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-13.png"
+                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-13.webp"
                                           decoding="async"
                                           height="78"
                                           src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2778%27%20height%3D%2778%27%20viewBox%3D%270%200%2078%2078%27%3E%3Crect%20width%3D%2778%27%20height%3D%2778%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
@@ -1090,7 +1090,7 @@ export default function Row8() {
                                         <img
                                           alt=""
                                           className="lazyload img-responsive wp-image-8282"
-                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-14.png"
+                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-14.webp"
                                           decoding="async"
                                           height="78"
                                           src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2778%27%20height%3D%2778%27%20viewBox%3D%270%200%2078%2078%27%3E%3Crect%20width%3D%2778%27%20height%3D%2778%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
@@ -1132,7 +1132,7 @@ export default function Row8() {
                                         <img
                                           alt=""
                                           className="lazyload img-responsive wp-image-8283"
-                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-15.png"
+                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-15.webp"
                                           decoding="async"
                                           height="78"
                                           src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2778%27%20height%3D%2778%27%20viewBox%3D%270%200%2078%2078%27%3E%3Crect%20width%3D%2778%27%20height%3D%2778%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
@@ -1174,7 +1174,7 @@ export default function Row8() {
                                         <img
                                           alt=""
                                           className="lazyload img-responsive wp-image-8285"
-                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-16.png"
+                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-16.webp"
                                           decoding="async"
                                           height="78"
                                           src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2778%27%20height%3D%2778%27%20viewBox%3D%270%200%2078%2078%27%3E%3Crect%20width%3D%2778%27%20height%3D%2778%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
@@ -1216,7 +1216,7 @@ export default function Row8() {
                                         <img
                                           alt=""
                                           className="lazyload img-responsive wp-image-8286"
-                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-17.png"
+                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-17.webp"
                                           decoding="async"
                                           height="78"
                                           src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2778%27%20height%3D%2778%27%20viewBox%3D%270%200%2078%2078%27%3E%3Crect%20width%3D%2778%27%20height%3D%2778%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"
@@ -1258,7 +1258,7 @@ export default function Row8() {
                                         <img
                                           alt=""
                                           className="lazyload img-responsive wp-image-8287"
-                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-18.png"
+                                          data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-18.webp"
                                           decoding="async"
                                           height="78"
                                           src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2778%27%20height%3D%2778%27%20viewBox%3D%270%200%2078%2078%27%3E%3Crect%20width%3D%2778%27%20height%3D%2778%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E"

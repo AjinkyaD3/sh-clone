@@ -26,12 +26,12 @@ export default function Row15() {
                                   alt=""
                                   className="lazyload img-responsive wp-image-4430 bv-tag-attr-replace"
                                   data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 1170px"
-                                  data-orig-src="/legacy-assets/uploads/2025/01/sh-67-1.png"
+                                  data-orig-src="/legacy-assets/uploads/2025/01/sh-67-1.webp"
                                   data-sizes="auto"
                                   decoding="async"
                                   height="592"
-                                  src="/legacy-assets/uploads/2025/01/sh-67-1.png"
-                                  srcSet="/legacy-assets/uploads/2025/01/sh-67-1-200x101.png 200w, /legacy-assets/uploads/2025/01/sh-67-1-400x202.png 400w, /legacy-assets/uploads/2025/01/sh-67-1-600x304.png 600w, /legacy-assets/uploads/2025/01/sh-67-1-800x405.png 800w, /legacy-assets/uploads/2025/01/sh-67-1.png 1170w"
+                                  src="/legacy-assets/uploads/2025/01/sh-67-1.webp"
+                                  srcSet="/legacy-assets/uploads/2025/01/sh-67-1-200x101.webp 200w, /legacy-assets/uploads/2025/01/sh-67-1-400x202.webp 400w, /legacy-assets/uploads/2025/01/sh-67-1-600x304.webp 600w, /legacy-assets/uploads/2025/01/sh-67-1-800x405.webp 800w, /legacy-assets/uploads/2025/01/sh-67-1.webp 1170w"
                                   width="1170"
                                 />
                               </span>

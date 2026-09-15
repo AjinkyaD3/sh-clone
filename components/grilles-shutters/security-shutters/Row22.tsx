@@ -14,8 +14,8 @@ export default function Row22() {
                         >
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2025/02/Claygate-Recreation-Ground-5-1.png"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Claygate-Recreation-Ground-5-1.png") !important' } as unknown as React.CSSProperties}
+                            data-bg-url="/legacy-assets/uploads/2025/02/Claygate-Recreation-Ground-5-1.webp"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Claygate-Recreation-Ground-5-1.webp") !important' } as unknown as React.CSSProperties}
                           >
                             <img
                               aria-label="claygate_recreation_ground_5_1"

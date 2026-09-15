@@ -69,7 +69,7 @@ export default function GetAQuote() {
 
       <aside
         className={`get-a-quote-panel${open ? " is-open" : ""}`}
-        aria-hidden={!open}
+        inert={!open}
         aria-label="Get a quote"
       >
         <button

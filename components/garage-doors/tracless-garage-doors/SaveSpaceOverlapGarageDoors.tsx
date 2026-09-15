@@ -37,13 +37,13 @@ export default function Row16() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-7219 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 714px"
-                                        data-orig-src="/legacy-assets/uploads/2025/02/Mask-group-23.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/Mask-group-23.webp"
                                         data-sizes="auto"
-                                        data-srcset="/legacy-assets/uploads/2025/02/Mask-group-23-200x234.png 200w, /legacy-assets/uploads/2025/02/Mask-group-23-400x469.png 400w, /legacy-assets/uploads/2025/02/Mask-group-23-600x703.png 600w, /legacy-assets/uploads/2025/02/Mask-group-23.png 714w"
+                                        data-srcset="/legacy-assets/uploads/2025/02/Mask-group-23-200x234.webp 200w, /legacy-assets/uploads/2025/02/Mask-group-23-400x469.webp 400w, /legacy-assets/uploads/2025/02/Mask-group-23-600x703.webp 600w, /legacy-assets/uploads/2025/02/Mask-group-23.webp 714w"
                                         decoding="async"
                                         height="837"
-                                        src="/legacy-assets/uploads/2025/02/Mask-group-23.png"
-                                        srcSet="/legacy-assets/uploads/2025/02/Mask-group-23-200x234.png 200w, /legacy-assets/uploads/2025/02/Mask-group-23-400x469.png 400w, /legacy-assets/uploads/2025/02/Mask-group-23-600x703.png 600w, /legacy-assets/uploads/2025/02/Mask-group-23.png 714w"
+                                        src="/legacy-assets/uploads/2025/02/Mask-group-23.webp"
+                                        srcSet="/legacy-assets/uploads/2025/02/Mask-group-23-200x234.webp 200w, /legacy-assets/uploads/2025/02/Mask-group-23-400x469.webp 400w, /legacy-assets/uploads/2025/02/Mask-group-23-600x703.webp 600w, /legacy-assets/uploads/2025/02/Mask-group-23.webp 714w"
                                         width="714"
                                       />
                                     </span>

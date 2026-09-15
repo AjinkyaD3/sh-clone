@@ -1,7 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { createPortal } from 'react-dom';
+import { useState } from 'react';
 import Link from 'next/link';
 import styles from './HeroSlider.module.css';
 
@@ -20,33 +19,26 @@ const slides: Slide[] = [
     buttonLabel: 'Learn more about us',
     buttonHref: '/about-us/',
     video: '/legacy-assets/uploads/2024/11/Hero-_-secure-house-1-2.mp4',
-    poster: '/legacy-assets/uploads/2024/11/hero-video-poster.jpg',
+    poster: '/legacy-assets/uploads/2024/11/hero-video-poster.webp',
   },
   {
     heading: 'Bespoke Security Doors with\nPremium Craftsmanship & Advanced Security.',
     buttonLabel: 'Discover entrance solutions',
     buttonHref: '/products/',
-    image: '/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Group-276-scaled.png',
+    image: '/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/11/Group-276-scaled.webp',
   },
   {
     heading: 'Premium Security Doors\nAcross London & the UK.',
     buttonLabel: 'Contact us',
     buttonHref: '/contact-us/',
-    image: '/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/10/Group-175-scaled.png',
+    image: '/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/10/Group-175-scaled.webp',
   },
 ];
 
 export default function HeroSlider() {
-  const [mountNode, setMountNode] = useState<Element | null>(null);
   const [active, setActive] = useState(0);
 
-  useEffect(() => {
-    setMountNode(document.getElementById('__hero-slider-mount'));
-  }, []);
-
-  if (!mountNode) return null;
-
-  return createPortal(
+  return (
     <div className={styles.slider}>
       {slides.map((slide, i) => (
         <div
@@ -93,7 +85,6 @@ export default function HeroSlider() {
           />
         ))}
       </div>
-    </div>,
-    mountNode
+    </div>
   );
 }

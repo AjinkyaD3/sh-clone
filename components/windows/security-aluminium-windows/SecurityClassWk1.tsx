@@ -65,8 +65,8 @@ export default function Row12() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/02/glass-broken-cracks-splinters-front-car-filtered-image-1.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/glass-broken-cracks-splinters-front-car-filtered-image-1.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/02/glass-broken-cracks-splinters-front-car-filtered-image-1.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/glass-broken-cracks-splinters-front-car-filtered-image-1.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     aria-label="glass-broken-cracks-splinters-front-car-filtered-image_1"
@@ -134,8 +134,8 @@ export default function Row12() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-251.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-251.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-251.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-251.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
@@ -202,8 +202,8 @@ export default function Row12() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-254.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-254.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-254.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-254.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
@@ -270,8 +270,8 @@ export default function Row12() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-253.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-253.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-253.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-253.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"

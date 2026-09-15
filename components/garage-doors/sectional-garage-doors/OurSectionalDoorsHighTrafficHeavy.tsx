@@ -26,13 +26,13 @@ export default function Row10() {
                                   alt=""
                                   className="lazyload img-responsive wp-image-6742 bv-tag-attr-replace"
                                   data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 1121px"
-                                  data-orig-src="/legacy-assets/uploads/2025/02/Mask-group-14.png"
+                                  data-orig-src="/legacy-assets/uploads/2025/02/Mask-group-14.webp"
                                   data-sizes="auto"
-                                  data-srcset="/legacy-assets/uploads/2025/02/Mask-group-14-200x100.png 200w, /legacy-assets/uploads/2025/02/Mask-group-14-400x200.png 400w, /legacy-assets/uploads/2025/02/Mask-group-14-600x300.png 600w, /legacy-assets/uploads/2025/02/Mask-group-14-800x400.png 800w, /legacy-assets/uploads/2025/02/Mask-group-14.png 1121w"
+                                  data-srcset="/legacy-assets/uploads/2025/02/Mask-group-14-200x100.webp 200w, /legacy-assets/uploads/2025/02/Mask-group-14-400x200.webp 400w, /legacy-assets/uploads/2025/02/Mask-group-14-600x300.webp 600w, /legacy-assets/uploads/2025/02/Mask-group-14-800x400.webp 800w, /legacy-assets/uploads/2025/02/Mask-group-14.webp 1121w"
                                   decoding="async"
                                   height="561"
-                                  src="/legacy-assets/uploads/2025/02/Mask-group-14.png"
-                                  srcSet="/legacy-assets/uploads/2025/02/Mask-group-14-200x100.png 200w, /legacy-assets/uploads/2025/02/Mask-group-14-400x200.png 400w, /legacy-assets/uploads/2025/02/Mask-group-14-600x300.png 600w, /legacy-assets/uploads/2025/02/Mask-group-14-800x400.png 800w, /legacy-assets/uploads/2025/02/Mask-group-14.png 1121w"
+                                  src="/legacy-assets/uploads/2025/02/Mask-group-14.webp"
+                                  srcSet="/legacy-assets/uploads/2025/02/Mask-group-14-200x100.webp 200w, /legacy-assets/uploads/2025/02/Mask-group-14-400x200.webp 400w, /legacy-assets/uploads/2025/02/Mask-group-14-600x300.webp 600w, /legacy-assets/uploads/2025/02/Mask-group-14-800x400.webp 800w, /legacy-assets/uploads/2025/02/Mask-group-14.webp 1121w"
                                   width="1121"
                                 />
                               </span>

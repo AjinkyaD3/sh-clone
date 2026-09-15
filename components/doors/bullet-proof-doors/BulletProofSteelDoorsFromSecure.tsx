@@ -37,13 +37,13 @@ export default function Row8() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-5314 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 749px"
-                                        data-orig-src="/legacy-assets/uploads/2025/01/image-17.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/01/image-17.webp"
                                         data-sizes="auto"
                                         decoding="async"
                                         fetchPriority="high"
                                         height="1123"
-                                        src="/legacy-assets/uploads/2025/01/image-17.png"
-                                        srcSet="/legacy-assets/uploads/2025/01/image-17-200x300.png 200w, /legacy-assets/uploads/2025/01/image-17-400x600.png 400w, /legacy-assets/uploads/2025/01/image-17-600x900.png 600w, /legacy-assets/uploads/2025/01/image-17.png 749w"
+                                        src="/legacy-assets/uploads/2025/01/image-17.webp"
+                                        srcSet="/legacy-assets/uploads/2025/01/image-17-200x300.webp 200w, /legacy-assets/uploads/2025/01/image-17-400x600.webp 400w, /legacy-assets/uploads/2025/01/image-17-600x900.webp 600w, /legacy-assets/uploads/2025/01/image-17.webp 749w"
                                         width="749"
                                       />
                                     </span>

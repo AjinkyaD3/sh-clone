@@ -54,13 +54,13 @@ export default function Row4() {
                               <span
                                 className="fusion-column-inner-bg-image lazyload"
                                 data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
-                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/10/Screenshot-2024-09-24-at-10-32-03-High-Security-Doors-☑️-Front-_-Back-External-Doors-3.png") !important' } as unknown as React.CSSProperties}
+                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/10/Screenshot-2024-09-24-at-10-32-03-High-Security-Doors-☑️-Front-_-Back-External-Doors-3.webp") !important' } as unknown as React.CSSProperties}
                               ></span>
                             </Link>
                           </span>
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-flex-end fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2024/10/Screenshot-2024-09-24-at-10-32-03-High-Security-Doors-☑️-Front-_-Back-External-Doors-3.png"
+                            data-bg-url="/legacy-assets/uploads/2024/10/Screenshot-2024-09-24-at-10-32-03-High-Security-Doors-☑️-Front-_-Back-External-Doors-3.webp"
                           >
                             <div
                               className="fusion-title title fusion-title-2 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-three"
@@ -90,13 +90,13 @@ export default function Row4() {
                               <span
                                 className="fusion-column-inner-bg-image lazyload"
                                 data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
-                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/11/0-1-1-1.png") !important' } as unknown as React.CSSProperties}
+                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2024/11/0-1-1-1.webp") !important' } as unknown as React.CSSProperties}
                               ></span>
                             </Link>
                           </span>
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-flex-end fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2024/11/0-1-1-1.png"
+                            data-bg-url="/legacy-assets/uploads/2024/11/0-1-1-1.webp"
                           >
                             <div
                               className="fusion-title title fusion-title-3 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-three"
@@ -126,13 +126,13 @@ export default function Row4() {
                               <span
                                 className="fusion-column-inner-bg-image lazyload"
                                 data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
-                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/10-downing-street-entrance-door-scaled.jpg") !important' } as unknown as React.CSSProperties}
+                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/10-downing-street-entrance-door-scaled.webp") !important' } as unknown as React.CSSProperties}
                               ></span>
                             </Link>
                           </span>
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-flex-end fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2025/03/10-downing-street-entrance-door-scaled.jpg"
+                            data-bg-url="/legacy-assets/uploads/2025/03/10-downing-street-entrance-door-scaled.webp"
                           >
                             <div
                               className="fusion-title title fusion-title-4 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-three"
@@ -162,13 +162,13 @@ export default function Row4() {
                               <span
                                 className="fusion-column-inner-bg-image lazyload"
                                 data-bg-gradient="linear-gradient(180deg, rgba(255,255,255,0.01) 0%,rgba(38,38,38,0.88) 100%)"
-                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/london-architecture-scaled.jpg") !important' } as unknown as React.CSSProperties}
+                                style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/london-architecture-scaled.webp") !important' } as unknown as React.CSSProperties}
                               ></span>
                             </Link>
                           </span>
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row fusion-flex-align-items-flex-end fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2025/03/london-architecture-scaled.jpg"
+                            data-bg-url="/legacy-assets/uploads/2025/03/london-architecture-scaled.webp"
                           >
                             <div
                               className="fusion-title title fusion-title-5 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-three"

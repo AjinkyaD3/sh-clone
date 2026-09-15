@@ -139,14 +139,14 @@ export default function Row19() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-5174 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 723px"
-                                        data-orig-src="/legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1.webp"
                                         data-sizes="auto"
-                                        data-srcset="/legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-200x257.png 200w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-400x515.png 400w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-600x772.png 600w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1.png 723w"
+                                        data-srcset="/legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-200x257.webp 200w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-400x515.webp 400w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-600x772.webp 600w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1.webp 723w"
                                         decoding="async"
                                         fetchPriority="high"
                                         height="930"
-                                        src="/legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1.png"
-                                        srcSet="/legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-200x257.png 200w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-400x515.png 400w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-600x772.png 600w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1.png 723w"
+                                        src="/legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1.webp"
+                                        srcSet="/legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-200x257.webp 200w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-400x515.webp 400w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1-600x772.webp 600w, /legacy-assets/uploads/2025/01/c690cb87e524ae2d3bb818998636a3d8-1.webp 723w"
                                         width="723"
                                       />
                                     </span>

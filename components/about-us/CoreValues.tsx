@@ -40,13 +40,13 @@ export default function Row11() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-7259 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 755px"
-                                        data-orig-src="/legacy-assets/uploads/2025/02/paveikslas-112.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/paveikslas-112.webp"
                                         data-sizes="auto"
-                                        data-srcset="/legacy-assets/uploads/2025/02/paveikslas-112-200x176.png 200w, /legacy-assets/uploads/2025/02/paveikslas-112-400x351.png 400w, /legacy-assets/uploads/2025/02/paveikslas-112-600x527.png 600w, /legacy-assets/uploads/2025/02/paveikslas-112.png 755w"
+                                        data-srcset="/legacy-assets/uploads/2025/02/paveikslas-112-200x176.webp 200w, /legacy-assets/uploads/2025/02/paveikslas-112-400x351.webp 400w, /legacy-assets/uploads/2025/02/paveikslas-112-600x527.webp 600w, /legacy-assets/uploads/2025/02/paveikslas-112.webp 755w"
                                         decoding="async"
                                         height="663"
-                                        src="/legacy-assets/uploads/2025/02/paveikslas-112.png"
-                                        srcSet="/legacy-assets/uploads/2025/02/paveikslas-112-200x176.png 200w, /legacy-assets/uploads/2025/02/paveikslas-112-400x351.png 400w, /legacy-assets/uploads/2025/02/paveikslas-112-600x527.png 600w, /legacy-assets/uploads/2025/02/paveikslas-112.png 755w"
+                                        src="/legacy-assets/uploads/2025/02/paveikslas-112.webp"
+                                        srcSet="/legacy-assets/uploads/2025/02/paveikslas-112-200x176.webp 200w, /legacy-assets/uploads/2025/02/paveikslas-112-400x351.webp 400w, /legacy-assets/uploads/2025/02/paveikslas-112-600x527.webp 600w, /legacy-assets/uploads/2025/02/paveikslas-112.webp 755w"
                                         width="755"
                                       />
                                     </span>

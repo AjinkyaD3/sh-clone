@@ -32,8 +32,8 @@ export default function Row10() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-26.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-26.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-26.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-26.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
@@ -131,8 +131,8 @@ export default function Row10() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-27-1.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-27-1.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-27-1.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-27-1.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
@@ -166,8 +166,8 @@ export default function Row10() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-28-1.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-28-1.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-28-1.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-28-1.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
@@ -263,8 +263,8 @@ export default function Row10() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-29.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-29.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/01/Mask-group-29.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/01/Mask-group-29.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"

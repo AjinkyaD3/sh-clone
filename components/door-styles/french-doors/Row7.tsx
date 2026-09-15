@@ -3,7 +3,7 @@ export default function Row7() {
                     <div
                       className="fusion-bg-parallax"
                       data-bg-align="center center"
-                      data-bg-image="/legacy-assets/uploads/2025/03/elegant-entryway-grand-entryway-with-marble-floor-chandelier-large-mirror-add-conso2-scaled.jpg"
+                      data-bg-image="/legacy-assets/uploads/2025/03/elegant-entryway-grand-entryway-with-marble-floor-chandelier-large-mirror-add-conso2-scaled.webp"
                       data-bg-repeat="false"
                       data-break_parents="0"
                       data-direction="up"

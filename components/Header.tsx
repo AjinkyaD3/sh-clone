@@ -401,7 +401,7 @@ export default function Header() {
 							</div>
 							<div className="fusion-layout-column fusion_builder_column fusion-builder-column-3 fusion_builder_column_1_1 1_1 fusion-flex-column fusion-flex-align-self-center fusion-column-inner-bg-wrapper" data-scroll-devices="small-visibility,medium-visibility,large-visibility" style={{ "--awb-inner-bg-size": "cover", "--awb-width-large": "100%", "--awb-margin-top-large": "0px", "--awb-spacing-right-large": "1.92%", "--awb-margin-bottom-large": "0px", "--awb-spacing-left-large": "1.92%", "--awb-width-medium": "100%", "--awb-order-medium": "0", "--awb-spacing-right-medium": "1.92%", "--awb-spacing-left-medium": "1.92%", "--awb-width-small": "12%", "--awb-order-small": "3", "--awb-spacing-right-small": "0%", "--awb-spacing-left-small": "16%" } as any}>
 								<span className="fusion-column-inner-bg hover-type-none">
-									<a className="fusion-column-anchor" href="#mobile-menu-trigger">
+									<a className="fusion-column-anchor" href="#mobile-menu-trigger" aria-label="Open menu">
 										<span className="fusion-column-inner-bg-image"></span>
 									</a>
 								</span>

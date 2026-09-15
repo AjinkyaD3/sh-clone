@@ -7,7 +7,7 @@
 // includes it too. One shared constant instead of a copy-pasted URL string
 // in 37 files.
 export const DEFAULT_OG_IMAGE = {
-  url: "/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/10/Group-175-scaled.png",
+  url: "/legacy-assets/uploads/al_opt_content/IMAGE/secure-house.co.uk/wp-content/uploads/2024/10/Group-175-scaled.webp",
   width: 2560,
   height: 1435,
   alt: "Secure House - bespoke security doors and windows",

@@ -44,12 +44,12 @@ export default function Row5() {
                                   <span
                                     className="fusion-column-inner-bg-image lazyload"
                                     data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                    style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-11-227x300.png") !important' } as unknown as React.CSSProperties}
+                                    style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-11-227x300.webp") !important' } as unknown as React.CSSProperties}
                                   ></span>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-11-227x300.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-11-227x300.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-9 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
@@ -79,13 +79,13 @@ export default function Row5() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-13-227x300.png") !important' } as unknown as React.CSSProperties}
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-13-227x300.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-13-227x300.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-13-227x300.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-10 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
@@ -111,12 +111,12 @@ export default function Row5() {
                                   <span
                                     className="fusion-column-inner-bg-image lazyload"
                                     data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                    style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-14-227x300.png") !important' } as unknown as React.CSSProperties}
+                                    style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-14-227x300.webp") !important' } as unknown as React.CSSProperties}
                                   ></span>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-14-227x300.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-14-227x300.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-11 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"

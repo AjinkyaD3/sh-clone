@@ -37,13 +37,13 @@ export default function Row20() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-6899 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 501px"
-                                        data-orig-src="/legacy-assets/uploads/2025/02/paveikslas-69.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/paveikslas-69.webp"
                                         data-sizes="auto"
-                                        data-srcset="/legacy-assets/uploads/2025/02/paveikslas-69-200x200.png 200w, /legacy-assets/uploads/2025/02/paveikslas-69-400x400.png 400w, /legacy-assets/uploads/2025/02/paveikslas-69.png 501w"
+                                        data-srcset="/legacy-assets/uploads/2025/02/paveikslas-69-200x200.webp 200w, /legacy-assets/uploads/2025/02/paveikslas-69-400x400.webp 400w, /legacy-assets/uploads/2025/02/paveikslas-69.webp 501w"
                                         decoding="async"
                                         height="501"
-                                        src="/legacy-assets/uploads/2025/02/paveikslas-69.png"
-                                        srcSet="/legacy-assets/uploads/2025/02/paveikslas-69-200x200.png 200w, /legacy-assets/uploads/2025/02/paveikslas-69-400x400.png 400w, /legacy-assets/uploads/2025/02/paveikslas-69.png 501w"
+                                        src="/legacy-assets/uploads/2025/02/paveikslas-69.webp"
+                                        srcSet="/legacy-assets/uploads/2025/02/paveikslas-69-200x200.webp 200w, /legacy-assets/uploads/2025/02/paveikslas-69-400x400.webp 400w, /legacy-assets/uploads/2025/02/paveikslas-69.webp 501w"
                                         width="501"
                                       />
                                     </span>

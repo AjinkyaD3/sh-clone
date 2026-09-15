@@ -136,13 +136,13 @@ export default function Row13() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-5374 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 747px"
-                                        data-orig-src="/legacy-assets/uploads/2025/01/image-20.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/01/image-20.webp"
                                         data-sizes="auto"
-                                        data-srcset="/legacy-assets/uploads/2025/01/image-20-200x278.png 200w, /legacy-assets/uploads/2025/01/image-20-400x556.png 400w, /legacy-assets/uploads/2025/01/image-20-600x834.png 600w, /legacy-assets/uploads/2025/01/image-20.png 747w"
+                                        data-srcset="/legacy-assets/uploads/2025/01/image-20-200x278.webp 200w, /legacy-assets/uploads/2025/01/image-20-400x556.webp 400w, /legacy-assets/uploads/2025/01/image-20-600x834.webp 600w, /legacy-assets/uploads/2025/01/image-20.webp 747w"
                                         decoding="async"
                                         height="1038"
-                                        src="/legacy-assets/uploads/2025/01/image-20.png"
-                                        srcSet="/legacy-assets/uploads/2025/01/image-20-200x278.png 200w, /legacy-assets/uploads/2025/01/image-20-400x556.png 400w, /legacy-assets/uploads/2025/01/image-20-600x834.png 600w, /legacy-assets/uploads/2025/01/image-20.png 747w"
+                                        src="/legacy-assets/uploads/2025/01/image-20.webp"
+                                        srcSet="/legacy-assets/uploads/2025/01/image-20-200x278.webp 200w, /legacy-assets/uploads/2025/01/image-20-400x556.webp 400w, /legacy-assets/uploads/2025/01/image-20-600x834.webp 600w, /legacy-assets/uploads/2025/01/image-20.webp 747w"
                                         width="747"
                                       />
                                     </span>

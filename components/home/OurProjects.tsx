@@ -54,12 +54,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-11 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
-                                        <h4
+                                        <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                         >
                                           {` High-tech protection with traditional design `}
-                                        </h4>
+                                        </h2>
                                       </div>
                                     </div>
                                   </li>
@@ -82,12 +82,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-13 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
-                                        <h4
+                                        <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                         >
                                           {` Entire home protection `}
-                                        </h4>
+                                        </h2>
                                       </div>
                                     </div>
                                   </li>
@@ -110,12 +110,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-15 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
-                                        <h4
+                                        <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                         >
                                           {` Industrial steel doors with glass `}
-                                        </h4>
+                                        </h2>
                                       </div>
                                     </div>
                                   </li>
@@ -138,12 +138,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-17 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
-                                        <h4
+                                        <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                         >
                                           {` Yvon house security communal door `}
-                                        </h4>
+                                        </h2>
                                       </div>
                                     </div>
                                   </li>
@@ -166,12 +166,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-19 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
-                                        <h4
+                                        <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                         >
                                           {` Full house project in Hertfordshire `}
-                                        </h4>
+                                        </h2>
                                       </div>
                                     </div>
                                   </li>
@@ -194,12 +194,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-21 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
-                                        <h4
+                                        <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                         >
                                           {` New build in Bedfordshire `}
-                                        </h4>
+                                        </h2>
                                       </div>
                                     </div>
                                   </li>

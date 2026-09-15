@@ -39,13 +39,13 @@ export default function Row8() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-5568 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 811px"
-                                        data-orig-src="/legacy-assets/uploads/2025/02/image-6.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/image-6.webp"
                                         data-sizes="auto"
-                                        data-srcset="/legacy-assets/uploads/2025/02/image-6-200x229.png 200w, /legacy-assets/uploads/2025/02/image-6-400x459.png 400w, /legacy-assets/uploads/2025/02/image-6-600x688.png 600w, /legacy-assets/uploads/2025/02/image-6-800x917.png 800w, /legacy-assets/uploads/2025/02/image-6.png 811w"
+                                        data-srcset="/legacy-assets/uploads/2025/02/image-6-200x229.webp 200w, /legacy-assets/uploads/2025/02/image-6-400x459.webp 400w, /legacy-assets/uploads/2025/02/image-6-600x688.webp 600w, /legacy-assets/uploads/2025/02/image-6-800x917.webp 800w, /legacy-assets/uploads/2025/02/image-6.webp 811w"
                                         decoding="async"
                                         height="930"
-                                        src="/legacy-assets/uploads/2025/02/image-6.png"
-                                        srcSet="/legacy-assets/uploads/2025/02/image-6-200x229.png 200w, /legacy-assets/uploads/2025/02/image-6-400x459.png 400w, /legacy-assets/uploads/2025/02/image-6-600x688.png 600w, /legacy-assets/uploads/2025/02/image-6-800x917.png 800w, /legacy-assets/uploads/2025/02/image-6.png 811w"
+                                        src="/legacy-assets/uploads/2025/02/image-6.webp"
+                                        srcSet="/legacy-assets/uploads/2025/02/image-6-200x229.webp 200w, /legacy-assets/uploads/2025/02/image-6-400x459.webp 400w, /legacy-assets/uploads/2025/02/image-6-600x688.webp 600w, /legacy-assets/uploads/2025/02/image-6-800x917.webp 800w, /legacy-assets/uploads/2025/02/image-6.webp 811w"
                                         width="811"
                                       />
                                     </span>

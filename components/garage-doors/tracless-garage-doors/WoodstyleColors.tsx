@@ -61,8 +61,8 @@ export default function Row13() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-331.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-331.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/02/Group-331.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/Group-331.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     aria-label="group_331"
@@ -98,8 +98,8 @@ export default function Row13() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Group-508.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Group-508.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Group-508.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Group-508.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     aria-label="group_508"
@@ -165,8 +165,8 @@ export default function Row13() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Group-507.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Group-507.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Group-507.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Group-507.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     aria-label="group_507"

@@ -46,12 +46,12 @@ export default function Row8() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-22.png") !important' } as unknown as React.CSSProperties}
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-22.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </span>
                                   <div
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                    data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-22.png"
+                                    data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-22.webp"
                                   >
                                     <div
                                       className="fusion-title title fusion-title-15 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
@@ -77,12 +77,12 @@ export default function Row8() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-23.png") !important' } as unknown as React.CSSProperties}
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-23.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </span>
                                   <div
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                    data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-23.png"
+                                    data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-23.webp"
                                   >
                                     <div
                                       className="fusion-title title fusion-title-16 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
@@ -108,12 +108,12 @@ export default function Row8() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-24.png") !important' } as unknown as React.CSSProperties}
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-24.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </span>
                                   <div
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                    data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-24.png"
+                                    data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-24.webp"
                                   >
                                     <div
                                       className="fusion-title title fusion-title-17 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"

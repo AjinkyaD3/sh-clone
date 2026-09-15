@@ -36,8 +36,8 @@ export default function Row8() {
                                 >
                                   <div
                                     className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                    data-bg-url="/legacy-assets/uploads/2025/02/paveikslas.png"
-                                    style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/paveikslas.png") !important' } as unknown as React.CSSProperties}
+                                    data-bg-url="/legacy-assets/uploads/2025/02/paveikslas.webp"
+                                    style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/paveikslas.webp") !important' } as unknown as React.CSSProperties}
                                   >
                                     <img
                                       className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
@@ -106,8 +106,8 @@ export default function Row8() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/02/image-18.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/image-18.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/02/image-18.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/image-18.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     aria-label="image_(18)"
@@ -177,8 +177,8 @@ export default function Row8() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/02/image-19.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/image-19.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/02/image-19.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/image-19.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"
@@ -245,8 +245,8 @@ export default function Row8() {
                               >
                                 <div
                                   className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/02/image-20.png"
-                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/image-20.png") !important' } as unknown as React.CSSProperties}
+                                  data-bg-url="/legacy-assets/uploads/2025/02/image-20.webp"
+                                  style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/image-20.webp") !important' } as unknown as React.CSSProperties}
                                 >
                                   <img
                                     className="fusion-empty-dims-img-placeholder fusion-no-large-visibility"

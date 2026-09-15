@@ -16,8 +16,8 @@ export default function Row3() {
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-column-has-bg-image"
                             data-bg-gradient="linear-gradient(180deg, rgba(33,35,38,0.38) 0%,rgba(33,35,38,0.61) 100%)"
-                            data-bg-url="/legacy-assets/uploads/2025/03/elegant-black-front-door-floral-bushes-scaled-e1741685193991.jpg"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/elegant-black-front-door-floral-bushes-scaled-e1741685193991.jpg") !important' } as unknown as React.CSSProperties}
+                            data-bg-url="/legacy-assets/uploads/2025/03/elegant-black-front-door-floral-bushes-scaled-e1741685193991.webp"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/elegant-black-front-door-floral-bushes-scaled-e1741685193991.webp") !important' } as unknown as React.CSSProperties}
                           >
                             <div
                               className="fusion-title title fusion-title-1 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-one"

@@ -84,17 +84,20 @@
 }
 
 .dot {
+  /* 12px visible dot, 44px actual tap target (WCAG 2.5.5) via padding +
+     background-clip so the enlarged hit area doesn't change the look. */
   width: 12px;
   height: 12px;
+  padding: 16px;
+  background-clip: content-box;
   border-radius: 50%;
   border: none;
-  padding: 0;
-  background: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
 }
 
 .dotActive {
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
 @media (max-width: 782px) {

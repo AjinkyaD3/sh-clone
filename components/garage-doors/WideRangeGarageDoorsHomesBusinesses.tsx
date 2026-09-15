@@ -56,13 +56,13 @@ export default function Row4() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-9.png") !important' } as unknown as React.CSSProperties}
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-9.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-9.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-9.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-3 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
@@ -92,13 +92,13 @@ export default function Row4() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-25.png") !important' } as unknown as React.CSSProperties}
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-25.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-25.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-25.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-4 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
@@ -128,13 +128,13 @@ export default function Row4() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-27.png") !important' } as unknown as React.CSSProperties}
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-27.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-27.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-27.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-5 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"
@@ -164,13 +164,13 @@ export default function Row4() {
                                     <span
                                       className="fusion-column-inner-bg-image lazyload"
                                       data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-26.png") !important' } as unknown as React.CSSProperties}
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-26.webp") !important' } as unknown as React.CSSProperties}
                                     ></span>
                                   </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
-                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-26.png"
+                                  data-bg-url="/legacy-assets/uploads/2025/03/Mask-group-26.webp"
                                 >
                                   <div
                                     className="fusion-title title fusion-title-6 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-four"

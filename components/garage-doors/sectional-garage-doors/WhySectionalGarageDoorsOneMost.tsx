@@ -37,13 +37,13 @@ export default function Row21() {
                                         alt=""
                                         className="lazyload img-responsive wp-image-6949 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 764px"
-                                        data-orig-src="/legacy-assets/uploads/2025/02/Group-283-2.png"
+                                        data-orig-src="/legacy-assets/uploads/2025/02/Group-283-2.webp"
                                         data-sizes="auto"
-                                        data-srcset="/legacy-assets/uploads/2025/02/Group-283-2-200x205.png 200w, /legacy-assets/uploads/2025/02/Group-283-2-400x410.png 400w, /legacy-assets/uploads/2025/02/Group-283-2-600x615.png 600w, /legacy-assets/uploads/2025/02/Group-283-2.png 764w"
+                                        data-srcset="/legacy-assets/uploads/2025/02/Group-283-2-200x205.webp 200w, /legacy-assets/uploads/2025/02/Group-283-2-400x410.webp 400w, /legacy-assets/uploads/2025/02/Group-283-2-600x615.webp 600w, /legacy-assets/uploads/2025/02/Group-283-2.webp 764w"
                                         decoding="async"
                                         height="783"
-                                        src="/legacy-assets/uploads/2025/02/Group-283-2.png"
-                                        srcSet="/legacy-assets/uploads/2025/02/Group-283-2-200x205.png 200w, /legacy-assets/uploads/2025/02/Group-283-2-400x410.png 400w, /legacy-assets/uploads/2025/02/Group-283-2-600x615.png 600w, /legacy-assets/uploads/2025/02/Group-283-2.png 764w"
+                                        src="/legacy-assets/uploads/2025/02/Group-283-2.webp"
+                                        srcSet="/legacy-assets/uploads/2025/02/Group-283-2-200x205.webp 200w, /legacy-assets/uploads/2025/02/Group-283-2-400x410.webp 400w, /legacy-assets/uploads/2025/02/Group-283-2-600x615.webp 600w, /legacy-assets/uploads/2025/02/Group-283-2.webp 764w"
                                         width="764"
                                       />
                                     </span>

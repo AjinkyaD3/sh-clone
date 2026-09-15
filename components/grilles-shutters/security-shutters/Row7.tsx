@@ -14,8 +14,8 @@ export default function Row7() {
                         >
                           <div
                             className="fusion-column-wrapper lazyload fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-empty-column-bg-image fusion-column-has-bg-image"
-                            data-bg-url="/legacy-assets/uploads/2025/02/paveikslas-103.png"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/paveikslas-103.png") !important' } as unknown as React.CSSProperties}
+                            data-bg-url="/legacy-assets/uploads/2025/02/paveikslas-103.webp"
+                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/02/paveikslas-103.webp") !important' } as unknown as React.CSSProperties}
                           >
                             <img
                               className="fusion-empty-dims-img-placeholder"
