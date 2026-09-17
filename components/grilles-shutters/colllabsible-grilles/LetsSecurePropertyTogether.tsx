@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function Row16() {
   return (
@@ -38,9 +37,9 @@ export default function Row16() {
                             <div
                               style={{ textAlign: 'left' } as unknown as React.CSSProperties}
                             >
-                              <Link
+                              <a
                                 className="fusion-button button-flat button-xlarge button-custom fusion-button-default button-2 fusion-button-span-no fusion-button-default-type"
-                                href="/contact-us/"
+                                href="#get-a-quote-trigger"
                                 style={{ '--button_accent_color': 'var(--awb-color6)', '--button_border_color': 'var(--awb-color1)', '--button_accent_hover_color': 'var(--awb-color1)', '--button_border_hover_color': 'hsla( var(--awb-color4-h), var(--awb-color4-s), calc(var(--awb-color4-l) - 4%), var(--awb-color4-a) )', '--button_gradient_top_color': 'var(--awb-color1)', '--button_gradient_bottom_color': 'var( --awb-color1 )', '--button_gradient_top_color_hover': 'var( --awb-color6 )', '--button_gradient_bottom_color_hover': 'var( --awb-color6 )', '--button_margin-top': '30px' } as unknown as React.CSSProperties}
                                 target="_self"
                               >
@@ -49,7 +48,7 @@ export default function Row16() {
                                 >
                                   {`Free consultation`}
                                 </span>
-                              </Link>
+                              </a>
                             </div>
                           </div>
                         </div>

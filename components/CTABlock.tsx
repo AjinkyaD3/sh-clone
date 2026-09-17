@@ -1,4 +1,3 @@
-import Link from 'next/link';
 
 interface CTABlockProps {
   heading: string;
@@ -35,7 +34,7 @@ export default function CTABlock({ heading, text, buttonLabel }: CTABlockProps) 
       }}>
         {text}
       </p>
-      <Link href="/contact-us" style={{
+      <a href="#get-a-quote-trigger" style={{
         display: 'inline-block',
         backgroundColor: '#e3000f', // Secure House red
         color: '#fff',
@@ -47,7 +46,7 @@ export default function CTABlock({ heading, text, buttonLabel }: CTABlockProps) 
         transition: 'background-color 0.3s ease'
       }}>
         {buttonLabel}
-      </Link>
+      </a>
     </div>
   );
 }

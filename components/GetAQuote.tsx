@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 // Live site (secure-house.co.uk) has a persistent "Get a Quote" vertical tab
 // fixed to the right edge on every page, opening a slide-in panel with a
@@ -24,9 +25,9 @@ const INTERESTS = [
 ];
 
 export default function GetAQuote() {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [interests, setInterests] = useState<string[]>([]);
-  const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -42,6 +43,26 @@ export default function GetAQuote() {
       document.body.style.overflow = "";
     };
   }, [open]);
+
+  // Every "CTA" button sitewide (previously a real navigation to /contact-us)
+  // now points at this in-page anchor instead, so it opens this popup
+  // without leaving the current page - same wiring pattern Header.tsx
+  // already uses for its own off-canvas triggers (plain <a href="#...">
+  // + a document-wide querySelectorAll, not React context, since these
+  // trigger links live in dozens of independent page/component files).
+  useEffect(() => {
+    const triggers = Array.from(
+      document.querySelectorAll<HTMLElement>('a[href="#get-a-quote-trigger"]'),
+    );
+    const handleClick = (e: Event) => {
+      e.preventDefault();
+      setOpen(true);
+    };
+    triggers.forEach((el) => el.addEventListener("click", handleClick));
+    return () => {
+      triggers.forEach((el) => el.removeEventListener("click", handleClick));
+    };
+  }, []);
 
   const toggleInterest = (label: string) => {
     setInterests((prev) =>
@@ -81,15 +102,8 @@ export default function GetAQuote() {
           &times;
         </button>
 
-        {sent ? (
-          <div className="get-a-quote-thanks">
-            <h2>Thank you</h2>
-            <p>Your enquiry has been received. We&apos;ll be in touch shortly.</p>
-          </div>
-        ) : (
-          <>
-            <h2>Get a Quote</h2>
-            <form
+        <h2>Get a Quote</h2>
+        <form
               onSubmit={async (e) => {
                 e.preventDefault();
                 setError(null);
@@ -112,7 +126,8 @@ export default function GetAQuote() {
                   });
                   const body = await res.json();
                   if (!res.ok) throw new Error(body.error || "Something went wrong.");
-                  setSent(true);
+                  setOpen(false);
+                  router.push("/thank-you");
                 } catch (err) {
                   setError(err instanceof Error ? err.message : "Something went wrong.");
                 } finally {
@@ -158,8 +173,6 @@ export default function GetAQuote() {
                 {sending ? "Sending…" : "Send Enquiry"}
               </button>
             </form>
-          </>
-        )}
       </aside>
 
       <style
@@ -320,17 +333,6 @@ export default function GetAQuote() {
               color: #a33;
               font-size: 13px;
               margin: -6px 0 14px;
-            }
-
-            .get-a-quote-thanks h2 {
-              font-family: "Playfair Display", serif;
-              font-weight: 400;
-              font-size: 28px;
-              margin: 0 0 16px;
-            }
-            .get-a-quote-thanks p {
-              font-size: 15px;
-              line-height: 1.6;
             }
 
             @media (max-width: 640px) {

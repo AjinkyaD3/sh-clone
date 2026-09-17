@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function Row4() {
   return (
@@ -31,9 +30,9 @@ export default function Row4() {
                             <div
                               style={{ textAlign: 'left' } as unknown as React.CSSProperties}
                             >
-                              <Link
+                              <a
                                 className="fusion-button button-flat button-large button-custom fusion-button-default button-2 fusion-button-span-no fusion-button-default-type"
-                                href="/contact-us/"
+                                href="#get-a-quote-trigger"
                                 style={{ '--button_accent_color': 'var(--awb-color1)', '--button_border_color': 'var(--awb-color1)', '--button_accent_hover_color': 'var(--awb-color1)', '--button_border_hover_color': 'hsla( var(--awb-color4-h), var(--awb-color4-s), calc(var(--awb-color4-l) - 4%), var(--awb-color4-a) )', '--button_gradient_top_color': 'var(--awb-color6)', '--button_gradient_bottom_color': 'var( --awb-color6 )', '--button_gradient_top_color_hover': 'var( --awb-color5 )', '--button_gradient_bottom_color_hover': 'var( --awb-color5 )', '--button_typography-font-family': '"Montserrat"', '--button_typography-font-style': 'normal', '--button_typography-font-weight': '500', '--button_margin-top': '50px' } as unknown as React.CSSProperties}
                                 target="_self"
                               >
@@ -42,7 +41,7 @@ export default function Row4() {
                                 >
                                   {`Contact us`}
                                 </span>
-                              </Link>
+                              </a>
                             </div>
                           </div>
                         </div>

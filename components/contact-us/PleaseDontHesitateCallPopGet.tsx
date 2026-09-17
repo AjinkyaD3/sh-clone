@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 // Original WordPress form posted to Avada/Fusion's own ajax handler, which
 // doesn't exist in this migration - the form had no working submission path
@@ -11,8 +12,9 @@ import { useState } from "react";
 // permanently hidden, and its own JS shows one or the other) - now toggled
 // by real submission state instead of always being present in the DOM.
 export default function Row4() {
+  const router = useRouter();
   const [sending, setSending] = useState(false);
-  const [result, setResult] = useState<"success" | "error" | null>(null);
+  const [result, setResult] = useState<"error" | null>(null);
   const [emailInvalid, setEmailInvalid] = useState(false);
 
   const handleEmailBlur = (e: React.FocusEvent<HTMLInputElement>) => {
@@ -37,8 +39,7 @@ export default function Row4() {
         }),
       });
       if (!res.ok) throw new Error();
-      setResult("success");
-      e.currentTarget.reset();
+      router.push("/thank-you");
     } catch {
       setResult("error");
     } finally {
@@ -117,39 +118,6 @@ export default function Row4() {
                                                   className="form-submission-notices data-notice_1"
                                                   id="fusion-notices-1"
                                                 >
-                                                  {result === "success" && (
-                                                    <div
-                                                      className="fusion-alert alert success alert-success fusion-alert-center fusion-form-response fusion-form-response-success fusion-alert-capitalize awb-alert-native-link-color alert-dismissable awb-alert-close-boxed"
-                                                      role="alert"
-                                                      style={{ display: 'block' }}
-                                                    >
-                                                      <div
-                                                        className="fusion-alert-content-wrapper"
-                                                      >
-                                                        <span
-                                                          className="alert-icon"
-                                                        >
-                                                          <i
-                                                            aria-hidden="true"
-                                                            className="awb-icon-check-circle"
-                                                          ></i>
-                                                        </span>
-                                                        <span
-                                                          className="fusion-alert-content"
-                                                        >
-                                                          {`Thank you for your message. It has been sent.`}
-                                                        </span>
-                                                      </div>
-                                                      <button
-                                                        aria-label="Close"
-                                                        className="close toggle-alert"
-                                                        onClick={() => setResult(null)}
-                                                        type="button"
-                                                      >
-                                                        {` × `}
-                                                      </button>
-                                                    </div>
-                                                  )}
                                                   {result === "error" && (
                                                     <div
                                                       className="fusion-alert alert error alert-danger fusion-alert-center fusion-form-response fusion-form-response-error fusion-alert-capitalize awb-alert-native-link-color alert-dismissable awb-alert-close-boxed"
