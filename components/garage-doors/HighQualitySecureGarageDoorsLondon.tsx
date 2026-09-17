@@ -2,7 +2,7 @@ export default function Row5() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '100px', '--awb-padding-right': '225px', '--awb-padding-bottom': '100px', '--awb-padding-left': '226px', '--awb-padding-top-small': '63px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color6) 0%, var(--awb-color6) 0% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '100px', '--awb-padding-right': '225px', '--awb-padding-bottom': '100px', '--awb-padding-left': '226px', '--awb-padding-top-small': '40px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color6) 0%, var(--awb-color6) 0% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-align-content-center fusion-flex-justify-content-center fusion-flex-content-wrap"
