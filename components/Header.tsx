@@ -241,7 +241,26 @@ export default function Header() {
             position: relative !important;
             top: auto !important;
         }
-        ` : ''}
+        ` : `
+        /* Every other route floats this header transparently over whatever
+           hero content sits behind it (see the isLightPage comment above),
+           on the assumption that the hero is dark enough for the light
+           logo/nav to read against. That's not true for every hero - e.g.
+           /doors/communal-entrance-doors' hero photo is bright, white-toned
+           glass doors, and the white logo/nav nearly vanish into it (flagged
+           directly: "banner menu and logo is missing... add shadow to make
+           it visible"). Rather than classify every hero's brightness like
+           isLightPage does, add a drop shadow that keeps the logo/nav
+           readable against ANY background - dark hero, light hero, or
+           mid-tone photo alike. Negligible visual difference on the already-
+           dark heroes this was originally designed for. */
+        .fusion-tb-header .fusion-imageframe img {
+            filter: drop-shadow(0 1px 3px rgba(0,0,0,0.7)) drop-shadow(0 2px 10px rgba(0,0,0,0.55));
+        }
+        .fusion-tb-header .awb-menu a {
+            text-shadow: 0 1px 3px rgba(0,0,0,0.7), 0 2px 10px rgba(0,0,0,0.55);
+        }
+        `}
 
         /* Real sticky header: dock as position:fixed once .header-stuck is
            applied (see the useEffect above), using the same translucent

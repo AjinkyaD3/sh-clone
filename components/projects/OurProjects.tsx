@@ -13,9 +13,7 @@ export default function Row3() {
                           style={{ '--awb-padding-bottom': '30px', '--awb-padding-left': '120px', '--awb-padding-bottom-medium': '80px', '--awb-padding-top-small': '0px', '--awb-padding-bottom-small': '30px', '--awb-padding-left-small': '0px', '--awb-bg-position': 'center top', '--awb-bg-blend': 'overlay', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-spacing-right-small': '0%', '--awb-spacing-left-small': '0%' } as unknown as React.CSSProperties}
                         >
                           <div
-                            className="fusion-column-wrapper lazyload fusion-flex-justify-content-flex-start fusion-content-layout-column fusion-column-has-bg-image fusion-decorative-bg"
-                            data-bg-url="/legacy-assets/uploads/2015/11/avada_logo-3.png"
-                            style={{ backgroundImage: 'url("/legacy-assets/uploads/2015/11/avada_logo-3.png") !important' } as unknown as React.CSSProperties}
+                            className="fusion-column-wrapper lazyload fusion-flex-justify-content-flex-start fusion-content-layout-column"
                           >
                             <div
                               className="fusion-title title fusion-title-1 fusion-sep-none fusion-title-text fusion-title-size-four"
