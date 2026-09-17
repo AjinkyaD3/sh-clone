@@ -40,6 +40,26 @@ function isNonEmptyString(value: unknown): value is string {
   return typeof value === "string" && value.trim().length > 0;
 }
 
+// Every field below comes straight from the request body and is interpolated
+// into an HTML email - escape it first, or a submitter can inject arbitrary
+// markup/links into emails the team actually reads. Doesn't touch newlines
+// (message/enquiry are meant to be multi-line, converted to <br /> later).
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+// The subject line is built from `payload.name` - strip newlines/control
+// chars there specifically, or a crafted name could inject extra email
+// headers rather than just render oddly.
+function sanitizeForSubject(value: string): string {
+  return escapeHtml(value.replace(/[\r\n]+/g, " ")).trim();
+}
+
 function validate(payload: Partial<Payload>): string | null {
   if (payload.formType === "contact") {
     if (!isNonEmptyString(payload.name)) return "Name is required.";
@@ -60,29 +80,34 @@ function validate(payload: Partial<Payload>): string | null {
 
 function renderEmail(payload: Payload): { subject: string; html: string } {
   if (payload.formType === "contact") {
+    const message = escapeHtml(payload.message || "").replace(/\n/g, "<br />");
     return {
-      subject: `New contact form enquiry from ${payload.name}`,
+      subject: `New contact form enquiry from ${sanitizeForSubject(payload.name)}`,
       html: `
         <h2>New contact form enquiry</h2>
-        <p><strong>Name:</strong> ${payload.name}</p>
-        <p><strong>Email:</strong> ${payload.email}</p>
-        <p><strong>Phone:</strong> ${payload.phone}</p>
+        <p><strong>Name:</strong> ${escapeHtml(payload.name)}</p>
+        <p><strong>Email:</strong> ${escapeHtml(payload.email)}</p>
+        <p><strong>Phone:</strong> ${escapeHtml(payload.phone)}</p>
         <p><strong>Message:</strong></p>
-        <p>${(payload.message || "").replace(/\n/g, "<br />") || "(no message)"}</p>
+        <p>${message || "(no message)"}</p>
       `,
     };
   }
+  const interests = payload.interests.length
+    ? payload.interests.map(escapeHtml).join(", ")
+    : "(none selected)";
+  const enquiry = escapeHtml(payload.enquiry).replace(/\n/g, "<br />");
   return {
-    subject: `New quote request from ${payload.name}`,
+    subject: `New quote request from ${sanitizeForSubject(payload.name)}`,
     html: `
       <h2>New "Get a Quote" request</h2>
-      <p><strong>Interested in:</strong> ${payload.interests.length ? payload.interests.join(", ") : "(none selected)"}</p>
+      <p><strong>Interested in:</strong> ${interests}</p>
       <p><strong>Enquiry:</strong></p>
-      <p>${payload.enquiry.replace(/\n/g, "<br />")}</p>
-      <p><strong>Name:</strong> ${payload.name}</p>
-      <p><strong>Email:</strong> ${payload.email}</p>
-      <p><strong>Phone:</strong> ${payload.phone}</p>
-      <p><strong>Postal address:</strong> ${payload.address}</p>
+      <p>${enquiry}</p>
+      <p><strong>Name:</strong> ${escapeHtml(payload.name)}</p>
+      <p><strong>Email:</strong> ${escapeHtml(payload.email)}</p>
+      <p><strong>Phone:</strong> ${escapeHtml(payload.phone)}</p>
+      <p><strong>Postal address:</strong> ${escapeHtml(payload.address)}</p>
     `,
   };
 }
