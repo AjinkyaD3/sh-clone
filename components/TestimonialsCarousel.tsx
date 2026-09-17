@@ -68,9 +68,38 @@ export default function TestimonialsCarousel() {
         return { dot, handler };
       });
 
+      // Same reasoning as HeroSlider's swipe support: the pagination dots
+      // are the only way to change reviews by hand, and on a phone this
+      // whole panel reads as swipeable. A plain horizontal-delta swipe
+      // (touchstart X vs. touchend X) reuses goTo() exactly like a dot
+      // click does, so it stays consistent with the instant-swap
+      // transition this widget already has - no drag-following motion to
+      // build.
+      let touchStartX: number | null = null;
+      const SWIPE_THRESHOLD = 50;
+      const onTouchStart = (e: TouchEvent) => {
+        touchStartX = e.touches[0].clientX;
+      };
+      const onTouchEnd = (e: TouchEvent) => {
+        if (touchStartX === null) return;
+        const delta = e.changedTouches[0].clientX - touchStartX;
+        touchStartX = null;
+        if (Math.abs(delta) < SWIPE_THRESHOLD) return;
+        window.clearInterval(timer);
+        const next = delta < 0
+          ? (currentIndex() + 1) % reviews.length
+          : (currentIndex() - 1 + reviews.length) % reviews.length;
+        goTo(next);
+        timer = window.setInterval(() => goTo((currentIndex() + 1) % reviews.length), speed);
+      };
+      widget.addEventListener("touchstart", onTouchStart, { passive: true });
+      widget.addEventListener("touchend", onTouchEnd);
+
       cleanups.push(() => {
         window.clearInterval(timer);
         handlers.forEach(({ dot, handler }) => dot.removeEventListener("click", handler));
+        widget.removeEventListener("touchstart", onTouchStart);
+        widget.removeEventListener("touchend", onTouchEnd);
         delete widget.dataset.testimonialsWired;
       });
     });

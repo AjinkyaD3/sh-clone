@@ -428,12 +428,22 @@ export default function Header() {
 												styles are used (rather than relying on external Avada/Fusion CSS) because
 												this Next.js migration does not load the theme's structural stylesheet
 												site-wide for every route.
+
+												Main-category links (Doors/Windows/Grilles/Garage doors/Projects/About
+												Us/Trade/Blog/Contact us) are #fff here rather than the source's
+												#dcd7ca: that pale cream only hits ~3.2:1 contrast against this panel's
+												#847b73 background (vs. ~4.6:1 for the #fff sub-links right next to
+												them), reading as washed out/low-contrast on a phone screen - this is
+												the mobile menu (row-2's off-canvas trigger opens this same panel, see
+												the wiring comment above). Left the sub-product links (UNICO SLIM LINE
+												etc.) and the "Explore door styles" button at their original colors -
+												not what was reported as illegible.
 											*/}
 											<div style={{ display: 'grid', gridTemplateColumns: '25% 25% 22% 28%', columnGap: '56px', rowGap: 0, alignItems: 'start', width: '100%' }}>
 												{/* Column 1: DOORS */}
 												<div>
 													<div style={{ marginBottom: '30px' }}>
-														<a href="/doors/" style={{ color: '#dcd7ca', fontWeight: 600, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', textDecoration: 'none', display: 'block' }}>Doors</a>
+														<a href="/doors/" style={{ color: '#fff', fontWeight: 600, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', textDecoration: 'none', display: 'block' }}>Doors</a>
 													</div>
 													<div style={{ color: '#635548', fontWeight: 500, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em' }}>Residential doors</div>
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
@@ -461,14 +471,14 @@ export default function Header() {
 												{/* Column 2: WINDOWS + GRILLES, SHUTTERS */}
 												<div style={{ paddingTop: '40px' }}>
 													<div style={{ marginBottom: '10px' }}>
-														<a href="/windows/" style={{ color: '#dcd7ca', fontWeight: 600, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', textDecoration: 'none', display: 'block' }}>Windows</a>
+														<a href="/windows/" style={{ color: '#fff', fontWeight: 600, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', textDecoration: 'none', display: 'block' }}>Windows</a>
 													</div>
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
 														<li><a href="/windows/high-security-steel-windows/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>High security steel windows</a></li>
 														<li><a href="/windows/security-aluminium-windows/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Security aluminium windows</a></li>
 													</ul>
 													<div style={{ marginTop: '60px', marginBottom: '10px' }}>
-														<a href="/grilles-shutters/" style={{ color: '#dcd7ca', fontWeight: 600, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', textDecoration: 'none', display: 'block' }}>Grilles, shutters</a>
+														<a href="/grilles-shutters/" style={{ color: '#fff', fontWeight: 600, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', textDecoration: 'none', display: 'block' }}>Grilles, shutters</a>
 													</div>
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
 														<li><a href="/grilles-shutters/security-shutters/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Security shutters</a></li>
@@ -480,7 +490,7 @@ export default function Header() {
 												{/* Column 3: GARAGE DOORS */}
 												<div style={{ paddingTop: '40px' }}>
 													<div style={{ marginBottom: '10px' }}>
-														<a href="/garage-doors/" style={{ color: '#dcd7ca', fontWeight: 600, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', textDecoration: 'none', display: 'block' }}>Garage doors</a>
+														<a href="/garage-doors/" style={{ color: '#fff', fontWeight: 600, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', textDecoration: 'none', display: 'block' }}>Garage doors</a>
 													</div>
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
 														<li><a href="/garage-doors/sectional-garage-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Sectional garage doors</a></li>
@@ -493,11 +503,11 @@ export default function Header() {
 												{/* Column 4: flat links (Products off-canvas menu) */}
 												<div style={{ paddingTop: '30px' }}>
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
-														<li><a href="/projects/" style={{ color: '#dcd7ca', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Projects</a></li>
-														<li><a href="/about-us/" style={{ color: '#dcd7ca', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>About Us</a></li>
-														<li><a href="/trade/" style={{ color: '#dcd7ca', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Trade</a></li>
-														<li><a href="/blog/" style={{ color: '#dcd7ca', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Blog</a></li>
-														<li><a href="/contact-us/" style={{ color: '#dcd7ca', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Contact us</a></li>
+														<li><a href="/projects/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Projects</a></li>
+														<li><a href="/about-us/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>About Us</a></li>
+														<li><a href="/trade/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Trade</a></li>
+														<li><a href="/blog/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Blog</a></li>
+														<li><a href="/contact-us/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Contact us</a></li>
 													</ul>
 												</div>
 											</div>

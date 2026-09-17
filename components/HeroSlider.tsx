@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Link from 'next/link';
 import styles from './HeroSlider.module.css';
 
@@ -38,8 +38,36 @@ const slides: Slide[] = [
 export default function HeroSlider() {
   const [active, setActive] = useState(0);
 
+  // Dots are the only way to change slides right now - on a phone, a
+  // full-bleed hero like this reads as swipeable, and tapping a tiny dot
+  // 700px below the fold isn't a real alternative. Track the touch start X
+  // and compare against touchend: a plain horizontal-delta swipe (no drag-
+  // following animation) matches how dot-clicking already changes slides -
+  // an instant crossfade, not a physical carousel - so this doesn't need to
+  // reimplement the slider's motion, just give it a second trigger.
+  const touchStartX = useRef<number | null>(null);
+  const SWIPE_THRESHOLD = 50;
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const delta = e.changedTouches[0].clientX - touchStartX.current;
+    touchStartX.current = null;
+    if (Math.abs(delta) < SWIPE_THRESHOLD) return;
+    setActive((prev) =>
+      delta < 0 ? (prev + 1) % slides.length : (prev - 1 + slides.length) % slides.length,
+    );
+  };
+
   return (
-    <div className={styles.slider}>
+    <div
+      className={styles.slider}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+    >
       {slides.map((slide, i) => (
         <div
           key={i}
