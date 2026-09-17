@@ -52,6 +52,26 @@ const contentSecurityPolicy = [
 ].join("; ");
 
 const nextConfig: NextConfig = {
+  // Old-site URLs with no live equivalent on this site. Redirect rather than
+  // let them 404 once this domain actually points here - preserves whatever
+  // SEO value/inbound links still point at them by sending visitors
+  // somewhere useful instead of a dead end.
+  async redirects() {
+    return [
+      {
+        // Archived scrape of this page turned out to have no real body
+        // content at all (checked: just shared nav/footer boilerplate) -
+        // and the page 404s on the live WordPress site too, though its own
+        // nav still links to it. No real content exists anywhere to
+        // restore a real page from - redirecting to the hub as a stopgap
+        // until someone writes real copy for it. See migration-log/
+        // CHANGES-NEEDED.md's "SEO audit" entry for the full story.
+        source: "/doors/industrial-style-doors",
+        destination: "/doors",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     const securityHeaders = [
       { key: "X-Frame-Options", value: "SAMEORIGIN" },
