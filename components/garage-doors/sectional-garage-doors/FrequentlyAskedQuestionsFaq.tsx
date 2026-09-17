@@ -538,6 +538,79 @@ export default function Row24() {
                                 </div>
                               </div>
                             </div>
+                            <script
+                              type="application/ld+json"
+                              dangerouslySetInnerHTML={{ __html: JSON.stringify({
+                                "@context": "https://schema.org",
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                  {
+                                    "@type": "Question",
+                                    "name": "What are sectional garage doors?",
+                                    "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Sectional garage doors are made up of several horizontal panels that slide upward and into the garage space on tracks, rather than swinging outward. This design saves driveway and garage space and offers smooth operation."
+                                    }
+                                  },
+                                  {
+                                    "@type": "Question",
+                                    "name": "Why choose sectional garage doors in London?",
+                                    "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Sectional garage doors are ideal for London properties because they: Maximize usable garage space inside and outside, Offer excellent insulation and security for homes in urban areas, Can be fully customised in size, colour and finish to suit different architectural styles."
+                                    }
+                                  },
+                                  {
+                                    "@type": "Question",
+                                    "name": "What design options are available for sectional garage doors?",
+                                    "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "There’s a wide range of panel designs, colours, surface textures and optional features such as windows and customised hardware. Many providers offer over 100 variations to match both modern and classic property styles."
+                                    }
+                                  },
+                                  {
+                                    "@type": "Question",
+                                    "name": "Can sectional garage doors be insulated?",
+                                    "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes — sectional garage doors can come with insulation to improve thermal efficiency, helping to maintain stable internal temperatures and reduce noise."
+                                    }
+                                  },
+                                  {
+                                    "@type": "Question",
+                                    "name": "What maintenance is required for sectional garage doors?",
+                                    "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Regular maintenance ensures smooth operation and long life. Common tasks include lubricating moving parts, checking tracks and springs, and ensuring seals and insulation elements remain intact. Specific maintenance plans can also be arranged with your installer."
+                                    }
+                                  },
+                                  {
+                                    "@type": "Question",
+                                    "name": "How do side sliding sectional garage doors differ from traditional sectional garage doors?",
+                                    "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Traditional sectional doors open upward and tuck under the ceiling, while side sliding sectional doors move horizontally along a track beside the garage opening — saving overhead space and often providing more flexible access."
+                                    }
+                                  },
+                                  {
+                                    "@type": "Question",
+                                    "name": "Are side sliding sectional garage doors suitable for Liverpool homes?",
+                                    "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes — side sliding sectional doors are suitable for properties in Liverpool where ceiling space might be limited or where you want to maximise interior storage and ease of access. Their horizontal sliding motion is especially useful when overhead clearance is a challenge."
+                                    }
+                                  },
+                                  {
+                                    "@type": "Question",
+                                    "name": "Can sectional garage doors be automated?",
+                                    "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Absolutely — both standard sectional and side sliding sectional garage doors can be fitted with electric operators to allow opening and closing via remote control or automation systems."
+                                    }
+                                  }
+                                ]
+                              }) }}
+                            />
                           </div>
                         </div>
                       </div>
