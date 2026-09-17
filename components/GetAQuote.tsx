@@ -139,19 +139,19 @@ export default function GetAQuote() {
               </label>
               <label className="get-a-quote-field">
                 Name <span aria-hidden="true">*</span>
-                <input name="name" type="text" required />
+                <input name="name" type="text" autoComplete="name" required />
               </label>
               <label className="get-a-quote-field">
                 Email <span aria-hidden="true">*</span>
-                <input name="email" type="email" required />
+                <input name="email" type="email" autoComplete="email" required />
               </label>
               <label className="get-a-quote-field">
                 Phone number <span aria-hidden="true">*</span>
-                <input name="phone" type="tel" required />
+                <input name="phone" type="tel" autoComplete="tel" required />
               </label>
               <label className="get-a-quote-field">
                 Full postal address <span aria-hidden="true">*</span>
-                <input name="address" type="text" required />
+                <input name="address" type="text" autoComplete="street-address" required />
               </label>
               {error && <p className="get-a-quote-error">{error}</p>}
               <button type="submit" className="get-a-quote-submit" disabled={sending}>
