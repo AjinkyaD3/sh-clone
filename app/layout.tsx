@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import "./theme-globals.css";
 import "./fonts.css";
 import Header from "../components/Header";
@@ -627,6 +629,8 @@ export default function RootLayout({
         <GalleryLoadMore />
         <TestimonialsCarousel />
         <GetAQuote />
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
