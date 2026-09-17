@@ -15,8 +15,16 @@ export default function Header() {
 	// style floats transparently on top of a dark hero image, so on these
 	// pages (plain cream background right at the top) it collided with the
 	// breadcrumb/title instead of sitting on its own solid bar - same root
-	// cause already fixed for /projects.
-	const LIGHT_PAGE_PREFIXES = ['/projects', '/doors/profile-doors/', '/thank-you'];
+	// cause already fixed for /projects. Also covers pages that DO have a
+	// hero photo but a bright one, where the floating white-on-transparent
+	// header washes out into it - communal-entrance-doors and about-us,
+	// flagged directly ("banner menu and logo is missing... add shadow to
+	// make it visible", then confirmed the fix should be a dedicated white
+	// bar above the photo, not an overlay - "space before the img in top
+	// like a strip", same treatment as /projects, not a shadow/overlay
+	// trick). The hero photo simply starts below the header's own bar
+	// instead of behind it.
+	const LIGHT_PAGE_PREFIXES = ['/projects', '/doors/profile-doors/', '/thank-you', '/doors/communal-entrance-doors', '/about-us'];
 	const isLightPage = LIGHT_PAGE_PREFIXES.some((p) => pathname?.startsWith(p));
 
 	// The full-screen PRODUCTS panel is rendered via a portal straight into
@@ -245,15 +253,13 @@ export default function Header() {
         /* Every other route floats this header transparently over whatever
            hero content sits behind it (see the isLightPage comment above),
            on the assumption that the hero is dark enough for the light
-           logo/nav to read against. That's not true for every hero - e.g.
-           /doors/communal-entrance-doors' hero photo is bright, white-toned
-           glass doors, and the white logo/nav nearly vanish into it (flagged
-           directly: "banner menu and logo is missing... add shadow to make
-           it visible"). Rather than classify every hero's brightness like
-           isLightPage does, add a drop shadow that keeps the logo/nav
-           readable against ANY background - dark hero, light hero, or
-           mid-tone photo alike. Negligible visual difference on the already-
-           dark heroes this was originally designed for. */
+           logo/nav to read against. That's usually true, but as a safety
+           net for any other page with an unexpectedly bright/busy hero, add
+           a drop shadow that keeps the logo/nav readable regardless -
+           negligible visual difference on the dark heroes this was
+           originally designed for. (communal-entrance-doors and about-us
+           got the full isLightPage treatment above instead, per direct
+           request for a dedicated white bar rather than an overlay.) */
         .fusion-tb-header .fusion-imageframe img {
             filter: drop-shadow(0 1px 3px rgba(0,0,0,0.7)) drop-shadow(0 2px 10px rgba(0,0,0,0.55));
         }
