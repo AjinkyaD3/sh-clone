@@ -234,7 +234,7 @@ export default function Row4() {
                                   <Link
                                     href="/inspiration/high-tech-protection-with-traditional-design"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                    style={{ display: 'flex', textDecoration: 'none' }}
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-9 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -270,7 +270,7 @@ export default function Row4() {
                                   <Link
                                     href="/inspiration/entire-home-protection"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                    style={{ display: 'flex', textDecoration: 'none' }}
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-11 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -306,7 +306,7 @@ export default function Row4() {
                                   <Link
                                     href="/inspiration/industrial-steel-doors-with-glass"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                    style={{ display: 'flex', textDecoration: 'none' }}
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-13 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -342,7 +342,7 @@ export default function Row4() {
                                   <Link
                                     href="/inspiration/yvon-house-security-communal-door"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                    style={{ display: 'flex', textDecoration: 'none' }}
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-15 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -378,7 +378,7 @@ export default function Row4() {
                                   <Link
                                     href="/inspiration/full-house-project-in-hertfordshire"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                    style={{ display: 'flex', textDecoration: 'none' }}
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-17 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -411,10 +411,8 @@ export default function Row4() {
                                       className="fusion-column-inner-bg-image"
                                     ></span>
                                   </span>
-                                  <Link
-                                    href="/inspiration/new-build-in-bedfordshire"
+                                  <div
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                    style={{ display: 'flex', textDecoration: 'none' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-19 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -433,7 +431,7 @@ export default function Row4() {
                                         {` New build in Bedfordshire `}
                                       </h4>
                                     </div>
-                                  </Link>
+                                  </div>
                                 </li>
                                 <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-15 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column specialist-profile-doors"

@@ -40,6 +40,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <div>
+      <link rel="stylesheet" href="/legacy-assets/uploads/fusion-styles/3978f22170001630860f0711fbc80184.min.css" />
       <Hero />
       <Breadcrumb />
       <KeyFeatures />

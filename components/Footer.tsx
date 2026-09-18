@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
 	return (
-		<div className="fusion-tb-footer fusion-footer">
+		<div className="fusion-tb-footer fusion-footer" style={{ overflowX: 'hidden' }}>
 			<div className="fusion-footer-widget-area fusion-widget-area">
 				<div className="fusion-fullwidth fullwidth-box fusion-builder-row-13 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling" style={{ "--link_color": "var(--awb-color1)", "--awb-border-radius-top-left": "0px", "--awb-border-radius-top-right": "0px", "--awb-border-radius-bottom-right": "0px", "--awb-border-radius-bottom-left": "0px", "--awb-padding-top": "70px", "--awb-padding-right": "80px", "--awb-padding-bottom": "51px", "--awb-padding-left": "120px", "--awb-padding-top-small": "100px", "--awb-padding-right-small": "40px", "--awb-padding-left-small": "40px", "--awb-margin-top": "0px", "--awb-background-color": "#6c655e", "--awb-flex-wrap": "wrap" } as any}>
 					<div className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap" style={{ "width": "104% !important", "maxWidth": "104% !important", "marginLeft": "calc(-4% / 2 )", "marginRight": "calc(-4% / 2 )" } as any}>

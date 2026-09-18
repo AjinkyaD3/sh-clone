@@ -50,7 +50,7 @@ export default function OurProjects() {
                                     <Link
                                       href="/inspiration/high-tech-protection-with-traditional-design"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                      style={{ display: 'flex', textDecoration: 'none' }}
+                                      style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-11 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -80,7 +80,7 @@ export default function OurProjects() {
                                     <Link
                                       href="/inspiration/entire-home-protection"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                      style={{ display: 'flex', textDecoration: 'none' }}
+                                      style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-13 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -110,7 +110,7 @@ export default function OurProjects() {
                                     <Link
                                       href="/inspiration/industrial-steel-doors-with-glass"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                      style={{ display: 'flex', textDecoration: 'none' }}
+                                      style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-15 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -140,7 +140,7 @@ export default function OurProjects() {
                                     <Link
                                       href="/inspiration/yvon-house-security-communal-door"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                      style={{ display: 'flex', textDecoration: 'none' }}
+                                      style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-17 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -170,7 +170,7 @@ export default function OurProjects() {
                                     <Link
                                       href="/inspiration/full-house-project-in-hertfordshire"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                      style={{ display: 'flex', textDecoration: 'none' }}
+                                      style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-19 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -197,10 +197,8 @@ export default function OurProjects() {
                                         className="fusion-column-inner-bg-image"
                                       ></span>
                                     </span>
-                                    <Link
-                                      href="/inspiration/new-build-in-bedfordshire"
+                                    <div
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                      style={{ display: 'flex', textDecoration: 'none' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-21 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -213,7 +211,7 @@ export default function OurProjects() {
                                           {` New build in Bedfordshire `}
                                         </h2>
                                       </div>
-                                    </Link>
+                                    </div>
                                   </li>
                                 </ul>
                               </div>
