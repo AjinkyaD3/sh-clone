@@ -18,8 +18,8 @@ export default function Row4() {
                             className="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"
                           >
                             <div
-                              className="fusion-post-cards fusion-post-cards-1 fusion-grid-archive fusion-grid-columns-2"
-                              style={{ '--awb-column-spacing': '10px', '--awb-dots-align': 'center', '--awb-columns': '2', '--awb-filters-font-size': '18px', '--awb-filters-color': 'var(--awb-color5)', '--awb-active-filter-border-size': '3px', '--awb-filters-height': '36px', '--awb-row-spacing': '10px', '--awb-filters-alignment-medium': 'flex-start', '--awb-filters-alignment-small': 'flex-start' } as unknown as React.CSSProperties}
+                              className="fusion-post-cards fusion-post-cards-1 fusion-grid-archive fusion-grid-columns-3"
+                              style={{ '--awb-column-spacing': '0px', '--awb-dots-align': 'center', '--awb-columns': '3', '--awb-filters-font-size': '18px', '--awb-filters-color': 'var(--awb-color5)', '--awb-active-filter-border-size': '3px', '--awb-filters-height': '36px', '--awb-row-spacing': '0px', '--awb-filters-alignment-medium': 'flex-start', '--awb-filters-alignment-small': 'flex-start' } as unknown as React.CSSProperties}
                             >
                               <div>
                                 <ul
@@ -114,7 +114,7 @@ export default function Row4() {
                                 </ul>
                               </div>
                               <ul
-                                className="fusion-grid fusion-grid-2 fusion-flex-align-items-stretch fusion-grid-posts-cards fusion-grid-container-infinite"
+                                className="fusion-grid fusion-grid-3 fusion-flex-align-items-flex-start fusion-grid-posts-cards fusion-grid-container-infinite"
                                 data-pages="3"
                               >
                                 <li
