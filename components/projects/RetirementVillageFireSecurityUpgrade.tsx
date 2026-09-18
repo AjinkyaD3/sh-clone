@@ -369,6 +369,294 @@ export default function Row4() {
                                     </div>
                                   </Link>
                                 </li>
+                                <li
+                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-30 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column windows"
+                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
+                                  style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/03/Victoria_with_transom.webp")', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                >
+                                  <span
+                                    className="fusion-column-inner-bg hover-type-liftup"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image"
+                                    ></span>
+                                  </span>
+                                  <Link
+                                    href="/inspiration/lead-glass"
+                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
+                                  >
+                                    <div
+                                      className="fusion-title title fusion-title-30 fusion-sep-none fusion-title-text fusion-title-size-four"
+                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
+                                    >
+                                      <div
+                                        className="project-category-subtitle"
+                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  WINDOWS  `}
+                                      </div>
+                                      <h4
+                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  Lead glass doors  `}
+                                      </h4>
+                                    </div>
+                                  </Link>
+                                </li>
+                                <li
+                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-31 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column shutters-grilles"
+                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
+                                  style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/02/roller-shutters.webp")', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                >
+                                  <span
+                                    className="fusion-column-inner-bg hover-type-liftup"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image"
+                                    ></span>
+                                  </span>
+                                  <Link
+                                    href="/inspiration/whole-house-security-shutter-project"
+                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
+                                  >
+                                    <div
+                                      className="fusion-title title fusion-title-31 fusion-sep-none fusion-title-text fusion-title-size-four"
+                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
+                                    >
+                                      <div
+                                        className="project-category-subtitle"
+                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  GRILLES, SHUTTERS  `}
+                                      </div>
+                                      <h4
+                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  Whole house security shutter project  `}
+                                      </h4>
+                                    </div>
+                                  </Link>
+                                </li>
+                                <li
+                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-32 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column residential-doors"
+                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
+                                  style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/03/double-door-wood-finish.webp")', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                >
+                                  <span
+                                    className="fusion-column-inner-bg hover-type-liftup"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image"
+                                    ></span>
+                                  </span>
+                                  <Link
+                                    href="/inspiration/your-number-one-choice-for-area-conservation-doors"
+                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
+                                  >
+                                    <div
+                                      className="fusion-title title fusion-title-32 fusion-sep-none fusion-title-text fusion-title-size-four"
+                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
+                                    >
+                                      <div
+                                        className="project-category-subtitle"
+                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  DOORS  `}
+                                      </div>
+                                      <h4
+                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  Your number one choice for area conservation doors  `}
+                                      </h4>
+                                    </div>
+                                  </Link>
+                                </li>
+                                <li
+                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-33 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column commercial-doors"
+                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
+                                  style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/03/black-high-security-doors-rotated.webp")', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                >
+                                  <span
+                                    className="fusion-column-inner-bg hover-type-liftup"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image"
+                                    ></span>
+                                  </span>
+                                  <Link
+                                    href="/inspiration/controlled-drug-license-door-requirements"
+                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
+                                  >
+                                    <div
+                                      className="fusion-title title fusion-title-33 fusion-sep-none fusion-title-text fusion-title-size-four"
+                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
+                                    >
+                                      <div
+                                        className="project-category-subtitle"
+                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  DOORS  `}
+                                      </div>
+                                      <h4
+                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  Controlled drug license door requirements  `}
+                                      </h4>
+                                    </div>
+                                  </Link>
+                                </li>
+                                <li
+                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-34 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column windows"
+                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
+                                  style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/03/high_gloss_3_panel_mirror_finish_piano.webp")', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                >
+                                  <span
+                                    className="fusion-column-inner-bg hover-type-liftup"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image"
+                                    ></span>
+                                  </span>
+                                  <Link
+                                    href="/inspiration/curved-glass"
+                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
+                                  >
+                                    <div
+                                      className="fusion-title title fusion-title-34 fusion-sep-none fusion-title-text fusion-title-size-four"
+                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
+                                    >
+                                      <div
+                                        className="project-category-subtitle"
+                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  WINDOWS  `}
+                                      </div>
+                                      <h4
+                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  Curved glass doors & windows  `}
+                                      </h4>
+                                    </div>
+                                  </Link>
+                                </li>
+                                <li
+                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-35 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column residential-doors"
+                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
+                                  style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/03/double-door-2.webp")', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                >
+                                  <span
+                                    className="fusion-column-inner-bg hover-type-liftup"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image"
+                                    ></span>
+                                  </span>
+                                  <Link
+                                    href="/inspiration/folding-doors-doors-in-action"
+                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
+                                  >
+                                    <div
+                                      className="fusion-title title fusion-title-35 fusion-sep-none fusion-title-text fusion-title-size-four"
+                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
+                                    >
+                                      <div
+                                        className="project-category-subtitle"
+                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  DOORS  `}
+                                      </div>
+                                      <h4
+                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  Folding doors: doors in action  `}
+                                      </h4>
+                                    </div>
+                                  </Link>
+                                </li>
+                                <li
+                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-36 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column residential-doors"
+                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
+                                  style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/01/079._french_security_door_bullet_proof.webp")', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                >
+                                  <span
+                                    className="fusion-column-inner-bg hover-type-liftup"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image"
+                                    ></span>
+                                  </span>
+                                  <Link
+                                    href="/inspiration/french-doors-in-the-making-at-a-luxurious-full-house-project"
+                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
+                                  >
+                                    <div
+                                      className="fusion-title title fusion-title-36 fusion-sep-none fusion-title-text fusion-title-size-four"
+                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
+                                    >
+                                      <div
+                                        className="project-category-subtitle"
+                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  DOORS  `}
+                                      </div>
+                                      <h4
+                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  French doors in the making at a luxurious full house project  `}
+                                      </h4>
+                                    </div>
+                                  </Link>
+                                </li>
+                                <li
+                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-37 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column residential-doors"
+                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
+                                  style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/03/black-wide-high-security-doors.webp")', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                >
+                                  <span
+                                    className="fusion-column-inner-bg hover-type-liftup"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image"
+                                    ></span>
+                                  </span>
+                                  <Link
+                                    href="/inspiration/residential-projects-building-regulation-compliance-secure-house"
+                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
+                                  >
+                                    <div
+                                      className="fusion-title title fusion-title-37 fusion-sep-none fusion-title-text fusion-title-size-four"
+                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
+                                    >
+                                      <div
+                                        className="project-category-subtitle"
+                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  PROJECTS  `}
+                                      </div>
+                                      <h4
+                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
+                                      >
+                                        {`  Residential projects + building regulation compliance  `}
+                                      </h4>
+                                    </div>
+                                  </Link>
+                                </li>
                               </ul>
                               <div
                                 className="fusion-infinite-scroll-trigger"
