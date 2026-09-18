@@ -24,7 +24,13 @@ export default function Header() {
 	// like a strip", same treatment as /projects, not a shadow/overlay
 	// trick). The hero photo simply starts below the header's own bar
 	// instead of behind it.
-	const LIGHT_PAGE_PREFIXES = ['/projects', '/doors/profile-doors/', '/thank-you', '/doors/communal-entrance-doors', '/about-us', '/doors/industrial-style-doors', '/blog/', '/inspiration/'];
+	// All door/window/garage-door/shutter product & category pages get the
+	// light (white bar) header treatment together, even the ones whose hero
+	// photo alone would have read fine with the default transparent header -
+	// visual consistency across pages users click between directly, in the
+	// same nav family, matters more than optimizing per-page for whatever a
+	// given hero photo looks like.
+	const LIGHT_PAGE_PREFIXES = ['/projects', '/doors', '/door-styles', '/garage-doors', '/grilles-shutters', '/windows', '/thank-you', '/about-us', '/blog/', '/inspiration/'];
 	const isLightPage = LIGHT_PAGE_PREFIXES.some((p) => pathname?.startsWith(p));
 
 	// The full-screen PRODUCTS panel is rendered via a portal straight into
