@@ -7,7 +7,7 @@ export default function Breadcrumb() {
       style={{
         fontSize: "14px",
         color: "#847b73",
-        padding: "24px 40px 0",
+        padding: "24px 40px",
       }}
     >
       <Link href="/">Home</Link>

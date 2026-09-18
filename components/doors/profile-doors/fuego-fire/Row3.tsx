@@ -20,7 +20,7 @@ export default function Row3() {
                             <nav
                               aria-label="Breadcrumb"
                               className="fusion-breadcrumbs awb-yoast-breadcrumbs fusion-breadcrumbs-1"
-                              style={{ '--awb-font-size': '14px', '--awb-breadcrumb-sep': '"-"' } as unknown as React.CSSProperties}
+                              style={{ paddingTop: '24px', paddingBottom: '24px', '--awb-font-size': '14px', '--awb-breadcrumb-sep': '"-"' } as unknown as React.CSSProperties}
                             >
                               <span>
                                 <span>
