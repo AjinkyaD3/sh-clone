@@ -30,7 +30,7 @@ export default function OurProjects() {
                               </div>
                               <div
                                 className="fusion-post-cards fusion-post-cards-1 fusion-grid-archive fusion-grid-columns-3"
-                                style={{ '--awb-column-spacing': '0px', background: 'grey', '--awb-dots-align': 'center', '--awb-columns': '3', '--awb-active-filter-border-size': '3px', '--awb-filters-height': '36px', '--awb-row-spacing': '0px', '--awb-margin-top': '90px' } as unknown as React.CSSProperties}
+                                style={{ '--awb-column-spacing': '0px', '--awb-dots-align': 'center', '--awb-columns': '3', '--awb-active-filter-border-size': '3px', '--awb-filters-height': '36px', '--awb-row-spacing': '0px', '--awb-margin-top': '90px' } as unknown as React.CSSProperties}
                               >
                                 <ul
                                   className="fusion-grid fusion-grid-3 fusion-flex-align-items-flex-start fusion-grid-posts-cards"
@@ -38,7 +38,7 @@ export default function OurProjects() {
                                   <li
                                     className="fusion-layout-column fusion_builder_column fusion-builder-column-17 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"
                                     data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': '#847b73', '--awb-inner-bg-color-hover': '#847b73', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
                                   >
                                     <span
                                       className="fusion-column-inner-bg hover-type-liftup"
@@ -56,6 +56,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-11 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
+                                        <div
+                                          className="project-category-subtitle"
+                                          style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                        >
+                                          {` PROJECTS `}
+                                        </div>
                                         <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
@@ -68,7 +74,7 @@ export default function OurProjects() {
                                   <li
                                     className="fusion-layout-column fusion_builder_column fusion-builder-column-18 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"
                                     data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': '#847b73', '--awb-inner-bg-color-hover': '#847b73', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
                                   >
                                     <span
                                       className="fusion-column-inner-bg hover-type-liftup"
@@ -86,6 +92,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-13 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
+                                        <div
+                                          className="project-category-subtitle"
+                                          style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                        >
+                                          {` PROJECTS `}
+                                        </div>
                                         <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
@@ -98,7 +110,7 @@ export default function OurProjects() {
                                   <li
                                     className="fusion-layout-column fusion_builder_column fusion-builder-column-19 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"
                                     data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': '#847b73', '--awb-inner-bg-color-hover': '#847b73', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
                                   >
                                     <span
                                       className="fusion-column-inner-bg hover-type-liftup"
@@ -116,6 +128,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-15 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
+                                        <div
+                                          className="project-category-subtitle"
+                                          style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                        >
+                                          {` PROJECTS `}
+                                        </div>
                                         <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
@@ -128,7 +146,7 @@ export default function OurProjects() {
                                   <li
                                     className="fusion-layout-column fusion_builder_column fusion-builder-column-20 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"
                                     data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': '#847b73', '--awb-inner-bg-color-hover': '#847b73', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
                                   >
                                     <span
                                       className="fusion-column-inner-bg hover-type-liftup"
@@ -146,6 +164,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-17 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
+                                        <div
+                                          className="project-category-subtitle"
+                                          style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                        >
+                                          {` PROJECTS `}
+                                        </div>
                                         <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
@@ -158,7 +182,7 @@ export default function OurProjects() {
                                   <li
                                     className="fusion-layout-column fusion_builder_column fusion-builder-column-21 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"
                                     data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': '#847b73', '--awb-inner-bg-color-hover': '#847b73', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
                                   >
                                     <span
                                       className="fusion-column-inner-bg hover-type-liftup"
@@ -176,6 +200,12 @@ export default function OurProjects() {
                                         className="fusion-title title fusion-title-19 fusion-sep-none fusion-title-text fusion-title-size-four"
                                         style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
                                       >
+                                        <div
+                                          className="project-category-subtitle"
+                                          style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
+                                        >
+                                          {` PROJECTS `}
+                                        </div>
                                         <h2
                                           className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                           style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
@@ -184,34 +214,6 @@ export default function OurProjects() {
                                         </h2>
                                       </div>
                                     </Link>
-                                  </li>
-                                  <li
-                                    className="fusion-layout-column fusion_builder_column fusion-builder-column-22 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"
-                                    data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                                    style={{ '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
-                                  >
-                                    <span
-                                      className="fusion-column-inner-bg hover-type-liftup"
-                                    >
-                                      <span
-                                        className="fusion-column-inner-bg-image"
-                                      ></span>
-                                    </span>
-                                    <div
-                                      className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                    >
-                                      <div
-                                        className="fusion-title title fusion-title-21 fusion-sep-none fusion-title-text fusion-title-size-four"
-                                        style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
-                                      >
-                                        <h2
-                                          className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
-                                          style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
-                                        >
-                                          {` New build in Bedfordshire `}
-                                        </h2>
-                                      </div>
-                                    </div>
                                   </li>
                                 </ul>
                               </div>

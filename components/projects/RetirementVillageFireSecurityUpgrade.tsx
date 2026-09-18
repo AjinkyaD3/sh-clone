@@ -118,74 +118,6 @@ export default function Row4() {
                                 data-pages="3"
                               >
                                 <li
-                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-6 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column commercial-doors"
-                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                                  style={{ '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/03/double-door-grey-bespoke-handles-800x1067.webp")', '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
-                                >
-                                  <span
-                                    className="fusion-column-inner-bg hover-type-liftup"
-                                  >
-                                    <span
-                                      className="fusion-column-inner-bg-image"
-                                    ></span>
-                                  </span>
-                                  <div
-                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                  >
-                                    <div
-                                      className="fusion-title title fusion-title-3 fusion-sep-none fusion-title-text fusion-title-size-four"
-                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
-                                    >
-                                      <div
-                                        className="project-category-subtitle"
-                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
-                                      >
-                                        {` PROJECTS `}
-                                      </div>
-                                      <h4
-                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
-                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
-                                      >
-                                        {` Retirement Village Fire & Security Upgrade `}
-                                      </h4>
-                                    </div>
-                                  </div>
-                                </li>
-                                <li
-                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-7 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column residential-doors"
-                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                                  style={{ '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/04/panic-room-bespoke-sliding-security-door-1-800x1422.webp")', '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
-                                >
-                                  <span
-                                    className="fusion-column-inner-bg hover-type-liftup"
-                                  >
-                                    <span
-                                      className="fusion-column-inner-bg-image"
-                                    ></span>
-                                  </span>
-                                  <div
-                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                  >
-                                    <div
-                                      className="fusion-title title fusion-title-5 fusion-sep-none fusion-title-text fusion-title-size-four"
-                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
-                                    >
-                                      <div
-                                        className="project-category-subtitle"
-                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
-                                      >
-                                        {` PROJECTS `}
-                                      </div>
-                                      <h4
-                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
-                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
-                                      >
-                                        {` Bespoke Security & Aesthetic Upgrade – Full House Project in London `}
-                                      </h4>
-                                    </div>
-                                  </div>
-                                </li>
-                                <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-8 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column shutters-grilles"
                                   data-scroll-devices="small-visibility,medium-visibility,large-visibility"
                                   style={{ '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/03/double-door-grey-bespoke-handles-800x1067.webp")', '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
@@ -197,8 +129,10 @@ export default function Row4() {
                                       className="fusion-column-inner-bg-image"
                                     ></span>
                                   </span>
-                                  <div
+                                  <Link
+                                    href="/inspiration/sports-pavilion-secured-with-high-performance-shutters"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-7 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -217,7 +151,7 @@ export default function Row4() {
                                         {` Sports pavilion secured with high-performance shutters `}
                                       </h4>
                                     </div>
-                                  </div>
+                                  </Link>
                                 </li>
                                 <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-9 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column residential-doors"
@@ -400,40 +334,6 @@ export default function Row4() {
                                   </Link>
                                 </li>
                                 <li
-                                  className="fusion-layout-column fusion_builder_column fusion-builder-column-14 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column residential-doors"
-                                  data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                                  style={{ '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/03/double-door-grey-bespoke-handles-800x1067.webp")', '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
-                                >
-                                  <span
-                                    className="fusion-column-inner-bg hover-type-liftup"
-                                  >
-                                    <span
-                                      className="fusion-column-inner-bg-image"
-                                    ></span>
-                                  </span>
-                                  <div
-                                    className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
-                                  >
-                                    <div
-                                      className="fusion-title title fusion-title-19 fusion-sep-none fusion-title-text fusion-title-size-four"
-                                      style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': '30px' } as unknown as React.CSSProperties}
-                                    >
-                                      <div
-                                        className="project-category-subtitle"
-                                        style={{ textAlign: 'left', color: '#f7931e', textTransform: 'uppercase', marginBottom: '5px', fontFamily: 'Montserrat', fontWeight: '600', fontSize: '14px' } as unknown as React.CSSProperties}
-                                      >
-                                        {` PROJECTS `}
-                                      </div>
-                                      <h4
-                                        className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
-                                        style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
-                                      >
-                                        {` New build in Bedfordshire `}
-                                      </h4>
-                                    </div>
-                                  </div>
-                                </li>
-                                <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-15 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column specialist-profile-doors"
                                   data-scroll-devices="small-visibility,medium-visibility,large-visibility"
                                   style={{ '--awb-inner-bg-image': 'url("/legacy-assets/uploads/2025/04/panic-room-bespoke-sliding-security-door-1-800x1422.webp")', '--awb-padding-top': '221px', '--awb-padding-right': '40px', '--awb-padding-bottom': '46px', '--awb-padding-left': '40px', '--awb-inner-bg-color': 'rgba(37, 39, 42, 0.78)', '--awb-inner-bg-color-hover': 'rgba( 37, 39, 42, 0.78 )', '--awb-inner-bg-position': 'center center', '--awb-inner-bg-blend': 'overlay', '--awb-inner-bg-size': 'cover', '--awb-flex-grow': '0', '--awb-flex-shrink': '0', '--awb-flex-grow-medium': '0', '--awb-flex-shrink-medium': '0', '--awb-flex-grow-small': '0', '--awb-flex-shrink-small': '0' } as unknown as React.CSSProperties}
@@ -445,8 +345,10 @@ export default function Row4() {
                                       className="fusion-column-inner-bg-image"
                                     ></span>
                                   </span>
-                                  <div
+                                  <Link
+                                    href="/inspiration/set-the-tone-with-oversize-doors"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none', position: 'absolute', inset: 0, zIndex: 10, pointerEvents: 'auto' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-21 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -465,7 +367,7 @@ export default function Row4() {
                                         {` Set the tone with oversize doors `}
                                       </h4>
                                     </div>
-                                  </div>
+                                  </Link>
                                 </li>
                                 <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-16 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column windows"
