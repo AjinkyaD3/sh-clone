@@ -434,11 +434,17 @@ export default function Header() {
 								<span className="fusion-column-inner-bg hover-type-none">
 									<a className="fusion-column-anchor" href="#mobile-menu-trigger" aria-label="Open menu" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 										<span className="fusion-column-inner-bg-image"></span>
-										<span style={{ display: 'flex', flexDirection: 'column', gap: '5px', width: '24px' }}>
-											<span style={{ display: 'block', height: '2px', width: '100%', backgroundColor: 'var(--awb-color1)' }} />
-											<span style={{ display: 'block', height: '2px', width: '100%', backgroundColor: 'var(--awb-color1)' }} />
-											<span style={{ display: 'block', height: '2px', width: '100%', backgroundColor: 'var(--awb-color1)' }} />
-										</span>
+										{/* divs, not spans - a compiled Avada rule
+										    (.fusion-column-inner-bg .fusion-column-anchor span)
+										    forces every span descendant here to position:absolute;
+										    top:0;left:0;width:100%;height:100%, which stacked 3
+										    span bars exactly on top of each other. Divs aren't
+										    targeted by that selector at all. */}
+										<div style={{ position: 'static', display: 'flex', flexDirection: 'column', gap: '5px', width: '24px' }}>
+											<div style={{ position: 'static', display: 'block', height: '2px', width: '100%', backgroundColor: 'var(--awb-color1)' }} />
+											<div style={{ position: 'static', display: 'block', height: '2px', width: '100%', backgroundColor: 'var(--awb-color1)' }} />
+											<div style={{ position: 'static', display: 'block', height: '2px', width: '100%', backgroundColor: 'var(--awb-color1)' }} />
+										</div>
 									</a>
 								</span>
 								<div className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-end fusion-content-layout-row fusion-flex-align-items-center">
