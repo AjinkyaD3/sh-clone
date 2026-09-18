@@ -47,8 +47,10 @@ export default function OurProjects() {
                                         className="fusion-column-inner-bg-image"
                                       ></span>
                                     </span>
-                                    <div
+                                    <Link
+                                      href="/inspiration/high-tech-protection-with-traditional-design"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                      style={{ display: 'flex', textDecoration: 'none' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-11 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -61,7 +63,7 @@ export default function OurProjects() {
                                           {` High-tech protection with traditional design `}
                                         </h2>
                                       </div>
-                                    </div>
+                                    </Link>
                                   </li>
                                   <li
                                     className="fusion-layout-column fusion_builder_column fusion-builder-column-18 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"
@@ -75,8 +77,10 @@ export default function OurProjects() {
                                         className="fusion-column-inner-bg-image"
                                       ></span>
                                     </span>
-                                    <div
+                                    <Link
+                                      href="/inspiration/entire-home-protection"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                      style={{ display: 'flex', textDecoration: 'none' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-13 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -89,7 +93,7 @@ export default function OurProjects() {
                                           {` Entire home protection `}
                                         </h2>
                                       </div>
-                                    </div>
+                                    </Link>
                                   </li>
                                   <li
                                     className="fusion-layout-column fusion_builder_column fusion-builder-column-19 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"
@@ -103,8 +107,10 @@ export default function OurProjects() {
                                         className="fusion-column-inner-bg-image"
                                       ></span>
                                     </span>
-                                    <div
+                                    <Link
+                                      href="/inspiration/industrial-steel-doors-with-glass"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                      style={{ display: 'flex', textDecoration: 'none' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-15 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -117,7 +123,7 @@ export default function OurProjects() {
                                           {` Industrial steel doors with glass `}
                                         </h2>
                                       </div>
-                                    </div>
+                                    </Link>
                                   </li>
                                   <li
                                     className="fusion-layout-column fusion_builder_column fusion-builder-column-20 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"
@@ -131,8 +137,10 @@ export default function OurProjects() {
                                         className="fusion-column-inner-bg-image"
                                       ></span>
                                     </span>
-                                    <div
+                                    <Link
+                                      href="/inspiration/yvon-house-security-communal-door"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                      style={{ display: 'flex', textDecoration: 'none' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-17 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -145,7 +153,7 @@ export default function OurProjects() {
                                           {` Yvon house security communal door `}
                                         </h2>
                                       </div>
-                                    </div>
+                                    </Link>
                                   </li>
                                   <li
                                     className="fusion-layout-column fusion_builder_column fusion-builder-column-21 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"
@@ -159,8 +167,10 @@ export default function OurProjects() {
                                         className="fusion-column-inner-bg-image"
                                       ></span>
                                     </span>
-                                    <div
+                                    <Link
+                                      href="/inspiration/full-house-project-in-hertfordshire"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                      style={{ display: 'flex', textDecoration: 'none' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-19 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -173,7 +183,7 @@ export default function OurProjects() {
                                           {` Full house project in Hertfordshire `}
                                         </h2>
                                       </div>
-                                    </div>
+                                    </Link>
                                   </li>
                                   <li
                                     className="fusion-layout-column fusion_builder_column fusion-builder-column-22 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column"

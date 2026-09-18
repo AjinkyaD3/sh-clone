@@ -59,19 +59,6 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        // Archived scrape of this page turned out to have no real body
-        // content at all (checked: just shared nav/footer boilerplate). The
-        // live WordPress site itself 301s this URL onward to a blog-style
-        // URL that's also genuinely empty (title + date, no body) - so no
-        // real content exists anywhere to restore a real page from.
-        // Redirecting to the hub as a stopgap until someone writes real
-        // copy for it. See migration-log/CHANGES-NEEDED.md's "SEO audit"
-        // entry for the full story.
-        source: "/doors/industrial-style-doors",
-        destination: "/doors",
-        permanent: true,
-      },
-      {
         // Old scraped URL for this page - the real, good content actually
         // lives at /door-styles/victorian-doors (different slug/family,
         // same page). The live WordPress site itself 301s this exact old

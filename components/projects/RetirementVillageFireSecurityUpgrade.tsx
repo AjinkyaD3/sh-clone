@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Row4() {
   return (
                     <div
@@ -229,8 +231,10 @@ export default function Row4() {
                                       className="fusion-column-inner-bg-image"
                                     ></span>
                                   </span>
-                                  <div
+                                  <Link
+                                    href="/inspiration/high-tech-protection-with-traditional-design"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-9 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -249,7 +253,7 @@ export default function Row4() {
                                         {` High-tech protection with traditional design `}
                                       </h4>
                                     </div>
-                                  </div>
+                                  </Link>
                                 </li>
                                 <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-10 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column residential-doors"
@@ -263,8 +267,10 @@ export default function Row4() {
                                       className="fusion-column-inner-bg-image"
                                     ></span>
                                   </span>
-                                  <div
+                                  <Link
+                                    href="/inspiration/entire-home-protection"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-11 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -283,7 +289,7 @@ export default function Row4() {
                                         {` Entire home protection `}
                                       </h4>
                                     </div>
-                                  </div>
+                                  </Link>
                                 </li>
                                 <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-11 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column specialist-profile-doors"
@@ -297,8 +303,10 @@ export default function Row4() {
                                       className="fusion-column-inner-bg-image"
                                     ></span>
                                   </span>
-                                  <div
+                                  <Link
+                                    href="/inspiration/industrial-steel-doors-with-glass"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-13 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -317,7 +325,7 @@ export default function Row4() {
                                         {` Industrial steel doors with glass `}
                                       </h4>
                                     </div>
-                                  </div>
+                                  </Link>
                                 </li>
                                 <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-12 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column commercial-doors"
@@ -331,8 +339,10 @@ export default function Row4() {
                                       className="fusion-column-inner-bg-image"
                                     ></span>
                                   </span>
-                                  <div
+                                  <Link
+                                    href="/inspiration/yvon-house-security-communal-door"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-15 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -351,7 +361,7 @@ export default function Row4() {
                                         {` Yvon house security communal door `}
                                       </h4>
                                     </div>
-                                  </div>
+                                  </Link>
                                 </li>
                                 <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-13 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column residential-doors"
@@ -365,8 +375,10 @@ export default function Row4() {
                                       className="fusion-column-inner-bg-image"
                                     ></span>
                                   </span>
-                                  <div
+                                  <Link
+                                    href="/inspiration/full-house-project-in-hertfordshire"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-17 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -385,7 +397,7 @@ export default function Row4() {
                                         {` Full house project in Hertfordshire `}
                                       </h4>
                                     </div>
-                                  </div>
+                                  </Link>
                                 </li>
                                 <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-14 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column residential-doors"
