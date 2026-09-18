@@ -39,7 +39,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      // Same reasoning as the inline overflow-x fix on <body> below:
+      // app/globals.css's `html, body { overflow-x: hidden }` never ships
+      // (globals.css isn't even imported anywhere - confirmed via grep), and
+      // the browser's page-level horizontal scroll/swipe is governed by
+      // <html>, not <body>. The <body> got this fix already; <html> never
+      // did, which is exactly why the page could still be swiped left/right
+      // even with <body> correctly clipped.
+      style={{ overflowX: "hidden", maxWidth: "100vw" }}
+    >
       <head>
         <link rel="stylesheet" href="/fonts/fontawesome/all.min.css" />
 
