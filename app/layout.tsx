@@ -49,7 +49,23 @@ export default function RootLayout({
       // <html>, not <body>. The <body> got this fix already; <html> never
       // did, which is exactly why the page could still be swiped left/right
       // even with <body> correctly clipped.
-      style={{ overflowX: "hidden", maxWidth: "100vw" }}
+      //
+      // overflowY: 'scroll' here is required, not optional: giving <html> an
+      // explicit overflow-x stops the browser's normal "propagate the root
+      // BODY's overflow to the viewport" behavior (a real CSS spec rule -
+      // only happens while <html>'s own overflow is the default 'visible').
+      // Avada's compiled CSS sets `body { overflow-y: scroll }` (a
+      // permanently-reserved scrollbar gutter, avoiding layout shift between
+      // short/tall pages). With propagation broken, that rule started
+      // applying to <body> directly instead - making <body> its own nested
+      // scroll container with its own reserved gutter, stacked on top of
+      // <html>'s (now also its own scroll container, document.scrollingElement
+      // is <html>) - two reserved gutters instead of one, which is exactly
+      // the ~30px white vertical strip reported on the right edge on mobile.
+      // Explicitly repeating the same overflow-y here (rather than leaving
+      // it 'visible', its default) restores the single-scrollbar behavior
+      // propagation used to give for free.
+      style={{ overflowX: "hidden", overflowY: "scroll", maxWidth: "100vw" }}
     >
       <head>
         <link rel="stylesheet" href="/fonts/fontawesome/all.min.css" />
@@ -596,7 +612,15 @@ export default function RootLayout({
         // overflows its box by ~4% (a real Avada full-bleed technique, see
         // Header.tsx) and relies on an ancestor clipping it - inline here so
         // it can never be dropped by CSS chunking again, on any route.
-        style={{ overflowX: "clip" as "hidden", maxWidth: "100vw" }}
+        //
+        // overflowY: 'visible' is required here too - see the long comment
+        // on <html>'s style above. Avada's own CSS sets `body { overflow-y:
+        // scroll }`; left alone, that makes body its own independent
+        // vertical scroll container (with its own reserved scrollbar
+        // gutter) stacked on top of <html>'s, which is the actual root
+        // scroller. Overriding it back to 'visible' here keeps body from
+        // competing with <html> for that role - single scrollbar, not two.
+        style={{ overflowX: "clip" as "hidden", overflowY: "visible", maxWidth: "100vw" }}
         suppressHydrationWarning
       >
         <Script id="google-tag-manager" strategy="afterInteractive">
