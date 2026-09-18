@@ -84,6 +84,23 @@ export default function RootLayout({
           }
           body { font-family: 'Montserrat', sans-serif !important; }
 
+          /* <html>'s overflow-y is forced to 'scroll' (not 'auto') in its
+             inline style above - needed so it always owns the single real
+             scroll container instead of leaving room for <body> to become
+             its own nested one again (see the long comment there). 'scroll'
+             means the browser reserves the gutter/draws the bar
+             unconditionally, which is correct for layout but shows a bar
+             users were never meant to see, especially on mobile. Hide it
+             visually only - scrolling itself keeps working exactly the
+             same, this is display only. */
+          html {
+              scrollbar-width: none; /* Firefox */
+              -ms-overflow-style: none; /* old Edge/IE */
+          }
+          html::-webkit-scrollbar {
+              display: none; /* Chrome/Safari/Blink */
+          }
+
           /* Fix for Issue #2: Project card layout */
           .post-card-item {
               background-color: #333333 !important; /* Keep the grey backgound for the whole card */
