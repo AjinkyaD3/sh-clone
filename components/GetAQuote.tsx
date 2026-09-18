@@ -187,6 +187,9 @@ export default function GetAQuote() {
               background-color: #e1d8c0;
               color: #1c1e36;
               border: none;
+              /* rotated 180deg below, so this rounds what's visually the
+                 left (away-from-edge) side once flipped */
+              border-radius: 0 8px 8px 0;
               padding: 18px 16px;
               min-width: 44px;
               font-size: 12px;
