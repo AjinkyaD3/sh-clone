@@ -99,18 +99,6 @@ export default function Row4() {
                                       {`Shutters & Grilles`}
                                     </a>
                                   </li>
-                                  <li
-                                    className="fusion-filter"
-                                    role="presentation"
-                                  >
-                                    <a
-                                      data-filter=".garage-doors"
-                                      href="#"
-                                      role="menuitem"
-                                    >
-                                      {`Garage Doors`}
-                                    </a>
-                                  </li>
                                 </ul>
                               </div>
                               <ul
