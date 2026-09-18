@@ -197,8 +197,10 @@ export default function OurProjects() {
                                         className="fusion-column-inner-bg-image"
                                       ></span>
                                     </span>
-                                    <div
+                                    <Link
+                                      href="/inspiration/new-build-in-bedfordshire"
                                       className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                      style={{ display: 'flex', textDecoration: 'none' }}
                                     >
                                       <div
                                         className="fusion-title title fusion-title-21 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -211,7 +213,7 @@ export default function OurProjects() {
                                           {` New build in Bedfordshire `}
                                         </h2>
                                       </div>
-                                    </div>
+                                    </Link>
                                   </li>
                                 </ul>
                               </div>

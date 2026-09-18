@@ -411,8 +411,10 @@ export default function Row4() {
                                       className="fusion-column-inner-bg-image"
                                     ></span>
                                   </span>
-                                  <div
+                                  <Link
+                                    href="/inspiration/new-build-in-bedfordshire"
                                     className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-column"
+                                    style={{ display: 'flex', textDecoration: 'none' }}
                                   >
                                     <div
                                       className="fusion-title title fusion-title-19 fusion-sep-none fusion-title-text fusion-title-size-four"
@@ -431,7 +433,7 @@ export default function Row4() {
                                         {` New build in Bedfordshire `}
                                       </h4>
                                     </div>
-                                  </div>
+                                  </Link>
                                 </li>
                                 <li
                                   className="fusion-layout-column fusion_builder_column fusion-builder-column-15 fusion-flex-column post-card-item fusion-column-inner-bg-wrapper fusion-column-liftup-border post-card fusion-grid-column fusion-post-cards-grid-column specialist-profile-doors"
