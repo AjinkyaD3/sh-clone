@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
@@ -31,6 +31,33 @@ export const metadata: Metadata = {
     description: "Bespoke Security Doors",
     images: [DEFAULT_OG_IMAGE.url],
   },
+};
+
+// Mobile-only white strip down the right edge of the hero.
+//
+// Avada's full-bleed rows (".fusion-builder-row", width:104% with -2%
+// side margins - a deliberate negative-gutter technique, see Header.tsx)
+// stick out ~2% past the viewport on each side. <html>/<body> already clip
+// that so it can't be scrolled to, but Chrome/Safari on mobile compute the
+// page's *shrink-to-fit* scale from the widest laid-out element, and that
+// calculation ignores overflow clipping entirely (verified: switching
+// <html> from overflow-x:hidden to overflow-x:clip changes nothing).
+// With no minimum-scale declared, the default floor is 0.25, so the browser
+// happily renders the page at ~0.98 to "fit" that 102%-wide content: the
+// layout viewport ends up ~2% narrower than the visual viewport, and the
+// uncovered band on the right paints as the page canvas - white, because
+// that's <html>'s background colour. It's there on every page, but only
+// visible where the content behind it is dark, i.e. the homepage hero,
+// which is why scrolling past the hero "fixes" it.
+//
+// minimum-scale=1 pins the floor at 100%, so layout and visual viewport
+// match and there is nothing left to paint. No maximum-scale and no
+// user-scalable=no here on purpose - this only stops zooming *out* below
+// 100%, pinch-to-zoom in stays unrestricted (WCAG 1.4.4).
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  minimumScale: 1,
 };
 
 export default function RootLayout({
@@ -533,37 +560,54 @@ export default function RootLayout({
              zero-content tap target. Header.tsx's href was changed from its
              scraped value to #mobile-menu-trigger to reuse the click-wiring
              already built for the (desktop-only, still correctly hidden on
-             mobile) "Products" button - see Header.tsx. This just draws the
-             icon; row-2's own existing responsive classes already handle
-             showing it only on mobile. */
+             mobile) "Products" button - see Header.tsx. This just sizes the
+             tap target; the bars themselves are drawn in Header.tsx, and
+             row-2's own existing responsive classes already handle showing
+             it only on mobile. */
           a[href="#mobile-menu-trigger"] {
             display: flex !important;
             align-items: center !important;
             justify-content: center !important;
             width: 44px !important;
             height: 44px !important;
+            /* Two alignment problems this anchor can't solve on its own:
+               1. Vertical. This anchor doesn't live in the column's in-flow
+                  wrapper (that wrapper is empty) - it lives inside Avada's
+                  absolutely-positioned .fusion-column-inner-bg overlay, and
+                  the column itself collapses to 1px tall for want of in-flow
+                  content. So a 44px anchor starting at the column's top edge
+                  hung ~21px BELOW the row's centre line, while the logo and
+                  the phone icon both sit on it. Pinning to top:50% of that
+                  1px overlay puts it exactly on the centre line (verified:
+                  all three now share a 40.1px centre y at 440px wide).
+               2. Horizontal. Row-2 is one of the 104%-wide full-bleed rows
+                  (see the white-strip note on the viewport export above), so
+                  this last column's right edge sits ~2% of the viewport OFF
+                  the right of the screen - and the icon, correctly centred
+                  in that column, ended up ~3px from the screen edge. 2vw is
+                  exactly that bleed (the row's parent is full-width, so 2%
+                  of it and 2vw are the same number at every width), so
+                  "2vw + 10px" backs the icon out of the bleed and leaves a
+                  real ~20px gutter to the screen edge. */
+            position: absolute !important;
+            top: 50% !important;
+            right: calc(2vw + 10px) !important;
+            transform: translateY(-50%) !important;
           }
+          /* The three bars are drawn by real <div>s in Header.tsx now, not by
+             pseudo-elements on this leftover scraped span. This rule used to
+             draw a second, older icon here (::before with a box-shadow clone
+             plus ::after = 3 more bars) - and it never even got the geometry
+             it asked for: Avada's own compiled CSS
+             (.fusion-column-inner-bg .fusion-column-anchor span) forces this
+             span to position:absolute/inset:0, beating the position:relative
+             + 24x18 this rule declared, so it computed to 46x1 and collapsed
+             its three bars into a ~2-bar smear sitting on top of the real
+             icon - the "5 lines" hamburger. The span carries no content of
+             its own (Avada fills it via a background-image this migration
+             doesn't ship), so hiding it outright is the fix, not restyling it. */
           a[href="#mobile-menu-trigger"] .fusion-column-inner-bg-image {
-            display: block;
-            width: 24px;
-            height: 18px;
-            position: relative;
-          }
-          a[href="#mobile-menu-trigger"] .fusion-column-inner-bg-image::before,
-          a[href="#mobile-menu-trigger"] .fusion-column-inner-bg-image::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: var(--awb-color1, #1c1e36);
-          }
-          a[href="#mobile-menu-trigger"] .fusion-column-inner-bg-image::before {
-            top: 0;
-            box-shadow: 0 8px 0 var(--awb-color1, #1c1e36);
-          }
-          a[href="#mobile-menu-trigger"] .fusion-column-inner-bg-image::after {
-            bottom: 0;
+            display: none !important;
           }
 
           /* Full-screen mobile menu panel: its 4-column layout
