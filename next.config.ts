@@ -8,7 +8,6 @@ const TAWK = "https://*.tawk.to";
 const TAWK_WS = "wss://*.tawk.to";
 const GTM = "https://www.googletagmanager.com";
 const CLARITY = "https://*.clarity.ms";
-const CDNJS = "https://cdnjs.cloudflare.com";
 const GOOGLE_FONTS_CSS = "https://fonts.googleapis.com";
 const GOOGLE_FONTS_FILES = "https://fonts.gstatic.com";
 const YOUTUBE = "https://www.youtube.com";
@@ -28,13 +27,13 @@ const contentSecurityPolicy = [
   // <script> snippets (GTM, Clarity, Tawk.to) - see app/layout.tsx. A
   // nonce-based CSP would be more strict but needs per-request middleware,
   // a bigger change than this pass.
-  `script-src 'self' 'unsafe-inline' ${GTM} ${CLARITY} ${TAWK} ${CDNJS}`,
+  `script-src 'self' 'unsafe-inline' ${GTM} ${CLARITY} ${TAWK}`,
   // Tawk.to injects its own <link rel="stylesheet"> for the widget CSS
   // (embed.tawk.to/.../min-widget.css) via JS after load - needs to be
   // allowed here the same as script-src/connect-src/frame-src already are,
   // or the widget renders unstyled the moment Tawk's own service is up.
-  `style-src 'self' 'unsafe-inline' ${GOOGLE_FONTS_CSS} ${CDNJS} ${TAWK}`,
-  `font-src 'self' data: ${GOOGLE_FONTS_FILES} ${CDNJS} ${TAWK}`,
+  `style-src 'self' 'unsafe-inline' ${GOOGLE_FONTS_CSS} ${TAWK}`,
+  `font-src 'self' data: ${GOOGLE_FONTS_FILES} ${TAWK}`,
   // Broad but real: this site's own uploaded images live under /legacy-
   // assets, plus the Tawk.to widget loads its own avatar/icon images from
   // its own CDN at runtime - `https:` covers that without hardcoding every
