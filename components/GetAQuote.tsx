@@ -187,14 +187,14 @@ export default function GetAQuote() {
               background-color: #e1d8c0;
               color: #1c1e36;
               border: none;
-              /* Matches the real site's own values exactly (inspected
-                 directly): 15px on mobile, 30px on desktop. Rotated 180deg
-                 below, so this rounds what's visually the left
-                 (away-from-edge) side once flipped - same side the real
-                 site rounds too (confirmed live: its own tab has 0 on the
-                 two corners nearest the screen edge, 30px on the two
-                 nearest the page). */
-              border-radius: 0 15px 15px 0;
+              /* Same side the real site rounds (confirmed live: 0 on the
+                 two corners nearest the screen edge, rounded on the two
+                 nearest the page) - rotated 180deg below, so this rounds
+                 what's visually the left (away-from-edge) side once
+                 flipped. Real site's own value (15px/30px) looked too
+                 pronounced at our narrower tab width - halved to a
+                 subtler curve instead of a near-capsule end. */
+              border-radius: 0 8px 8px 0;
               padding: 18px 10px;
               min-width: 36px;
               font-size: 12px;
@@ -207,7 +207,7 @@ export default function GetAQuote() {
             }
             @media (min-width: 783px) {
               .get-a-quote-tab {
-                border-radius: 0 30px 30px 0;
+                border-radius: 0 16px 16px 0;
               }
             }
             .get-a-quote-tab:hover {
