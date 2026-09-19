@@ -80,24 +80,26 @@
   transform: translateX(-50%);
   z-index: 3;
   display: flex;
-  gap: 10px;
+  gap: 0;
 }
 
 .dot {
-  /* 12px visible dot, 44px actual tap target (WCAG 2.5.5) via padding +
-     background-clip so the enlarged hit area doesn't change the look.
+  /* 12px visible dot, padded out for an easier tap target via padding +
+     background-clip so the enlarged hit area doesn't change the look
+     (was 16px/44px total for strict WCAG 2.5.5, trimmed to 9px/30px -
+     still comfortably tappable - so the 3 dots sit closer together).
      Avada's own compiled CSS forces `* { box-sizing: border-box }`
-     sitewide, so `width` here has to be the TOTAL box (44px), not the
+     sitewide, so `width` here has to be the TOTAL box, not just the
      12px content area - box-sizing: content-box overrides that reset
-     locally so the padding math (44px box - 16px padding each side =
+     locally so the padding math (30px box - 9px padding each side =
      12px visible content) still works exactly as written above. Without
-     either fix, border-box makes 32px of padding not fit inside a 12px
-     box at all, collapsing the visible content-box to 0 - the dots were
+     either fix, border-box makes the padding not fit inside a 12px box
+     at all, collapsing the visible content-box to 0 - the dots were
      still real, clickable buttons (hit-testable), just invisible. */
   box-sizing: content-box;
   width: 12px;
   height: 12px;
-  padding: 16px;
+  padding: 9px;
   background-clip: content-box;
   border-radius: 50%;
   border: none;
