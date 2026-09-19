@@ -187,9 +187,14 @@ export default function GetAQuote() {
               background-color: #e1d8c0;
               color: #1c1e36;
               border: none;
-              /* rotated 180deg below, so this rounds what's visually the
-                 left (away-from-edge) side once flipped */
-              border-radius: 0 8px 8px 0;
+              /* Matches the real site's own values exactly (inspected
+                 directly): 15px on mobile, 30px on desktop. Rotated 180deg
+                 below, so this rounds what's visually the left
+                 (away-from-edge) side once flipped - same side the real
+                 site rounds too (confirmed live: its own tab has 0 on the
+                 two corners nearest the screen edge, 30px on the two
+                 nearest the page). */
+              border-radius: 0 15px 15px 0;
               padding: 18px 16px;
               min-width: 44px;
               font-size: 12px;
@@ -199,6 +204,11 @@ export default function GetAQuote() {
               cursor: pointer;
               z-index: 10020;
               box-shadow: -1px 0 4px rgba(0, 0, 0, 0.15);
+            }
+            @media (min-width: 783px) {
+              .get-a-quote-tab {
+                border-radius: 0 30px 30px 0;
+              }
             }
             .get-a-quote-tab:hover {
               background-color: #d6cbae;
