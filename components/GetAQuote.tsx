@@ -195,8 +195,8 @@ export default function GetAQuote() {
                  two corners nearest the screen edge, 30px on the two
                  nearest the page). */
               border-radius: 0 15px 15px 0;
-              padding: 18px 16px;
-              min-width: 44px;
+              padding: 18px 10px;
+              min-width: 36px;
               font-size: 12px;
               font-weight: 600;
               letter-spacing: 0.08em;
