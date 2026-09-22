@@ -22,17 +22,19 @@ export default function Row9() {
                               <div
                                 className="video-shortcode"
                               >
-                                <lite-youtube
-                                  className="landscape"
-                                  data-button-label="Play Video"
-                                  data-no-cookie="on"
-                                  data-thumbnail-size="auto"
-                                  height="360"
-                                  params="wmode=transparent&autoplay=1&enablejsapi=1"
-                                  title="YouTube video player 1"
-                                  videoid="RsJoZh4gMGU"
-                                  width="600"
-                                ></lite-youtube>
+                                <div
+                                  className="fluid-width-video-wrapper"
+                                  style={{ paddingTop: '60%' } as unknown as React.CSSProperties}
+                                >
+                                  <iframe
+                                    allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                                    allowFullScreen={true}
+                                    height="360"
+                                    src="https://www.youtube.com/embed/RsJoZh4gMGU?wmode=transparent&autoplay=0&controls=0"
+                                    title="YouTube video player 1"
+                                    width="600"
+                                  ></iframe>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -51,17 +53,19 @@ export default function Row9() {
                               <div
                                 className="video-shortcode"
                               >
-                                <lite-youtube
-                                  className="landscape"
-                                  data-button-label="Play Video"
-                                  data-no-cookie="on"
-                                  data-thumbnail-size="auto"
-                                  height="360"
-                                  params="wmode=transparent&autoplay=1&enablejsapi=1"
-                                  title="YouTube video player 2"
-                                  videoid="D2ZxkhaphAc"
-                                  width="600"
-                                ></lite-youtube>
+                                <div
+                                  className="fluid-width-video-wrapper"
+                                  style={{ paddingTop: '60%' } as unknown as React.CSSProperties}
+                                >
+                                  <iframe
+                                    allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                                    allowFullScreen={true}
+                                    height="360"
+                                    src="https://www.youtube.com/embed/D2ZxkhaphAc?wmode=transparent&autoplay=0&controls=0"
+                                    title="YouTube video player 2"
+                                    width="600"
+                                  ></iframe>
+                                </div>
                               </div>
                             </div>
                           </div>

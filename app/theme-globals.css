@@ -183,6 +183,23 @@ body {
   padding-left: 0px;
 }
 
+/* Short pages (/blog, and any page whose content is shorter than the screen)
+   left the footer stranded mid-screen with white below it, because body was
+   only as tall as its content. Fill the viewport and let the footer take up
+   the slack. On a normal-length page the auto margin resolves to 0, so this
+   changes nothing there. Note app/globals.css declares similar rules but is
+   imported nowhere, so it never ships - this file does. */
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > .fusion-tb-footer {
+  margin-top: auto;
+}
+
 :root :where(.wp-element-button, .wp-block-button__link) {
   background-color: #32373c;
   border-width: 0;

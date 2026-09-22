@@ -29,13 +29,15 @@ export default function ThankYouPage() {
       />
       <div
       style={{
-        minHeight: "100vh",
+        // grow into whatever the header and footer leave, rather than a full
+        // 100vh on top of them - that overflowed by exactly their height
+        flex: "1 0 auto",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         fontFamily: "'Montserrat', sans-serif",
         backgroundColor: "#f8f8f8",
-        padding: "40px 20px",
+        padding: "24px 20px",
       }}
     >
       <div
@@ -43,7 +45,7 @@ export default function ThankYouPage() {
           maxWidth: "600px",
           textAlign: "center",
           backgroundColor: "#fff",
-          padding: "60px 40px",
+          padding: "40px 40px",
           borderRadius: "8px",
           boxShadow: "0 2px 20px rgba(0,0,0,0.08)",
         }}
