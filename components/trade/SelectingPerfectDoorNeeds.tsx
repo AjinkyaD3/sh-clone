@@ -2,7 +2,7 @@ export default function Row7() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-7 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '63px', '--awb-padding-left': '0px', '--awb-margin-bottom': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, var(--awb-color6) 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '28px', '--awb-padding-left': '0px', '--awb-margin-bottom': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, var(--awb-color6) 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -21,7 +21,7 @@ export default function Row7() {
                             >
                               <div
                                 className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-5 fusion_builder_column_inner_1_2 1_2 fusion-flex-column"
-                                style={{ '--awb-padding-top': '236px', '--awb-padding-right': '100px', '--awb-padding-left': '125px', '--awb-padding-top-small': '83px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '88px', '--awb-padding-left-small': '40px', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                                style={{ '--awb-padding-top': '236px', '--awb-padding-right': '100px', '--awb-padding-left': '125px', '--awb-padding-top-small': '83px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '31px', '--awb-padding-left-small': '40px', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-margin-top-small': '0px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
                               >
                                 <div
                                   className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
@@ -39,7 +39,7 @@ export default function Row7() {
                                   </div>
                                   <div
                                     className="fusion-text fusion-text-2"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': 'var( --awb-typography4-line-height )', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': 'var( --awb-typography4-line-height )', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-margin-top': '30px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                                   >
                                     <p>
                                       {` Choosing the right security doors, requires careful consideration of several factors. It’s not just about the door itself; it’s a comprehensive process involving various elements such as door features, furniture, panels, hinges, multi-point locking systems, and the door’s final design. `}

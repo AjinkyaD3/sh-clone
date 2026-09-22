@@ -4,7 +4,7 @@ export default function Row5() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '80px', '--awb-padding-left': '80px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '105px', '--awb-margin-bottom-small': '126px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '80px', '--awb-padding-left': '80px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '53px', '--awb-margin-bottom-small': '63px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -19,7 +19,7 @@ export default function Row5() {
                           >
                             <div
                               className="fusion-image-element"
-                              style={{ '--awb-margin-bottom': '80px', '--awb-caption-title-font-family': 'var( --h2_typography-font-family )', '--awb-caption-title-font-weight': 'var( --h2_typography-font-weight )', '--awb-caption-title-font-style': 'var( --h2_typography-font-style )', '--awb-caption-title-size': 'var( --h2_typography-font-size )', '--awb-caption-title-transform': 'var( --h2_typography-text-transform )', '--awb-caption-title-line-height': 'var( --h2_typography-line-height )', '--awb-caption-title-letter-spacing': 'var( --h2_typography-letter-spacing )' } as unknown as React.CSSProperties}
+                              style={{ '--awb-margin-bottom': '40px', '--awb-caption-title-font-family': 'var( --h2_typography-font-family )', '--awb-caption-title-font-weight': 'var( --h2_typography-font-weight )', '--awb-caption-title-font-style': 'var( --h2_typography-font-style )', '--awb-caption-title-size': 'var( --h2_typography-font-size )', '--awb-caption-title-transform': 'var( --h2_typography-text-transform )', '--awb-caption-title-line-height': 'var( --h2_typography-line-height )', '--awb-caption-title-letter-spacing': 'var( --h2_typography-letter-spacing )' } as unknown as React.CSSProperties}
                             >
                               <span
                                 className="fusion-imageframe imageframe-none imageframe-3 hover-type-none"

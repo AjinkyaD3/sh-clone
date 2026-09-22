@@ -2,7 +2,7 @@ export default function Row20() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-20 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '130px', '--awb-padding-right': '160px', '--awb-padding-bottom': '204px', '--awb-padding-left': '160px', '--awb-padding-top-small': '45px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '35px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-margin-bottom-small': '0px', '--awb-background-color': 'var(--awb-color1)', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 20%, var(--awb-color1) 20% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '46px', '--awb-padding-right': '160px', '--awb-padding-bottom': '56px', '--awb-padding-left': '160px', '--awb-padding-top-small': '28px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '35px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-margin-bottom-small': '0px', '--awb-background-color': 'var(--awb-color1)', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 20%, var(--awb-color1) 20% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -17,7 +17,7 @@ export default function Row20() {
                           >
                             <div
                               className="fusion-title title fusion-title-15 fusion-sep-none fusion-title-text fusion-title-size-three"
-                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '60px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
+                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '30px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
                             >
                               <h3
                                 className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
@@ -37,7 +37,7 @@ export default function Row20() {
                           >
                             <div
                               className="fusion-text fusion-text-12"
-                              style={{ '--awb-content-alignment': 'left', '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                              style={{ '--awb-content-alignment': 'left', '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '30px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                             >
                               <p>
                                 {` Side sliding sectional garage doors are not only highly practical and simple to operate, they’re also quick and easy to install and they look fantastic added to any new or existing garage. `}

@@ -2,7 +2,7 @@ export default function Row5() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-5 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '100px', '--awb-padding-right': '225px', '--awb-padding-bottom': '100px', '--awb-padding-left': '226px', '--awb-padding-top-small': '40px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color6) 0%, var(--awb-color6) 0% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '35px', '--awb-padding-right': '225px', '--awb-padding-bottom': '35px', '--awb-padding-left': '226px', '--awb-padding-top-small': '40px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color6) 0%, var(--awb-color6) 0% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-align-content-center fusion-flex-justify-content-center fusion-flex-content-wrap"
@@ -10,7 +10,7 @@ export default function Row5() {
                       >
                         <div
                           className="fusion-layout-column fusion_builder_column fusion-builder-column-8 fusion_builder_column_1_1 1_1 fusion-flex-column fusion-flex-align-self-flex-start"
-                          style={{ '--awb-padding-top-small': '60px', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                          style={{ '--awb-padding-top-small': '28px', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
                         >
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-row"
@@ -32,7 +32,7 @@ export default function Row5() {
                             </div>
                             <div
                               className="fusion-text fusion-text-1"
-                              style={{ '--awb-content-alignment': 'left', '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                              style={{ '--awb-content-alignment': 'left', '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-margin-top': '30px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                             >
                               <p>
                                 {` A garage door, just like any other exterior door, plays a crucial role in the overall safety of a household or commercial property, protecting various valuables against external threats as well as environmental factors. `}

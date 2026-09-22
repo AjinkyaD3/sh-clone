@@ -2,7 +2,7 @@ export default function Row9() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-9 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--link_color': 'var(--awb-color5)', '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '153px', '--awb-padding-right': '180px', '--awb-padding-bottom': '152px', '--awb-padding-left': '180px', '--awb-padding-top-small': '55px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '75px', '--awb-padding-left-small': '40px', '--awb-margin-top': '160px', '--awb-margin-bottom': '0px', '--awb-margin-top-small': '150px', '--awb-margin-bottom-small': '100px', '--awb-background-color': 'var(--awb-color3)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--link_color': 'var(--awb-color5)', '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '54px', '--awb-padding-right': '180px', '--awb-padding-bottom': '53px', '--awb-padding-left': '180px', '--awb-padding-top-small': '28px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '28px', '--awb-padding-left-small': '40px', '--awb-margin-top': '80px', '--awb-margin-bottom': '0px', '--awb-margin-top-small': '75px', '--awb-margin-bottom-small': '50px', '--awb-background-color': 'var(--awb-color3)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-align-content-center fusion-flex-justify-content-center fusion-flex-content-wrap"
@@ -17,7 +17,7 @@ export default function Row9() {
                           >
                             <div
                               className="fusion-title title fusion-title-5 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two"
-                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '60px', '--awb-margin-bottom-small': '60px', '--awb-font-size': '35px' } as unknown as React.CSSProperties}
+                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '30px', '--awb-font-size': '35px' } as unknown as React.CSSProperties}
                             >
                               <h2
                                 className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"

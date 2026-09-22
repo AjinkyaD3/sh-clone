@@ -2,7 +2,7 @@ export default function Row15() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-15 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '46px', '--awb-padding-left': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 17%, var(--awb-color6) 7% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '28px', '--awb-padding-left': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 17%, var(--awb-color6) 7% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -38,7 +38,7 @@ export default function Row15() {
                             </div>
                             <div
                               className="fusion-title title fusion-title-8 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two"
-                              style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-margin-top': '40px', '--awb-margin-bottom': '20px', '--awb-margin-top-small': '30px', '--awb-margin-right-small': '40px', '--awb-margin-left-small': '40px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
+                              style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-margin-top': '24px', '--awb-margin-bottom': '20px', '--awb-margin-top-small': '30px', '--awb-margin-right-small': '40px', '--awb-margin-left-small': '40px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
                             >
                               <h2
                                 className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"

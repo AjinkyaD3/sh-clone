@@ -6,7 +6,7 @@ export default function Row9() {
                     >
                       <div
                         className="fusion-fullwidth fullwidth-box fusion-builder-row-9 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                        style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '50px', '--awb-padding-right': '160px', '--awb-padding-bottom': '80px', '--awb-padding-left': '160px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '0px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '89px', '--awb-margin-bottom-small': '0px', '--awb-flex-wrap': 'wrap' } as React.CSSProperties}
+                        style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '28px', '--awb-padding-right': '160px', '--awb-padding-bottom': '28px', '--awb-padding-left': '160px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '0px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '45px', '--awb-margin-bottom-small': '0px', '--awb-flex-wrap': 'wrap' } as React.CSSProperties}
                       >
                         <div
                           className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -33,7 +33,7 @@ export default function Row9() {
                                   >
                                     <div
                                       className="fusion-text fusion-text-8 fusion-text-no-margin"
-                                      style={{ '--awb-font-size': '18px', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as React.CSSProperties}
+                                      style={{ '--awb-font-size': '18px', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as React.CSSProperties}
                                     >
                                       <p>
                                         {` Offering discreet security and complete peace of mind, here at Secure House we’re all about setting the highest standards when it comes to effectively protecting those closest to you. `}
@@ -54,7 +54,7 @@ export default function Row9() {
                                   >
                                     <div
                                       className="fusion-text fusion-text-9 fusion-text-no-margin"
-                                      style={{ '--awb-font-size': '18px', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as React.CSSProperties}
+                                      style={{ '--awb-font-size': '18px', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as React.CSSProperties}
                                     >
                                       <p>
                                         {` Our team of security experts and engineers realize that such solutions not only have to offer ballistic security, but must work seamlessly within the interior, in order to be indistinguishable for the unknowing eye. `}

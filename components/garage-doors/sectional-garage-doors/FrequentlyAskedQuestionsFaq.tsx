@@ -17,7 +17,7 @@ export default function Row24() {
                           >
                             <div
                               className="fusion-title title fusion-title-21 fusion-sep-none fusion-title-text fusion-title-size-two"
-                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '60px', '--awb-margin-bottom-small': '40px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
+                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '24px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
                             >
                               <h2
                                 className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"

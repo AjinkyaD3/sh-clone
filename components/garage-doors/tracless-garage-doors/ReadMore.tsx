@@ -6,7 +6,7 @@ export default function Row18() {
                     >
                       <div
                         className="fusion-fullwidth fullwidth-box fusion-builder-row-18 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                        style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '48px', '--awb-padding-right': '251px', '--awb-padding-bottom': '90px', '--awb-padding-left': '250px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top-small': '0px', '--awb-margin-top': '0px', '--awb-margin-bottom': '0px', '--awb-background-color': 'var(--awb-color1)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                        style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '28px', '--awb-padding-right': '251px', '--awb-padding-bottom': '31px', '--awb-padding-left': '250px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top-small': '0px', '--awb-margin-top': '0px', '--awb-margin-bottom': '0px', '--awb-background-color': 'var(--awb-color1)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                       >
                         <div
                           className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -21,7 +21,7 @@ export default function Row18() {
                             >
                               <div
                                 className="fusion-text fusion-text-14"
-                                style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': 'var( --awb-typography4-line-height )', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': 'var( --awb-typography4-line-height )', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                               >
                                 <p>
                                   {` It’s our job to ensure that your entire property is as safe and secure as possible, and that applies to your garage. `}

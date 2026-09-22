@@ -21,7 +21,7 @@ export default function Row20() {
                             >
                               <div
                                 className="fusion-title title fusion-title-11 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-three"
-                                style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '60px', '--awb-margin-bottom-small': '40px', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '24px', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
                               >
                                 <h3
                                   className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"

@@ -2,7 +2,7 @@ export default function Row8() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-8 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '63px', '--awb-padding-left': '0px', '--awb-margin-top': '135px', '--awb-margin-bottom': '0px', '--awb-margin-top-small': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, var(--awb-color1) 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '28px', '--awb-padding-left': '0px', '--awb-margin-top': '68px', '--awb-margin-bottom': '0px', '--awb-margin-top-small': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, var(--awb-color1) 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -78,7 +78,7 @@ export default function Row8() {
                                   </div>
                                   <div
                                     className="fusion-text fusion-text-4"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': 'var( --awb-typography4-line-height )', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': 'var( --awb-typography4-line-height )', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '30px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                                   >
                                     <p>
                                       {` Secure House Ltd partners with innovative and stylish brands, carefully selecting suppliers based on the quality of materials and craftsmanship. This commitment ensures that all products not only meet high-security standards but also offer aesthetic appeal and functionality. `}

@@ -6,7 +6,7 @@ export default function Row7() {
                     >
                       <div
                         className="fusion-fullwidth fullwidth-box fusion-builder-row-7 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                        style={{ '--link_color': '#e3e3e3', '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '90px', '--awb-padding-right': '180px', '--awb-padding-bottom': '152px', '--awb-padding-left': '180px', '--awb-padding-top-small': '55px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '75px', '--awb-padding-left-small': '40px', '--awb-margin-top': '0px', '--awb-margin-bottom': '0px', '--awb-margin-top-small': '0px', '--awb-margin-bottom-small': '0px', '--awb-background-color': '#e3e3e3', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                        style={{ '--link_color': '#e3e3e3', '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '31px', '--awb-padding-right': '180px', '--awb-padding-bottom': '53px', '--awb-padding-left': '180px', '--awb-padding-top-small': '28px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '28px', '--awb-padding-left-small': '40px', '--awb-margin-top': '0px', '--awb-margin-bottom': '0px', '--awb-margin-top-small': '0px', '--awb-margin-bottom-small': '0px', '--awb-background-color': '#e3e3e3', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                       >
                         <div
                           className="fusion-builder-row fusion-row fusion-flex-align-items-center fusion-flex-align-content-center fusion-flex-justify-content-center fusion-flex-content-wrap"
@@ -58,7 +58,7 @@ export default function Row7() {
                             >
                               <div
                                 className="fusion-title title fusion-title-8 fusion-sep-none fusion-title-text fusion-title-size-four"
-                                style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom-small': '60px', '--awb-font-size': '18px' } as unknown as React.CSSProperties}
+                                style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom-small': '30px', '--awb-font-size': '18px' } as unknown as React.CSSProperties}
                               >
                                 <h4
                                   className="fusion-title-heading title-heading-right sm-text-align-left fusion-responsive-typography-calculated"
@@ -97,7 +97,7 @@ export default function Row7() {
                             >
                               <div
                                 className="fusion-title title fusion-title-9 fusion-sep-none fusion-title-text fusion-title-size-two"
-                                style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '60px', '--awb-margin-bottom-small': '60px', '--awb-font-size': '35px' } as unknown as React.CSSProperties}
+                                style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '30px', '--awb-font-size': '35px' } as unknown as React.CSSProperties}
                               >
                                 <h2
                                   className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
@@ -129,7 +129,7 @@ export default function Row7() {
                           </div>
                           <div
                             className="fusion-layout-column fusion_builder_column fusion-builder-column-20 fusion_builder_column_1_2 1_2 fusion-flex-column"
-                            style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '4', '--awb-margin-top-small': '61px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                            style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '4', '--awb-margin-top-small': '31px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
                           >
                             <div
                               className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
@@ -540,7 +540,7 @@ export default function Row7() {
                           <div
                             className="fusion-layout-column fusion_builder_column fusion-builder-column-22 fusion_builder_column_1_2 1_2 fusion-flex-column"
                             data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                            style={{ '--awb-padding-top-small': '0px', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '7.296%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '5', '--awb-margin-top-small': '59px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                            style={{ '--awb-padding-top-small': '0px', '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '7.296%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '5', '--awb-margin-top-small': '30px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
                           >
                             <div
                               className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
@@ -581,7 +581,7 @@ export default function Row7() {
                           <div
                             className="fusion-layout-column fusion_builder_column fusion-builder-column-23 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-stretch"
                             data-scroll-devices="small-visibility,medium-visibility,large-visibility"
-                            style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '3', '--awb-margin-top-small': '80px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                            style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '3.84%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '3.84%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '3', '--awb-margin-top-small': '40px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
                           >
                             <div
                               className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"

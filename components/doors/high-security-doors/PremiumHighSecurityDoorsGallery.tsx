@@ -6,7 +6,7 @@ export default function Row18() {
                     >
                       <div
                         className="fusion-fullwidth fullwidth-box fusion-builder-row-18 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                        style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '120px', '--awb-padding-left': '120px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '130px', '--awb-margin-bottom': '125px', '--awb-margin-top-small': '80px', '--awb-margin-bottom-small': '78px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                        style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '120px', '--awb-padding-left': '120px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '65px', '--awb-margin-bottom': '63px', '--awb-margin-top-small': '40px', '--awb-margin-bottom-small': '39px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                       >
                         <div
                           className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -21,7 +21,7 @@ export default function Row18() {
                             >
                               <div
                                 className="fusion-title title fusion-title-9 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two"
-                                style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '60px', '--awb-margin-bottom-small': '40px', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '24px', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
                               >
                                 <h2
                                   className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"

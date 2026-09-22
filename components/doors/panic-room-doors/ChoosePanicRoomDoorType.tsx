@@ -2,7 +2,7 @@ export default function Row12() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-12 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '126px', '--awb-padding-right': '172px', '--awb-padding-bottom': '182px', '--awb-padding-left': '120px', '--awb-padding-top-small': '50px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '80px', '--awb-padding-left-small': '40px', '--awb-margin-top-small': '0px', '--awb-margin-top': '0px', '--awb-margin-bottom': '90px', '--awb-margin-bottom-small': '0px', '--awb-background-color': 'F5EFE9', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color3) 0%, var(--awb-color3) 100% )', '--awb-flex-wrap': 'wrap' } as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '44px', '--awb-padding-right': '172px', '--awb-padding-bottom': '56px', '--awb-padding-left': '120px', '--awb-padding-top-small': '28px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '28px', '--awb-padding-left-small': '40px', '--awb-margin-top-small': '0px', '--awb-margin-top': '0px', '--awb-margin-bottom': '45px', '--awb-margin-bottom-small': '0px', '--awb-background-color': 'F5EFE9', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color3) 0%, var(--awb-color3) 100% )', '--awb-flex-wrap': 'wrap' } as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -28,7 +28,7 @@ export default function Row12() {
                             </div>
                             <div
                               className="fusion-text fusion-text-11"
-                              style={{ '--awb-font-size': '18px', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as React.CSSProperties}
+                              style={{ '--awb-font-size': '18px', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as React.CSSProperties}
                             >
                               <p>
                                 {` Whether it’s a commercial or residential location we’re talking about, such a solution is much more effective in protecting your loved ones as well as your most valuable possessions from break ins and other threats, when compared to a typical vault door that’s easily visible. `}
@@ -38,7 +38,7 @@ export default function Row12() {
                         </div>
                         <div
                           className="fusion-layout-column fusion_builder_column fusion-builder-column-15 fusion_builder_column_1_2 1_2 fusion-flex-column"
-                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-margin-top-small': '50px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as React.CSSProperties}
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '2', '--awb-margin-top-small': '25px', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as React.CSSProperties}
                         >
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"

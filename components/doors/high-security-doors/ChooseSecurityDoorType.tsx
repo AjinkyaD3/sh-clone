@@ -2,7 +2,7 @@ export default function Row10() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-10 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '85px', '--awb-padding-left': '0px', '--awb-padding-right-small': '0px', '--awb-padding-left-small': '0px', '--awb-margin-bottom': '95px', '--awb-margin-bottom-small': '89px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 10%, #847b73 9% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '30px', '--awb-padding-left': '0px', '--awb-padding-right-small': '0px', '--awb-padding-left-small': '0px', '--awb-margin-bottom': '48px', '--awb-margin-bottom-small': '45px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 10%, #847b73 9% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -41,7 +41,7 @@ export default function Row10() {
                                   </div>
                                   <div
                                     className="fusion-text fusion-text-3"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-margin-top': '30px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                                   >
                                     <p>
                                       {` With years of experience working in the home security industry, our team at Secure House knows perfectly well the ever-changing safety needs of our customers. `}

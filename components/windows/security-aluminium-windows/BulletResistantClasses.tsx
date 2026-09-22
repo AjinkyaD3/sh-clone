@@ -2,7 +2,7 @@ export default function Row20() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-20 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '63px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '0px', '--awb-margin-top': '75px', '--awb-margin-bottom': '110px', '--awb-margin-top-small': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, var(--awb-color1) 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '0px', '--awb-padding-right': '0px', '--awb-padding-bottom': '28px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '0px', '--awb-margin-top': '38px', '--awb-margin-bottom': '55px', '--awb-margin-top-small': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, var(--awb-color1) 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -70,7 +70,7 @@ export default function Row20() {
                                   </div>
                                   <div
                                     className="fusion-text fusion-text-19"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '30px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                                   >
                                     <p>
                                       {` It is in commercial projects, in particular, that there is a demand for bullet-resistant solutions. Windows, doors and façades are classified in security classes from FB2 to FB6 in accordance with the European standard DIN EN 1522. `}

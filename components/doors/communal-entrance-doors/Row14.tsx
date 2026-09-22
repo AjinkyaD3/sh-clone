@@ -10,14 +10,14 @@ export default function Row14() {
                       >
                         <div
                           className="fusion-layout-column fusion_builder_column fusion-builder-column-20 fusion_builder_column_1_1 1_1 fusion-flex-column"
-                          style={{ '--awb-padding-top-small': '0px', '--awb-padding-bottom-small': '81px', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '9.6%', '--awb-margin-bottom-large': '203px', '--awb-spacing-left-large': '9.6%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-margin-bottom-small': '110px', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                          style={{ '--awb-padding-top-small': '0px', '--awb-padding-bottom-small': '28px', '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '9.6%', '--awb-margin-bottom-large': '102px', '--awb-spacing-left-large': '9.6%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-margin-bottom-small': '55px', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
                         >
                           <div
                             className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
                           >
                             <div
                               className="fusion-text fusion-text-8 fusion-text-no-margin"
-                              style={{ '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': 'var( --awb-typography4-line-height )', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                              style={{ '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': 'var( --awb-typography4-line-height )', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                             >
                               <p>
                                 {` Our communal entrance doors are designed to adapt to various property types and requirements: `}
@@ -36,7 +36,7 @@ export default function Row14() {
                                 >
                                   <div
                                     className="fusion-text fusion-text-9 fusion-text-no-margin"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.5', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.5', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
                                   >
                                     <p>
                                       {`Residential properties:`}
@@ -61,7 +61,7 @@ export default function Row14() {
                                 >
                                   <div
                                     className="fusion-text fusion-text-11 fusion-text-no-margin"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.5', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.5', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
                                   >
                                     <p>
                                       {`Commercial spaces:`}
@@ -88,7 +88,7 @@ export default function Row14() {
                                 >
                                   <div
                                     className="fusion-text fusion-text-13 fusion-text-no-margin"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.5', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.5', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
                                   >
                                     <p>
                                       {`Fire-rated solutions:`}

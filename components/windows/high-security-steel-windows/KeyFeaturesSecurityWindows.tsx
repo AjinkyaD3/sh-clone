@@ -2,7 +2,7 @@ export default function Row7() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-7 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '160px', '--awb-padding-left': '160px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '100px', '--awb-margin-bottom': '180px', '--awb-margin-top-small': '86px', '--awb-margin-bottom-small': '61px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '160px', '--awb-padding-left': '160px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '50px', '--awb-margin-bottom': '90px', '--awb-margin-top-small': '43px', '--awb-margin-bottom-small': '31px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -32,7 +32,7 @@ export default function Row7() {
                             </div>
                             <div
                               className="fusion-text fusion-text-2"
-                              style={{ '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': 'var( --awb-typography4-line-height )', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '60px', '--awb-margin-right': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                              style={{ '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': 'var( --awb-typography4-line-height )', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '30px', '--awb-margin-right': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                             >
                               <p>
                                 {` While top-of-the-line security is our main focus, there are many additional characteristics that make our security windows such a great solution for communal and commercial properties.`}

@@ -2,7 +2,7 @@ export default function Row19() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-19 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '130px', '--awb-padding-right': '120px', '--awb-padding-bottom': '130px', '--awb-padding-left': '120px', '--awb-padding-top-small': '55px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '135px', '--awb-margin-bottom-small': '0px', '--awb-background-color': 'var(--awb-color6)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '46px', '--awb-padding-right': '120px', '--awb-padding-bottom': '46px', '--awb-padding-left': '120px', '--awb-padding-top-small': '28px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '68px', '--awb-margin-bottom-small': '0px', '--awb-background-color': 'var(--awb-color6)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -17,7 +17,7 @@ export default function Row19() {
                           >
                             <div
                               className="fusion-title title fusion-title-14 fusion-sep-none fusion-title-text fusion-title-size-three"
-                              style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-margin-bottom': '60px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
+                              style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-margin-bottom': '30px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
                             >
                               <h3
                                 className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
@@ -37,7 +37,7 @@ export default function Row19() {
                           >
                             <div
                               className="fusion-text fusion-text-18"
-                              style={{ '--awb-content-alignment': 'left', '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color1)', '--awb-margin-top': '60px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                              style={{ '--awb-content-alignment': 'left', '--awb-font-size': 'var(--awb-typography4-font-size)', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color1)', '--awb-margin-top': '30px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                             >
                               <p>
                                 {` In the project business, in particular, there are sectors where bullet-resistant solutions are required in addition to protection against break-in, for example, at banks and insurance companies, post offices, government institutions and retail outlets. Here too, Schüco offers suitable systems with perfect component compatibility. `}

@@ -2,7 +2,7 @@ export default function Row22() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-22 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-no-medium-visibility fusion-no-large-visibility"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '60px', '--awb-padding-right': '0px', '--awb-padding-bottom': '60px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '21px', '--awb-margin-bottom': '155px', '--awb-margin-bottom-small': '134px', '--awb-background-color': 'var(--awb-color5)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '28px', '--awb-padding-right': '0px', '--awb-padding-bottom': '28px', '--awb-padding-left': '0px', '--awb-padding-bottom-small': '21px', '--awb-margin-bottom': '78px', '--awb-margin-bottom-small': '67px', '--awb-background-color': 'var(--awb-color5)', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"

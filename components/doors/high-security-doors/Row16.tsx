@@ -2,7 +2,7 @@ export default function Row16() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-16 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '50px', '--awb-padding-right': '120px', '--awb-padding-bottom': '80px', '--awb-padding-left': '120px', '--awb-padding-top-small': '0px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '30px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '85px', '--awb-margin-bottom-small': '90px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '28px', '--awb-padding-right': '120px', '--awb-padding-bottom': '28px', '--awb-padding-left': '120px', '--awb-padding-top-small': '0px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '30px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '43px', '--awb-margin-bottom-small': '45px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -28,7 +28,7 @@ export default function Row16() {
                                 >
                                   <div
                                     className="fusion-text fusion-text-6 fusion-text-no-margin"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
                                   >
                                     <p>
                                       {` Choosing a security door option for your home might not be as easy as one might think. After all, there are many factors to keep in mind such as the features of the steel security door itself, the door furniture and panels, hinges, multi point locking systems and so on, not to mention the finished design of your doors as well. `}
@@ -36,7 +36,7 @@ export default function Row16() {
                                   </div>
                                   <div
                                     className="fusion-text fusion-text-7 fusion-text-no-margin"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                                   >
                                     <p>
                                       {` Depending on what’s needed, careful planning and eventual construction has to be undertaken to ensure that no place at your front door is left vulnerable for potential threats. `}
@@ -53,7 +53,7 @@ export default function Row16() {
                                 >
                                   <div
                                     className="fusion-text fusion-text-8 fusion-text-no-margin"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-margin-right': '0px', '--awb-margin-bottom': '0px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
                                   >
                                     <p>
                                       {` When considering what type security doors to choose from a security firm, we recommend evaluating: `}
@@ -61,7 +61,7 @@ export default function Row16() {
                                   </div>
                                   <div
                                     className="fusion-text fusion-text-9 fusion-text-no-margin"
-                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '40px', '--awb-margin-right': '10px', '--awb-margin-bottom': '0px', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
+                                    style={{ '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.3', '--awb-letter-spacing': 'var( --awb-typography4-letter-spacing )', '--awb-text-transform': 'var( --awb-typography4-text-transform )', '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '24px', '--awb-margin-right': '10px', '--awb-margin-bottom': '0px', '--awb-text-font-family': '"Montserrat"', '--awb-text-font-style': 'normal', '--awb-text-font-weight': '500' } as unknown as React.CSSProperties}
                                   >
                                     <ul>
                                       <li>

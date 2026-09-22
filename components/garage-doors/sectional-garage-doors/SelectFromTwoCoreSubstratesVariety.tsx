@@ -6,7 +6,7 @@ export default function Row9() {
                     >
                       <div
                         className="fusion-fullwidth fullwidth-box fusion-builder-row-9 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                        style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '76px', '--awb-padding-right': '160px', '--awb-padding-bottom': '55px', '--awb-padding-left': '160px', '--awb-padding-top-small': '0px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '0px', '--awb-padding-left-small': '40px', '--awb-margin-top-small': '0px', '--awb-margin-top': '90px', '--awb-margin-bottom': '68px', '--awb-margin-bottom-small': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                        style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-top': '28px', '--awb-padding-right': '160px', '--awb-padding-bottom': '28px', '--awb-padding-left': '160px', '--awb-padding-top-small': '0px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '0px', '--awb-padding-left-small': '40px', '--awb-margin-top-small': '0px', '--awb-margin-top': '45px', '--awb-margin-bottom': '34px', '--awb-margin-bottom-small': '0px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                       >
                         <div
                           className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -14,14 +14,14 @@ export default function Row9() {
                         >
                           <div
                             className="fusion-layout-column fusion_builder_column fusion-builder-column-11 fusion_builder_column_1_2 1_2 fusion-flex-column fusion-flex-align-self-center"
-                            style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '19.008%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '7.296%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-margin-bottom-small': '41px', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                            style={{ '--awb-bg-size': 'cover', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '19.008%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '7.296%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-margin-bottom-small': '24px', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
                           >
                             <div
                               className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-end fusion-content-layout-column"
                             >
                               <div
                                 className="fusion-title title fusion-title-5 fusion-sep-none fusion-title-text fusion-title-size-three"
-                                style={{ '--awb-text-color': 'var(--awb-color5)', '--awb-margin-bottom-small': '40px', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                                style={{ '--awb-text-color': 'var(--awb-color5)', '--awb-margin-bottom-small': '24px', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
                               >
                                 <h3
                                   className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
