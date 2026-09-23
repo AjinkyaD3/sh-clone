@@ -20,12 +20,12 @@ export const metadata: Metadata = {
   description:
     "Victorian front doors UK with bespoke designs, high security and premium finishes. Discover custom Victorian doors from Secure House with a free consultation.",
   alternates: {
-    canonical: "https://secure-house.co.uk/door-styles/victorian-doors",
+    canonical: "https://secure-house.co.uk/door-styles/victorian-doors/",
   },
   openGraph: {
     title: "Victorian Front Doors UK – Custom Design & Free Consultation",
     description: "Victorian front doors UK with bespoke designs, high security and premium finishes. Discover custom Victorian doors from Secure House with a free consultation.",
-    url: "https://secure-house.co.uk/door-styles/victorian-doors",
+    url: "https://secure-house.co.uk/door-styles/victorian-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {
