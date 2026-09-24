@@ -1,0 +1,46 @@
+export default function TrustedManufacturers() {
+  return (
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-10 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '0px', '--awb-padding-left': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 12%, var(--awb-color5) 11% )', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-9 fusion_builder_column_inner_1_2 1_2 fusion-flex-column"
+                          style={{ '--awb-padding-top': '90px', '--awb-padding-right': '60px', '--awb-padding-bottom': '90px', '--awb-padding-left': '120px', '--awb-padding-top-small': '40px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '40px', '--awb-padding-left-small': '40px', '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+                            <div
+                              className="fusion-title title fusion-title-5 fusion-sep-none fusion-title-text fusion-title-size-three"
+                              style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
+                            >
+                              <h3
+                                className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                style={{ fontFamily: 'var( --awb-typography1-font-family )', fontWeight: 'var( --awb-typography1-font-weight )', fontStyle: 'var( --awb-typography1-font-style )', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '30', lineHeight: 'var( --awb-typography1-line-height )' } as unknown as React.CSSProperties}
+                              >
+                                {` Trusted Bespoke Door Manufacturers in the UK `}
+                              </h3>
+                            </div>
+                            <div
+                              className="fusion-text fusion-text-4"
+                              style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': 'var( --awb-typography4-font-size )', '--awb-line-height': '1.5', '--awb-margin-top': '20px', '--awb-text-font-family': 'var( --awb-typography4-font-family )', '--awb-text-font-weight': 'var( --awb-typography4-font-weight )', '--awb-text-font-style': 'var( --awb-typography4-font-style )' } as unknown as React.CSSProperties}
+                            >
+                              <p>
+                                {` We are bespoke door manufacturers in the UK that you can bank on. Over the years, we've built a reputation as reliable custom door specialists. Our support includes everything from designing, manufacturing, to installing doors across every nook and corner of the United Kingdom. We also guide you when you are unsure about the type of door you need and the design you envision. `}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-10 fusion_builder_column_inner_1_2 1_2 fusion-flex-column"
+                          style={{ '--awb-width-large': '50%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '0%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '0%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"></div>
+                        </div>
+                      </div>
+                    </div>
+  );
+}

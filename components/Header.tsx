@@ -491,6 +491,7 @@ export default function Header() {
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
 														<li><a href="/doors/panic-room-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Panic room doors</a></li>
 														<li><a href="/doors/high-security-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>High security doors</a></li>
+														<li><a href="/doors/bespoke-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Bespoke doors</a></li>
 													</ul>
 													<div style={{ color: '#635548', fontWeight: 500, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', marginTop: '40px' }}>Commercial doors</div>
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>

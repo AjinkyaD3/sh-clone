@@ -21,24 +21,24 @@ import { DEFAULT_OG_IMAGE } from "../../../lib/seo";
 // the page's original photos are gone - swap in real ones when supplied.
 
 export const metadata: Metadata = {
-  title: "Industrial Style Doors | Steel & Crittall-Style Doors UK",
+  title: "Industrial Style Doors – Designed for Stylish UK Living",
   description:
-    "Stylish, durable industrial style doors made to measure in the UK. Slim steel profiles, FD30 fire resistance, and Crittall-style glazing for modern living.",
+    "Industrial Style Doors for sale across the UK – shop premium, durable designs perfect for modern homes and offices. Order online now with fast UK delivery.",
   alternates: {
     canonical: "https://secure-house.co.uk/doors/industrial-style-doors/",
   },
   openGraph: {
-    title: "Industrial Style Doors | Steel & Crittall-Style Doors UK",
+    title: "Industrial Style Doors – Designed for Stylish UK Living",
     description:
-      "Stylish, durable industrial style doors made to measure in the UK. Slim steel profiles, FD30 fire resistance, and Crittall-style glazing for modern living.",
+      "Industrial Style Doors for sale across the UK – shop premium, durable designs perfect for modern homes and offices. Order online now with fast UK delivery.",
     url: "https://secure-house.co.uk/doors/industrial-style-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Industrial Style Doors | Steel & Crittall-Style Doors UK",
+    title: "Industrial Style Doors – Designed for Stylish UK Living",
     description:
-      "Stylish, durable industrial style doors made to measure in the UK. Slim steel profiles, FD30 fire resistance, and Crittall-style glazing for modern living.",
+      "Industrial Style Doors for sale across the UK – shop premium, durable designs perfect for modern homes and offices. Order online now with fast UK delivery.",
     images: [DEFAULT_OG_IMAGE.url],
   },
 };

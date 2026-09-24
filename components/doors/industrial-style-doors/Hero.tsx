@@ -27,7 +27,7 @@ export default function Hero() {
                                 className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
                                 style={{ fontFamily: 'var(--awb-typography1-font-family)', fontWeight: 'var(--awb-typography1-font-weight)', fontStyle: 'var(--awb-typography1-font-style)', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var(--awb-typography1-line-height)' } as unknown as React.CSSProperties}
                               >
-                                {` Stylish & Durable Industrial Style Doors for Modern UK Living `}
+                                {` Industrial style doors `}
                               </h1>
                             </div>
                             <div
