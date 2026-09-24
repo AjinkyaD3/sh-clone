@@ -44,6 +44,7 @@ export default function Row23() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="023._wooden_sash_window"
                                       className="lazyload img-responsive wp-image-5632 bv-tag-attr-replace"
@@ -68,6 +69,7 @@ export default function Row23() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="009._security_arch_window"
                                       className="lazyload img-responsive wp-image-5633 bv-tag-attr-replace"
@@ -92,6 +94,7 @@ export default function Row23() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="008._wooden_sash_window_(1)"
                                       className="lazyload img-responsive wp-image-5634 bv-tag-attr-replace"

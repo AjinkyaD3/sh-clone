@@ -67,6 +67,7 @@ export default function Row11() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="group_330"
                                       className="lazyload img-responsive wp-image-7201 bv-tag-attr-replace"
@@ -94,6 +95,7 @@ export default function Row11() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="group_328"
                                       className="lazyload img-responsive wp-image-7200 bv-tag-attr-replace"
@@ -118,6 +120,7 @@ export default function Row11() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="group_327"
                                       className="lazyload img-responsive wp-image-7199 bv-tag-attr-replace"
@@ -145,6 +148,7 @@ export default function Row11() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="group_326"
                                       className="lazyload img-responsive wp-image-7198 bv-tag-attr-replace"
@@ -169,6 +173,7 @@ export default function Row11() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="group_325"
                                       className="lazyload img-responsive wp-image-7197 bv-tag-attr-replace"

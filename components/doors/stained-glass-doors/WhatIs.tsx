@@ -61,6 +61,7 @@ export default function WhatIs() {
                                   <div className="fusion-image-element">
                                     <span className="fusion-imageframe imageframe-none imageframe-1 hover-type-none">
                                       <img
+                                        loading="lazy"
                                         alt="Victorian stained glass front door UK panel detail"
                                         className="lazyload img-responsive"
                                         decoding="async"

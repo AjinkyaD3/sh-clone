@@ -177,6 +177,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6755 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -246,6 +247,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6760 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -315,6 +317,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6772 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -384,6 +387,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6771 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -453,6 +457,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6770 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -522,6 +527,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6769 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -591,6 +597,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6768 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -660,6 +667,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6767 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -729,6 +737,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6766 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -798,6 +807,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6765 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -867,6 +877,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6764 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -936,6 +947,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6763 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -1005,6 +1017,7 @@ export default function Row11() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6762 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"

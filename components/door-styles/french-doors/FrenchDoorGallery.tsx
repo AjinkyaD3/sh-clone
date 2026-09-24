@@ -48,6 +48,7 @@ export default function Row14() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="079._french_security_door_bullet_proof"
                                         className="lazyload img-responsive wp-image-4630 bv-tag-attr-replace"

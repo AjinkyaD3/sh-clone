@@ -44,6 +44,7 @@ export default function Row9() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="022._wooden_sash_window"
                                       className="lazyload img-responsive wp-image-5576 bv-tag-attr-replace"
@@ -68,6 +69,7 @@ export default function Row9() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="021._stel_security_window"
                                       className="lazyload img-responsive wp-image-5577 bv-tag-attr-replace"
@@ -92,6 +94,7 @@ export default function Row9() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="014._wooden_sash_window"
                                       className="lazyload img-responsive wp-image-5578 bv-tag-attr-replace"
@@ -119,6 +122,7 @@ export default function Row9() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="010._wo"
                                       className="lazyload img-responsive wp-image-5579 bv-tag-attr-replace"
@@ -143,6 +147,7 @@ export default function Row9() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="008._wooden_sash_window"
                                       className="lazyload img-responsive wp-image-5580 bv-tag-attr-replace"
@@ -167,6 +172,7 @@ export default function Row9() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="007._wooden_arch_sash_window"
                                       className="lazyload img-responsive wp-image-5581 bv-tag-attr-replace"

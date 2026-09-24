@@ -57,6 +57,7 @@ export default function Row12() {
                                         title="garage_1"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_1"
                                           className="lazyload img-responsive wp-image-8453 bv-tag-attr-replace"
@@ -91,6 +92,7 @@ export default function Row12() {
                                         title="matching_garage_door_and_front_door_london_mews"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="matching_garage_door_and_front_door_london_mews"
                                           className="lazyload img-responsive wp-image-8455 bv-tag-attr-replace"
@@ -125,6 +127,7 @@ export default function Row12() {
                                         title="©_matthias_buehner"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="©_matthias_buehner"
                                           className="lazyload img-responsive wp-image-8456 bv-tag-attr-replace"
@@ -162,6 +165,7 @@ export default function Row12() {
                                         title="garage_4"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_4"
                                           className="lazyload img-responsive wp-image-8454 bv-tag-attr-replace"
@@ -196,6 +200,7 @@ export default function Row12() {
                                         title="side_sliding_garage_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="side_sliding_garage_door"
                                           className="lazyload img-responsive wp-image-8457 bv-tag-attr-replace"

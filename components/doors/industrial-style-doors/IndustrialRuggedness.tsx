@@ -34,6 +34,7 @@ export default function IndustrialRuggedness() {
                                       className="fusion-imageframe imageframe-none imageframe-5 hover-type-none"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt="Structural steel glazing framing a modern front door"
                                         className="lazyload img-responsive wp-image-7447 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, (max-width: 1919px) 1200px,(min-width: 1920px) 50vw"

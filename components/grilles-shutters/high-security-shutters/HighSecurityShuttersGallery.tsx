@@ -73,6 +73,7 @@ export default function Row7() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="roller-shutters"
                                         className="lazyload img-responsive wp-image-6116 bv-tag-attr-replace"
@@ -97,6 +98,7 @@ export default function Row7() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="02"
                                         className="lazyload img-responsive wp-image-6117 bv-tag-attr-replace"
@@ -124,6 +126,7 @@ export default function Row7() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="01"
                                         className="lazyload img-responsive wp-image-6118 bv-tag-attr-replace"
@@ -148,6 +151,7 @@ export default function Row7() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="27"
                                         className="lazyload img-responsive wp-image-6119 bv-tag-attr-replace"

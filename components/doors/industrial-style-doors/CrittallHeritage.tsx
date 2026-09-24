@@ -65,6 +65,7 @@ export default function CrittallHeritage() {
                                       className="fusion-imageframe imageframe-none imageframe-4 hover-type-none"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt="Slim steel framed glazed gable with a Secure House front door"
                                         className="lazyload img-responsive wp-image-7443 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, (max-width: 1919px) 1200px,(min-width: 1920px) 50vw"

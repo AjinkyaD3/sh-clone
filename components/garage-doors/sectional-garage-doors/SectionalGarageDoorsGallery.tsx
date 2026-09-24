@@ -57,6 +57,7 @@ export default function Row22() {
                                         title="sectional_garage_doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="sectional_garage_doors"
                                           className="lazyload img-responsive wp-image-8468 bv-tag-attr-replace"
@@ -91,6 +92,7 @@ export default function Row22() {
                                         title="sectional_garage_doors_secure_house"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="sectional_garage_doors_secure_house"
                                           className="lazyload img-responsive wp-image-8469 bv-tag-attr-replace"
@@ -125,6 +127,7 @@ export default function Row22() {
                                         title="sectional_garage_doors_by_secure_house"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="sectional_garage_doors_by_secure_house"
                                           className="lazyload img-responsive wp-image-8470 bv-tag-attr-replace"
@@ -162,6 +165,7 @@ export default function Row22() {
                                         title="barn_style_garage_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="barn_style_garage_door"
                                           className="lazyload img-responsive wp-image-8471 bv-tag-attr-replace"
@@ -196,6 +200,7 @@ export default function Row22() {
                                         title="garage_7"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_7"
                                           className="lazyload img-responsive wp-image-8472 bv-tag-attr-replace"
@@ -230,6 +235,7 @@ export default function Row22() {
                                         title="garage_8"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_8"
                                           className="lazyload img-responsive wp-image-8473 bv-tag-attr-replace"
@@ -267,6 +273,7 @@ export default function Row22() {
                                         title="garage_17"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_17"
                                           className="lazyload img-responsive wp-image-8475 bv-tag-attr-replace"
@@ -301,6 +308,7 @@ export default function Row22() {
                                         title="img-20161213-wa0000"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img-20161213-wa0000"
                                           className="lazyload img-responsive wp-image-8477 bv-tag-attr-replace"
@@ -335,6 +343,7 @@ export default function Row22() {
                                         title="matching_garage_door_and_front_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="matching_garage_door_and_front_door"
                                           className="lazyload img-responsive wp-image-8478 bv-tag-attr-replace"
@@ -373,6 +382,7 @@ export default function Row22() {
                                         title="leave_your_car_here"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="leave_your_car_here"
                                           className="lazyload img-responsive wp-image-8479 bv-tag-attr-replace"
@@ -408,6 +418,7 @@ export default function Row22() {
                                         title="new_design_white_villa"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="new_design_white_villa"
                                           className="lazyload img-responsive wp-image-8480 bv-tag-attr-replace"
@@ -442,6 +453,7 @@ export default function Row22() {
                                         title="sectional_garage_door_glass"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="sectional_garage_door_glass"
                                           className="lazyload img-responsive wp-image-8481 bv-tag-attr-replace"
@@ -479,6 +491,7 @@ export default function Row22() {
                                         title="sectional_garage_door_glazed_red_car"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="sectional_garage_door_glazed_red_car"
                                           className="lazyload img-responsive wp-image-8482 bv-tag-attr-replace"
@@ -514,6 +527,7 @@ export default function Row22() {
                                         title="user_comments"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="user_comments"
                                           className="lazyload img-responsive wp-image-8484 bv-tag-attr-replace"
@@ -548,6 +562,7 @@ export default function Row22() {
                                         title="timber_clad_sectional_garage_door_barn_style"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="timber_clad_sectional_garage_door_barn_style"
                                           className="lazyload img-responsive wp-image-8485 bv-tag-attr-replace"
@@ -584,6 +599,7 @@ export default function Row22() {
                                         title="video-2024-07-04-14-20-02"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="video-2024-07-04-14-20-02"
                                           className="lazyload img-responsive wp-image-8486"
@@ -614,6 +630,7 @@ export default function Row22() {
                                         title="garage_3"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_3"
                                           className="lazyload img-responsive wp-image-8487 bv-tag-attr-replace"
@@ -648,6 +665,7 @@ export default function Row22() {
                                         title="garage_11"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_11"
                                           className="lazyload img-responsive wp-image-8488 bv-tag-attr-replace"
@@ -685,6 +703,7 @@ export default function Row22() {
                                         title="garage_12"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_12"
                                           className="lazyload img-responsive wp-image-8489 bv-tag-attr-replace"

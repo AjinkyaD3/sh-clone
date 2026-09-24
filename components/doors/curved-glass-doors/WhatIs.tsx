@@ -60,6 +60,7 @@ export default function WhatIs() {
                                   <div className="fusion-image-element">
                                     <span className="fusion-imageframe imageframe-none imageframe-1 hover-type-none">
                                       <img
+                                        loading="lazy"
                                         alt="Curved glass front door UK modern glazed entrance"
                                         className="lazyload img-responsive"
                                         decoding="async"

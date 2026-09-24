@@ -101,6 +101,7 @@ export default function Row9() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6692 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"
@@ -171,6 +172,7 @@ export default function Row9() {
                                       </p>
                                       <p>
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload alignnone size-full wp-image-6691 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 580px) 100vw, 580px"

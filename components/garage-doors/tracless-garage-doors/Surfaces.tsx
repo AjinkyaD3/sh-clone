@@ -49,6 +49,7 @@ export default function Row12() {
                                         className="fusion-imageframe imageframe-none imageframe-3 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-7207 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 215px"
@@ -100,6 +101,7 @@ export default function Row12() {
                                         className="fusion-imageframe imageframe-none imageframe-4 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-7211 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 215px"
@@ -150,6 +152,7 @@ export default function Row12() {
                                         className="fusion-imageframe imageframe-none imageframe-5 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-7210 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 215px"
@@ -200,6 +203,7 @@ export default function Row12() {
                                         className="fusion-imageframe imageframe-none imageframe-6 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-7209 bv-tag-attr-replace"
                                           data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 215px"
