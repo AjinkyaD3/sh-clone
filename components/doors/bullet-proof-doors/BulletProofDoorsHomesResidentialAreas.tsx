@@ -64,7 +64,7 @@ export default function Row14() {
                                       className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                       style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '50', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                     >
-                                      {` Bullet proof doors`}
+                                      {` Bullet Proof doors`}
                                       <br />
                                       {` for homes and`}
                                       <br />

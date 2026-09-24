@@ -26,7 +26,7 @@ export default function Row18() {
                                 className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
                                 style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '40', lineHeight: '1.2' } as unknown as React.CSSProperties}
                               >
-                                {`Security sectional garage doors London: SSD Side Sliding Doors`}
+                                {`Security Sectional Garage Doors London: SSD Side Sliding Doors`}
                               </h4>
                             </div>
                             <div

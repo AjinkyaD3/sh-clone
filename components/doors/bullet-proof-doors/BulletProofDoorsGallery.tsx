@@ -27,7 +27,7 @@ export default function Row16() {
                                   className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
                                   style={{ margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '50', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                 >
-                                  {` Bullet proof doors gallery `}
+                                  {` Bullet Proof doors gallery `}
                                 </h3>
                               </div>
                               <div
