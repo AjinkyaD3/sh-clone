@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   description:
     "French style front doors UK with bespoke designs, advanced security and premium finishes. Explore custom French doors with a free consultation.",
   alternates: {
-    canonical: "https://secure-house.co.uk/door-styles/french-doors",
+    canonical: "https://secure-house.co.uk/door-styles/french-doors/",
   },
   openGraph: {
     title: "French Front Doors UK – Bespoke Designs & High Security",
     description: "French style front doors UK with bespoke designs, advanced security and premium finishes. Explore custom French doors with a free consultation.",
-    url: "https://secure-house.co.uk/door-styles/french-doors",
+    url: "https://secure-house.co.uk/door-styles/french-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

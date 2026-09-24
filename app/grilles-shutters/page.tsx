@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   description:
     "Security-rated shutters and grilles for homes and businesses. Security shutters, High security shutters, Collapsible grilles.",
   alternates: {
-    canonical: "https://secure-house.co.uk/grilles-shutters",
+    canonical: "https://secure-house.co.uk/grilles-shutters/",
   },
   openGraph: {
     title: "Grilles, shutters - Secure House",
     description: "Security-rated shutters and grilles for homes and businesses. Security shutters, High security shutters, Collapsible grilles.",
-    url: "https://secure-house.co.uk/grilles-shutters",
+    url: "https://secure-house.co.uk/grilles-shutters/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

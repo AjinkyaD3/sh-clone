@@ -88,14 +88,25 @@ export default function HeroSlider() {
           )}
           <div className={styles.overlay} />
           <div className={styles.content}>
-            <h1 className={styles.heading}>
-              {slide.heading.split('\n').map((line, j) => (
-                <span key={j}>
-                  {line}
-                  {j < slide.heading.split('\n').length - 1 && <br />}
-                </span>
-              ))}
-            </h1>
+            {i === active ? (
+              <h1 className={styles.heading}>
+                {slide.heading.split('\n').map((line, j) => (
+                  <span key={j}>
+                    {line}
+                    {j < slide.heading.split('\n').length - 1 && <br />}
+                  </span>
+                ))}
+              </h1>
+            ) : (
+              <h2 className={styles.heading}>
+                {slide.heading.split('\n').map((line, j) => (
+                  <span key={j}>
+                    {line}
+                    {j < slide.heading.split('\n').length - 1 && <br />}
+                  </span>
+                ))}
+              </h2>
+            )}
             <Link href={slide.buttonHref} className={styles.button}>
               {slide.buttonLabel}
             </Link>

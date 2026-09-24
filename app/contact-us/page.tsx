@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   description:
     "Please don't hesitate to call, pop in or get in touch. info@secure-house.co.uk, +44 20 7859 4207. Mon–Fri: 08:00–18:00, Sat–Sun: Closed.",
   alternates: {
-    canonical: "https://secure-house.co.uk/contact-us",
+    canonical: "https://secure-house.co.uk/contact-us/",
   },
   openGraph: {
     title: "Contact us - Secure House",
     description: "Please don't hesitate to call, pop in or get in touch. info@secure-house.co.uk, +44 20 7859 4207. Mon–Fri: 08:00–18:00, Sat–Sun: Closed.",
-    url: "https://secure-house.co.uk/contact-us",
+    url: "https://secure-house.co.uk/contact-us/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

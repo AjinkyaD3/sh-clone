@@ -62,12 +62,12 @@ export default function Row7() {
                                     className="fusion-title title fusion-title-3 fusion-sep-none fusion-title-text fusion-title-size-three"
                                     style={{ '--awb-text-color': 'var(--awb-color1)', '--awb-font-size': 'var( --awb-typography1-font-size )' } as unknown as React.CSSProperties}
                                   >
-                                    <h3
+                                    <h2
                                       className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                       style={{ fontFamily: 'var( --awb-typography1-font-family )', fontWeight: 'var( --awb-typography1-font-weight )', fontStyle: 'var( --awb-typography1-font-style )', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var( --awb-typography1-line-height )' } as unknown as React.CSSProperties}
                                     >
                                       {` Stainless steel door solutions for private and commercial buildings `}
-                                    </h3>
+                                    </h2>
                                   </div>
                                   <div
                                     className="fusion-text fusion-text-1"

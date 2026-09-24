@@ -56,71 +56,121 @@ const FAQS: { id: string; q: string; a: string }[] = [
   },
 ];
 
-// Same Bootstrap-collapse-style accordion markup already used sitewide
-// (see components/door-styles/victorian-doors/FrequentlyAskedQuestionsFaq.tsx)
-// - the toggle behavior is already wired globally, no new JS needed here.
+// Same section + accordion markup as the Victorian doors FAQ, so both pages
+// render identically - the toggle behavior is already wired globally.
 export default function FrequentlyAskedQuestionsFaq() {
   return (
-    <div style={{ maxWidth: "820px", margin: "0 auto", padding: "56px 40px 100px" }}>
-      <h2
-        style={{
-          fontFamily: '"Playfair Display", serif',
-          fontWeight: 500,
-          fontSize: "32px",
-          color: "#1c1e36",
-          margin: "0 0 32px",
-        }}
-      >
-        Frequently asked questions (FAQ)
-      </h2>
-      <div className="panel-group fusion-toggle-icon-unboxed" id="accordion-industrial-style-doors">
-        {FAQS.map((faq) => (
-          <div
-            key={faq.id}
-            className={`fusion-panel panel-default panel-${faq.id} fusion-toggle-no-divider`}
-            style={{ "--awb-title-color": "#1c1e36", "--awb-content-color": "#3a3a3a" } as unknown as React.CSSProperties}
-          >
-            <div className="panel-heading">
-              <h4 className="panel-title toggle" id={`toggle_${faq.id}`}>
-                <a
-                  aria-controls={faq.id}
-                  aria-expanded="false"
-                  data-parent="#accordion-industrial-style-doors"
-                  data-target={`#${faq.id}`}
-                  data-toggle="collapse"
-                  href={`#${faq.id}`}
-                  role="button"
-                >
-                  <span aria-hidden="true" className="fusion-toggle-icon-wrapper">
-                    <i aria-hidden="true" className="fa-fusion-box active-icon awb-icon-minus"></i>
-                    <i aria-hidden="true" className="fa-fusion-box inactive-icon awb-icon-plus"></i>
-                  </span>
-                  <span className="fusion-toggle-heading">{faq.q}</span>
-                </a>
-              </h4>
-            </div>
-            <div aria-labelledby={`toggle_${faq.id}`} className="panel-collapse collapse" id={faq.id}>
-              <div className="panel-body toggle-content fusion-clearfix">
-                <p>{faq.a}</p>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: FAQS.map((faq) => ({
-              "@type": "Question",
-              name: faq.q,
-              acceptedAnswer: { "@type": "Answer", text: faq.a },
-            })),
-          }),
-        }}
-      />
-    </div>
+                    <div
+                      className="fusion-fullwidth fullwidth-box fusion-builder-row-15 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
+                      style={{ '--link_hover_color': 'var(--awb-color5)', '--link_color': 'var(--awb-color6)', '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '120px', '--awb-padding-bottom': '56px', '--awb-padding-left': '120px', '--awb-padding-right-small': '40px', '--awb-padding-bottom-small': '28px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '0px', '--awb-background-image': 'linear-gradient( 180deg, var(--awb-color1) 0%, rgba(255, 255, 255, 0) 100% )', '--awb-margin-top': '50px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                    >
+                      <div
+                        className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+                        style={{ width: '104% !important', maxWidth: '104% !important', marginLeft: 'calc(-4% / 2)', marginRight: 'calc(-4% / 2)' } as unknown as React.CSSProperties}
+                      >
+                        <div
+                          className="fusion-layout-column fusion_builder_column fusion-builder-column-19 fusion_builder_column_1_1 1_1 fusion-flex-column"
+                          style={{ '--awb-bg-size': 'cover', '--awb-width-large': '100%', '--awb-margin-top-large': '0px', '--awb-spacing-right-large': '1.92%', '--awb-margin-bottom-large': '0px', '--awb-spacing-left-large': '1.92%', '--awb-width-medium': '100%', '--awb-order-medium': '0', '--awb-spacing-right-medium': '1.92%', '--awb-spacing-left-medium': '1.92%', '--awb-width-small': '100%', '--awb-order-small': '0', '--awb-spacing-right-small': '1.92%', '--awb-spacing-left-small': '1.92%' } as unknown as React.CSSProperties}
+                        >
+                          <div
+                            className="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"
+                          >
+                            <div
+                              className="fusion-title title fusion-title-10 fusion-sep-none fusion-title-text fusion-title-size-two"
+                              style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '24px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
+                            >
+                              <h2
+                                className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
+                                style={{ fontFamily: 'var(--awb-typography1-font-family)', fontWeight: 'var(--awb-typography1-font-weight)', fontStyle: 'var(--awb-typography1-font-style)', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var(--awb-typography1-line-height)' } as unknown as React.CSSProperties}
+                              >
+                                {` Frequently asked questions (FAQ) `}
+                              </h2>
+                            </div>
+                            <div
+                              className="accordian fusion-accordian"
+                              style={{ '--awb-padding-bottom': '15px', '--awb-padding-left': '0px', '--awb-border-size': '0px', '--awb-icon-size': '18px', '--awb-content-font-size': '18px', '--awb-content-letter-spacing': '0px', '--awb-icon-alignment': 'left', '--awb-hover-color': 'var(--awb-color6)', '--awb-border-color': 'hsla( var(--awb-color5-h), var(--awb-color5-s), calc(var(--awb-color5-l) + 56%), var(--awb-color5-a) )', '--awb-background-color': 'var(--awb-color1)', '--awb-divider-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-divider-hover-color': 'hsla( var(--awb-color1-h), var(--awb-color1-s), var(--awb-color1-l), calc(var(--awb-color1-a) - 80%) )', '--awb-icon-color': 'var(--awb-color6)', '--awb-title-color': 'var(--awb-color6)', '--awb-content-color': 'var(--awb-color6)', '--awb-icon-box-color': 'var(--awb-color1)', '--awb-toggle-hover-accent-color': 'var( --awb-color5 )', '--awb-toggle-active-accent-color': 'var( --awb-color6 )', '--awb-title-font-family': '"Montserrat"', '--awb-title-font-weight': '500', '--awb-title-font-style': 'normal', '--awb-title-font-size': '18px', '--awb-title-letter-spacing': '0px', '--awb-title-text-transform': 'none', '--awb-content-font-family': '"Montserrat"', '--awb-content-font-style': 'normal', '--awb-content-font-weight': '400' } as unknown as React.CSSProperties}
+                            >
+                              <div
+                                className="panel-group fusion-toggle-icon-unboxed"
+                                id="accordion-industrial-style-doors"
+                              >
+                                {FAQS.map((faq) => (
+                                  <div
+                                    key={faq.id}
+                                    className={`fusion-panel panel-default panel-${faq.id} fusion-toggle-no-divider`}
+                                    style={{ '--awb-title-color': 'var(--awb-color6)', '--awb-content-color': 'var(--awb-color6)' } as unknown as React.CSSProperties}
+                                  >
+                                    <div
+                                      className="panel-heading"
+                                    >
+                                      <h4
+                                        className="panel-title toggle"
+                                        id={`toggle_${faq.id}`}
+                                      >
+                                        <a
+                                          aria-controls={faq.id}
+                                          aria-expanded="false"
+                                          data-parent="#accordion-industrial-style-doors"
+                                          data-target={`#${faq.id}`}
+                                          data-toggle="collapse"
+                                          href={`#${faq.id}`}
+                                          role="button"
+                                        >
+                                          <span
+                                            aria-hidden="true"
+                                            className="fusion-toggle-icon-wrapper"
+                                          >
+                                            <i
+                                              aria-hidden="true"
+                                              className="fa-fusion-box active-icon awb-icon-minus"
+                                            ></i>
+                                            <i
+                                              aria-hidden="true"
+                                              className="fa-fusion-box inactive-icon awb-icon-plus"
+                                            ></i>
+                                          </span>
+                                          <span
+                                            className="fusion-toggle-heading"
+                                          >
+                                            {faq.q}
+                                          </span>
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div
+                                      aria-labelledby={`toggle_${faq.id}`}
+                                      className="panel-collapse collapse"
+                                      id={faq.id}
+                                    >
+                                      <div
+                                        className="panel-body toggle-content fusion-clearfix"
+                                      >
+                                        <p>
+                                          {faq.a}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                            <script
+                              type="application/ld+json"
+                              dangerouslySetInnerHTML={{
+                                __html: JSON.stringify({
+                                  "@context": "https://schema.org",
+                                  "@type": "FAQPage",
+                                  mainEntity: FAQS.map((faq) => ({
+                                    "@type": "Question",
+                                    name: faq.q,
+                                    acceptedAnswer: { "@type": "Answer", text: faq.a },
+                                  })),
+                                }),
+                              }}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
   );
 }

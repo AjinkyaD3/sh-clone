@@ -491,6 +491,7 @@ export default function Header() {
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
 														<li><a href="/doors/panic-room-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Panic room doors</a></li>
 														<li><a href="/doors/high-security-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>High security doors</a></li>
+														<li><a href="/doors/bespoke-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Bespoke doors</a></li>
 													</ul>
 													<div style={{ color: '#635548', fontWeight: 500, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', marginTop: '40px' }}>Commercial doors</div>
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
@@ -505,9 +506,22 @@ export default function Header() {
 														<li><a href="/doors/profile-doors/presto-bullet-proof/" style={{ color: '#dcd7ca', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>PRESTO BULLET PROOF</a></li>
 														<li><a href="/doors/profile-doors/stainless-steel/" style={{ color: '#dcd7ca', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>STAINLESS STEEL</a></li>
 													</ul>
+													<div style={{ color: '#635548', fontWeight: 500, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', marginTop: '40px' }}>Decorative doors</div>
+													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
+														<li><a href="/doors/arch-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Arch doors</a></li>
+														<li><a href="/doors/curved-glass-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Curved glass doors</a></li>
+														<li><a href="/doors/stained-glass-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Stained glass doors</a></li>
+														<li><a href="/doors/industrial-style-doors/" style={{ color: '#fff', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Industrial style doors</a></li>
+													</ul>
 													<div style={{ marginTop: '20px' }}>
 														<a href="/door-styles/" style={{ display: 'inline-block', backgroundColor: '#dcd7ca', color: '#635548', fontSize: '14px', fontWeight: 400, padding: '14px 24px', textDecoration: 'none' }}>Explore door styles</a>
 													</div>
+													<ul style={{ listStyle: 'none', margin: '14px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
+														<li><a href="/door-styles/victorian-doors/" style={{ color: '#dcd7ca', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Victorian doors</a></li>
+														<li><a href="/door-styles/edwardian-doors/" style={{ color: '#dcd7ca', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Edwardian doors</a></li>
+														<li><a href="/door-styles/georgian-doors/" style={{ color: '#dcd7ca', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>Georgian doors</a></li>
+														<li><a href="/door-styles/french-doors/" style={{ color: '#dcd7ca', fontWeight: 400, fontSize: '14px', textDecoration: 'none', display: 'block' }}>French doors</a></li>
+													</ul>
 												</div>
 
 												{/* Column 2: WINDOWS + GRILLES, SHUTTERS */}
@@ -545,6 +559,8 @@ export default function Header() {
 												{/* Column 4: flat links (Products off-canvas menu) */}
 												<div style={{ paddingTop: '30px' }}>
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
+														<li><a href="/products/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Products</a></li>
+														<li><a href="/security-levels/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Security levels</a></li>
 														<li><a href="/projects/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Projects</a></li>
 														<li><a href="/about-us/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>About Us</a></li>
 														<li><a href="/trade/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Trade</a></li>
@@ -553,7 +569,7 @@ export default function Header() {
 													</ul>
 												</div>
 											</div>
-											<div style={{ position: 'absolute', left: '130px', right: '100px', bottom: '40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '20px' }}>
+											<div style={{ marginTop: '60px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '20px' }}>
 												<a href="mailto:info@secure-house.co.uk" style={{ color: '#635548', fontSize: '14px', fontWeight: 500, textDecoration: 'none' }}>info@secure-house.co.uk</a>
 												<span style={{ color: '#635548', fontSize: '14px', fontWeight: 500 }}>
 													Customer support: <a href="tel:+442078594207" style={{ color: '#635548', fontWeight: 500, textDecoration: 'none' }}>+44 20 7859 4207</a>

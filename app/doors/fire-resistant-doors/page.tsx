@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     "Enhance home safety with premium fire resistant doors for flats and houses. Shop certified fire rated doors for ultimate protection and peace of mind.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/doors/fire-resistant-doors",
+      "https://secure-house.co.uk/doors/fire-resistant-doors/",
   },
   openGraph: {
     title: "Fire Resistant Doors for Homes & Flats | Secure House",
     description: "Enhance home safety with premium fire resistant doors for flats and houses. Shop certified fire rated doors for ultimate protection and peace of mind.",
-    url: "https://secure-house.co.uk/doors/fire-resistant-doors",
+    url: "https://secure-house.co.uk/doors/fire-resistant-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

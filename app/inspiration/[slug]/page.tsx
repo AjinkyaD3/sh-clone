@@ -21,7 +21,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const url = `https://secure-house.co.uk/inspiration/${post.slug}`;
+  const url = `https://secure-house.co.uk/inspiration/${post.slug}/`;
 
   return {
     title: post.title,

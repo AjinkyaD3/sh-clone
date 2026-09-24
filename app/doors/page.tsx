@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   description:
     "Doors – Stylish and secure. Our products are custom made - beautiful and functional. We can produce doors to suit every type of property, location and budget.",
   alternates: {
-    canonical: "https://secure-house.co.uk/doors",
+    canonical: "https://secure-house.co.uk/doors/",
   },
   openGraph: {
     title: "Doors - Secure House",
     description: "Doors – Stylish and secure. Our products are custom made - beautiful and functional. We can produce doors to suit every type of property, location and budget.",
-    url: "https://secure-house.co.uk/doors",
+    url: "https://secure-house.co.uk/doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

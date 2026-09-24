@@ -38,7 +38,7 @@ export default function Row13() {
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '600', margin: '0', textTransform: 'none', fontSize: '1em', '--fontSize': '50', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
-                                        {` Bullet proof`}
+                                        {` Bullet Proof`}
                                         <br />
                                         {` doors for`}
                                         <br />

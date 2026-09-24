@@ -23,12 +23,12 @@ export const metadata: Metadata = {
     "Our security garage doors is an innovative product with high level of security and design since 2010. Original opening system that doesn't require ceiling tracks.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/garage-doors/tracless-garage-doors",
+      "https://secure-house.co.uk/garage-doors/tracless-garage-doors/",
   },
   openGraph: {
     title: "Tracless garage doors - Secure House",
     description: "Our security garage doors is an innovative product with high level of security and design since 2010. Original opening system that doesn't require ceiling tracks.",
-    url: "https://secure-house.co.uk/garage-doors/tracless-garage-doors",
+    url: "https://secure-house.co.uk/garage-doors/tracless-garage-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

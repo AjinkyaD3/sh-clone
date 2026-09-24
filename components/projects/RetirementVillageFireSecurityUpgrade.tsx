@@ -132,12 +132,12 @@ export default function Row4() {
                                       >
                                         {` GRILLES, SHUTTERS `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {` Sports pavilion secured with high-performance shutters `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -168,12 +168,12 @@ export default function Row4() {
                                       >
                                         {` PROJECTS `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {` High-tech protection with traditional design `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -204,12 +204,12 @@ export default function Row4() {
                                       >
                                         {` PROJECTS `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {` Entire home protection `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -240,12 +240,12 @@ export default function Row4() {
                                       >
                                         {` DOORS `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {` Industrial steel doors with glass `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -276,12 +276,12 @@ export default function Row4() {
                                       >
                                         {` DOORS `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {` Yvon house security communal door `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -312,12 +312,12 @@ export default function Row4() {
                                       >
                                         {` DOORS `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {` Full house project in Hertfordshire `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -348,12 +348,12 @@ export default function Row4() {
                                       >
                                         {` DOORS `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {` Set the tone with oversize doors `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -384,12 +384,12 @@ export default function Row4() {
                                       >
                                         {`  WINDOWS  `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {`  Lead glass doors  `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -420,12 +420,12 @@ export default function Row4() {
                                       >
                                         {`  GRILLES, SHUTTERS  `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {`  Whole house security shutter project  `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -456,12 +456,12 @@ export default function Row4() {
                                       >
                                         {`  DOORS  `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {`  Your number one choice for area conservation doors  `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -492,12 +492,12 @@ export default function Row4() {
                                       >
                                         {`  DOORS  `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {`  Controlled drug license door requirements  `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -528,12 +528,12 @@ export default function Row4() {
                                       >
                                         {`  WINDOWS  `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {`  Curved glass doors & windows  `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -564,12 +564,12 @@ export default function Row4() {
                                       >
                                         {`  DOORS  `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {`  Folding doors: doors in action  `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -600,12 +600,12 @@ export default function Row4() {
                                       >
                                         {`  DOORS  `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {`  French doors in the making at a luxurious full house project  `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -636,12 +636,12 @@ export default function Row4() {
                                       >
                                         {`  PROJECTS  `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {`  Residential projects + building regulation compliance  `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>
@@ -672,12 +672,12 @@ export default function Row4() {
                                       >
                                         {`  DOORS  `}
                                       </div>
-                                      <h4
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '30', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
                                         {`  Arched doors – elegant, timeless design  `}
-                                      </h4>
+                                      </h2>
                                     </div>
                                   </Link>
                                 </li>

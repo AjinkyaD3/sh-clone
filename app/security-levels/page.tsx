@@ -15,12 +15,12 @@ export const metadata: Metadata = {
   description:
     "LS1 Class, RC3 Class, RC4 Class, RC4 + FB4 Class, RC4 + FB6 Class. Make your property a fortress - choose the right security level doors.",
   alternates: {
-    canonical: "https://secure-house.co.uk/security-levels",
+    canonical: "https://secure-house.co.uk/security-levels/",
   },
   openGraph: {
     title: "Security levels - Secure House",
     description: "LS1 Class, RC3 Class, RC4 Class, RC4 + FB4 Class, RC4 + FB6 Class. Make your property a fortress - choose the right security level doors.",
-    url: "https://secure-house.co.uk/security-levels",
+    url: "https://secure-house.co.uk/security-levels/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

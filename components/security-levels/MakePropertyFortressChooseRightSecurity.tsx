@@ -19,7 +19,7 @@ export default function Row5() {
                               className="fusion-title title fusion-title-1 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-two"
                               style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '30px', '--awb-font-size': '35px' } as unknown as React.CSSProperties}
                             >
-                              <h2
+                              <h1
                                 className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
                                 style={{ margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '35', lineHeight: '1.2' } as unknown as React.CSSProperties}
                               >
@@ -28,7 +28,7 @@ export default function Row5() {
                                   <br />
                                   {` choose the right security level doors `}
                                 </p>
-                              </h2>
+                              </h1>
                             </div>
                             <div
                               className="fusion-text fusion-text-1"

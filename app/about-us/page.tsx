@@ -16,12 +16,12 @@ export const metadata: Metadata = {
   description:
     "Secure House Ltd stands out as a premier provider of security solutions. Enhancing safety and aesthetics for flats, offices, and commercial properties.",
   alternates: {
-    canonical: "https://secure-house.co.uk/about-us",
+    canonical: "https://secure-house.co.uk/about-us/",
   },
   openGraph: {
     title: "About Us - Secure House",
     description: "Secure House Ltd stands out as a premier provider of security solutions. Enhancing safety and aesthetics for flats, offices, and commercial properties.",
-    url: "https://secure-house.co.uk/about-us",
+    url: "https://secure-house.co.uk/about-us/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

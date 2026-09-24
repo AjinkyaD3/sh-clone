@@ -21,12 +21,12 @@ export default function OurProjects() {
                                 className="fusion-title title fusion-title-9 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-one"
                                 style={{ '--awb-text-color': 'var(--awb-color6)' } as unknown as React.CSSProperties}
                               >
-                                <h1
+                                <h2
                                   className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
                                   style={{ margin: '0', letterSpacing: '0px', textTransform: 'none', '--fontSize': '50', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                 >
                                   {` Our Projects `}
-                                </h1>
+                                </h2>
                               </div>
                               <div
                                 className="fusion-post-cards fusion-post-cards-1 fusion-grid-archive fusion-grid-columns-3"

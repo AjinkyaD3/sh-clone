@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description:
     "Windows – Elegant and durable. Our windows combine style with practicality. With a diverse selection available, we have options to complement any home, setting, and budget.",
   alternates: {
-    canonical: "https://secure-house.co.uk/windows",
+    canonical: "https://secure-house.co.uk/windows/",
   },
   openGraph: {
     title: "Windows - Secure House",
     description: "Windows – Elegant and durable. Our windows combine style with practicality. With a diverse selection available, we have options to complement any home, setting, and budget.",
-    url: "https://secure-house.co.uk/windows",
+    url: "https://secure-house.co.uk/windows/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

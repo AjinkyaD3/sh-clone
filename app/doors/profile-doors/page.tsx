@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   description:
     "Profile doors: Unico slim line, Fuego fire, Presto bullet proof, Stainless steel.",
   alternates: {
-    canonical: "https://secure-house.co.uk/doors/profile-doors",
+    canonical: "https://secure-house.co.uk/doors/profile-doors/",
   },
   openGraph: {
     title: "Profile Doors UK – Bespoke Security & Premium Door Systems",
     description: "Profile doors: Unico slim line, Fuego fire, Presto bullet proof, Stainless steel.",
-    url: "https://secure-house.co.uk/doors/profile-doors",
+    url: "https://secure-house.co.uk/doors/profile-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {
