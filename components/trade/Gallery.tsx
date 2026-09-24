@@ -48,6 +48,7 @@ export default function Row10() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="wh-79"
                                         className="lazyload img-responsive wp-image-6865 bv-tag-attr-replace"
@@ -71,6 +72,7 @@ export default function Row10() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="wh-55"
                                         className="lazyload img-responsive wp-image-6866 bv-tag-attr-replace"
@@ -94,6 +96,7 @@ export default function Row10() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="wh-44"
                                         className="lazyload img-responsive wp-image-6867 bv-tag-attr-replace"
@@ -120,6 +123,7 @@ export default function Row10() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="wh-18"
                                         className="lazyload img-responsive wp-image-6868 bv-tag-attr-replace"
@@ -143,6 +147,7 @@ export default function Row10() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="wh-127"
                                         className="lazyload img-responsive wp-image-6869 bv-tag-attr-replace"

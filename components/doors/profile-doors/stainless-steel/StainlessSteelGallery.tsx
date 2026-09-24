@@ -44,6 +44,7 @@ export default function Row9() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label=""
                                       className="lazyload img-responsive wp-image-5463 bv-tag-attr-replace"

@@ -84,6 +84,7 @@ export default function CategoryCards() {
                                           target="_self"
                                         >
                                           <img
+                                            loading="lazy"
                                             alt=""
                                             className="lazyload img-responsive wp-image-1699 bv-tag-attr-replace"
                                             data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, (max-width: 1919px) 400px,(min-width: 1920px) 25vw"
@@ -123,6 +124,7 @@ export default function CategoryCards() {
                                           target="_self"
                                         >
                                           <img
+                                            loading="lazy"
                                             alt=""
                                             className="lazyload img-responsive wp-image-1698 bv-tag-attr-replace"
                                             data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, (max-width: 1919px) 400px,(min-width: 1920px) 25vw"
@@ -162,6 +164,7 @@ export default function CategoryCards() {
                                           target="_self"
                                         >
                                           <img
+                                            loading="lazy"
                                             alt=""
                                             className="lazyload img-responsive wp-image-1697 bv-tag-attr-replace"
                                             data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, (max-width: 1919px) 400px,(min-width: 1920px) 25vw"

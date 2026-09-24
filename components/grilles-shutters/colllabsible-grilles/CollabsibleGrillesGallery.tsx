@@ -48,6 +48,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="grills_bay_window,_black"
                                         className="lazyload img-responsive wp-image-8249 bv-tag-attr-replace"
@@ -72,6 +73,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="grills_bay_window"
                                         className="lazyload img-responsive wp-image-8251 bv-tag-attr-replace"
@@ -96,6 +98,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="grills_roof_door,_white"
                                         className="lazyload img-responsive wp-image-8252 bv-tag-attr-replace"
@@ -123,6 +126,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="grills_white,_window_+_lights"
                                         className="lazyload img-responsive wp-image-8253 bv-tag-attr-replace"
@@ -147,6 +151,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="grills,_white_3_windows"
                                         className="lazyload img-responsive wp-image-8254 bv-tag-attr-replace"
@@ -171,6 +176,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="grills,_white_window_inside"
                                         className="lazyload img-responsive wp-image-8255 bv-tag-attr-replace"
@@ -198,6 +204,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="grills,_white,_window_inside_2"
                                         className="lazyload img-responsive wp-image-8256 bv-tag-attr-replace"

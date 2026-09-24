@@ -48,6 +48,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="079._french_security_door_bullet_proof"
                                         className="lazyload img-responsive wp-image-4630 bv-tag-attr-replace"
@@ -72,6 +73,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="double-door-black"
                                         className="lazyload img-responsive wp-image-4631 bv-tag-attr-replace"
@@ -96,6 +98,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="huge-glaze-security-doors"
                                         className="lazyload img-responsive wp-image-4633 bv-tag-attr-replace"
@@ -123,6 +126,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="high_gloss_door_bevelled_glass"
                                         className="lazyload img-responsive wp-image-4634 bv-tag-attr-replace"
@@ -147,6 +151,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="glaze-black-high-security-doors-with-glass"
                                         className="lazyload img-responsive wp-image-4635 bv-tag-attr-replace"
@@ -171,6 +176,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="oversized_double_door"
                                         className="lazyload img-responsive wp-image-4636 bv-tag-attr-replace"
@@ -198,6 +204,7 @@ export default function Row15() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="5c30b3dcfadeb5db39270168b7befd1f_1"
                                         className="lazyload img-responsive wp-image-4637 bv-tag-attr-replace"

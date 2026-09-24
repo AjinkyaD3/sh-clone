@@ -57,6 +57,7 @@ export default function Row18() {
                                         title="arched_white_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="arched_white_door"
                                           className="lazyload img-responsive wp-image-8334 bv-tag-attr-replace"
@@ -90,6 +91,7 @@ export default function Row18() {
                                         title="single_black_door_square_knob,_knocker"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="single_black_door_square_knob,_knocker"
                                           className="lazyload img-responsive wp-image-8347 bv-tag-attr-replace"
@@ -123,6 +125,7 @@ export default function Row18() {
                                         title="grey_door_+_side_window"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="grey_door_+_side_window"
                                           className="lazyload img-responsive wp-image-8345 bv-tag-attr-replace"
@@ -156,6 +159,7 @@ export default function Row18() {
                                         title="oversized_black_door,_arch,_lion_knocker"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="oversized_black_door,_arch,_lion_knocker"
                                           className="lazyload img-responsive wp-image-8346 bv-tag-attr-replace"
@@ -192,6 +196,7 @@ export default function Row18() {
                                         title="double_door,_lira,_triangle_glass_panel"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double_door,_lira,_triangle_glass_panel"
                                           className="lazyload img-responsive wp-image-8344 bv-tag-attr-replace"
@@ -225,6 +230,7 @@ export default function Row18() {
                                         title="double_door,_black_with_glazing"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double_door,_black_with_glazing"
                                           className="lazyload img-responsive wp-image-8343 bv-tag-attr-replace"
@@ -258,6 +264,7 @@ export default function Row18() {
                                         title="burhan_door,_black_gloss"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="burhan_door,_black_gloss"
                                           className="lazyload img-responsive wp-image-8341 bv-tag-attr-replace"
@@ -291,6 +298,7 @@ export default function Row18() {
                                         title="double_batman_door_with_top_windows_2"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double_batman_door_with_top_windows_2"
                                           className="lazyload img-responsive wp-image-8342 bv-tag-attr-replace"
@@ -327,6 +335,7 @@ export default function Row18() {
                                         title="black_with_glazed_side_panels"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black_with_glazed_side_panels"
                                           className="lazyload img-responsive wp-image-8340 bv-tag-attr-replace"
@@ -360,6 +369,7 @@ export default function Row18() {
                                         title="black_six_panel_door,_glazed_side_panels"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black_six_panel_door,_glazed_side_panels"
                                           className="lazyload img-responsive wp-image-8338 bv-tag-attr-replace"
@@ -393,6 +403,7 @@ export default function Row18() {
                                         title="black_door_and_side_gate"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black_door_and_side_gate"
                                           className="lazyload img-responsive wp-image-8335 bv-tag-attr-replace"
@@ -426,6 +437,7 @@ export default function Row18() {
                                         title="black_door_glass_no2"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black_door_glass_no2"
                                           className="lazyload img-responsive wp-image-8336 bv-tag-attr-replace"
@@ -462,6 +474,7 @@ export default function Row18() {
                                         title="black_door_with_black_panels_outside"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black_door_with_black_panels_outside"
                                           className="lazyload img-responsive wp-image-8337 bv-tag-attr-replace"
@@ -495,6 +508,7 @@ export default function Row18() {
                                         title="double-door-black"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double-door-black"
                                           className="lazyload img-responsive wp-image-4631 bv-tag-attr-replace"
@@ -528,6 +542,7 @@ export default function Row18() {
                                         title="huge-glaze-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="huge-glaze-security-doors"
                                           className="lazyload img-responsive wp-image-4633 bv-tag-attr-replace"
@@ -561,6 +576,7 @@ export default function Row18() {
                                         title="high_gloss_door_bevelled_glass"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="high_gloss_door_bevelled_glass"
                                           className="lazyload img-responsive wp-image-4634 bv-tag-attr-replace"
@@ -597,6 +613,7 @@ export default function Row18() {
                                         title="glaze-black-high-security-doors-with-glass"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="glaze-black-high-security-doors-with-glass"
                                           className="lazyload img-responsive wp-image-4635 bv-tag-attr-replace"
@@ -630,6 +647,7 @@ export default function Row18() {
                                         title="oversized_double_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="oversized_double_door"
                                           className="lazyload img-responsive wp-image-4636 bv-tag-attr-replace"
@@ -663,6 +681,7 @@ export default function Row18() {
                                         title="5c30b3dcfadeb5db39270168b7befd1f_1"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="5c30b3dcfadeb5db39270168b7befd1f_1"
                                           className="lazyload img-responsive wp-image-4637 bv-tag-attr-replace"
@@ -696,6 +715,7 @@ export default function Row18() {
                                         title="timber_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="timber_door"
                                           className="lazyload img-responsive wp-image-7990 bv-tag-attr-replace"
@@ -733,6 +753,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_au5_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_au5_preset"
                                           className="lazyload img-responsive wp-image-7991 bv-tag-attr-replace"
@@ -766,6 +787,7 @@ export default function Row18() {
                                         title="victoria_with_transom"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="victoria_with_transom"
                                           className="lazyload img-responsive wp-image-7992 bv-tag-attr-replace"
@@ -800,6 +822,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_kc25_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_kc25_preset"
                                           className="lazyload img-responsive wp-image-7993 bv-tag-attr-replace"
@@ -834,6 +857,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_au5_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_au5_preset"
                                           className="lazyload img-responsive wp-image-7994 bv-tag-attr-replace"
@@ -871,6 +895,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_c8_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_c8_preset"
                                           className="lazyload img-responsive wp-image-7995 bv-tag-attr-replace"
@@ -904,6 +929,7 @@ export default function Row18() {
                                         title="white-and-black-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="white-and-black-security-doors"
                                           className="lazyload img-responsive wp-image-7996 bv-tag-attr-replace"
@@ -937,6 +963,7 @@ export default function Row18() {
                                         title="white-grey-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="white-grey-high-security-doors"
                                           className="lazyload img-responsive wp-image-7997 bv-tag-attr-replace"
@@ -970,6 +997,7 @@ export default function Row18() {
                                         title="white-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="white-high-security-doors"
                                           className="lazyload img-responsive wp-image-7998 bv-tag-attr-replace"
@@ -1006,6 +1034,7 @@ export default function Row18() {
                                         title="white-high-security-doors-glass"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="white-high-security-doors-glass"
                                           className="lazyload img-responsive wp-image-7999 bv-tag-attr-replace"
@@ -1039,6 +1068,7 @@ export default function Row18() {
                                         title="white-high-security-doors-with-column"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="white-high-security-doors-with-column"
                                           className="lazyload img-responsive wp-image-8000 bv-tag-attr-replace"
@@ -1072,6 +1102,7 @@ export default function Row18() {
                                         title="white-high-security-doors-with-shutters"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="white-high-security-doors-with-shutters"
                                           className="lazyload img-responsive wp-image-8001 bv-tag-attr-replace"
@@ -1105,6 +1136,7 @@ export default function Row18() {
                                         title="wide-black-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="wide-black-security-doors"
                                           className="lazyload img-responsive wp-image-8002 bv-tag-attr-replace"
@@ -1141,6 +1173,7 @@ export default function Row18() {
                                         title="wide-high-security-doors-with-glass"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="wide-high-security-doors-with-glass"
                                           className="lazyload img-responsive wp-image-8003 bv-tag-attr-replace"
@@ -1174,6 +1207,7 @@ export default function Row18() {
                                         title="wide-security-doors-with-glass"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="wide-security-doors-with-glass"
                                           className="lazyload img-responsive wp-image-8004 bv-tag-attr-replace"
@@ -1207,6 +1241,7 @@ export default function Row18() {
                                         title="wide-white-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="wide-white-high-security-doors"
                                           className="lazyload img-responsive wp-image-8005 bv-tag-attr-replace"
@@ -1240,6 +1275,7 @@ export default function Row18() {
                                         title="narrow-black-high-security-doors-with-glass"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="narrow-black-high-security-doors-with-glass"
                                           className="lazyload img-responsive wp-image-8006 bv-tag-attr-replace"
@@ -1276,6 +1312,7 @@ export default function Row18() {
                                         title="narrow-black-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="narrow-black-security-doors"
                                           className="lazyload img-responsive wp-image-8007 bv-tag-attr-replace"
@@ -1309,6 +1346,7 @@ export default function Row18() {
                                         title="narrow-glaze-blackhigh-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="narrow-glaze-blackhigh-security-doors"
                                           className="lazyload img-responsive wp-image-8008 bv-tag-attr-replace"
@@ -1342,6 +1380,7 @@ export default function Row18() {
                                         title="narrow-green-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="narrow-green-high-security-doors"
                                           className="lazyload img-responsive wp-image-8009 bv-tag-attr-replace"
@@ -1375,6 +1414,7 @@ export default function Row18() {
                                         title="narrow-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="narrow-high-security-doors"
                                           className="lazyload img-responsive wp-image-8010 bv-tag-attr-replace"
@@ -1411,6 +1451,7 @@ export default function Row18() {
                                         title="narrow-white-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="narrow-white-high-security-doors"
                                           className="lazyload img-responsive wp-image-8011 bv-tag-attr-replace"
@@ -1444,6 +1485,7 @@ export default function Row18() {
                                         title="narrow-white-high-security-doors-with-glasses"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="narrow-white-high-security-doors-with-glasses"
                                           className="lazyload img-responsive wp-image-8012 bv-tag-attr-replace"
@@ -1477,6 +1519,7 @@ export default function Row18() {
                                         title="narrow-white-high-security-doors-wit-knocker"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="narrow-white-high-security-doors-wit-knocker"
                                           className="lazyload img-responsive wp-image-8013 bv-tag-attr-replace"
@@ -1510,6 +1553,7 @@ export default function Row18() {
                                         title="oak_finish_door_two_side_panels"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="oak_finish_door_two_side_panels"
                                           className="lazyload img-responsive wp-image-8014 bv-tag-attr-replace"
@@ -1546,6 +1590,7 @@ export default function Row18() {
                                         title="open-bright-black-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="open-bright-black-high-security-doors"
                                           className="lazyload img-responsive wp-image-8015 bv-tag-attr-replace"
@@ -1579,6 +1624,7 @@ export default function Row18() {
                                         title="orange_door_"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="orange_door_"
                                           className="lazyload img-responsive wp-image-8016 bv-tag-attr-replace"
@@ -1612,6 +1658,7 @@ export default function Row18() {
                                         title="orange_door_2_holand_"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="orange_door_2_holand_"
                                           className="lazyload img-responsive wp-image-8017 bv-tag-attr-replace"
@@ -1645,6 +1692,7 @@ export default function Row18() {
                                         title="outdoor-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="outdoor-security-doors"
                                           className="lazyload img-responsive wp-image-8018 bv-tag-attr-replace"
@@ -1681,6 +1729,7 @@ export default function Row18() {
                                         title="oversized_double_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="oversized_double_door"
                                           className="lazyload img-responsive wp-image-8019 bv-tag-attr-replace"
@@ -1715,6 +1764,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_au1_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_au1_preset"
                                           className="lazyload img-responsive wp-image-8020 bv-tag-attr-replace"
@@ -1748,6 +1798,7 @@ export default function Row18() {
                                         title="security_back_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="security_back_door"
                                           className="lazyload img-responsive wp-image-8021 bv-tag-attr-replace"
@@ -1781,6 +1832,7 @@ export default function Row18() {
                                         title="security-doors-for-horses"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="security-doors-for-horses"
                                           className="lazyload img-responsive wp-image-8022 bv-tag-attr-replace"
@@ -1817,6 +1869,7 @@ export default function Row18() {
                                         title="security-doors-with"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="security-doors-with"
                                           className="lazyload img-responsive wp-image-8023 bv-tag-attr-replace"
@@ -1850,6 +1903,7 @@ export default function Row18() {
                                         title="side_door_high_gloss"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="side_door_high_gloss"
                                           className="lazyload img-responsive wp-image-8024 bv-tag-attr-replace"
@@ -1883,6 +1937,7 @@ export default function Row18() {
                                         title="solid_oak_finish_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="solid_oak_finish_door"
                                           className="lazyload img-responsive wp-image-8025 bv-tag-attr-replace"
@@ -1916,6 +1971,7 @@ export default function Row18() {
                                         title="stained_glass_doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="stained_glass_doors"
                                           className="lazyload img-responsive wp-image-8026 bv-tag-attr-replace"
@@ -1952,6 +2008,7 @@ export default function Row18() {
                                         title="structural_glazing_modern_door_triangle"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="structural_glazing_modern_door_triangle"
                                           className="lazyload img-responsive wp-image-8027 bv-tag-attr-replace"
@@ -1985,6 +2042,7 @@ export default function Row18() {
                                         title="high_gloos_blue_door_"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="high_gloos_blue_door_"
                                           className="lazyload img-responsive wp-image-8028 bv-tag-attr-replace"
@@ -2018,6 +2076,7 @@ export default function Row18() {
                                         title="high_gloss_3_panel_mirror_finish_piano"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="high_gloss_3_panel_mirror_finish_piano"
                                           className="lazyload img-responsive wp-image-8029 bv-tag-attr-replace"
@@ -2052,6 +2111,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_av4_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_av4_preset"
                                           className="lazyload img-responsive wp-image-8030 bv-tag-attr-replace"
@@ -2089,6 +2149,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_kc25_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_kc25_preset"
                                           className="lazyload img-responsive wp-image-8031 bv-tag-attr-replace"
@@ -2122,6 +2183,7 @@ export default function Row18() {
                                         title="high_gloss_internal_side_"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="high_gloss_internal_side_"
                                           className="lazyload img-responsive wp-image-8032 bv-tag-attr-replace"
@@ -2155,6 +2217,7 @@ export default function Row18() {
                                         title="high-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="high-doors"
                                           className="lazyload img-responsive wp-image-8033 bv-tag-attr-replace"
@@ -2188,6 +2251,7 @@ export default function Row18() {
                                         title="high-white-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="high-white-security-doors"
                                           className="lazyload img-responsive wp-image-8034 bv-tag-attr-replace"
@@ -2224,6 +2288,7 @@ export default function Row18() {
                                         title="high-wide-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="high-wide-security-doors"
                                           className="lazyload img-responsive wp-image-8035 bv-tag-attr-replace"
@@ -2257,6 +2322,7 @@ export default function Row18() {
                                         title="huge-crittall-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="huge-crittall-doors"
                                           className="lazyload img-responsive wp-image-8036 bv-tag-attr-replace"
@@ -2290,6 +2356,7 @@ export default function Row18() {
                                         title="huge-glaze-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="huge-glaze-security-doors"
                                           className="lazyload img-responsive wp-image-8037 bv-tag-attr-replace"
@@ -2323,6 +2390,7 @@ export default function Row18() {
                                         title="internal_side_back_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="internal_side_back_door"
                                           className="lazyload img-responsive wp-image-8038 bv-tag-attr-replace"
@@ -2360,6 +2428,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_kc25_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_kc25_preset"
                                           className="lazyload img-responsive wp-image-8039 bv-tag-attr-replace"
@@ -2394,6 +2463,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_fr4_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_fr4_preset"
                                           className="lazyload img-responsive wp-image-8040 bv-tag-attr-replace"
@@ -2427,6 +2497,7 @@ export default function Row18() {
                                         title="lock-for-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="lock-for-high-security-doors"
                                           className="lazyload img-responsive wp-image-8041 bv-tag-attr-replace"
@@ -2460,6 +2531,7 @@ export default function Row18() {
                                         title="matte-black-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="matte-black-doors"
                                           className="lazyload img-responsive wp-image-8042 bv-tag-attr-replace"
@@ -2496,6 +2568,7 @@ export default function Row18() {
                                         title="matte-black-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="matte-black-high-security-doors"
                                           className="lazyload img-responsive wp-image-8043 bv-tag-attr-replace"
@@ -2529,6 +2602,7 @@ export default function Row18() {
                                         title="matte-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="matte-high-security-doors"
                                           className="lazyload img-responsive wp-image-8044 bv-tag-attr-replace"
@@ -2562,6 +2636,7 @@ export default function Row18() {
                                         title="matte-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="matte-security-doors"
                                           className="lazyload img-responsive wp-image-8045 bv-tag-attr-replace"
@@ -2596,6 +2671,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_au5_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_au5_preset"
                                           className="lazyload img-responsive wp-image-8046 bv-tag-attr-replace"
@@ -2632,6 +2708,7 @@ export default function Row18() {
                                         title="modern_design_green_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="modern_design_green_door"
                                           className="lazyload img-responsive wp-image-8047 bv-tag-attr-replace"
@@ -2665,6 +2742,7 @@ export default function Row18() {
                                         title="modern_door_"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="modern_door_"
                                           className="lazyload img-responsive wp-image-8048 bv-tag-attr-replace"
@@ -2699,6 +2777,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_au5_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_au5_preset"
                                           className="lazyload img-responsive wp-image-8049 bv-tag-attr-replace"
@@ -2732,6 +2811,7 @@ export default function Row18() {
                                         title="motorised_lock_fiam_x1r_"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="motorised_lock_fiam_x1r_"
                                           className="lazyload img-responsive wp-image-8050 bv-tag-attr-replace"
@@ -2768,6 +2848,7 @@ export default function Row18() {
                                         title="double_door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double_door"
                                           className="lazyload img-responsive wp-image-8051 bv-tag-attr-replace"
@@ -2802,6 +2883,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_kc25_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_kc25_preset"
                                           className="lazyload img-responsive wp-image-8052 bv-tag-attr-replace"
@@ -2835,6 +2917,7 @@ export default function Row18() {
                                         title="double-door-with-top-window-high-gloss"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double-door-with-top-window-high-gloss"
                                           className="lazyload img-responsive wp-image-8053 bv-tag-attr-replace"
@@ -2868,6 +2951,7 @@ export default function Row18() {
                                         title="double-door-wood-finish"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double-door-wood-finish"
                                           className="lazyload img-responsive wp-image-8054 bv-tag-attr-replace"
@@ -2904,6 +2988,7 @@ export default function Row18() {
                                         title="dr-atia-back-door-100×100"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="dr-atia-back-door-100×100"
                                           className="lazyload img-responsive wp-image-8055"
@@ -2934,6 +3019,7 @@ export default function Row18() {
                                         title="glaze-black-high-security-doors-with-glass"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="glaze-black-high-security-doors-with-glass"
                                           className="lazyload img-responsive wp-image-8058 bv-tag-attr-replace"
@@ -2967,6 +3053,7 @@ export default function Row18() {
                                         title="glaze-black-high-security-doors-with-lion-knocker"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="glaze-black-high-security-doors-with-lion-knocker"
                                           className="lazyload img-responsive wp-image-8059 bv-tag-attr-replace"
@@ -3000,6 +3087,7 @@ export default function Row18() {
                                         title="glaze-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="glaze-high-security-doors"
                                           className="lazyload img-responsive wp-image-8060 bv-tag-attr-replace"
@@ -3036,6 +3124,7 @@ export default function Row18() {
                                         title="glaze-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="glaze-security-doors"
                                           className="lazyload img-responsive wp-image-8061 bv-tag-attr-replace"
@@ -3069,6 +3158,7 @@ export default function Row18() {
                                         title="green-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="green-high-security-doors"
                                           className="lazyload img-responsive wp-image-8062 bv-tag-attr-replace"
@@ -3102,6 +3192,7 @@ export default function Row18() {
                                         title="grey-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="grey-high-security-doors"
                                           className="lazyload img-responsive wp-image-8063 bv-tag-attr-replace"
@@ -3135,6 +3226,7 @@ export default function Row18() {
                                         title="hazel-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="hazel-high-security-doors"
                                           className="lazyload img-responsive wp-image-8064 bv-tag-attr-replace"
@@ -3171,6 +3263,7 @@ export default function Row18() {
                                         title="high-black-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="high-black-security-doors"
                                           className="lazyload img-responsive wp-image-8065 bv-tag-attr-replace"
@@ -3204,6 +3297,7 @@ export default function Row18() {
                                         title="black-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black-high-security-doors"
                                           className="lazyload img-responsive wp-image-8066 bv-tag-attr-replace"
@@ -3237,6 +3331,7 @@ export default function Row18() {
                                         title="black-high-security-doors-with-lion-knocker"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black-high-security-doors-with-lion-knocker"
                                           className="lazyload img-responsive wp-image-8067 bv-tag-attr-replace"
@@ -3270,6 +3365,7 @@ export default function Row18() {
                                         title="black-security-door-golden-handles"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black-security-door-golden-handles"
                                           className="lazyload img-responsive wp-image-8068 bv-tag-attr-replace"
@@ -3306,6 +3402,7 @@ export default function Row18() {
                                         title="black-security-doors-with-glass"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black-security-doors-with-glass"
                                           className="lazyload img-responsive wp-image-8069 bv-tag-attr-replace"
@@ -3339,6 +3436,7 @@ export default function Row18() {
                                         title="black-wide-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black-wide-high-security-doors"
                                           className="lazyload img-responsive wp-image-8070 bv-tag-attr-replace"
@@ -3372,6 +3470,7 @@ export default function Row18() {
                                         title="blue-door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="blue-door"
                                           className="lazyload img-responsive wp-image-8071 bv-tag-attr-replace"
@@ -3405,6 +3504,7 @@ export default function Row18() {
                                         title="brown-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="brown-security-doors"
                                           className="lazyload img-responsive wp-image-8073 bv-tag-attr-replace"
@@ -3441,6 +3541,7 @@ export default function Row18() {
                                         title="burgundy-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="burgundy-high-security-doors"
                                           className="lazyload img-responsive wp-image-8074 bv-tag-attr-replace"
@@ -3474,6 +3575,7 @@ export default function Row18() {
                                         title="columns-and-two-side-panels"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="columns-and-two-side-panels"
                                           className="lazyload img-responsive wp-image-8075 bv-tag-attr-replace"
@@ -3508,6 +3610,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_c2_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_c2_preset"
                                           className="lazyload img-responsive wp-image-8076 bv-tag-attr-replace"
@@ -3542,6 +3645,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_c8_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_c8_preset"
                                           className="lazyload img-responsive wp-image-8077 bv-tag-attr-replace"
@@ -3578,6 +3682,7 @@ export default function Row18() {
                                         title="creative-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="creative-high-security-doors"
                                           className="lazyload img-responsive wp-image-8078 bv-tag-attr-replace"
@@ -3611,6 +3716,7 @@ export default function Row18() {
                                         title="crittall-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="crittall-high-security-doors"
                                           className="lazyload img-responsive wp-image-8079 bv-tag-attr-replace"
@@ -3644,6 +3750,7 @@ export default function Row18() {
                                         title="crittall-panel"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="crittall-panel"
                                           className="lazyload img-responsive wp-image-8080 bv-tag-attr-replace"
@@ -3677,6 +3784,7 @@ export default function Row18() {
                                         title="crittall-wide-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="crittall-wide-high-security-doors"
                                           className="lazyload img-responsive wp-image-8081 bv-tag-attr-replace"
@@ -3713,6 +3821,7 @@ export default function Row18() {
                                         title="dark-green-high-security-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="dark-green-high-security-doors"
                                           className="lazyload img-responsive wp-image-8082 bv-tag-attr-replace"
@@ -3746,6 +3855,7 @@ export default function Row18() {
                                         title="door-and-side-panel"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="door-and-side-panel"
                                           className="lazyload img-responsive wp-image-8083 bv-tag-attr-replace"
@@ -3780,6 +3890,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_kc25_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_kc25_preset"
                                           className="lazyload img-responsive wp-image-8084 bv-tag-attr-replace"
@@ -3813,6 +3924,7 @@ export default function Row18() {
                                         title="double-door-black"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double-door-black"
                                           className="lazyload img-responsive wp-image-8085 bv-tag-attr-replace"
@@ -3849,6 +3961,7 @@ export default function Row18() {
                                         title="double-door-grey-bespoke-handles"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double-door-grey-bespoke-handles"
                                           className="lazyload img-responsive wp-image-8086 bv-tag-attr-replace"
@@ -3882,6 +3995,7 @@ export default function Row18() {
                                         title="double-door-modern"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double-door-modern"
                                           className="lazyload img-responsive wp-image-8087 bv-tag-attr-replace"
@@ -3915,6 +4029,7 @@ export default function Row18() {
                                         title="double-door-with-metal-inlays"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="double-door-with-metal-inlays"
                                           className="lazyload img-responsive wp-image-8088 bv-tag-attr-replace"
@@ -3948,6 +4063,7 @@ export default function Row18() {
                                         title="2-panel-door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="2-panel-door"
                                           className="lazyload img-responsive wp-image-8089 bv-tag-attr-replace"
@@ -3985,6 +4101,7 @@ export default function Row18() {
                                         title="processed_with_vsco_with_c8_preset"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="processed_with_vsco_with_c8_preset"
                                           className="lazyload img-responsive wp-image-8090 bv-tag-attr-replace"
@@ -4018,6 +4135,7 @@ export default function Row18() {
                                         title="0003"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="0003"
                                           className="lazyload img-responsive wp-image-8091 bv-tag-attr-replace"
@@ -4051,6 +4169,7 @@ export default function Row18() {
                                         title="barn-style-door"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="barn-style-door"
                                           className="lazyload img-responsive wp-image-8093 bv-tag-attr-replace"
@@ -4084,6 +4203,7 @@ export default function Row18() {
                                         title="black-crittall-doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black-crittall-doors"
                                           className="lazyload img-responsive wp-image-8094 bv-tag-attr-replace"
@@ -4120,6 +4240,7 @@ export default function Row18() {
                                         title="black-high-security-doors-glass"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black-high-security-doors-glass"
                                           className="lazyload img-responsive wp-image-8095 bv-tag-attr-replace"
@@ -4153,6 +4274,7 @@ export default function Row18() {
                                         title="black-high-security-doors-with-knocker"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black-high-security-doors-with-knocker"
                                           className="lazyload img-responsive wp-image-8096 bv-tag-attr-replace"
@@ -4186,6 +4308,7 @@ export default function Row18() {
                                         title="black_with_glazed_side_panels,_brass_furniture"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="black_with_glazed_side_panels,_brass_furniture"
                                           className="lazyload img-responsive wp-image-8339 bv-tag-attr-replace"
@@ -4219,6 +4342,7 @@ export default function Row18() {
                                         title="burhan_door,_black_gloss"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="burhan_door,_black_gloss"
                                           className="lazyload img-responsive wp-image-8389 bv-tag-attr-replace"
@@ -4255,6 +4379,7 @@ export default function Row18() {
                                         title="edwardian_grey_door_with_side_panels"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="edwardian_grey_door_with_side_panels"
                                           className="lazyload img-responsive wp-image-8390 bv-tag-attr-replace"

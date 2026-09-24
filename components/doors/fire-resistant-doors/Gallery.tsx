@@ -53,6 +53,7 @@ export default function Row17() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="billede-15-06-2017-15.59.03"
                                       className="img-responsive wp-image-5003 fusion-gallery-image-size-fixed bv-tag-attr-replace bv-lazyload-tag-img"
@@ -72,6 +73,7 @@ export default function Row17() {
                                     className="fusion-gallery-image"
                                   >
                                     <img
+                                      loading="lazy"
                                       alt=""
                                       aria-label="billede-15-06-2017-16.33.29"
                                       className="img-responsive wp-image-5004 fusion-gallery-image-size-fixed bv-tag-attr-replace bv-lazyload-tag-img"

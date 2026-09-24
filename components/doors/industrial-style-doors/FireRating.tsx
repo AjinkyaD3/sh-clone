@@ -65,6 +65,7 @@ export default function FireRating() {
                                       className="fusion-imageframe imageframe-none imageframe-6 hover-type-none"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt="Anthracite steel double door with slim glazed panels"
                                         className="lazyload img-responsive wp-image-7460 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, (max-width: 1919px) 1200px,(min-width: 1920px) 50vw"

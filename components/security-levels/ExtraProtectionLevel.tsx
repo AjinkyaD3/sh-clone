@@ -826,6 +826,7 @@ export default function Row8() {
                                   className="fusion-imageframe imageframe-none imageframe-24 hover-type-none"
                                 >
                                   <img
+                                    loading="lazy"
                                     alt=""
                                     className="lazyload img-responsive wp-image-7559 bv-tag-attr-replace"
                                     data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 520px"
@@ -878,6 +879,7 @@ export default function Row8() {
                                         className="fusion-imageframe imageframe-none imageframe-25 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-8278"
                                           data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-9.webp"
@@ -920,6 +922,7 @@ export default function Row8() {
                                         className="fusion-imageframe imageframe-none imageframe-26 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-8279"
                                           data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-4-1.webp"
@@ -962,6 +965,7 @@ export default function Row8() {
                                         className="fusion-imageframe imageframe-none imageframe-27 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-8277"
                                           data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-10.webp"
@@ -1004,6 +1008,7 @@ export default function Row8() {
                                         className="fusion-imageframe imageframe-none imageframe-28 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-8277"
                                           data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-10.webp"
@@ -1046,6 +1051,7 @@ export default function Row8() {
                                         className="fusion-imageframe imageframe-none imageframe-29 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-8281"
                                           data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-13.webp"
@@ -1088,6 +1094,7 @@ export default function Row8() {
                                         className="fusion-imageframe imageframe-none imageframe-30 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-8282"
                                           data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-14.webp"
@@ -1130,6 +1137,7 @@ export default function Row8() {
                                         className="fusion-imageframe imageframe-none imageframe-31 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-8283"
                                           data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-15.webp"
@@ -1172,6 +1180,7 @@ export default function Row8() {
                                         className="fusion-imageframe imageframe-none imageframe-32 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-8285"
                                           data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-16.webp"
@@ -1214,6 +1223,7 @@ export default function Row8() {
                                         className="fusion-imageframe imageframe-none imageframe-33 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-8286"
                                           data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-17.webp"
@@ -1256,6 +1266,7 @@ export default function Row8() {
                                         className="fusion-imageframe imageframe-none imageframe-34 hover-type-none"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           className="lazyload img-responsive wp-image-8287"
                                           data-orig-src="/legacy-assets/uploads/2025/04/Mask-group-18.webp"

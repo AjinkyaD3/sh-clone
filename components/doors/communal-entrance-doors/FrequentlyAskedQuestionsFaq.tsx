@@ -535,6 +535,26 @@ export default function Row21() {
                                   </div>
                                 </div>
                               </div>
+                              <script
+                                type="application/ld+json"
+                                dangerouslySetInnerHTML={{
+                                  __html: JSON.stringify({
+                                    "@context": "https://schema.org",
+                                    "@type": "FAQPage",
+                                    mainEntity: [
+                                      { "@type": "Question", name: "Why are communal entrance doors important?", acceptedAnswer: { "@type": "Answer", text: "Communal entrance doors are crucial for security and safety within a building. They help control access, ensuring that only authorized individuals can enter, and provide a barrier against potential security threats." } },
+                                      { "@type": "Question", name: "What type of locks should communal entrance doors have?", acceptedAnswer: { "@type": "Answer", text: "Communal entrance doors should be equipped with secure locks, such as deadbolts or electronic access control systems. These locks should meet or exceed industry standards for security." } },
+                                      { "@type": "Question", name: "Can I get additional keys for the communal entrance door?", acceptedAnswer: { "@type": "Answer", text: "Typically, building management or a designated authority controls access to additional keys for communal entrance doors. This is done to maintain security and ensure only authorized individuals have access. Please contact your building management for information on obtaining additional keys." } },
+                                      { "@type": "Question", name: "What should I do if I lose my key or access card for the communal entrance door?", acceptedAnswer: { "@type": "Answer", text: "If you lose your key or access card, it’s essential to report it to your building management immediately. They will guide you through the process of getting a replacement and may take security measures to protect the building during the interim." } },
+                                      { "@type": "Question", name: "What should I do if I notice a problem with the communal entrance door, such as a broken lock or loose handle?", acceptedAnswer: { "@type": "Answer", text: "Promptly report any issues you notice with communal entrance doors to your building management. They will arrange for repairs or maintenance to address the problem and maintain the security of the building." } },
+                                      { "@type": "Question", name: "Can I allow guests or delivery personnel to enter the building through the communal entrance doors?", acceptedAnswer: { "@type": "Answer", text: "While it’s generally acceptable to allow guests or delivery personnel into the building, it’s important to exercise caution. Always ensure that you know the person you’re allowing in, and do not prop the door open for extended periods, as this compromises security." } },
+                                      { "@type": "Question", name: "Is it necessary to keep communal entrance doors closed at all times?", acceptedAnswer: { "@type": "Answer", text: "Yes, communal entrance doors should be kept closed to maintain security. Leaving them open or propped open can allow unauthorized access and compromise the safety of residents." } },
+                                      { "@type": "Question", name: "How often are communal entrance doors maintained?", acceptedAnswer: { "@type": "Answer", text: "Maintenance schedules for communal entrance doors vary but should be conducted regularly to ensure they function correctly. Building management typically oversees maintenance and should communicate the schedule to residents.\nLock Inspection – Monthly\nLubrication of Locks – Quarterly\nDoor Hinge Inspection – Quarterly\nWeatherstripping Check – Annually\nDoor Frame Inspection – Annually\nAccess Control System Check – Semi-Annually\nSecurity Camera Inspection – Semi-Annually" } },
+                                      { "@type": "Question", name: "How can I improve the security of communal entrance doors?", acceptedAnswer: { "@type": "Answer", text: "To enhance security, consider installing security cameras or intercom systems. Additionally, follow building rules and security protocols, and report any suspicious activity promptly." } },
+                                    ],
+                                  }),
+                                }}
+                              />
                             </div>
                           </div>
                         </div>

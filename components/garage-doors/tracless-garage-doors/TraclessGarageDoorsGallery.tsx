@@ -57,6 +57,7 @@ export default function Row19() {
                                         title="2016-03-10_10.30.34_1"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="2016-03-10_10.30.34_1"
                                           className="lazyload img-responsive wp-image-7184 bv-tag-attr-replace"
@@ -91,6 +92,7 @@ export default function Row19() {
                                         title="20150127_140722_1"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="20150127_140722_1"
                                           className="lazyload img-responsive wp-image-7185 bv-tag-attr-replace"
@@ -125,6 +127,7 @@ export default function Row19() {
                                         title="_dsc6629_1"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="_dsc6629_1"
                                           className="lazyload img-responsive wp-image-7186 bv-tag-attr-replace"
@@ -162,6 +165,7 @@ export default function Row19() {
                                         title="_dsc6626"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="_dsc6626"
                                           className="lazyload img-responsive wp-image-8392 bv-tag-attr-replace"
@@ -196,6 +200,7 @@ export default function Row19() {
                                         title="_dsc6629"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="_dsc6629"
                                           className="lazyload img-responsive wp-image-8393 bv-tag-attr-replace"
@@ -230,6 +235,7 @@ export default function Row19() {
                                         title="dsc_0226"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="dsc_0226"
                                           className="lazyload img-responsive wp-image-8394 bv-tag-attr-replace"
@@ -267,6 +273,7 @@ export default function Row19() {
                                         title="dsc_0698"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="dsc_0698"
                                           className="lazyload img-responsive wp-image-8395 bv-tag-attr-replace"
@@ -301,6 +308,7 @@ export default function Row19() {
                                         title="g-2"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="g-2"
                                           className="lazyload img-responsive wp-image-8396 bv-tag-attr-replace"
@@ -335,6 +343,7 @@ export default function Row19() {
                                         title="g-5_copy"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="g-5_copy"
                                           className="lazyload img-responsive wp-image-8397 bv-tag-attr-replace"
@@ -372,6 +381,7 @@ export default function Row19() {
                                         title="g-5"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="g-5"
                                           className="lazyload img-responsive wp-image-8398 bv-tag-attr-replace"
@@ -406,6 +416,7 @@ export default function Row19() {
                                         title="g-6"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="g-6"
                                           className="lazyload img-responsive wp-image-8399 bv-tag-attr-replace"
@@ -440,6 +451,7 @@ export default function Row19() {
                                         title="garage_doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_doors"
                                           className="lazyload img-responsive wp-image-8423 bv-tag-attr-replace"
@@ -477,6 +489,7 @@ export default function Row19() {
                                         title="garage_5"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_5"
                                           className="lazyload img-responsive wp-image-8401 bv-tag-attr-replace"
@@ -511,6 +524,7 @@ export default function Row19() {
                                         title="garage_6"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_6"
                                           className="lazyload img-responsive wp-image-8402 bv-tag-attr-replace"
@@ -545,6 +559,7 @@ export default function Row19() {
                                         title="garage_9"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_9"
                                           className="lazyload img-responsive wp-image-8403 bv-tag-attr-replace"
@@ -582,6 +597,7 @@ export default function Row19() {
                                         title="img_6980"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img_6980"
                                           className="lazyload img-responsive wp-image-8404 bv-tag-attr-replace"
@@ -616,6 +632,7 @@ export default function Row19() {
                                         title="img_20151202_102635_hdr"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img_20151202_102635_hdr"
                                           className="lazyload img-responsive wp-image-8405 bv-tag-attr-replace"
@@ -650,6 +667,7 @@ export default function Row19() {
                                         title="img_20151202_121141_hdr"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img_20151202_121141_hdr"
                                           className="lazyload img-responsive wp-image-8406 bv-tag-attr-replace"
@@ -687,6 +705,7 @@ export default function Row19() {
                                         title="img_20151202_163644"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img_20151202_163644"
                                           className="lazyload img-responsive wp-image-8407 bv-tag-attr-replace"
@@ -721,6 +740,7 @@ export default function Row19() {
                                         title="img-20160312-wa000"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img-20160312-wa000"
                                           className="lazyload img-responsive wp-image-8408 bv-tag-attr-replace"
@@ -755,6 +775,7 @@ export default function Row19() {
                                         title="photo-2023-07-07-15-36-22"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="photo-2023-07-07-15-36-22"
                                           className="lazyload img-responsive wp-image-8409 bv-tag-attr-replace"
@@ -791,6 +812,7 @@ export default function Row19() {
                                         title="video-2023-07-07-15-38-24"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="video-2023-07-07-15-38-24"
                                           className="lazyload img-responsive wp-image-8410"
@@ -820,6 +842,7 @@ export default function Row19() {
                                         title="video-2023-07-07-16-01-32"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="video-2023-07-07-16-01-32"
                                           className="lazyload img-responsive wp-image-8411"
@@ -850,6 +873,7 @@ export default function Row19() {
                                         title="13.30"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="13.30"
                                           className="lazyload img-responsive wp-image-8412 bv-tag-attr-replace"
@@ -887,6 +911,7 @@ export default function Row19() {
                                         title="19_3"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="19_3"
                                           className="lazyload img-responsive wp-image-8413 bv-tag-attr-replace"
@@ -921,6 +946,7 @@ export default function Row19() {
                                         title="2016-03-10_10.29.47"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="2016-03-10_10.29.47"
                                           className="lazyload img-responsive wp-image-8414 bv-tag-attr-replace"
@@ -955,6 +981,7 @@ export default function Row19() {
                                         title="2016-03-10_10.30.34"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="2016-03-10_10.30.34"
                                           className="lazyload img-responsive wp-image-8415 bv-tag-attr-replace"
@@ -993,6 +1020,7 @@ export default function Row19() {
                                         title="metadata-start"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="metadata-start"
                                           className="lazyload img-responsive wp-image-8416 bv-tag-attr-replace"
@@ -1027,6 +1055,7 @@ export default function Row19() {
                                         title="20160806_183832"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="20160806_183832"
                                           className="lazyload img-responsive wp-image-8417 bv-tag-attr-replace"
@@ -1061,6 +1090,7 @@ export default function Row19() {
                                         title="basculante_overbas_air_9016"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="basculante_overbas_air_9016"
                                           className="lazyload img-responsive wp-image-8418 bv-tag-attr-replace"
@@ -1098,6 +1128,7 @@ export default function Row19() {
                                         title="dscf3575"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="dscf3575"
                                           className="lazyload img-responsive wp-image-8419 bv-tag-attr-replace"
@@ -1132,6 +1163,7 @@ export default function Row19() {
                                         title="dscf4034"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="dscf4034"
                                           className="lazyload img-responsive wp-image-8420 bv-tag-attr-replace"

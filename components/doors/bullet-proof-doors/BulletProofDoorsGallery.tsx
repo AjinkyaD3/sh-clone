@@ -58,6 +58,7 @@ export default function Row16() {
                                         title="user_comments"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="user_comments"
                                           className="lazyload img-responsive wp-image-8364 bv-tag-attr-replace"
@@ -91,6 +92,7 @@ export default function Row16() {
                                         title="panic_room_2"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_2"
                                           className="lazyload img-responsive wp-image-8365 bv-tag-attr-replace"
@@ -124,6 +126,7 @@ export default function Row16() {
                                         title="panic_room_3"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_3"
                                           className="lazyload img-responsive wp-image-8366 bv-tag-attr-replace"
@@ -160,6 +163,7 @@ export default function Row16() {
                                         title="panic_room_4"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_4"
                                           className="lazyload img-responsive wp-image-8367 bv-tag-attr-replace"
@@ -193,6 +197,7 @@ export default function Row16() {
                                         title="panic_room_5"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_5"
                                           className="lazyload img-responsive wp-image-8368 bv-tag-attr-replace"
@@ -226,6 +231,7 @@ export default function Row16() {
                                         title="panic_room_6"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_6"
                                           className="lazyload img-responsive wp-image-8369 bv-tag-attr-replace"
@@ -262,6 +268,7 @@ export default function Row16() {
                                         title="panic_room_7"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_7"
                                           className="lazyload img-responsive wp-image-8370 bv-tag-attr-replace"
@@ -295,6 +302,7 @@ export default function Row16() {
                                         title="panic_room_8"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_8"
                                           className="lazyload img-responsive wp-image-8371 bv-tag-attr-replace"
@@ -328,6 +336,7 @@ export default function Row16() {
                                         title="panic_room_9"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_9"
                                           className="lazyload img-responsive wp-image-8372 bv-tag-attr-replace"
@@ -364,6 +373,7 @@ export default function Row16() {
                                         title="panic_room_10"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_10"
                                           className="lazyload img-responsive wp-image-8373 bv-tag-attr-replace"
@@ -397,6 +407,7 @@ export default function Row16() {
                                         title="panic_room_11"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_11"
                                           className="lazyload img-responsive wp-image-8374 bv-tag-attr-replace"
@@ -430,6 +441,7 @@ export default function Row16() {
                                         title="panic_room_12"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_12"
                                           className="lazyload img-responsive wp-image-8375 bv-tag-attr-replace"
@@ -466,6 +478,7 @@ export default function Row16() {
                                         title="panic_room_13"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_13"
                                           className="lazyload img-responsive wp-image-8376 bv-tag-attr-replace"
@@ -499,6 +512,7 @@ export default function Row16() {
                                         title="panic_room_14"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_14"
                                           className="lazyload img-responsive wp-image-8377 bv-tag-attr-replace"
@@ -532,6 +546,7 @@ export default function Row16() {
                                         title="panic_room_15"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_15"
                                           className="lazyload img-responsive wp-image-8378 bv-tag-attr-replace"
@@ -568,6 +583,7 @@ export default function Row16() {
                                         title="panic_room_16"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_16"
                                           className="lazyload img-responsive wp-image-8379 bv-tag-attr-replace"
@@ -601,6 +617,7 @@ export default function Row16() {
                                         title="panic_room_17"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_17"
                                           className="lazyload img-responsive wp-image-8380 bv-tag-attr-replace"
@@ -634,6 +651,7 @@ export default function Row16() {
                                         title="panic_room_18"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_18"
                                           className="lazyload img-responsive wp-image-8381 bv-tag-attr-replace"
@@ -670,6 +688,7 @@ export default function Row16() {
                                         title="panic_room_19"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_19"
                                           className="lazyload img-responsive wp-image-8382 bv-tag-attr-replace"
@@ -703,6 +722,7 @@ export default function Row16() {
                                         title="panic_room_20"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room_20"
                                           className="lazyload img-responsive wp-image-8383 bv-tag-attr-replace"
@@ -736,6 +756,7 @@ export default function Row16() {
                                         title="panic_room"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="panic_room"
                                           className="lazyload img-responsive wp-image-8384 bv-tag-attr-replace"
@@ -772,6 +793,7 @@ export default function Row16() {
                                         title="picture_grand_010"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="picture_grand_010"
                                           className="lazyload img-responsive wp-image-8385 bv-tag-attr-replace"
@@ -805,6 +827,7 @@ export default function Row16() {
                                         title="picture_grand_023"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="picture_grand_023"
                                           className="lazyload img-responsive wp-image-8386 bv-tag-attr-replace"
@@ -838,6 +861,7 @@ export default function Row16() {
                                         title="shield_wembley_safe_rooms_ad.indd"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="shield_wembley_safe_rooms_ad.indd"
                                           className="lazyload img-responsive wp-image-8387 bv-tag-attr-replace"

@@ -57,6 +57,7 @@ export default function Row14() {
                                         title="garage_doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_doors"
                                           className="lazyload img-responsive wp-image-8425 bv-tag-attr-replace"
@@ -91,6 +92,7 @@ export default function Row14() {
                                         title="garage_doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_doors"
                                           className="lazyload img-responsive wp-image-8426 bv-tag-attr-replace"
@@ -125,6 +127,7 @@ export default function Row14() {
                                         title="garage_doors"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="garage_doors"
                                           className="lazyload img-responsive wp-image-8427 bv-tag-attr-replace"
@@ -162,6 +165,7 @@ export default function Row14() {
                                         title="img_2238"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img_2238"
                                           className="lazyload img-responsive wp-image-8428"
@@ -192,6 +196,7 @@ export default function Row14() {
                                         title="img_2422"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img_2422"
                                           className="lazyload img-responsive wp-image-8429 bv-tag-attr-replace"
@@ -226,6 +231,7 @@ export default function Row14() {
                                         title="img_6231"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img_6231"
                                           className="lazyload img-responsive wp-image-8430"
@@ -259,6 +265,7 @@ export default function Row14() {
                                         title="img_6232"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img_6232"
                                           className="lazyload img-responsive wp-image-8431"
@@ -289,6 +296,7 @@ export default function Row14() {
                                         title="img_7236"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="img_7236"
                                           className="lazyload img-responsive wp-image-8432 bv-tag-attr-replace"
@@ -323,6 +331,7 @@ export default function Row14() {
                                         title="photo-2023-09-12-17-03-58"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="photo-2023-09-12-17-03-58"
                                           className="lazyload img-responsive wp-image-8435 bv-tag-attr-replace"
@@ -360,6 +369,7 @@ export default function Row14() {
                                         title="photo-2023-09-12-17-04-00_2"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="photo-2023-09-12-17-04-00_2"
                                           className="lazyload img-responsive wp-image-8437 bv-tag-attr-replace"
@@ -394,6 +404,7 @@ export default function Row14() {
                                         title="photo-2023-09-12-17-04-00_3"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="photo-2023-09-12-17-04-00_3"
                                           className="lazyload img-responsive wp-image-8438 bv-tag-attr-replace"
@@ -428,6 +439,7 @@ export default function Row14() {
                                         title="photo-2025-01-27-17-04-11_3"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="photo-2025-01-27-17-04-11_3"
                                           className="lazyload img-responsive wp-image-8443 bv-tag-attr-replace"
@@ -465,6 +477,7 @@ export default function Row14() {
                                         title="photo-2025-03-24-20-03-36_2"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="photo-2025-03-24-20-03-36_2"
                                           className="lazyload img-responsive wp-image-8445 bv-tag-attr-replace"
@@ -499,6 +512,7 @@ export default function Row14() {
                                         title="photo-2025-03-24-20-03-36_3"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="photo-2025-03-24-20-03-36_3"
                                           className="lazyload img-responsive wp-image-8446 bv-tag-attr-replace"
@@ -533,6 +547,7 @@ export default function Row14() {
                                         title="side_hinged_garage_door_black_london"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="side_hinged_garage_door_black_london"
                                           className="lazyload img-responsive wp-image-8448 bv-tag-attr-replace"
@@ -571,6 +586,7 @@ export default function Row14() {
                                         title="special_place_for_the_car"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="special_place_for_the_car"
                                           className="lazyload img-responsive wp-image-8449 bv-tag-attr-replace"
@@ -606,6 +622,7 @@ export default function Row14() {
                                         title="house_entrance_and_garage"
                                       >
                                         <img
+                                          loading="lazy"
                                           alt=""
                                           aria-label="house_entrance_and_garage"
                                           className="lazyload img-responsive wp-image-8450 bv-tag-attr-replace"

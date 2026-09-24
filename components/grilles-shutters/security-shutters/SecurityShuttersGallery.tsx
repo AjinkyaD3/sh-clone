@@ -48,6 +48,7 @@ export default function Row24() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="04"
                                         className="lazyload img-responsive wp-image-6149 bv-tag-attr-replace"
@@ -72,6 +73,7 @@ export default function Row24() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="03"
                                         className="lazyload img-responsive wp-image-6150 bv-tag-attr-replace"
@@ -96,6 +98,7 @@ export default function Row24() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="15"
                                         className="lazyload img-responsive wp-image-6151 bv-tag-attr-replace"
@@ -123,6 +126,7 @@ export default function Row24() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="08"
                                         className="lazyload img-responsive wp-image-6152 bv-tag-attr-replace"
@@ -147,6 +151,7 @@ export default function Row24() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="07"
                                         className="lazyload img-responsive wp-image-6153 bv-tag-attr-replace"
@@ -171,6 +176,7 @@ export default function Row24() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="06"
                                         className="lazyload img-responsive wp-image-6154 bv-tag-attr-replace"
@@ -198,6 +204,7 @@ export default function Row24() {
                                       className="fusion-gallery-image"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         aria-label="05"
                                         className="lazyload img-responsive wp-image-6155 bv-tag-attr-replace"

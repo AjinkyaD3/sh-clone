@@ -136,6 +136,7 @@ export default function Row14() {
                                       className="fusion-imageframe imageframe-none imageframe-5 hover-type-none"
                                     >
                                       <img
+                                        loading="lazy"
                                         alt=""
                                         className="lazyload img-responsive wp-image-6167 bv-tag-attr-replace"
                                         data-orig-sizes="(max-width: 1024px) 100vw, (max-width: 640px) 100vw, 698px"

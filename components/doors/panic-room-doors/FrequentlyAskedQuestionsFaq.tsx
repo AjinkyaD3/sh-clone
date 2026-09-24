@@ -683,6 +683,29 @@ export default function Row21() {
                                   </div>
                                 </div>
                               </div>
+                              <script
+                                type="application/ld+json"
+                                dangerouslySetInnerHTML={{
+                                  __html: JSON.stringify({
+                                    "@context": "https://schema.org",
+                                    "@type": "FAQPage",
+                                    mainEntity: [
+                                      { "@type": "Question", name: "What is a vault door, and what is its purpose?", acceptedAnswer: { "@type": "Answer", text: "A vault door is a highly secure, heavy-duty door designed to protect valuable items, documents, or assets in a vault or secure space. Its purpose is to prevent unauthorised access, theft, or damage to the contents within." } },
+                                      { "@type": "Question", name: "What are some common applications for vault doors?", acceptedAnswer: { "@type": "Answer", text: "Vault doors are used in banks, financial institutions, jewellery stores, art galleries, and private residences to secure valuable items, important documents, or sensitive information." } },
+                                      { "@type": "Question", name: "How are vault doors different from regular doors?", acceptedAnswer: { "@type": "Answer", text: "Vault doors are significantly more robust and secure than standard doors. They are constructed with thick steel, often reinforced with additional materials, and feature complex locking mechanisms to resist forced entry." } },
+                                      { "@type": "Question", name: "Can vault doors be customised to match the aesthetics of a room or building?", acceptedAnswer: { "@type": "Answer", text: "Yes, many vault door manufacturers offer customisation options, including finishes, handles, and designs, to ensure the door seamlessly blends into its surroundings." } },
+                                      { "@type": "Question", name: "Are vault doors fire-resistant?", acceptedAnswer: { "@type": "Answer", text: "Some vault doors come with fire-resistant features to protect the contents from fire damage. The level of fire resistance varies depending on the door’s specifications, so it’s essential to inquire about this when selecting a door." } },
+                                      { "@type": "Question", name: "What is a panic room door, and when is it used?", acceptedAnswer: { "@type": "Answer", text: "A panic room door is a specially designed door used to secure a panic room or safe room. It is intended to provide safety and protection during emergencies, such as home invasions, natural disasters, or security threats." } },
+                                      { "@type": "Question", name: "What features should I look for in a panic room door for my home?", acceptedAnswer: { "@type": "Answer", text: "Effective panic room doors should be equipped with a strong locking mechanism, reinforced construction, and the ability to communicate with the outside in emergencies, such as an intercom system or a phone line." } },
+                                      { "@type": "Question", name: "Can panic room doors be concealed or hidden within a room’s design?", acceptedAnswer: { "@type": "Answer", text: "Yes, some panic room doors are designed to be concealed behind bookshelves, cabinets, or other structures, making them less obvious to potential intruders." } },
+                                      { "@type": "Question", name: "Are panic room doors a viable security option for residential properties?", acceptedAnswer: { "@type": "Answer", text: "Panic room doors can be an effective security measure for residential properties, particularly for individuals or families in high-risk areas or those with valuable assets. Consult with a security expert to assess your specific needs." } },
+                                      { "@type": "Question", name: "How often should vault doors and panic room doors be inspected and maintained?", acceptedAnswer: { "@type": "Answer", text: "Both vault doors and panic room doors should undergo regular inspections and maintenance to ensure they function correctly. The frequency of maintenance may vary, so refer to the manufacturer’s guidelines or consult with a security professional." } },
+                                      { "@type": "Question", name: "Can I install a vault door or panic room door in my existing property, or is it more suitable for new constructions?", acceptedAnswer: { "@type": "Answer", text: "Both types of doors can be installed in existing properties, although it may require some modifications to the existing structure. Consulting with a professional experienced in such installations is advisable." } },
+                                      { "@type": "Question", name: "What is the panic room cost in UK?", acceptedAnswer: { "@type": "Answer", text: "It is hard evaluate accurate pricing for a panic room or panic room doors. However, if you share with us what are your need and expectation will will provide estimates for your projects." } },
+                                    ],
+                                  }),
+                                }}
+                              />
                             </div>
                           </div>
                         </div>
