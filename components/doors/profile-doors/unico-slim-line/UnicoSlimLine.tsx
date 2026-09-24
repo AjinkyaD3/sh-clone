@@ -19,12 +19,12 @@ export default function Row4() {
                               className="fusion-title title fusion-title-1 fusion-sep-none fusion-title-text fusion-title-size-two"
                               style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-top': '20px', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '24px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
                             >
-                              <h2
+                              <h1
                                 className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                 style={{ fontFamily: 'var(--awb-typography1-font-family)', fontWeight: 'var(--awb-typography1-font-weight)', fontStyle: 'var(--awb-typography1-font-style)', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var(--awb-typography1-line-height)' } as unknown as React.CSSProperties}
                               >
                                 {` Unico slim line `}
-                              </h2>
+                              </h1>
                             </div>
                           </div>
                         </div>

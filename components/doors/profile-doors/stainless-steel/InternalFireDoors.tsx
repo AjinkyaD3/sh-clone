@@ -163,7 +163,7 @@ export default function Row6() {
                               className="fusion-title title fusion-title-2 fusion-sep-none fusion-title-text fusion-title-size-three"
                               style={{ '--awb-text-color': 'var(--awb-color5)', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
                             >
-                              <h3
+                              <h2
                                 className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                 style={{ fontFamily: 'var(--awb-typography1-font-family)', fontWeight: 'var(--awb-typography1-font-weight)', fontStyle: 'var(--awb-typography1-font-style)', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var(--awb-typography1-line-height)' } as unknown as React.CSSProperties}
                               >
@@ -172,7 +172,7 @@ export default function Row6() {
                                 {` types of steel`}
                                 <br />
                                 {` doors we offer `}
-                              </h3>
+                              </h2>
                             </div>
                           </div>
                         </div>

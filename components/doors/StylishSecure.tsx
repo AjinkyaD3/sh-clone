@@ -106,11 +106,16 @@ export default function Row4() {
                                 <span
                                   className="fusion-column-inner-bg hover-type-liftup"
                                 >
-                                  <span
-                                    className="fusion-column-inner-bg-image lazyload"
-                                    data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                    style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-1-227x300.webp") !important' } as unknown as React.CSSProperties}
-                                  ></span>
+                                  <Link
+                                    className="fusion-column-anchor"
+                                    href="/doors/fire-resistant-doors/"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image lazyload"
+                                      data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-1-227x300.webp") !important' } as unknown as React.CSSProperties}
+                                    ></span>
+                                  </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
@@ -137,11 +142,16 @@ export default function Row4() {
                                 <span
                                   className="fusion-column-inner-bg hover-type-liftup"
                                 >
-                                  <span
-                                    className="fusion-column-inner-bg-image lazyload"
-                                    data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                    style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-4-227x300.webp") !important' } as unknown as React.CSSProperties}
-                                  ></span>
+                                  <Link
+                                    className="fusion-column-anchor"
+                                    href="/doors/panic-room-doors/"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image lazyload"
+                                      data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-4-227x300.webp") !important' } as unknown as React.CSSProperties}
+                                    ></span>
+                                  </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"
@@ -168,11 +178,16 @@ export default function Row4() {
                                 <span
                                   className="fusion-column-inner-bg hover-type-liftup"
                                 >
-                                  <span
-                                    className="fusion-column-inner-bg-image lazyload"
-                                    data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
-                                    style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-10-227x300.webp") !important' } as unknown as React.CSSProperties}
-                                  ></span>
+                                  <Link
+                                    className="fusion-column-anchor"
+                                    href="/doors/profile-doors/stainless-steel/"
+                                  >
+                                    <span
+                                      className="fusion-column-inner-bg-image lazyload"
+                                      data-bg-gradient="linear-gradient(0deg, rgba(255,255,255,0.8) 17%,rgba(255,255,255,0) 0%)"
+                                      style={{ backgroundImage: 'url("/legacy-assets/uploads/2025/03/Mask-group-10-227x300.webp") !important' } as unknown as React.CSSProperties}
+                                    ></span>
+                                  </Link>
                                 </span>
                                 <div
                                   className="fusion-column-wrapper fusion-flex-justify-content-flex-end fusion-content-layout-block fusion-column-has-bg-image"

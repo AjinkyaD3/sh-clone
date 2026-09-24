@@ -19,12 +19,12 @@ export default function Row3() {
                               className="fusion-title title fusion-title-1 fusion-sep-none fusion-title-text fusion-title-size-four"
                               style={{ '--awb-text-color': '#847b73', '--awb-font-size': '35px' } as unknown as React.CSSProperties}
                             >
-                              <h4
+                              <h1
                                 className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                 style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '400', margin: '0', letterSpacing: '0px', textTransform: 'none', fontSize: '1em', '--fontSize': '35', lineHeight: '1.2' } as unknown as React.CSSProperties}
                               >
                                 {` Our projects `}
-                              </h4>
+                              </h1>
                             </div>
                           </div>
                         </div>

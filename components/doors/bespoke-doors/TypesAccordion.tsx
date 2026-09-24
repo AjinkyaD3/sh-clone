@@ -9,7 +9,7 @@ export default function TypesAccordion() {
   return (
                     <div
                       className="fusion-fullwidth fullwidth-box fusion-builder-row-11 fusion-flex-container has-pattern-background has-mask-background hundred-percent-fullwidth non-hundred-percent-height-scrolling"
-                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '120px', '--awb-padding-left': '120px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-bottom': '60px', '--awb-margin-bottom-small': '44px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
+                      style={{ '--awb-border-radius-top-left': '0px', '--awb-border-radius-top-right': '0px', '--awb-border-radius-bottom-right': '0px', '--awb-border-radius-bottom-left': '0px', '--awb-padding-right': '120px', '--awb-padding-left': '120px', '--awb-padding-right-small': '40px', '--awb-padding-left-small': '40px', '--awb-margin-top': '50px', '--awb-margin-top-small': '36px', '--awb-margin-bottom': '40px', '--awb-margin-bottom-small': '32px', '--awb-flex-wrap': 'wrap' } as unknown as React.CSSProperties}
                     >
                       <div
                         className="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
@@ -65,7 +65,7 @@ export default function TypesAccordion() {
                                     </h4>
                                   </div>
                                   <div aria-labelledby="toggle_bd-wooden" className="panel-collapse collapse" id="bd-wooden">
-                                    <div className="panel-body toggle-content fusion-clearfix">
+                                    <div className="panel-body toggle-content fusion-clearfix" style={{ paddingTop: '20px' } as unknown as React.CSSProperties}>
                                       <p>{` Our bespoke wooden doors are available in different designs and finishes. So, whether you reside in the countryside or are an urban resident, our personalised wooden doors provide your home with a warm, natural look. `}</p>
                                     </div>
                                   </div>
@@ -84,7 +84,7 @@ export default function TypesAccordion() {
                                     </h4>
                                   </div>
                                   <div aria-labelledby="toggle_bd-steel" className="panel-collapse collapse" id="bd-steel">
-                                    <div className="panel-body toggle-content fusion-clearfix">
+                                    <div className="panel-body toggle-content fusion-clearfix" style={{ paddingTop: '20px' } as unknown as React.CSSProperties}>
                                       <p>{` Steel doors have no peers when it comes to security. Therefore, we also design steel doors that stand the test of time, prohibit forced entries, while ensuring style. `}</p>
                                     </div>
                                   </div>
@@ -103,7 +103,7 @@ export default function TypesAccordion() {
                                     </h4>
                                   </div>
                                   <div aria-labelledby="toggle_bd-internal" className="panel-collapse collapse" id="bd-internal">
-                                    <div className="panel-body toggle-content fusion-clearfix">
+                                    <div className="panel-body toggle-content fusion-clearfix" style={{ paddingTop: '20px' } as unknown as React.CSSProperties}>
                                       <p>{` Our expertise also extends to manufacturing internal and external bespoke doors. Thus, from graceful internal partitions to enduring garden-facing doors, we customise each to suit a particular location and use. `}</p>
                                     </div>
                                   </div>
@@ -122,7 +122,7 @@ export default function TypesAccordion() {
                                     </h4>
                                   </div>
                                   <div aria-labelledby="toggle_bd-benefits" className="panel-collapse collapse" id="bd-benefits">
-                                    <div className="panel-body toggle-content fusion-clearfix">
+                                    <div className="panel-body toggle-content fusion-clearfix" style={{ paddingTop: '20px' } as unknown as React.CSSProperties}>
                                       <p><strong>{`Tailored Design & Style`}</strong></p>
                                       <p>{` Bespoke doors allow you to choose from various materials, finishes and colours. You can even personalise their design with accessories to match your home's character. `}</p>
                                       <p><strong>{`Enhanced Security & Durability`}</strong></p>
@@ -146,7 +146,7 @@ export default function TypesAccordion() {
                                     </h4>
                                   </div>
                                   <div aria-labelledby="toggle_bd-process" className="panel-collapse collapse" id="bd-process">
-                                    <div className="panel-body toggle-content fusion-clearfix">
+                                    <div className="panel-body toggle-content fusion-clearfix" style={{ paddingTop: '20px' } as unknown as React.CSSProperties}>
                                       <p>{` At Secure House, we maintain a simple and transparent process. It usually includes; `}</p>
                                       <ul>
                                         <li>{`Discussing your ideas, requirements and style preferences`}</li>
@@ -171,7 +171,7 @@ export default function TypesAccordion() {
                                     </h4>
                                   </div>
                                   <div aria-labelledby="toggle_bd-vs" className="panel-collapse collapse" id="bd-vs">
-                                    <div className="panel-body toggle-content fusion-clearfix">
+                                    <div className="panel-body toggle-content fusion-clearfix" style={{ paddingTop: '20px' } as unknown as React.CSSProperties}>
                                       <p>{` Unlike standard doors, bespoke doors fulfil your exact needs. They are more flexible in terms of size, style and security features. Together, customisations and these factors make them unique and suited to your home. `}</p>
                                     </div>
                                   </div>
@@ -190,7 +190,7 @@ export default function TypesAccordion() {
                                     </h4>
                                   </div>
                                   <div aria-labelledby="toggle_bd-whyus" className="panel-collapse collapse" id="bd-whyus">
-                                    <div className="panel-body toggle-content fusion-clearfix">
+                                    <div className="panel-body toggle-content fusion-clearfix" style={{ paddingTop: '20px' } as unknown as React.CSSProperties}>
                                       <ul>
                                         <li>{`Broad array of designs, materials, colours, finishes and security systems`}</li>
                                         <li>{`Proven track record in delivering high-security solutions`}</li>
@@ -214,7 +214,7 @@ export default function TypesAccordion() {
                                     </h4>
                                   </div>
                                   <div aria-labelledby="toggle_bd-getstarted" className="panel-collapse collapse" id="bd-getstarted">
-                                    <div className="panel-body toggle-content fusion-clearfix">
+                                    <div className="panel-body toggle-content fusion-clearfix" style={{ paddingTop: '20px' } as unknown as React.CSSProperties}>
                                       <p>
                                         {` So, why settle for a standard door when you can customise it with Secure House? Whether you need a modern steel door or a conventional wooden design, we fulfil your expectations. Connect with our team today and get closer to designing your personalised door with us. Call us at `}
                                         <a href="tel:02078594207" style={{ color: 'var(--awb-color6)', fontWeight: 600 } as unknown as React.CSSProperties}>{`02078594207`}</a>

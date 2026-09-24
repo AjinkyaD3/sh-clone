@@ -19,12 +19,12 @@ export default function Row6() {
                               className="fusion-title title fusion-title-2 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-three"
                               style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-margin-bottom': '30px', '--awb-margin-bottom-small': '24px', '--awb-font-size': 'var(--awb-typography1-font-size)' } as unknown as React.CSSProperties}
                             >
-                              <h3
+                              <h2
                                 className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
                                 style={{ fontFamily: 'var(--awb-typography1-font-family)', fontWeight: 'var(--awb-typography1-font-weight)', fontStyle: 'var(--awb-typography1-font-style)', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '50', lineHeight: 'var(--awb-typography1-line-height)' } as unknown as React.CSSProperties}
                               >
                                 {` Fuego fire gallery `}
-                              </h3>
+                              </h2>
                             </div>
                             <div
                               className="awb-gallery-wrapper awb-gallery-wrapper-1 button-span-no"
