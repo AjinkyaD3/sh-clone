@@ -27,12 +27,12 @@ export const metadata: Metadata = {
   description:
     "Looking for top-grade Safe Room or Panic Room Doors? Explore UK-engineered solutions for maximum security, durability & protection. Built to resist threats.",
   alternates: {
-    canonical: "https://secure-house.co.uk/doors/panic-room-doors",
+    canonical: "https://secure-house.co.uk/doors/panic-room-doors/",
   },
   openGraph: {
     title: "Safe Room & Panic Room Doors for Ultimate Security | UK Made",
     description: "Looking for top-grade Safe Room or Panic Room Doors? Explore UK-engineered solutions for maximum security, durability & protection. Built to resist threats.",
-    url: "https://secure-house.co.uk/doors/panic-room-doors",
+    url: "https://secure-house.co.uk/doors/panic-room-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

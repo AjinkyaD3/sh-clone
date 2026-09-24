@@ -114,7 +114,7 @@ export default function DoorsDesignVideo() {
                               <div
                                 className="fusion-title title fusion-title-6 fusion-sep-none fusion-title-center fusion-title-text fusion-title-size-one"
                               >
-                                <h1
+                                <h2
                                   className="fusion-title-heading title-heading-center fusion-responsive-typography-calculated"
                                   style={{ margin: '0', textTransform: 'capitalize', '--fontSize': '50', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                 >
@@ -128,7 +128,7 @@ export default function DoorsDesignVideo() {
                                   >
                                     {`design`}
                                   </span>
-                                </h1>
+                                </h2>
                               </div>
                               <div
                                 style={{ textAlign: 'center' } as unknown as React.CSSProperties}

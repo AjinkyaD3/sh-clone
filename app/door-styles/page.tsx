@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description:
     "Explore secure door design styles. Explore diverse range of secure door design styles, each combining timeless aesthetics with modern security features.",
   alternates: {
-    canonical: "https://secure-house.co.uk/door-styles",
+    canonical: "https://secure-house.co.uk/door-styles/",
   },
   openGraph: {
     title: "Door styles - Secure House",
     description: "Explore secure door design styles. Explore diverse range of secure door design styles, each combining timeless aesthetics with modern security features.",
-    url: "https://secure-house.co.uk/door-styles",
+    url: "https://secure-house.co.uk/door-styles/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

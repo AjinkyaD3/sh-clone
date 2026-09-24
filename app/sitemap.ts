@@ -52,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages = getPages(appDir);
 
   return pages.map((route) => ({
-    url: `${BASE_URL}${route}`,
+    url: `${BASE_URL}${route}${route.endsWith("/") ? "" : "/"}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: route === "/" ? 1.0 : route.split("/").length <= 2 ? 0.8 : 0.6,

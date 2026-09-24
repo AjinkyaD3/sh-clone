@@ -15,12 +15,12 @@ export const metadata: Metadata = {
     "Highest quality security windows in London. Every single security windows solution is designed to protect, help you feel safe and secure.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/windows/high-security-steel-windows",
+      "https://secure-house.co.uk/windows/high-security-steel-windows/",
   },
   openGraph: {
     title: "High security steel windows - Secure House",
     description: "Highest quality security windows in London. Every single security windows solution is designed to protect, help you feel safe and secure.",
-    url: "https://secure-house.co.uk/windows/high-security-steel-windows",
+    url: "https://secure-house.co.uk/windows/high-security-steel-windows/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

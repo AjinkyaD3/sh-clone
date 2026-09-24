@@ -14,12 +14,12 @@ export const metadata: Metadata = {
     "Stainless Steel Fire Doors: Timeless Strength, Style, and Security. Best suited to commercial applications, offices, communal entrance doors, embassies.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/doors/profile-doors/stainless-steel",
+      "https://secure-house.co.uk/doors/profile-doors/stainless-steel/",
   },
   openGraph: {
     title: "Stainless steel - Secure House",
     description: "Stainless Steel Fire Doors: Timeless Strength, Style, and Security. Best suited to commercial applications, offices, communal entrance doors, embassies.",
-    url: "https://secure-house.co.uk/doors/profile-doors/stainless-steel",
+    url: "https://secure-house.co.uk/doors/profile-doors/stainless-steel/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

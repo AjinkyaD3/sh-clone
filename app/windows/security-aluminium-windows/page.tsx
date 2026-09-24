@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     "Security aluminium windows London. Windows play a defining role in shaping the appearance and character of any project. Schüco system technology.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/windows/security-aluminium-windows",
+      "https://secure-house.co.uk/windows/security-aluminium-windows/",
   },
   openGraph: {
     title: "Security aluminium windows - Secure House",
     description: "Security aluminium windows London. Windows play a defining role in shaping the appearance and character of any project. Schüco system technology.",
-    url: "https://secure-house.co.uk/windows/security-aluminium-windows",
+    url: "https://secure-house.co.uk/windows/security-aluminium-windows/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

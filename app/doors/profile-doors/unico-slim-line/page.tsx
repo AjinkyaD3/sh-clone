@@ -11,12 +11,12 @@ export const metadata: Metadata = {
     "Thermally insulated windows, doors and glazings – elements produced with profiles in this unique framework style, can be fitted indoors and outdoors.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/doors/profile-doors/unico-slim-line",
+      "https://secure-house.co.uk/doors/profile-doors/unico-slim-line/",
   },
   openGraph: {
     title: "Unico slim line - Secure House",
     description: "Thermally insulated windows, doors and glazings – elements produced with profiles in this unique framework style, can be fitted indoors and outdoors.",
-    url: "https://secure-house.co.uk/doors/profile-doors/unico-slim-line",
+    url: "https://secure-house.co.uk/doors/profile-doors/unico-slim-line/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

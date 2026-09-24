@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     "Premium security shutters. A compact roller shutter system with reduced roll sizes, combining architectural style and engineering excellence.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/grilles-shutters/high-security-shutters",
+      "https://secure-house.co.uk/grilles-shutters/high-security-shutters/",
   },
   openGraph: {
     title: "High security shutters - Secure House",
     description: "Premium security shutters. A compact roller shutter system with reduced roll sizes, combining architectural style and engineering excellence.",
-    url: "https://secure-house.co.uk/grilles-shutters/high-security-shutters",
+    url: "https://secure-house.co.uk/grilles-shutters/high-security-shutters/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

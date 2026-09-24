@@ -18,12 +18,12 @@ export const metadata: Metadata = {
     "Collapsible security grilles. A security grille can add a valuable layer of security for your doors as well as windows in both commercial and private premises.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/grilles-shutters/colllabsible-grilles",
+      "https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/",
   },
   openGraph: {
     title: "Colllabsible grilles - Secure House",
     description: "Collapsible security grilles. A security grille can add a valuable layer of security for your doors as well as windows in both commercial and private premises.",
-    url: "https://secure-house.co.uk/grilles-shutters/colllabsible-grilles",
+    url: "https://secure-house.co.uk/grilles-shutters/colllabsible-grilles/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

@@ -19,12 +19,12 @@ export const metadata: Metadata = {
   description:
     "Edwardian style front doors UK with bespoke designs, advanced security and premium finishes. Explore custom Edwardian doors with a free consultation.",
   alternates: {
-    canonical: "https://secure-house.co.uk/door-styles/edwardian-doors",
+    canonical: "https://secure-house.co.uk/door-styles/edwardian-doors/",
   },
   openGraph: {
     title: "Edwardian Front Doors UK – Bespoke Designs & High Security",
     description: "Edwardian style front doors UK with bespoke designs, advanced security and premium finishes. Explore custom Edwardian doors with a free consultation.",
-    url: "https://secure-house.co.uk/door-styles/edwardian-doors",
+    url: "https://secure-house.co.uk/door-styles/edwardian-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

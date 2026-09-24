@@ -39,7 +39,7 @@ export default function IntroHeading() {
                                 className="fusion-title title fusion-title-4 fusion-sep-none fusion-title-text fusion-title-size-one"
                                 style={{ '--awb-margin-top-small': '30px', '--awb-margin-bottom-small': '30px', '--awb-font-size': '40px' } as unknown as React.CSSProperties}
                               >
-                                <h1
+                                <h2
                                   className="fusion-title-heading title-heading-left sm-text-align-center fusion-responsive-typography-calculated"
                                   style={{ fontFamily: 'var(--awb-typography1-font-family)', fontWeight: 'var(--awb-typography1-font-weight)', fontStyle: 'var(--awb-typography1-font-style)', margin: '0', letterSpacing: 'var( --awb-typography1-letter-spacing )', textTransform: 'var( --awb-typography1-text-transform )', fontSize: '1em', '--fontSize': '40', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                 >
@@ -54,7 +54,7 @@ export default function IntroHeading() {
                                     <br />
                                     {` Security `}
                                   </p>
-                                </h1>
+                                </h2>
                               </div>
                               <div
                                 className="sm-text-align-center"

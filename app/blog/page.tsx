@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title: "Blog - Secure House",
   description: "Blog",
   alternates: {
-    canonical: "https://secure-house.co.uk/blog",
+    canonical: "https://secure-house.co.uk/blog/",
   },
   openGraph: {
     title: "Blog - Secure House",
     description: "Blog",
-    url: "https://secure-house.co.uk/blog",
+    url: "https://secure-house.co.uk/blog/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

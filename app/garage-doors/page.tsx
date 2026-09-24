@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   description:
     "Secure and stylish garage doors UK. Expert garage door installation & supply. Quality, durability, and affordable prices. Get your perfect garage door today!",
   alternates: {
-    canonical: "https://secure-house.co.uk/garage-doors",
+    canonical: "https://secure-house.co.uk/garage-doors/",
   },
   openGraph: {
     title: "Garage Doors UK | Garage Door Installation & Supply",
     description: "Secure and stylish garage doors UK. Expert garage door installation & supply. Quality, durability, and affordable prices. Get your perfect garage door today!",
-    url: "https://secure-house.co.uk/garage-doors",
+    url: "https://secure-house.co.uk/garage-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

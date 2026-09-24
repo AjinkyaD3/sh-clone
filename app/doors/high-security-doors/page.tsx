@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     "Explore the best high security doors in the UK. Secure House offers expert insights into choosing the right security front doors for maximum protection.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/doors/high-security-doors",
+      "https://secure-house.co.uk/doors/high-security-doors/",
   },
   openGraph: {
     title: "High Security Doors | Security Front Doors UK",
     description: "Explore the best high security doors in the UK. Secure House offers expert insights into choosing the right security front doors for maximum protection.",
-    url: "https://secure-house.co.uk/doors/high-security-doors",
+    url: "https://secure-house.co.uk/doors/high-security-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

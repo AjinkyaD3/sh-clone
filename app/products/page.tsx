@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   description:
     "Products: Security doors, Windows, Security shutters, Garage doors. Residential doors: Premium high security doors, Panic room doors, Steel security doors.",
   alternates: {
-    canonical: "https://secure-house.co.uk/products",
+    canonical: "https://secure-house.co.uk/products/",
   },
   openGraph: {
     title: "Products - Secure House",
     description: "Products: Security doors, Windows, Security shutters, Garage doors. Residential doors: Premium high security doors, Panic room doors, Steel security doors.",
-    url: "https://secure-house.co.uk/products",
+    url: "https://secure-house.co.uk/products/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

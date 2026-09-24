@@ -51,6 +51,11 @@ const contentSecurityPolicy = [
 ].join("; ");
 
 const nextConfig: NextConfig = {
+  // Canonicals/og:url across the site are written with a trailing slash
+  // (see recent SEO pass) - this makes that the actual served URL instead
+  // of 308-redirecting the slash version to a no-slash one.
+  trailingSlash: true,
+
   // Old-site URLs with no live equivalent on this site. Redirect rather than
   // let them 404 once this domain actually points here - preserves whatever
   // SEO value/inbound links still point at them by sending visitors

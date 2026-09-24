@@ -29,12 +29,12 @@ export const metadata: Metadata = {
     "Buy sectional garage doors designed for strength and style. Trusted UK seller offering top-quality doors with easy installation and quick delivery.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/garage-doors/sectional-garage-doors",
+      "https://secure-house.co.uk/garage-doors/sectional-garage-doors/",
   },
   openGraph: {
     title: "High-Quality Sectional Garage Doors – UK’s Trusted Seller",
     description: "Buy sectional garage doors designed for strength and style. Trusted UK seller offering top-quality doors with easy installation and quick delivery.",
-    url: "https://secure-house.co.uk/garage-doors/sectional-garage-doors",
+    url: "https://secure-house.co.uk/garage-doors/sectional-garage-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

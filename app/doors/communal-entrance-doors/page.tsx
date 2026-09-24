@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     "Upgrade security with premium communal entrance doors for flats. Explore durable, stylish, and secure solutions tailored for apartment and flat entrances.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/doors/communal-entrance-doors",
+      "https://secure-house.co.uk/doors/communal-entrance-doors/",
   },
   openGraph: {
     title: "Communal Entrance Doors | Communal Entrance Doors for Flats",
     description: "Upgrade security with premium communal entrance doors for flats. Explore durable, stylish, and secure solutions tailored for apartment and flat entrances.",
-    url: "https://secure-house.co.uk/doors/communal-entrance-doors",
+    url: "https://secure-house.co.uk/doors/communal-entrance-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

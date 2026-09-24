@@ -36,7 +36,7 @@ export default function Row9() {
                                       className="fusion-title title fusion-title-3 fusion-sep-none fusion-title-text fusion-title-size-one"
                                       style={{ '--awb-text-color': 'var(--awb-color6)', '--awb-font-size': '50px' } as unknown as React.CSSProperties}
                                     >
-                                      <h1
+                                      <h2
                                         className="fusion-title-heading title-heading-left fusion-responsive-typography-calculated"
                                         style={{ fontFamily: '"Playfair Display"', fontStyle: 'normal', fontWeight: '500', margin: '0', textTransform: 'none', fontSize: '1em', '--fontSize': '50', lineHeight: '1.2' } as unknown as React.CSSProperties}
                                       >
@@ -47,7 +47,7 @@ export default function Row9() {
                                           <br />
                                           {` secure & stylish `}
                                         </p>
-                                      </h1>
+                                      </h2>
                                     </div>
                                   </div>
                                 </div>

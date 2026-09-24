@@ -24,12 +24,12 @@ export const metadata: Metadata = {
     "Enhance your security with premium bullet proof doors. Explore high-quality bullet proof door solutions for homes, offices, institutions and VIP facilities.",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/doors/bullet-proof-doors",
+      "https://secure-house.co.uk/doors/bullet-proof-doors/",
   },
   openGraph: {
     title: "Bullet Proof Doors | Bullet Proof Doors for Safety",
     description: "Enhance your security with premium bullet proof doors. Explore high-quality bullet proof door solutions for homes, offices, institutions and VIP facilities.",
-    url: "https://secure-house.co.uk/doors/bullet-proof-doors",
+    url: "https://secure-house.co.uk/doors/bullet-proof-doors/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {

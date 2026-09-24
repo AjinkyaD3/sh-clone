@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     "Discover top-quality home security shutters in the UK. Secure your home with durable, stylish domestic and house security shutter solutions. Contact us today!",
   alternates: {
     canonical:
-      "https://secure-house.co.uk/grilles-shutters/security-shutters",
+      "https://secure-house.co.uk/grilles-shutters/security-shutters/",
   },
   openGraph: {
     title: "Home Security Shutters UK | Domestic Security Shutters UK",
     description: "Discover top-quality home security shutters in the UK. Secure your home with durable, stylish domestic and house security shutter solutions. Contact us today!",
-    url: "https://secure-house.co.uk/grilles-shutters/security-shutters",
+    url: "https://secure-house.co.uk/grilles-shutters/security-shutters/",
     images: [DEFAULT_OG_IMAGE],
   },
   twitter: {
