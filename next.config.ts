@@ -7,6 +7,7 @@ import type { NextConfig } from "next";
 const TAWK = "https://*.tawk.to";
 const TAWK_WS = "wss://*.tawk.to";
 const GTM = "https://www.googletagmanager.com";
+const GA4 = "https://*.google-analytics.com";
 const CLARITY = "https://*.clarity.ms";
 const GOOGLE_FONTS_CSS = "https://fonts.googleapis.com";
 const GOOGLE_FONTS_FILES = "https://fonts.gstatic.com";
@@ -39,7 +40,7 @@ const contentSecurityPolicy = [
   // its own CDN at runtime - `https:` covers that without hardcoding every
   // possible Tawk asset host.
   `img-src 'self' data: https:`,
-  `connect-src 'self' ${TAWK} ${TAWK_WS} ${GTM} ${CLARITY}`,
+  `connect-src 'self' ${TAWK} ${TAWK_WS} ${GTM} ${GA4} ${CLARITY}`,
   // The only <iframe> embeds anywhere on the site are YouTube product
   // videos (confirmed via grep) plus Tawk's own chat widget iframe.
   `frame-src ${YOUTUBE} ${TAWK}`,
