@@ -7,7 +7,6 @@ export default function Header() {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [mounted, setMounted] = useState(false);
 	const [stuck, setStuck] = useState(false);
-	const [hidden, setHidden] = useState(false);
 	const [headerHeight, setHeaderHeight] = useState(0);
 	const headerRef = useRef<HTMLDivElement>(null);
 	const pathname = usePathname();
@@ -57,30 +56,31 @@ export default function Header() {
 	// stops reserving that space, which would jump page content up by the
 	// header's own height. The spacer effect below measures and compensates
 	// for exactly that, only while both isLightPage and stuck are true.
+	//
+	// The header no longer hides while scrolling down - it stays visible the
+	// whole way down the page (requested: "the header should show perfectly
+	// when scrolled down"). Hero routes keep it position:fixed from the very
+	// top (transparent over the hero), so there is never a jump; once
+	// .header-stuck applies it compacts - shorter bar, smaller logo, solid
+	// background - all via CSS transitions (see the style block below).
 	useEffect(() => {
-		const STUCK_AT = isLightPage ? 10 : 150; // light pages have no hero to scroll past
-		const HIDE_DELTA = 10; // ignore sub-10px jitter (trackpads, momentum)
-		let lastY = window.scrollY;
+		const STUCK_AT = isLightPage ? 10 : 60; // light pages have no hero to scroll past
+		let raf = 0;
 
+		const update = () => {
+			raf = 0;
+			setStuck(window.scrollY > STUCK_AT);
+		};
 		const onScroll = () => {
-			const y = window.scrollY;
-			const delta = y - lastY;
-			const nowStuck = y > STUCK_AT;
-
-			setStuck(nowStuck);
-			if (!nowStuck) {
-				setHidden(false);
-			} else if (delta > HIDE_DELTA) {
-				setHidden(true);
-			} else if (delta < -HIDE_DELTA) {
-				setHidden(false);
-			}
-			lastY = y;
+			if (!raf) raf = requestAnimationFrame(update);
 		};
 
-		onScroll(); // set correct initial state if the page loads mid-scroll
+		update(); // set correct initial state if the page loads mid-scroll
 		window.addEventListener('scroll', onScroll, { passive: true });
-		return () => window.removeEventListener('scroll', onScroll);
+		return () => {
+			window.removeEventListener('scroll', onScroll);
+			if (raf) cancelAnimationFrame(raf);
+		};
 	}, [isLightPage]);
 
 	// Measure the header's own in-flow height (only the currently-visible
@@ -93,7 +93,14 @@ export default function Header() {
 	useEffect(() => {
 		if (!isLightPage || !headerRef.current) return;
 		const el = headerRef.current;
-		const measure = () => setHeaderHeight(el.offsetHeight);
+		// Only the resting (in-flow) height counts: once docked, the rows are
+		// position:fixed and this wrapper collapses to ~1px (its border), and
+		// the compact docked bar is shorter anyway - reserving either of those
+		// would make the page content jump up.
+		const measure = () => {
+			const h = el.offsetHeight;
+			if (h > 20) setHeaderHeight(h);
+		};
 		measure();
 		const ro = new ResizeObserver(measure);
 		ro.observe(el);
@@ -303,26 +310,72 @@ export default function Header() {
            transparent), or the same opaque white bar isLightPage already
            uses at rest otherwise - so docking never changes its color, only
            whether it's floating over the hero or fixed to the viewport top.
-           .header-hidden slides it up out of view; the transition only
-           animates transform, so it stays cheap. */
-        .header-stuck .fusion-builder-row-1,
-        .header-stuck .fusion-builder-row-2 {
+           It stays visible for the whole scroll (no hide-on-scroll-down).
+           Docked = compact: the bar shrinks (100px -> 72px desktop, less
+           padding on mobile) and the logo scales down, all transitioned
+           with the same ease-out curve so the change reads as one smooth
+           motion. Hero routes are position:fixed even at rest (same spot
+           the old absolute row occupied at scroll 0, transparent over the
+           hero), so docking never pops - only size and background animate.
+           Everything is scoped to .fusion-tb-header so page sections that
+           happen to reuse the fusion-builder-row-1/2 class names are never
+           touched. */
+        .fusion-tb-header .fusion-builder-row-1,
+        .fusion-tb-header .fusion-builder-row-2 {
+            transition:
+                min-height 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+                padding 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+                background-color 0.45s ease,
+                box-shadow 0.45s ease;
+        }
+        .fusion-tb-header .fusion-imageframe {
+            transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        ${isLightPage ? '' : `
+        .fusion-tb-header .fusion-builder-row-1,
+        .fusion-tb-header .fusion-builder-row-2 {
             position: fixed !important;
             top: 0 !important;
             left: 0;
             right: 0;
             z-index: 10011;
-            background-color: ${isLightPage ? '#ffffff' : 'rgba(132,123,115,0.7)'};
+            background-color: rgba(132,123,115,0);
+        }
+        `}
+        .header-stuck .fusion-tb-header .fusion-builder-row-1,
+        .header-stuck .fusion-tb-header .fusion-builder-row-2 {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0;
+            right: 0;
+            z-index: 10011;
+            background-color: ${isLightPage ? '#ffffff' : 'rgba(132,123,115,0.92)'};
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 6px 24px rgba(0,0,0,0.08);
             ${isLightPage ? 'border-bottom: 1px solid #e7e6e6;' : ''}
-            transition: transform 0.3s ease-out;
         }
-        .fusion-builder-row-1,
-        .fusion-builder-row-2 {
-            transition: transform 0.3s ease-out;
+        .header-stuck .fusion-tb-header .fusion-builder-row-1 {
+            min-height: 72px !important;
+            padding-top: 4px !important;
+            padding-bottom: 4px !important;
         }
-        .header-hidden .fusion-builder-row-1,
-        .header-hidden .fusion-builder-row-2 {
-            transform: translateY(-110%);
+        .header-stuck .fusion-tb-header .fusion-builder-row-2 {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+        .header-stuck .fusion-tb-header .fusion-builder-row-1 .fusion-imageframe {
+            transform: scale(0.8);
+        }
+        .header-stuck .fusion-tb-header .fusion-builder-row-2 .fusion-imageframe {
+            transform: scale(0.88);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .fusion-tb-header .fusion-builder-row-1,
+            .fusion-tb-header .fusion-builder-row-2,
+            .fusion-tb-header .fusion-imageframe {
+                transition: none;
+            }
         }
       ` }} />
 
@@ -354,7 +407,6 @@ export default function Header() {
 				className={[
 					menuOpen ? "mobile-menu-active" : "",
 					stuck ? "header-stuck" : "",
-					hidden ? "header-hidden" : "",
 				].filter(Boolean).join(" ")}
 			>
 				{/* isLightPage keeps the header in normal document flow (see the

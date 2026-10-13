@@ -7,6 +7,7 @@ import "./fonts.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ScrollReveal from "../components/ScrollReveal";
+import SmoothScroll from "../components/SmoothScroll";
 import AccordionToggle from "../components/AccordionToggle";
 import GalleryLoadMore from "../components/GalleryLoadMore";
 import TestimonialsCarousel from "../components/TestimonialsCarousel";
@@ -673,6 +674,54 @@ export default function RootLayout({
           .tfs-slider .slides li {
             display: block !important;
           }
+
+          /* Image/video + text sections (marked .sh-media-section on the
+             section root - 66 sections across the site). Avada built these
+             with the media column flush against the section's top/bottom
+             edge and the text column "centred" by a hard-coded padding-top
+             (e.g. 238px / 288px) tuned for one screen width, so at other
+             widths the media sat glued to the section edge while the text
+             floated somewhere else. Instead: real breathing room above and
+             below, both columns vertically centred by flexbox (with the
+             fake-centring padding removed), and the media slightly smaller
+             and centred in its own column. */
+          .sh-media-section {
+            padding-top: 80px !important;
+            padding-bottom: 80px !important;
+          }
+          .sh-media-section .fusion-builder-row {
+            align-items: center !important;
+          }
+          .sh-media-section .fusion-image-element,
+          .sh-media-section .fusion-video {
+            width: 86% !important;
+            max-width: 86% !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .sh-media-section .fusion-imageframe,
+          .sh-media-section .fusion-imageframe img,
+          .sh-media-section .fusion-video video {
+            display: block;
+            width: 100% !important;
+            max-width: 100% !important;
+          }
+          @media (min-width: 1025px) {
+            .sh-media-section .fusion-layout-column > .fusion-column-wrapper {
+              padding-top: 0 !important;
+              padding-bottom: 0 !important;
+              justify-content: center !important;
+            }
+            .sh-media-section .fusion-column-wrapper > :last-child {
+              margin-bottom: 0 !important;
+            }
+          }
+          @media (max-width: 1024px) {
+            .sh-media-section {
+              padding-top: 48px !important;
+              padding-bottom: 48px !important;
+            }
+          }
         `,
           }}
         />
@@ -750,6 +799,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <SmoothScroll />
         <ScrollReveal />
         <AccordionToggle />
         <GalleryLoadMore />
