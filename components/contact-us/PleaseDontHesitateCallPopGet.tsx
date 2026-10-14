@@ -2,19 +2,18 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { submitEnquiry } from "@/lib/enquiry";
 
 // Original WordPress form posted to Avada/Fusion's own ajax handler, which
-// doesn't exist in this migration - the form had no working submission path
-// at all. Wired to the shared /api/enquiry route (see
-// migration-log/CHANGES-NEEDED.md, "contact form backend") instead of
-// building a second endpoint just for this form. The two response alert
-// blocks below already existed in the ported markup (Avada renders both,
-// permanently hidden, and its own JS shows one or the other) - now toggled
-// by real submission state instead of always being present in the DOM.
+// doesn't exist in this migration. Submits through lib/enquiry.ts to the
+// single php-mailer/send.php endpoint shared by every form on the site. The
+// response alert block below already existed in the ported markup (Avada
+// renders it permanently hidden and its own JS shows it) - now toggled by
+// real submission state instead.
 export default function Row4() {
   const router = useRouter();
   const [sending, setSending] = useState(false);
-  const [result, setResult] = useState<"error" | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const [emailInvalid, setEmailInvalid] = useState(false);
 
   const handleEmailBlur = (e: React.FocusEvent<HTMLInputElement>) => {
@@ -23,25 +22,24 @@ export default function Row4() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setResult(null);
+    setError(null);
     setSending(true);
     const data = new FormData(e.currentTarget);
+    const field = (name: string) => String(data.get(name) ?? "");
     try {
-      const res = await fetch("/api/enquiry", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          formType: "contact",
-          name: data.get("name"),
-          email: data.get("email"),
-          phone: data.get("phone"),
-          message: data.get("message"),
-        }),
-      });
-      if (!res.ok) throw new Error();
+      await submitEnquiry(
+        "contact",
+        {
+          name: field("name"),
+          email: field("email"),
+          phone: field("phone"),
+          message: field("message"),
+        },
+        field("website"),
+      );
       router.push("/thank-you");
-    } catch {
-      setResult("error");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "There was an error trying to send your message. Please try again later.");
     } finally {
       setSending(false);
     }
@@ -118,7 +116,7 @@ export default function Row4() {
                                                   className="form-submission-notices data-notice_1"
                                                   id="fusion-notices-1"
                                                 >
-                                                  {result === "error" && (
+                                                  {error && (
                                                     <div
                                                       className="fusion-alert alert error alert-danger fusion-alert-center fusion-form-response fusion-form-response-error fusion-alert-capitalize awb-alert-native-link-color alert-dismissable awb-alert-close-boxed"
                                                       role="alert"
@@ -138,13 +136,13 @@ export default function Row4() {
                                                         <span
                                                           className="fusion-alert-content"
                                                         >
-                                                          {`There was an error trying to send your message. Please try again later.`}
+                                                          {error}
                                                         </span>
                                                       </div>
                                                       <button
                                                         aria-label="Close"
                                                         className="close toggle-alert"
-                                                        onClick={() => setResult(null)}
+                                                        onClick={() => setError(null)}
                                                         type="button"
                                                       >
                                                         {` × `}
@@ -366,6 +364,16 @@ export default function Row4() {
                                             </div>
                                           </div>
                                         </div>
+                                        {/* Honeypot: hidden from people, bots fill it in and send.php drops the submission. */}
+                                        <input
+                                          aria-hidden="true"
+                                          autoComplete="off"
+                                          name="website"
+                                          style={{ position: 'absolute', left: '-10000px', width: '1px', height: '1px', overflow: 'hidden' }}
+                                          tabIndex={-1}
+                                          type="text"
+                                          defaultValue=""
+                                        />
                                         <input
                                           name="fusion_privacy_store_ip_ua"
                                           type="hidden"

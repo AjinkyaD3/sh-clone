@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { ENQUIRY_ENDPOINT } from "./lib/enquiry-endpoint";
 
 // Every external domain this site actually loads a resource from or embeds,
 // confirmed by grepping app/ and components/ rather than guessed - listed
@@ -7,10 +8,14 @@ import type { NextConfig } from "next";
 const TAWK = "https://*.tawk.to";
 const TAWK_WS = "wss://*.tawk.to";
 const GTM = "https://www.googletagmanager.com";
+const GA4 = "https://*.google-analytics.com";
 const CLARITY = "https://*.clarity.ms";
 const GOOGLE_FONTS_CSS = "https://fonts.googleapis.com";
 const GOOGLE_FONTS_FILES = "https://fonts.gstatic.com";
 const YOUTUBE = "https://www.youtube.com";
+// Every site form POSTs to php-mailer/send.php on a separate PHP host
+// (Vercel can't run PHP) - see lib/enquiry.ts.
+const ENQUIRY_ORIGIN = new URL(ENQUIRY_ENDPOINT).origin;
 
 // CSP is production-only: Next.js dev mode's Fast Refresh relies on eval'd
 // chunks and a dev-server websocket that a strict CSP would block, causing
@@ -39,7 +44,7 @@ const contentSecurityPolicy = [
   // its own CDN at runtime - `https:` covers that without hardcoding every
   // possible Tawk asset host.
   `img-src 'self' data: https:`,
-  `connect-src 'self' ${TAWK} ${TAWK_WS} ${GTM} ${CLARITY}`,
+  `connect-src 'self' ${TAWK} ${TAWK_WS} ${GTM} ${GA4} ${CLARITY} ${ENQUIRY_ORIGIN}`,
   // The only <iframe> embeds anywhere on the site are YouTube product
   // videos (confirmed via grep) plus Tawk's own chat widget iframe.
   `frame-src ${YOUTUBE} ${TAWK}`,

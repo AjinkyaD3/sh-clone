@@ -7,6 +7,7 @@ import "./fonts.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ScrollReveal from "../components/ScrollReveal";
+import SmoothScroll from "../components/SmoothScroll";
 import AccordionToggle from "../components/AccordionToggle";
 import GalleryLoadMore from "../components/GalleryLoadMore";
 import TestimonialsCarousel from "../components/TestimonialsCarousel";
@@ -95,7 +96,23 @@ export default function RootLayout({
       style={{ overflowX: "hidden", overflowY: "scroll", maxWidth: "100vw" }}
     >
       <head>
+        <meta name="google-site-verification" content="edxXEeyWtd6YDmc7jkuwID3cQnresUn5GIcq6hDwr_8" />
         <link rel="stylesheet" href="/fonts/fontawesome/all.min.css" />
+
+        {/* Google Tag Manager - container GTM-WTK7FBRM, sent by Sudeep Joshi
+            2026-09-26 to replace the GTM-XXXXXXX placeholder. Placed as high
+            in <head> as possible per Google's install instructions; the
+            matching noscript iframe is immediately after the opening <body>
+            tag below. */}
+        <Script id="google-tag-manager" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-WTK7FBRM');
+          `}
+        </Script>
 
         <style
           dangerouslySetInnerHTML={{
@@ -657,6 +674,54 @@ export default function RootLayout({
           .tfs-slider .slides li {
             display: block !important;
           }
+
+          /* Image/video + text sections (marked .sh-media-section on the
+             section root - 66 sections across the site). Avada built these
+             with the media column flush against the section's top/bottom
+             edge and the text column "centred" by a hard-coded padding-top
+             (e.g. 238px / 288px) tuned for one screen width, so at other
+             widths the media sat glued to the section edge while the text
+             floated somewhere else. Instead: real breathing room above and
+             below, both columns vertically centred by flexbox (with the
+             fake-centring padding removed), and the media slightly smaller
+             and centred in its own column. */
+          .sh-media-section {
+            padding-top: 80px !important;
+            padding-bottom: 80px !important;
+          }
+          .sh-media-section .fusion-builder-row {
+            align-items: center !important;
+          }
+          .sh-media-section .fusion-image-element,
+          .sh-media-section .fusion-video {
+            width: 86% !important;
+            max-width: 86% !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .sh-media-section .fusion-imageframe,
+          .sh-media-section .fusion-imageframe img,
+          .sh-media-section .fusion-video video {
+            display: block;
+            width: 100% !important;
+            max-width: 100% !important;
+          }
+          @media (min-width: 1025px) {
+            .sh-media-section .fusion-layout-column > .fusion-column-wrapper {
+              padding-top: 0 !important;
+              padding-bottom: 0 !important;
+              justify-content: center !important;
+            }
+            .sh-media-section .fusion-column-wrapper > :last-child {
+              margin-bottom: 0 !important;
+            }
+          }
+          @media (max-width: 1024px) {
+            .sh-media-section {
+              padding-top: 48px !important;
+              padding-bottom: 48px !important;
+            }
+          }
         `,
           }}
         />
@@ -684,34 +749,40 @@ export default function RootLayout({
         style={{ overflowX: "clip" as "hidden", overflowY: "visible", maxWidth: "100vw" }}
         suppressHydrationWarning
       >
-        <Script id="google-tag-manager" strategy="afterInteractive">
+        {/* Google Tag Manager (noscript) - must be immediately after the
+            opening <body> tag per Google's install instructions; the
+            matching script tag lives high in <head> above. */}
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTK7FBRM" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+          }}
+        />
+        {/* Google Analytics 4 - Secure House LTD - GA4 property, measurement
+            ID G-QLSKV64SDB, sent by Sudeep Joshi 2026-09-26 (replaces the
+            prior G-PC354BRBBF property). */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QLSKV64SDB" strategy="afterInteractive" />
+        <Script id="google-analytics-ga4" strategy="afterInteractive">
           {`
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-XXXXXXX'); // TODO: replace with real GTM container ID from Priyanka
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QLSKV64SDB');
           `}
         </Script>
+        {/* Microsoft Clarity - ID yocy49mxqb, sent by Sudeep Joshi 2026-09-26
+            (replaces the prior placeholder ync7h4tu0m). */}
         <Script id="microsoft-clarity" strategy="afterInteractive">
           {`
             (function(c,l,a,r,i,t,y){
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
                 t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "CLARITY-XXXXXXX"); // TODO: replace with real Microsoft Clarity project ID from Priyanka
+            })(window, document, "clarity", "script", "yocy49mxqb");
           `}
         </Script>
-        <noscript
-          dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-          }}
-        />
-        {/* TODO: replace GTM-XXXXXXX above with real GTM container ID from Priyanka */}
         {/* Tawk.to live chat - property ID confirmed from the live secure-house.co.uk
-            site (embed.tawk.to/5dcaa5a1d96992700fc70d72/default), unlike the GTM/Clarity
-            IDs above which are still placeholders. Loaded lazily since chat is not
-            needed for first paint or interactivity. */}
+            site (embed.tawk.to/5dcaa5a1d96992700fc70d72/default). Loaded lazily
+            since chat is not needed for first paint or interactivity. */}
         <Script id="tawk-to" strategy="lazyOnload">
           {`
             var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -728,6 +799,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <SmoothScroll />
         <ScrollReveal />
         <AccordionToggle />
         <GalleryLoadMore />
