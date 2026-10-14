@@ -63,3 +63,8 @@ next-env.d.ts
 /Screenshot 2026-09-18 201247.png
 /all url.txt
 /chat.txt
+
+# Lead mailer secrets (Gmail app password) - deploy by hand, never commit.
+/php-mailer/config.php
+# Upstream PHPMailer download - the files actually used are in php-mailer/PHPMailer/.
+/PHPMailer-7.1.1/
