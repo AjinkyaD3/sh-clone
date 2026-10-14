@@ -7,7 +7,6 @@ export default function Header() {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [mounted, setMounted] = useState(false);
 	const [stuck, setStuck] = useState(false);
-	const [hidden, setHidden] = useState(false);
 	const [headerHeight, setHeaderHeight] = useState(0);
 	const headerRef = useRef<HTMLDivElement>(null);
 	const pathname = usePathname();
@@ -57,30 +56,31 @@ export default function Header() {
 	// stops reserving that space, which would jump page content up by the
 	// header's own height. The spacer effect below measures and compensates
 	// for exactly that, only while both isLightPage and stuck are true.
+	//
+	// The header no longer hides while scrolling down - it stays visible the
+	// whole way down the page (requested: "the header should show perfectly
+	// when scrolled down"). Hero routes keep it position:fixed from the very
+	// top (transparent over the hero), so there is never a jump; once
+	// .header-stuck applies it compacts - shorter bar, smaller logo, solid
+	// background - all via CSS transitions (see the style block below).
 	useEffect(() => {
-		const STUCK_AT = isLightPage ? 10 : 150; // light pages have no hero to scroll past
-		const HIDE_DELTA = 10; // ignore sub-10px jitter (trackpads, momentum)
-		let lastY = window.scrollY;
+		const STUCK_AT = isLightPage ? 10 : 60; // light pages have no hero to scroll past
+		let raf = 0;
 
+		const update = () => {
+			raf = 0;
+			setStuck(window.scrollY > STUCK_AT);
+		};
 		const onScroll = () => {
-			const y = window.scrollY;
-			const delta = y - lastY;
-			const nowStuck = y > STUCK_AT;
-
-			setStuck(nowStuck);
-			if (!nowStuck) {
-				setHidden(false);
-			} else if (delta > HIDE_DELTA) {
-				setHidden(true);
-			} else if (delta < -HIDE_DELTA) {
-				setHidden(false);
-			}
-			lastY = y;
+			if (!raf) raf = requestAnimationFrame(update);
 		};
 
-		onScroll(); // set correct initial state if the page loads mid-scroll
+		update(); // set correct initial state if the page loads mid-scroll
 		window.addEventListener('scroll', onScroll, { passive: true });
-		return () => window.removeEventListener('scroll', onScroll);
+		return () => {
+			window.removeEventListener('scroll', onScroll);
+			if (raf) cancelAnimationFrame(raf);
+		};
 	}, [isLightPage]);
 
 	// Measure the header's own in-flow height (only the currently-visible
@@ -93,7 +93,14 @@ export default function Header() {
 	useEffect(() => {
 		if (!isLightPage || !headerRef.current) return;
 		const el = headerRef.current;
-		const measure = () => setHeaderHeight(el.offsetHeight);
+		// Only the resting (in-flow) height counts: once docked, the rows are
+		// position:fixed and this wrapper collapses to ~1px (its border), and
+		// the compact docked bar is shorter anyway - reserving either of those
+		// would make the page content jump up.
+		const measure = () => {
+			const h = el.offsetHeight;
+			if (h > 20) setHeaderHeight(h);
+		};
 		measure();
 		const ro = new ResizeObserver(measure);
 		ro.observe(el);
@@ -206,6 +213,23 @@ export default function Header() {
             display: block !important;
         }
 
+        /* On an actual phone-width viewport the panel's desktop padding
+           (50px 100px 90px 130px) and 4-column grid (25% 25% 22% 28%) leave
+           almost no room per column, squeezing every column's text into a
+           narrow sliver next to the others instead of stacking - reported
+           after opening the menu on a real phone. Stack to a single column
+           and cut the side padding down to something a phone screen can
+           actually fit. */
+        @media (max-width: 767px) {
+          .mobile-menu-active nav[aria-label="Mobile menu"] {
+            padding: 30px 24px 60px !important;
+          }
+          .mobile-menu-active .mobile-menu-grid {
+            grid-template-columns: 1fr !important;
+            row-gap: 40px !important;
+          }
+        }
+
         /* On a page with a light (white) background and no dark hero image behind
            it, the header's normal styling is unusable as-is:
            1) The nav row is positioned absolute (meant to float on top of a tall
@@ -286,35 +310,89 @@ export default function Header() {
            transparent), or the same opaque white bar isLightPage already
            uses at rest otherwise - so docking never changes its color, only
            whether it's floating over the hero or fixed to the viewport top.
-           .header-hidden slides it up out of view; the transition only
-           animates transform, so it stays cheap. */
-        .header-stuck .fusion-builder-row-1,
-        .header-stuck .fusion-builder-row-2 {
+           It stays visible for the whole scroll (no hide-on-scroll-down).
+           Docked = compact: the bar shrinks (100px -> 72px desktop, less
+           padding on mobile) and the logo scales down, all transitioned
+           with the same ease-out curve so the change reads as one smooth
+           motion. Hero routes are position:fixed even at rest (same spot
+           the old absolute row occupied at scroll 0, transparent over the
+           hero), so docking never pops - only size and background animate.
+           Everything is scoped to .fusion-tb-header so page sections that
+           happen to reuse the fusion-builder-row-1/2 class names are never
+           touched. */
+        .fusion-tb-header .fusion-builder-row-1,
+        .fusion-tb-header .fusion-builder-row-2 {
+            transition:
+                min-height 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+                padding 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+                background-color 0.45s ease,
+                box-shadow 0.45s ease;
+        }
+        .fusion-tb-header .fusion-imageframe {
+            transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        ${isLightPage ? '' : `
+        .fusion-tb-header .fusion-builder-row-1,
+        .fusion-tb-header .fusion-builder-row-2 {
             position: fixed !important;
             top: 0 !important;
             left: 0;
             right: 0;
             z-index: 10011;
-            background-color: ${isLightPage ? '#ffffff' : 'rgba(132,123,115,0.7)'};
+            background-color: rgba(132,123,115,0);
+        }
+        `}
+        .header-stuck .fusion-tb-header .fusion-builder-row-1,
+        .header-stuck .fusion-tb-header .fusion-builder-row-2 {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0;
+            right: 0;
+            z-index: 10011;
+            background-color: ${isLightPage ? '#ffffff' : 'rgba(132,123,115,0.92)'};
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 6px 24px rgba(0,0,0,0.08);
             ${isLightPage ? 'border-bottom: 1px solid #e7e6e6;' : ''}
-            transition: transform 0.3s ease-out;
         }
-        .fusion-builder-row-1,
-        .fusion-builder-row-2 {
-            transition: transform 0.3s ease-out;
+        .header-stuck .fusion-tb-header .fusion-builder-row-1 {
+            min-height: 72px !important;
+            padding-top: 4px !important;
+            padding-bottom: 4px !important;
         }
-        .header-hidden .fusion-builder-row-1,
-        .header-hidden .fusion-builder-row-2 {
-            transform: translateY(-110%);
+        .header-stuck .fusion-tb-header .fusion-builder-row-2 {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+        .header-stuck .fusion-tb-header .fusion-builder-row-1 .fusion-imageframe {
+            transform: scale(0.8);
+        }
+        .header-stuck .fusion-tb-header .fusion-builder-row-2 .fusion-imageframe {
+            transform: scale(0.88);
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .fusion-tb-header .fusion-builder-row-1,
+            .fusion-tb-header .fusion-builder-row-2,
+            .fusion-tb-header .fusion-imageframe {
+                transition: none;
+            }
         }
       ` }} />
 
-			{/* Close (X) button for the full-screen menu panel */}
+			{/* Close (X) button for the full-screen menu panel. Fixed at
+			    top-right rather than top-left: at top:30/left:30 it used to
+			    clear the panel's original 130px desktop left-padding, but
+			    that padding is cut down to 24px on phone widths (see the
+			    max-width: 767px rule above), which put the X directly on
+			    top of the Gallery/Doors heading text - reported after
+			    opening the menu on a real phone, both at open and while
+			    scrolling since this stays fixed. Top-right has nothing else
+			    near it at any content width, so it can't collide again. */}
 			{menuOpen && (
 				<div
 					style={{
 						position: 'fixed',
-						top: '30px', left: '30px',
+						top: '24px', right: '24px',
 						color: '#fff', fontSize: '28px', fontWeight: 'bold',
 						zIndex: 1000000,
 						cursor: 'pointer'
@@ -329,7 +407,6 @@ export default function Header() {
 				className={[
 					menuOpen ? "mobile-menu-active" : "",
 					stuck ? "header-stuck" : "",
-					hidden ? "header-hidden" : "",
 				].filter(Boolean).join(" ")}
 			>
 				{/* isLightPage keeps the header in normal document flow (see the
@@ -481,7 +558,10 @@ export default function Header() {
 												etc.) and the "Explore door styles" button at their original colors -
 												not what was reported as illegible.
 											*/}
-											<div style={{ display: 'grid', gridTemplateColumns: '25% 25% 22% 28%', columnGap: '56px', rowGap: 0, alignItems: 'start', width: '100%' }}>
+											<div style={{ marginBottom: '30px' }}>
+												<a href="https://gallery.secure-house.co.uk/" style={{ color: '#fff', fontWeight: 600, fontSize: '16px', textTransform: 'uppercase', letterSpacing: '0.02em', textDecoration: 'none', display: 'block' }}>Gallery</a>
+											</div>
+											<div className="mobile-menu-grid" style={{ display: 'grid', gridTemplateColumns: '25% 25% 22% 28%', columnGap: '56px', rowGap: 0, alignItems: 'start', width: '100%' }}>
 												{/* Column 1: DOORS */}
 												<div>
 													<div style={{ marginBottom: '30px' }}>
@@ -561,6 +641,7 @@ export default function Header() {
 													<ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexDirection: 'column', gap: '10px' }}>
 														<li><a href="/products/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Products</a></li>
 														<li><a href="/security-levels/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Security levels</a></li>
+														<li><a href="https://gallery.secure-house.co.uk/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Gallery</a></li>
 														<li><a href="/projects/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Projects</a></li>
 														<li><a href="/about-us/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>About Us</a></li>
 														<li><a href="/trade/" style={{ color: '#fff', fontWeight: 600, fontSize: '14px', textTransform: 'uppercase', textDecoration: 'none', display: 'block' }}>Trade</a></li>

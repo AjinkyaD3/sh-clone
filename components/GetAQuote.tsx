@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { rememberAttribution, submitEnquiry } from "@/lib/enquiry";
 
 // Live site (secure-house.co.uk) has a persistent "Get a Quote" vertical tab
 // fixed to the right edge on every page, opening a slide-in panel with a
@@ -12,9 +13,9 @@ import { useRouter } from "next/navigation";
 // layout.tsx, same pattern as Header's off-canvas menu) since nothing else
 // on the site currently owns this UI.
 //
-// The submit handler has no backend yet - same state as the main
-// /contact-us form (see migration-log/CHANGES-NEEDED.md, "contact form
-// backend") - so this only confirms receipt and closes the panel.
+// Submits through lib/enquiry.ts to the single php-mailer/send.php endpoint
+// (same as the /contact-us form). The lead email shows the page the panel
+// was opened on, so every page this panel appears on is its own lead source.
 const INTERESTS = [
   "Security doors",
   "Windows",
@@ -30,6 +31,12 @@ export default function GetAQuote() {
   const [interests, setInterests] = useState<string[]>([]);
   const [sending, setSending] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  // Mounted once on every page, so this is the one place that records the
+  // visit's landing page/referrer/UTM params for lead attribution.
+  useEffect(() => {
+    rememberAttribution();
+  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -110,22 +117,22 @@ export default function GetAQuote() {
                 setSending(true);
                 const form = e.currentTarget;
                 const data = new FormData(form);
+                const field = (name: string) => String(data.get(name) ?? "");
                 try {
-                  const res = await fetch("/api/enquiry", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                      formType: "quote",
+                  await submitEnquiry(
+                    "quote",
+                    {
                       interests,
-                      enquiry: data.get("enquiry"),
-                      name: data.get("name"),
-                      email: data.get("email"),
-                      phone: data.get("phone"),
-                      address: data.get("address"),
-                    }),
-                  });
-                  const body = await res.json();
-                  if (!res.ok) throw new Error(body.error || "Something went wrong.");
+                      enquiry: field("enquiry"),
+                      name: field("name"),
+                      email: field("email"),
+                      phone: field("phone"),
+                      address: field("address"),
+                    },
+                    field("website"),
+                  );
+                  form.reset();
+                  setInterests([]);
                   setOpen(false);
                   router.push("/thank-you");
                 } catch (err) {
@@ -168,6 +175,15 @@ export default function GetAQuote() {
                 Full postal address <span aria-hidden="true">*</span>
                 <input name="address" type="text" autoComplete="street-address" required />
               </label>
+              {/* Honeypot: hidden from people, bots fill it in and send.php drops the submission. */}
+              <input
+                type="text"
+                name="website"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                className="get-a-quote-hp"
+              />
               {error && <p className="get-a-quote-error">{error}</p>}
               <button type="submit" className="get-a-quote-submit" disabled={sending}>
                 {sending ? "Sending…" : "Send Enquiry"}
@@ -340,6 +356,14 @@ export default function GetAQuote() {
             .get-a-quote-submit:disabled {
               opacity: 0.6;
               cursor: not-allowed;
+            }
+
+            .get-a-quote-hp {
+              position: absolute;
+              left: -10000px;
+              width: 1px;
+              height: 1px;
+              overflow: hidden;
             }
 
             .get-a-quote-error {
