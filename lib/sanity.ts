@@ -5,8 +5,8 @@ import type { PortableTextBlock } from "@portabletext/react";
 // Not env vars, deliberately: these are public, non-secret identifiers (the
 // dataset is world-readable, confirmed - reads never need a token), and
 // reading them from process.env was the exact cause of a prod delivery bug
-// with the FormSubmit destination address earlier in this project - see
-// app/api/enquiry/route.ts. Hardcoding avoids repeating that.
+// with the FormSubmit destination address earlier in this project (the
+// old app/api/enquiry route). Hardcoding avoids repeating that.
 const PROJECT_ID = "teixlfvm";
 const DATASET = "production";
 
